@@ -1,6 +1,7 @@
 import { Anchor, Typography, Divider, Descriptions } from "antd";
-import Emblem from "../assets/img/Emblem_of_Hanoi.svg.png";
-const { Title, Paragraph, Link } = Typography;
+// import Emblem from "../assets/img/Emblem_of_Hanoi.svg.png";
+const { Title, Paragraph } = Typography;
+import { Link } from "react-router-dom";
 import pages from "../utils/data";
 const Page = () => {
   const data = pages[0];
@@ -32,46 +33,32 @@ const Page = () => {
           Hà Nội
         </h1>
         <div className="desc mx-auto w-fit flex flex-col items-center gap-2">
-          <Link>Thành phố trực thuộc trung ương</Link>
-          <b>Thành phố Hà Nội</b>
-          <img title="Biểu trưng" src={Emblem} className="w-24 h-24" />
-          <p>Biểu trưng</p>
+          {data.shortDesc.map((item) => (
+            <b key={item}>{item}</b>
+          ))}
+          <img
+            title={data.images[0].title}
+            src={data.images[0].src}
+            className="w-24 h-24"
+          />
+          <p>{data.images[0].title}</p>
         </div>
         <Divider />
         <div></div>
         <Descriptions title="" column={1}>
-          <Descriptions.Item
-            label="Biệt danh"
-            labelStyle={{ fontWeight: "bold", color: "black" }}
-          >
-            <ul>
-              Hiện nay:
-              <li className="ml-4">Hà Thành</li>
-              <li className="ml-4">Thành phố vì hoà bình</li>
-              <li className="ml-4">Thủ đô ngàn năm văn hiến</li>
-              <li className="ml-4">Đất kinh kỳ</li>
-            </ul>
-          </Descriptions.Item>
-          <Descriptions.Item
-            label="Tên cũ"
-            labelStyle={{ fontWeight: "bold", color: "black" }}
-          >
-            <div>
-              <Link>Hà Thành </Link>,<Link>Thành phố vì hoà bình </Link>,
-              <Link>Thủ đô ngàn năm văn hiến </Link>,<Link>Đất kinh kỳ </Link>
-            </div>
-          </Descriptions.Item>
-        </Descriptions>
-        <h1 className="bg-yellow-200 h-6 mx-auto text-center text-sm  font-bold">
-          Hành chính
-        </h1>
-        <Descriptions title="" column={1}>
-          <Descriptions.Item
-            label="Quốc gia"
-            labelStyle={{ fontWeight: "bold", color: "black" }}
-          >
-            Việt Nam
-          </Descriptions.Item>
+          {data.description.items.map((item) => (
+            <Descriptions.Item
+              key={item.key}
+              label={item.label}
+              labelStyle={{ fontWeight: "bold", color: "black" }}
+            >
+              <ul>
+                {item.children.map((i) => (
+                  <Link to={i.link}>{i.name}</Link>
+                ))}
+              </ul>
+            </Descriptions.Item>
+          ))}
         </Descriptions>
       </div>
     </div>
