@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Avatar, Empty, Input, List, Popover } from "antd";
+import { Image, Empty, Input, List, Popover } from "antd";
 import useDebounce from "../hooks/useDebounce";
 import pages from "../utils/data";
+import { Link } from "react-router-dom";
 const { Search } = Input;
 const SearchBar = () => {
   const [search, setSearch] = useState<string>();
@@ -17,7 +18,7 @@ const SearchBar = () => {
         item.title.toLowerCase().includes(searchDebounce.toLowerCase())
       );
       console.log(searchDebounce);
-      setChange(true);
+      setChange(!change);
       setData(content);
     }
   }, [searchDebounce]);
@@ -30,14 +31,25 @@ const SearchBar = () => {
       <List
         itemLayout="horizontal"
         dataSource={data}
-        style={{ width: 400 }}
+        size={"small"}
+        style={{ width: 350 }}
         renderItem={(item, index) => (
-          <List.Item>
-            <List.Item.Meta
-              avatar={<img src={item.images[0].src} className="w-20 h-20" />}
-              title={<a href={`/page/${item.title}`}>{item.title}</a>}
-            />
-          </List.Item>
+          <Link to={`/page/${item.id}`}>
+            <List.Item>
+              <List.Item.Meta
+                avatar={
+                  <Image
+                    height={60}
+                    width={80}
+                    preview={false}
+                    src={item.images[0].src}
+                  />
+                }
+                title={<b>{item.title}</b>}
+                description={item.shortDesc[0]}
+              />
+            </List.Item>
+          </Link>
         )}
       />
     ) : (
@@ -57,6 +69,7 @@ const SearchBar = () => {
         <Popover
           content={content}
           open={change}
+          onOpenChange={() => setChange(!change)}
           placement={"bottomLeft"}
         ></Popover>
       </div>

@@ -12,6 +12,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "antd": "^5.10.3",
+    "axios": "^1.6.0",
     "i18next": "^23.6.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -20,6 +21,7 @@
     "react-google-recaptcha": "^3.1.0",
     "react-i18next": "^13.3.1",
     "react-router-dom": "^6.17.0",
+    "redux-saga": "^1.2.3",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {

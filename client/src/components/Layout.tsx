@@ -16,6 +16,7 @@ import { Footer } from "antd/es/layout/layout";
 import { Option } from "antd/es/mentions";
 import { Outlet, useNavigate, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import pages from "../utils/data";
 const LayoutWeb = () => {
   const [hidden, setHidden] = useState(false);
   const {
@@ -54,7 +55,10 @@ const LayoutWeb = () => {
               key: "3",
               icon: <FileSearchOutlined />,
               label: t("random article"),
-              onClick: () => navigate("/random-article"),
+              onClick: () =>
+                navigate(
+                  `/page/${Math.floor(Math.random() * (pages.length + 1))}`
+                ),
             },
             {
               key: "4",

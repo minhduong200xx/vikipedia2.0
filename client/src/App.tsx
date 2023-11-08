@@ -7,7 +7,7 @@ import Register from "./pages/Register";
 import Contents from "./pages/Contents";
 import Post from "./components/Post";
 import Image from "./components/Image";
-import Page from "./pages/Page";
+import PageDetail from "./pages/PageDetail";
 function App() {
   return (
     <BrowserRouter>
@@ -20,9 +20,8 @@ function App() {
             <Route path="post" element={<Post />}></Route>
             <Route path="image" element={<Image />}></Route>
           </Route>
-          <Route path="random-article" element={<>random page</>} />
           <Route path="current-events" element={<Register />} />
-          <Route path="page/*" element={<Page />} />
+          <Route path="page/:id" element={<PageDetail />} />
         </Route>
       </Routes>
     </BrowserRouter>

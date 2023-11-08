@@ -98,5 +98,116 @@ const pages = [
       ],
     },
   },
+  {
+    id: "2",
+    title: "Hà Nam",
+    shortDesc: ["Tỉnh Hà Nam"],
+    images: [
+      {
+        src: "data:image/jpeg;base64,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",
+        title: "Biểu trưng",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Tên gọi",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "Lịch sử",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Địa lý",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content:
+              'Trước khi có tên gọi như hiện nay, Hà Nội đã trải qua nhiều tên gọi khác nhau. Tên gọi "Hà Nội" bắt đầu được dùng làm địa danh ở Việt Nam từ năm Minh Mạng thứ 12 (năm 1831) khi có một tỉnh có tên là tỉnh Hà Nội được thành lập ở Bắc Thành. "Hà Nội" viết bằng chữ Hán là "河內", nghĩa là "bao quanh bởi các con sông", tên gọi này phản ánh vị trí địa lý của tỉnh Hà Nội. Tỉnh này nằm giữa hai con sông là sông Nhị ở phía đông bắc và sông Thanh Quyết ở phía tây nam.',
+          },
+          {
+            content:
+              "Tỉnh Hà Nội gồm có bốn phủ là Hoài Đức, Thường Tín, Ứng Hoà và Lý Nhân. Toà thành nơi có đặt trị sở của tỉnh Hà Nội, tức tỉnh lị của tỉnh Hà Nội, được gọi là thành Hà Nội theo tên tỉnh. Thành Hà Nội nằm trên địa phận hai huyện Thọ Xương và Vĩnh Thuận. Cả hai huyện Thọ Xương và Vĩnh Thuận đều cùng thuộc phủ Hoài Đức. Ngày 1 tháng 10 năm 1888, vua Đồng Khánh ký chỉ dụ cắt toàn bộ huyện Thọ Xương và một phần huyện Vĩnh Thuận của tỉnh Hà Nội làm nhượng địa cho Pháp để Pháp thành lập thành phố Hà Nội. Trước đó, ngày 19 tháng 7, tổng thống Pháp Marie François Sadi Carnot ký sắc lệnh thành lập thành phố Hà Nội trước khi có sự công nhận của Triều đình Việt Nam. Năm 1890, phủ Lý Nhân bị tách khỏi tỉnh Hà Nội, đổi thành tỉnh Hà Nam.",
+          },
+          {
+            content:
+              'Năm 1896, tỉnh lị của tỉnh Hà Nội được dời ra làng Cầu Đơ thuộc tổng Thanh Oai Thượng, huyện Thanh Oai. Để tránh trùng tên với thành phố Hà Nội, năm 1902, tỉnh Hà Nội được đổi tên thành tỉnh Cầu Đơ theo tên của tỉnh lị. Ngày 6 tháng 12 năm 1904, quan toàn quyền Đông Dương ra nghị định đổi tên tỉnh Cầu Đơ và tỉnh lị của tỉnh này thành "Hà Đông". Tên gọi "Hà Đông" là do quan đốc học tỉnh Cầu Đơ Vũ Phạm Hàm đề xuất, lấy từ một câu nói của Lương Huệ vương được ghi trong sách Mạnh Tử là "河內凶，則移其民於河東，移其粟於河內" (âm Hán Việt: Hà Nội hung, tắc di kỳ dân ư Hà Đông, di kỳ túc ư Hà Nội), có nghĩa là Hà Nội bị mất mùa thì chuyển dân ở Hà Nội sang Hà Đông, chuyển lương thực ở Hà Đông sang Hà Nội. "Hà Nội" trong câu nói trên của Lương Huệ vương là chỉ vùng phía bắc sông Hoàng Hà, còn "Hà Đông" là chỉ vùng phía đông sông Hoàng Hà, thuộc tây nam bộ tỉnh Sơn Tây của Trung Quốc ngày nay.',
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              'Những di chỉ khảo cổ tại Cổ Loa cho thấy con người đã xuất hiện ở khu vực Hà Nội từ cách đây 2 vạn năm, giai đoạn của nền văn hóa Sơn Vi. Nhưng đến thời kỳ băng tan, biển tiến sâu vào đất liền, các cư dân của thời đại đồ đá mới bị đẩy lùi lên vùng núi. Phải tới khoảng 4 hoặc 5 ngàn năm trước Công Nguyên, con người mới quay lại sinh sống ở nơi đây. Các hiện vật khảo cổ giai đoạn tiếp theo, từ đầu thời đại đồ đồng đến đầu thời đại đồ sắt, minh chứng cho sự hiện diện của Hà Nội ở cả bốn thời đại văn hóa: Phùng Nguyên, Đồng Đậu, Gò Mun và Đông Sơn. Những cư dân Hà Nội thời kỳ đó sinh sống nhờ trồng trọt, chăn nuôi và chài lưới. Giai đoạn tiền sử này tương ứng với thời kỳ của các Vua Hùng trong truyền thuyết. Thế kỷ III trước Công Nguyên, trong cuộc chiến với quân Tần từ phương Bắc, Thục Phán quyết định đóng đô ở Cổ Loa, nay là huyện Đông Anh, cách trung tâm Hà Nội khoảng 15 km. Sự xuất hiện của thành Cổ Loa ghi dấu Hà Nội lần đầu tiên trở thành một đô thị trung tâm về chính trị và xã hội. Thất bại của Thục Phán đầu thế kỷ II trước Công Nguyên đã kết thúc giai đoạn độc lập của Âu Lạc, bắt đầu giai đoạn một ngàn năm do các triều đại phong kiến Trung Hoa thống trị. Thời kỳ nhà Hán, Âu Lạc cũ được chia thành ba quận Giao Chỉ, Cửu Chân và Nhật Nam, Hà Nội khi đó thuộc quận Giao Chỉ. Vắng bóng trong sử sách suốt năm thế kỷ đầu, đến khoảng năm 454–456 thời Lưu Tống, Hà Nội mới được ghi lại là trung tâm của huyện Tống Bình.Năm 226 Nhà Hán khi cai trị Giao Châu đã đổi tên Tống Bình thành Long Uyên (hoặc Long Biên). Năm 544, Lý Bí nổi dậy chống lại nhà Lương, tự xưng hoàng đế, đặt quốc hiệu là Vạn Xuân, đóng đô ở Long Uyên. Người cháu của Lý Bí là Lý Phật Tử tới đóng đô ở Cổ Loa, nhưng nền độc lập này chỉ kéo dài tới năm 602. Thời kỳ Nhà Đường, An Nam được chia thành 12 châu với 50 huyện, Long Uyên lại được đổi thành Tống Bình, là trung tâm của An Nam đô hộ phủ. Năm 866, viên tướng nhà Đường Cao Biền xây dựng một thành trì mới, Tống Bình được đổi tên thành "Đại La" – thủ phủ của Tĩnh Hải quân. Theo truyền thuyết, khi đắp thành, Cao Biền thấy một vị thần hiện lên tự xưng là thần Long Đỗ. Vì vậy, sử sách còn gọi Thăng Long là đất "Long Đỗ". Thế kỷ X, sau chiến thắng của Ngô Quyền trước quân Nam Hán, Cổ Loa một lần nữa trở thành kinh đô của nước Việt.',
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "Thủ đô Hà Nội nằm về phía tây bắc của trung tâm vùng đồng bằng châu thổ sông Hồng, trong phạm vi từ 20°34' đến 21°18' vĩ độ Bắc và từ 105°17' đến 106°02' kinh độ Đông, tiếp giáp với 8 tỉnh là Thái Nguyên, Vĩnh Phúc ở phía Bắc, Hà Nam, Hòa Bình phía Nam, Bắc Giang, Bắc Ninh và Hưng Yên phía Đông, Hòa Bình cùng Phú Thọ phía Tây.Hà Nội cách thành phố cảng Hải Phòng 120 km, cách thành phố Nam Định 87 km tạo thành 3 cực chính của Đồng bằng sông Hồng. Hiện nay, thành phố có diện tích 3358,6 km², chiếm khoảng 1% diện tích tự nhiên của cả nước, đứng hàng thứ 41 về diện tích trong 63 tỉnh, thành phố ở nước ta , và là 1 trong 17 thủ đô có diện tích trên 3000 km².",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Biệt danh",
+          children: [
+            {
+              name: "Hà Thành",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Tên cũ",
+          children: [
+            {
+              name: "Đông Đô",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Quốc Gia",
+          children: [
+            {
+              name: "Việt Nam",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
 ];
 export default pages;
+export const selectedPages = [
+  {
+    pageId: "1",
+    startDate: "6/11/2023",
+    endDate: "12/11/2023",
+  },
+  {
+    pageId: "2",
+    startDate: "13/11/2023",
+    endDate: "19/11/2023",
+  },
+];
