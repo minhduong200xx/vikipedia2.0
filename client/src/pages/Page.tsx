@@ -38,6 +38,7 @@ const Page = () => {
           <p>Biểu trưng</p>
         </div>
         <Divider />
+        <div></div>
         <Descriptions title="" column={1}>
           <Descriptions.Item
             label="Biệt danh"
