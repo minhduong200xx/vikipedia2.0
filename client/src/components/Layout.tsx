@@ -17,7 +17,7 @@ import { Option } from "antd/es/mentions";
 import { Outlet, useNavigate, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import pages from "../utils/data";
-const LayoutWeb = () => {
+const LayoutWeb: React.FC = () => {
   const [hidden, setHidden] = useState(false);
   const {
     token: { colorBgContainer },

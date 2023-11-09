@@ -1,6 +1,6 @@
 import Card from "./Card";
 import { Link } from "react-router-dom";
-const Post = () => {
+const Post: React.FC = () => {
   return (
     <div className="w-[80%] h-full">
       <h1 className="text-2xl font-bold border-b">Bài viết chọn lọc</h1>

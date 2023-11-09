@@ -10,7 +10,7 @@ import {
 const { Title, Paragraph } = Typography;
 import { Link, useParams } from "react-router-dom";
 import pages from "../utils/data";
-const PageDetail = () => {
+const PageDetail: React.FC = () => {
   const { id } = useParams();
   const data = pages.find((item) => item.id == id);
   return (

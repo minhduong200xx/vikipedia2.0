@@ -1,7 +1,7 @@
 import React from "react";
 import { StarFilled } from "@ant-design/icons";
 //các loại thẻ hiển thị tại trang chính
-const Card = () => {
+const Card: React.FC = () => {
   return (
     <div className="w-[2/3] h-fit  border shadow-lg p-2">
       <h1 className="font-semibold text-xl h-8 bg-slate-100 rounded-t-lg">

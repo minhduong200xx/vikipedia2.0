@@ -4,7 +4,7 @@ import useDebounce from "../hooks/useDebounce";
 import pages from "../utils/data";
 import { Link } from "react-router-dom";
 const { Search } = Input;
-const SearchBar = () => {
+const SearchBar: React.FC = () => {
   const [search, setSearch] = useState<string>();
   const [change, setChange] = useState(false);
   const [data, setData] = useState<unknown>();

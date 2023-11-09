@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-const Contents = () => {
+const Contents: React.FC = () => {
   //   const navigate = useNavigate();
   return (
     <div className="flex flex-row h-full">

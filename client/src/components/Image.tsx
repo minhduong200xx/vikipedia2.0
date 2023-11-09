@@ -1,6 +1,6 @@
 import Card from "./Card";
 import { Link } from "react-router-dom";
-const Image = () => {
+const Image: React.FC = () => {
   return (
     <div className="w-[80%] h-full">
       <h1 className="text-2xl font-bold border-b">Hình ảnh chọn lọc</h1>

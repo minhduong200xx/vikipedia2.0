@@ -1,6 +1,6 @@
 import { Statistic } from "antd";
 import { Link } from "react-router-dom";
-const Banner = () => {
+const Banner: React.FC = () => {
   return (
     <div className="w-full h-32 px-4">
       <div className="bg-gray-50 border w-full h-24 grid grid-cols-2">

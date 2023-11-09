@@ -3,7 +3,7 @@ import { Button, Form, Input } from "antd";
 import { Link } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
-const Login = () => {
+const Login: React.FC = () => {
   const [human, setHuman] = useState(false);
   const handleSubmit = (values: unknown) => {
     console.log(values);

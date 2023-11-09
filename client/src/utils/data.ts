@@ -197,6 +197,183 @@ const pages = [
       ],
     },
   },
+  {
+    id: "3",
+    title: "Quốc kỳ Đảo Giáng Sinh",
+    shortDesc: ["Đảo Giáng Sinh"],
+    images: [
+      {
+        src: "https://shorturl.at/lz356",
+        title: "",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Tên gọi",
+      },
+      {
+        key: "2",
+        href: "#design",
+        title: "Thiết kế",
+      },
+      {
+        key: "3",
+        href: "#history",
+        title: "Lịch sử",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content:
+              "Quốc kỳ Đảo Giáng Sinh được chấp thuận không chính thức vào năm 1986 sau khi chiến thắng trong cuộc thi thiết kế cờ cho lãnh thổ. Lá cờ này do Tony Couch ở Sydney, Úc thiết kế. Lá cờ được công nhận chính thức vào Ngày Quốc khánh Úc năm 2002 khi quản trị viên lãnh thổ, Bill Taylor, trao lá cờ cho Quận Đảo Giáng sinh.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "Quốc kỳ Đảo Giáng Sinh có nền màu xanh lá cây và xanh lam, được chia từ góc trên bên trái xuống góc dưới bên phải. Màu xanh lá cây tượng trưng cho đất, màu xanh lam tượng trưng cho biển. Chòm sao Nam Thập Tự xuất hiện ở phía dưới bên trái của lá cờ, tương tự như quốc kỳ Úc. Ở phía trên bên phải có loài chim golden bosun[1] (Phaethon fulvus, một trong sáu phân loài của chim nhiệt đới đuôi trắng) màu vàng.[2] Loài chim này được coi là biểu tượng của Đảo Giáng Sinh. Ở giữa lá cờ có một hình tròn vàng với bản đồ hòn đảo màu xanh lá cây. Bản thân hình tròn ban đầu được đưa vào chỉ để bù lại màu xanh lục của bản đồ, nhưng dần nó đã trở thành biểu tượng của ngành khai thác mỏ.[1]",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "Năm 1986, Hội đồng Đảo Giáng Sinh công bố một cuộc thi thiết kế quốc kỳ và quốc huy cho lãnh thổ. Cuộc thi có một quỹ giải thưởng trị giá 100 đô la và khoảng 69 bài dự thi đã được gửi. Bài dự thi chiến thắng được tạo ra bởi Tony Couch, một cư dân Sydney từng làm việc trên Đảo Giáng Sinh. Quốc kỳ mới được Hội đồng Đảo Giáng Sinh công bố vào ngày 14 tháng 4 năm 1986",
+          },
+          {
+            content: `Bộ trưởng Quần đảo là người đầu tiên nỗ lực biến lá cờ thành quốc kỳ chính thức. Năm 1995, người này đưa ra quan điểm rằng việc công nhận có thể diễn ra vào Ngày Quốc khánh Úc 1996, thông qua một thông báo chính thức của Quản trị viên thay vì sửa đổi Đạo luật Đảo Giáng Sinh 1958. Mặc dù điều này đã được chấp thuận, nhưng tuyên bố chính thức chưa bao giờ được đưa ra. Sau đó, quan chức Đảo Giáng Sinh Gary Dunt mở lại vấn đề này vào năm 2001, và lá cờ được quản trị viên lãnh thổ, Bill Taylor, tuyên bố chính thức là quốc kỳ của Đảo Giáng Sinh vào Ngày Quốc khánh Úc 26 tháng 1 năm 2002. Ủy viên Hội đồng Mariam Kawi tiếp nhận lá cờ với tư cách là đại diện của Quận Đảo Giáng sinh.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Ngày phê diệt",
+          children: [
+            {
+              name: `14 tháng 4 năm 1986 (không chính thức) / 	14 tháng 4 năm 1986 (không chính thức)
+              26 tháng 1 năm 2002 (chính thức)`,
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Thiết kế bởi",
+          children: [
+            {
+              name: "Tony Couch",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: "",
+    title: "",
+    shortDesc: [""],
+    images: [
+      {
+        src: "",
+        title: "",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Tên gọi",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "Lịch sử",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Địa lý",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: "",
+          },
+          {
+            content: "",
+          },
+          {
+            content: "",
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: "",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Biệt danh",
+          children: [
+            {
+              name: "Hà Thành",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Tên cũ",
+          children: [
+            {
+              name: "Đông Đô",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Quốc Gia",
+          children: [
+            {
+              name: "Việt Nam",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
 ];
 export default pages;
 export const selectedPages = [
@@ -209,5 +386,116 @@ export const selectedPages = [
     pageId: "2",
     startDate: "13/11/2023",
     endDate: "19/11/2023",
+  },
+];
+export const GoodPages = [
+  {
+    pageId: "1",
+    startDate: "6/11/2023",
+    endDate: "12/11/2023",
+  },
+  {
+    pageId: "2",
+    startDate: "13/11/2023",
+    endDate: "19/11/2023",
+  },
+];
+export const selectedImages = [
+  {
+    imageId: "1",
+    title: "Hồ Gươm, Hà Nội",
+    shortDesc: "abcxyz",
+    src: "...",
+    startDate: "6/11/2023",
+    endDate: "12/11/2023",
+  },
+  {
+    imageId: "1",
+    title: "Thành phố Phủ Lý, Hà Nam",
+    shortDesc: "abcxyz",
+    src: "...",
+    startDate: "13/11/2023",
+    endDate: "19/11/2023",
+  },
+];
+export const dayInThePast = [
+  {
+    day: 8,
+    month: 10,
+    whatDay: [
+      {
+        id: 1,
+        shortDesc: "Ngày Đô thị hóa thế giới",
+        place: "Thế giới",
+      },
+      {
+        id: 2,
+        shortDesc: "Ngày Nhà báo tại Trung Quốc",
+        place: "Trung Quốc",
+      },
+    ],
+    events: [
+      {
+        year: "1278",
+        event:
+          " Trần Thánh Tông nhường ngôi Hoàng đế triều Trần cho Thái tử Trần Khâm, và trở thành Thái thượng hoàng",
+        titles: ["Trần Thánh Tông", "Trần Khâm"],
+      },
+      {
+        year: "1602",
+        event:
+          "Thư viện Bodleian tại Đại học Oxford được mở cửa cho công chúng, hiện là thư viện lớn thứ nhì tại Anh.",
+        titles: ["Thư viện Bodleian", "Đại học Oxford", "Anh"],
+      },
+    ],
+  },
+  {
+    day: 9,
+    month: 10,
+    // định dạng tháng/ngày
+    whatDay: [
+      {
+        id: 1,
+        shortDesc: "Ngày Độc lập tại Campuchia (1953)",
+        place: "Campuchia",
+      },
+      {
+        id: 2,
+        shortDesc: "Ngày pháp luật Việt Nam",
+        place: "Việt Nam",
+      },
+    ],
+    events: [
+      {
+        year: "1799",
+        event:
+          "Napoléon Bonaparte lãnh đạo một cuộc đảo chính kết thúc chính phủ Đốc chính, trở thành nhà lãnh đạo của chính phủ Tổng tài",
+        titles: ["Napoléon Bonaparte"],
+      },
+      {
+        year: "1867",
+        event: `Tướng quân Tokugawa Keiki trao trả quyền lực cho Thiên hoàng Nhật Bản bằng tuyên ngôn "Đại Chính phụng hoàn" (hình) tại thành Nijo thuộc Kyoto`,
+        titles: ["Tokugawa Keiki", "Tokyo"],
+      },
+    ],
+  },
+];
+export const categories = [
+  {
+    id: 1,
+    name: "Khoa học tự nhiên",
+    children: ["Địa chất học", "Địa lý học"],
+  },
+];
+export const fact = [
+  {
+    id: 1,
+    desc: "quốc kỳ Đảo Giáng Sinh từng được sử dụng không chính thức suốt 16 năm cho tới 2002?",
+    keyword: "quốc kỳ Đảo Giáng Sinh",
+  },
+  {
+    id: 2,
+    desc: "Rừng tràm Mỹ Phước là nơi duy nhất ở đồng bằng sông Cửu Long có sinh cảnh giao thoa giữa rừng tràm và rừng dừa nước?",
+    keyword: "Rừng tràm Mỹ Phước",
   },
 ];
