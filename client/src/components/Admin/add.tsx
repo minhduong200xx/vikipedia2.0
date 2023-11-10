@@ -44,7 +44,7 @@ const data: DataType[] = [
   {
     key: '1',
     name: 'John Brown',
-    content: 'New 1',
+    content: 'New 2',
   },
   {
     key: '2',
