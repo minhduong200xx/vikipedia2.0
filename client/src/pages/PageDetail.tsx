@@ -63,7 +63,7 @@ const PageDetail: React.FC = () => {
                 >
                   <ul>
                     {item.children.map((i) => (
-                      <Link to={i.link}>{i.name}</Link>
+                      <Link to={`pages/${i}`}>{i.name}</Link>
                     ))}
                   </ul>
                 </Descriptions.Item>
