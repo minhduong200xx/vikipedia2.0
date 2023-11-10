@@ -3,11 +3,14 @@ import pages from "../utils/data";
 import { EditOutlined, ReadOutlined } from "@ant-design/icons";
 import Meta from "antd/es/card/Meta";
 import { Button, Card, Result } from "antd";
+import Paragraph from "antd/es/typography/Paragraph";
 
 const Pages: React.FC = () => {
   const { key } = useParams();
   const data = key
-    ? pages.filter((item) => item.title.toLowerCase().includes(key))
+    ? pages.filter((item) =>
+        item.title.toLowerCase().includes(key.toLowerCase())
+      )
     : pages;
   console.log(data);
 
@@ -39,7 +42,11 @@ const Pages: React.FC = () => {
               >
                 <Meta
                   title={item.title}
-                  description={item.paragraph[0].segment[0].content + "..."}
+                  description={
+                    <Paragraph ellipsis={{ rows: 6 }}>
+                      {item.paragraph[0].segment[0].content + "..."}
+                    </Paragraph>
+                  }
                 />
               </Card>
             </Link>

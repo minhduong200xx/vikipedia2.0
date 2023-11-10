@@ -1,19 +1,21 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import LayoutWeb from "./components/Layout";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Contents from "./pages/Contents";
-import Post from "./components/Post";
-import Image from "./components/Image";
-import PageDetail from "./pages/PageDetail";
-import Admin from "./pages/Admin";
-import Add from "./components/Admin/add";
-import Update from "./components/Admin/update";
-import Delete from "./components/Admin/delete";
-import View from "./components/Admin/view";
-import Pages from "./pages/Pages";
+import { lazy } from "react";
+const Login = lazy(() => import("./pages/Login"));
+const Register = lazy(() => import("./pages/Register"));
+const Pages = lazy(() => import("./pages/Pages"));
+const Home = lazy(() => import("./pages/Home"));
+const Admin = lazy(() => import("./pages/Admin"));
+const PageDetail = lazy(() => import("./pages/PageDetail"));
+const Contents = lazy(() => import("./pages/Contents"));
+const Post = lazy(() => import("./components/Post"));
+const Image = lazy(() => import("./components/Image"));
+const LayoutWeb = lazy(() => import("./components/Layout"));
+const View = lazy(() => import("./components/Admin/view"));
+const Delete = lazy(() => import("./components/Admin/delete"));
+const Add = lazy(() => import("./components/Admin/add"));
+const Update = lazy(() => import("./components/Admin/update"));
+
 function App() {
   return (
     <BrowserRouter>

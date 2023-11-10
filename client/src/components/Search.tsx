@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Image, Empty, Input, List, Popover } from "antd";
 import useDebounce from "../hooks/useDebounce";
 import pages from "../utils/data";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const { Search } = Input;
 const SearchBar: React.FC = () => {
   const [search, setSearch] = useState<string>();
+  const navigate = useNavigate();
   const [change, setChange] = useState(false);
   const [data, setData] = useState<unknown>();
   const onChange = (value: string) => {
@@ -23,7 +24,7 @@ const SearchBar: React.FC = () => {
     }
   }, [searchDebounce]);
   const onSearch = (value: string) => {
-    console.log(typeof value);
+    navigate(`/pages/${value}`);
   };
 
   const content =

@@ -388,14 +388,14 @@ export const selectedPages = [
     endDate: "19/11/2023",
   },
 ];
-export const GoodPages = [
+export const goodPages = [
   {
-    pageId: "1",
+    pageId: "3",
     startDate: "6/11/2023",
     endDate: "12/11/2023",
   },
   {
-    pageId: "2",
+    pageId: "1",
     startDate: "13/11/2023",
     endDate: "19/11/2023",
   },
@@ -484,7 +484,35 @@ export const categories = [
   {
     id: 1,
     name: "Khoa học tự nhiên",
-    children: ["Địa chất học", "Địa lý học"],
+    children: [
+      "Địa chất học",
+      "Địa lý học",
+      "Hoá học",
+      "Khoa học máy tính",
+      "Logic",
+      "Sinh học",
+      "Thiên văn học",
+      "Toán học",
+      "Vật lý học",
+      "Y học",
+    ],
+  },
+  {
+    id: 2,
+    name: "Khoa học xã hội",
+    children: [
+      "Chính trị học",
+      "Giáo dục",
+      "Kinh tế học",
+      "Lịch sử",
+      "Luật pháp",
+      "Ngôn ngữ học",
+      "Nhân chủng học",
+      "Tâm lý học",
+      "Thần học",
+      "Triết học",
+      "Xã hội học",
+    ],
   },
 ];
 export const fact = [

@@ -8,7 +8,7 @@ import {
   StarOutlined,
   ZhihuOutlined,
 } from "@ant-design/icons";
-import { Layout, Menu, Button, theme, Select } from "antd";
+import { Layout, Menu, Button, theme, Select, Watermark } from "antd";
 import SearchBar from "./Search";
 const { Header, Sider, Content } = Layout;
 import Wiki from "../assets/img/wikipedia.jpg";
@@ -116,16 +116,19 @@ const LayoutWeb: React.FC = () => {
             </div>
           </div>
         </Header>
+        {/* <Watermark content="VIKIPEDIA" zIndex={1}> */}
         <Content
           style={{
             margin: "24px 16px",
             padding: 24,
             minHeight: 768,
             background: colorBgContainer,
+            zIndex: 9,
           }}
         >
           <Outlet />
         </Content>
+        {/* </Watermark> */}
         <Footer
           className="mx-auto w-fit flex flex-col justify-center items-center"
           style={{ padding: 0, background: colorBgContainer }}
