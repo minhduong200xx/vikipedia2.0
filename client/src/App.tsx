@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { lazy } from "react";
-const Login = lazy(() => import("./pages/Login"));
+const Login = lazy(() => delayForDemo(import("./pages/Login")));
 const Register = lazy(() => import("./pages/Register"));
-const Pages = lazy(() => import("./pages/Pages"));
+const Pages = lazy(() => delayForDemo(import("./pages/Pages")));
 const Home = lazy(() => import("./pages/Home"));
 const Admin = lazy(() => import("./pages/Admin"));
 const PageDetail = lazy(() => import("./pages/PageDetail"));
@@ -44,6 +44,11 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
+}
+function delayForDemo(promise: Promise) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, 2000);
+  }).then(() => promise);
 }
 
 export default App;

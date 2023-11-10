@@ -1,23 +1,25 @@
 import { Statistic } from "antd";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 const Banner: React.FC = () => {
+  const { t } = useTranslation("banner");
   return (
     <div className="w-full h-32 px-4">
       <div className="bg-gray-50 border w-full h-24 grid grid-cols-2">
         <div className=" flex items-center justify-center gap-2 w-[1/2] flex flex-col">
-          <b className="text-2xl">VIKIPEDIA Tiếng Việt</b>
-          <p>Bách khoa toàn thư mở trực tuyến</p>
+          <b className="text-2xl">{t("namePage")}</b>
+          <p>{t("slogan")}</p>
         </div>
         <div className=" flex items-center justify-center w-[1/2] flex flex-col gap-2">
           <span className="font-bold flex items-center justify-between gap-4 w-[50%]">
             <Statistic
               className="text-sm font-medium"
-              title="Bài viết"
+              title={t("posts")}
               value={"200"}
             />
             <Statistic
               className="text-sm font-medium"
-              title="Người dùng"
+              title={t("users")}
               value={"200"}
             />
           </span>

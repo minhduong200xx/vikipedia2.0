@@ -6,9 +6,10 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   StarOutlined,
+  UserOutlined,
   ZhihuOutlined,
 } from "@ant-design/icons";
-import { Layout, Menu, Button, theme, Select, Watermark } from "antd";
+import { Layout, Menu, Button, theme, Select, Dropdown, MenuProps } from "antd";
 import SearchBar from "./Search";
 const { Header, Sider, Content } = Layout;
 import Wiki from "../assets/img/wikipedia.jpg";
@@ -17,7 +18,29 @@ import { Option } from "antd/es/mentions";
 import { Outlet, useNavigate, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import pages from "../utils/data";
+import { useAuth } from "../contexts/AuthContext";
+
 const LayoutWeb: React.FC = () => {
+  const { user, logout } = useAuth();
+  console.log(user);
+  const items: MenuProps["items"] = [
+    {
+      key: "1",
+      label: (
+        <Link to={"/admin"} hidden={user?.role == "admin" ? false : true}>
+          Bảng điều khiển
+        </Link>
+      ),
+    },
+    {
+      key: "2",
+      label: (
+        <Link to={"/"} onClick={logout}>
+          Đăng xuất
+        </Link>
+      ),
+    },
+  ];
   const [hidden, setHidden] = useState(false);
   const {
     token: { colorBgContainer },
@@ -106,13 +129,25 @@ const LayoutWeb: React.FC = () => {
               <Option value={"zh"}>中文</Option>
               <Option value={"ko"}>한국어</Option>
             </Select>
-            <div className="w-56 flex flex-row items-center gap-2">
-              <Button className="bg-red-300 hover:bg-blue-400">
-                <Link to={"/register"}>{t("register")}</Link>
-              </Button>
-              <Button>
-                <Link to={"/login"}>{t("login")}</Link>
-              </Button>
+            <div className="w-fit flex flex-row items-center gap-2">
+              {user ? (
+                <Dropdown.Button
+                  menu={{ items }}
+                  placement="bottom"
+                  icon={<UserOutlined />}
+                >
+                  {user.username}
+                </Dropdown.Button>
+              ) : (
+                <div className="w-fit flex flex-row items-center gap-2">
+                  <Button className="bg-red-300 hover:bg-blue-400">
+                    <Link to={"/register"}>{t("register")}</Link>
+                  </Button>
+                  <Button>
+                    <Link to={"/login"}>{t("login")}</Link>
+                  </Button>
+                </div>
+              )}
             </div>
           </div>
         </Header>

@@ -314,7 +314,7 @@ const pages = [
         segment: [
           {
             content:
-              'Hải quân Hoàng gia Anh là lực lượng lâu đời nhất trong Lực lượng Vũ trang Anh. Từ đầu thế kỷ 18 đến giữa thế kỷ 20, Hải quân Anh là lực lượng hải quân lớn nhất và mạnh nhất trên thế giới, đóng vai trò chủ yếu trong việc thiết lập nên một Đế quốc Anh có sức mạnh vượt trội trong thế kỷ 19 đến đầu thế kỷ 20.',
+              "Hải quân Hoàng gia Anh là lực lượng lâu đời nhất trong Lực lượng Vũ trang Anh. Từ đầu thế kỷ 18 đến giữa thế kỷ 20, Hải quân Anh là lực lượng hải quân lớn nhất và mạnh nhất trên thế giới, đóng vai trò chủ yếu trong việc thiết lập nên một Đế quốc Anh có sức mạnh vượt trội trong thế kỷ 19 đến đầu thế kỷ 20.",
           },
           {
             content:
@@ -322,7 +322,7 @@ const pages = [
           },
           {
             content:
-              'Hải quân Hoàng gia Anh hiện nay, xét về trọng lượng của các hạm tàu, là lực lượng hải quân lớn thứ 2 trong NATO.[3] Hải quân Anh hiện có khoảng 91 hạm tàu đang hoạt động, gồm các tàu sân bay, tàu ngầm hạt nhân, các tàu chống mìn và các tàu tuần tra.',
+              "Hải quân Hoàng gia Anh hiện nay, xét về trọng lượng của các hạm tàu, là lực lượng hải quân lớn thứ 2 trong NATO.[3] Hải quân Anh hiện có khoảng 91 hạm tàu đang hoạt động, gồm các tàu sân bay, tàu ngầm hạt nhân, các tàu chống mìn và các tàu tuần tra.",
           },
         ],
       },
@@ -331,11 +331,10 @@ const pages = [
         segment: [
           {
             content:
-              'Xét về số lượng tàu và kích cỡ các tàu, Hải quân Hoàng gia đã bị suy yếu từ những năm 1960. Các số liệu sau, không tính tới việc tăng lên về mặt công nghệ hiện đại trong tàu hải quân, mà chỉ đưa ra sự suy giảm chung của các hạm đội.[4] Bảng sau là sự suy giảm về số lượng các tàu từ năm 1960.[5]',
+              "Xét về số lượng tàu và kích cỡ các tàu, Hải quân Hoàng gia đã bị suy yếu từ những năm 1960. Các số liệu sau, không tính tới việc tăng lên về mặt công nghệ hiện đại trong tàu hải quân, mà chỉ đưa ra sự suy giảm chung của các hạm đội.[4] Bảng sau là sự suy giảm về số lượng các tàu từ năm 1960.[5]",
           },
           {
-            content:
-            `	1 tàu chiến tuyến, 
+            content: `	1 tàu chiến tuyến, 
             2 tàu sân bay,
             11 tàu ngầm,
             2 bến tàu chiến đổ bộ,
@@ -346,8 +345,8 @@ const pages = [
             18 tàu tuần tra nhanh,
             4 tàu thủy văn,
             1 tàu phá băng,
-            1 tàu bị động.`
-          }
+            1 tàu bị động.`,
+          },
         ],
       },
       {
@@ -467,23 +466,23 @@ const pages = [
         segment: [
           {
             content:
-              'Bằng chứng sớm nhất được biết đến về việc loài người hiện diện tại khu vực nay là Anh thuộc về chủng Homo antecessor, có niên đại khoảng 780.000 năm trước. Xương người nguyên thủy cổ nhất phát hiện được tại Anh có niên đại khoảng 500.000 năm trước.[28] Người hiện đại được cho là cư trú tại khu vực vào giai đoạn đồ đá cũ muộn, song các khu định cư cố định chỉ hình thành trong vòng 6.000 năm qua.[29][30] Sau kỷ băng hà cuối, chỉ còn lại các loài thú lớn như voi ma mút, bò rừng bison và tê giác lông mượt. Khoảng 11.000 năm trước, khi các phiến băng bắt đầu rút đi, con người lại cư trú trong khu vực; nghiên cứu di truyền gợi ý rằng họ đến từ phần phía bắc của bán đảo Iberia.[31] Mực nước biển thấp hơn ngày nay và Anh nối liền với Ireland cùng lục địa Á-Âu.[32] Đến khi mực nước biển dâng lên, Anh tách khỏi Ireland 10.000 năm trước và tách khỏi lục địa Á-Âu hai thiên niên kỷ sau đó.',
+              "Bằng chứng sớm nhất được biết đến về việc loài người hiện diện tại khu vực nay là Anh thuộc về chủng Homo antecessor, có niên đại khoảng 780.000 năm trước. Xương người nguyên thủy cổ nhất phát hiện được tại Anh có niên đại khoảng 500.000 năm trước.[28] Người hiện đại được cho là cư trú tại khu vực vào giai đoạn đồ đá cũ muộn, song các khu định cư cố định chỉ hình thành trong vòng 6.000 năm qua.[29][30] Sau kỷ băng hà cuối, chỉ còn lại các loài thú lớn như voi ma mút, bò rừng bison và tê giác lông mượt. Khoảng 11.000 năm trước, khi các phiến băng bắt đầu rút đi, con người lại cư trú trong khu vực; nghiên cứu di truyền gợi ý rằng họ đến từ phần phía bắc của bán đảo Iberia.[31] Mực nước biển thấp hơn ngày nay và Anh nối liền với Ireland cùng lục địa Á-Âu.[32] Đến khi mực nước biển dâng lên, Anh tách khỏi Ireland 10.000 năm trước và tách khỏi lục địa Á-Âu hai thiên niên kỷ sau đó.",
           },
           {
             content:
-              'Văn hoá Beaker đến vào khoảng 2.500 TCN, mang đến các bình đựng đồ ăn và đồ uống làm từ đất sét, cũng như các bình được sử dụng để nấu chảy quặng đồng.[33] Các công trình kỷ niệm đồ đá mới có quy mô lớn như Stonehenge và Avebury được xây dựng trong thời gian này. Thiếc và đồng là những khoáng sản phong phú trong khu vực, bằng cách nung chảy chúng với nhau cư dân thuộc văn hoá Beaker làm ra đồng điếu, và sau đó làm ra sắt từ quặng sắt. Luyện thép phát triển cho phép sản xuất ra cày tốt hơn, nông nghiệp tiến bộ, cũng như sản xuất vũ khí có tính hiệu quả hơn.',
+              "Văn hoá Beaker đến vào khoảng 2.500 TCN, mang đến các bình đựng đồ ăn và đồ uống làm từ đất sét, cũng như các bình được sử dụng để nấu chảy quặng đồng.[33] Các công trình kỷ niệm đồ đá mới có quy mô lớn như Stonehenge và Avebury được xây dựng trong thời gian này. Thiếc và đồng là những khoáng sản phong phú trong khu vực, bằng cách nung chảy chúng với nhau cư dân thuộc văn hoá Beaker làm ra đồng điếu, và sau đó làm ra sắt từ quặng sắt. Luyện thép phát triển cho phép sản xuất ra cày tốt hơn, nông nghiệp tiến bộ, cũng như sản xuất vũ khí có tính hiệu quả hơn.",
           },
           {
             content:
-              'Trong thời đại đồ sắt, văn hoá Celt đến Anh từ Trung Âu, văn hoá Celt lại bắt nguồn từ văn hoá Hallstatt và La Tène. Tiếng Britton là ngôn ngữ nói trong giai đoạn này. Xã hội mang tính bộ lạc, theo Geographia của Ptolemy thì có khoảng 20 bộ lạc trong khu vực. Giống như các khu vực khác nằm bên rìa La Mã, đảo Anh tham gia liên kết mậu dịch với La Mã trong thời gian dài. Julius Caesar của La Mã hai lần nỗ lực xâm chiếm Anh vào năm 55 TCN nhưng thất bại, ông lập ra một quốc vương phụ thuộc từ bộ lạc Trinovantes.',
+              "Trong thời đại đồ sắt, văn hoá Celt đến Anh từ Trung Âu, văn hoá Celt lại bắt nguồn từ văn hoá Hallstatt và La Tène. Tiếng Britton là ngôn ngữ nói trong giai đoạn này. Xã hội mang tính bộ lạc, theo Geographia của Ptolemy thì có khoảng 20 bộ lạc trong khu vực. Giống như các khu vực khác nằm bên rìa La Mã, đảo Anh tham gia liên kết mậu dịch với La Mã trong thời gian dài. Julius Caesar của La Mã hai lần nỗ lực xâm chiếm Anh vào năm 55 TCN nhưng thất bại, ông lập ra một quốc vương phụ thuộc từ bộ lạc Trinovantes.",
           },
           {
             content:
-              'Người La Mã xâm chiếm đảo Anh vào năm 43, sau đó họ chinh phục phần lớn hòn đảo và khu vực được hợp nhất vào Đế quốc La Mã với vị thế tỉnh Britannia.[35] Bộ lạc bản địa nổi tiếng nhất vì kháng cự La Mã là Catuvellauni dưới quyền Caratacus. Sau đó, có một cuộc khởi nghĩa dưới quyền Nữ vương Boudica của bộ lạc Iceni, song bà tự sát sau thất bại trong trận Watling Street.[36] Trong thời kỳ này, văn hoá Hy Lạp-La Mã thịnh hành khi du nhập luật La Mã, kiến trúc La Mã, cống dẫn nước, rãnh thoát nước, nhiều mặt hàng nông nghiệp và lụa.[37][38][39] Trong thế kỷ III, Hoàng đế Septimius Severus mất tại Eboracum (nay là York), đây cũng là nơi Constantinus xưng đế sau đó.',
+              "Người La Mã xâm chiếm đảo Anh vào năm 43, sau đó họ chinh phục phần lớn hòn đảo và khu vực được hợp nhất vào Đế quốc La Mã với vị thế tỉnh Britannia.[35] Bộ lạc bản địa nổi tiếng nhất vì kháng cự La Mã là Catuvellauni dưới quyền Caratacus. Sau đó, có một cuộc khởi nghĩa dưới quyền Nữ vương Boudica của bộ lạc Iceni, song bà tự sát sau thất bại trong trận Watling Street.[36] Trong thời kỳ này, văn hoá Hy Lạp-La Mã thịnh hành khi du nhập luật La Mã, kiến trúc La Mã, cống dẫn nước, rãnh thoát nước, nhiều mặt hàng nông nghiệp và lụa.[37][38][39] Trong thế kỷ III, Hoàng đế Septimius Severus mất tại Eboracum (nay là York), đây cũng là nơi Constantinus xưng đế sau đó.",
           },
           {
             content:
-              'Tồn tại tranh luận về việc Cơ Đốc giáo du nhập lần đầu; điều này không muộn hơn thế kỷ IV và có lẽ là sớm hơn nhiều. Theo Bede, Giáo hoàng Eleutherius phái những người truyền giáo từ Roma theo thỉnh cầu của tù trưởng Lucius của Anh vào năm 180, nhằm giải quyết các bất đồng như giữa nghi thức phương Đông và phương Tây. Tồn tại các liên kết truyền thống đến Glastonbury thể hiện Cơ Đốc giáo du nhập thông qua Joseph của Arimathea, trong khi những người khác cho rằng thông qua Lucius.[41] Đến năm 410, trong giai đoạn La Mã suy thoái, quyền cai trị của La Mã kết thúc, các đơn vị quân đội La Mã triệt thoái khỏi đảo nhằm bảo vệ các biên giới tại châu Âu lục địa và tham gia nội chiến.',
+              "Tồn tại tranh luận về việc Cơ Đốc giáo du nhập lần đầu; điều này không muộn hơn thế kỷ IV và có lẽ là sớm hơn nhiều. Theo Bede, Giáo hoàng Eleutherius phái những người truyền giáo từ Roma theo thỉnh cầu của tù trưởng Lucius của Anh vào năm 180, nhằm giải quyết các bất đồng như giữa nghi thức phương Đông và phương Tây. Tồn tại các liên kết truyền thống đến Glastonbury thể hiện Cơ Đốc giáo du nhập thông qua Joseph của Arimathea, trong khi những người khác cho rằng thông qua Lucius.[41] Đến năm 410, trong giai đoạn La Mã suy thoái, quyền cai trị của La Mã kết thúc, các đơn vị quân đội La Mã triệt thoái khỏi đảo nhằm bảo vệ các biên giới tại châu Âu lục địa và tham gia nội chiến.",
           },
         ],
       },
@@ -499,8 +498,7 @@ const pages = [
               "Các cảng Luân Đôn, Liverpool, và Newcastle lần lượt nằm trên các sông chịu ảnh hưởng của thủy triều là Thames, Mersey và Tyne. Severn là sông dài nhất chảy qua Anh, có tổng chiều dài là 350 km.[108] Sông này chảy vào eo biển Bristol và được chú ý do nước triều có thể cao đến 2m.[109] Tuy vậy, sông dài nhất chảy hoàn toàn trên lãnh thổ Anh là Thames với 346 km.[110] Anh có nhiều hồ, lớn nhất trong số đó là Windermere thuộc khu Lake District.",
           },
           {
-            content:
-              `Dãy Pennines được mệnh danh là "xương sống của Anh", đây là dãy núi cổ nhất tại Anh và có nguồn gốc vào cuối thời Đại Cổ sinh cách nay khoảng 300 triệu năm trước.[112] Cấu tạo địa chất của dãy này gồm có sa thạch, đá vôi, cũng như than đá và các loại khác. Tồn tại cảnh quan karst trong các khu vực canxit như một số nơi tại Yorkshire và Derbyshire. Cảnh quan Pennine là đất hoang vùng cao, bị chia cắt do các thung lũng phì nhiêu hình thành từ các sông trong vùng. Dãy núi có ba công viên quốc gia là Yorkshire Dales, Northumberland, và Peak District. Điểm cao nhất tại Anh là Scafell Pike cao 978 m tại Cumbria.[111] Vùng đồi Cheviot trải dài trên biên giới Anh-Scotland.`,
+            content: `Dãy Pennines được mệnh danh là "xương sống của Anh", đây là dãy núi cổ nhất tại Anh và có nguồn gốc vào cuối thời Đại Cổ sinh cách nay khoảng 300 triệu năm trước.[112] Cấu tạo địa chất của dãy này gồm có sa thạch, đá vôi, cũng như than đá và các loại khác. Tồn tại cảnh quan karst trong các khu vực canxit như một số nơi tại Yorkshire và Derbyshire. Cảnh quan Pennine là đất hoang vùng cao, bị chia cắt do các thung lũng phì nhiêu hình thành từ các sông trong vùng. Dãy núi có ba công viên quốc gia là Yorkshire Dales, Northumberland, và Peak District. Điểm cao nhất tại Anh là Scafell Pike cao 978 m tại Cumbria.[111] Vùng đồi Cheviot trải dài trên biên giới Anh-Scotland.`,
           },
           {
             content:
@@ -554,12 +552,10 @@ const pages = [
               "Anh có di sản thể thao mạnh mẽ, trong thế kỷ XIX Anh đã điều lệ hoá nhiều môn thể thao hiện được chơi khắp thế giới. Các môn thể thao có nguồn gốc tại Anh gồm có bóng đá,[285] cricket, rugby union, rugby league, quần vợt, quyền Anh, cầu lông, bóng quần,[286] rounders,[287] khúc côn cầu, snooker, bi-a, phi tiêu, bóng bàn, bóng gỗ, bóng lưới, đua ngựa thuần chủng, đua chó và săn cáo. Anh còn giúp phát triển golf, đua thuyền buồm và công thức 1.",
           },
           {
-            content:
-              `Bóng đá là môn thể thao phổ biến nhất, đội tuyển bóng đá quốc gia Anh có sân nhà là sân vận động Wembley. Anh thi đấu với Scotland trong trận đấu bóng đá quốc tế đầu tiên vào năm 1872.[288] Anh được FIFA cho là "quê hương của bóng đá", và từng tổ chức đồng thời giành chức vô địch tại Giải bóng đá vô địch thế giới 1966, giành thắng lợi trước Tây Đức với tỷ số 4–2 trong trận chung kết, với ba bàn thắng của Geoff Hurst.[289] Trận chung kết này thu hút tới 32,3 triệu khán giả truyền hình Anh, là sự kiện truyền hình được xem nhiều nhất tại Anh Quốc cho đến nay.[290] Anh cũng được FIFA công nhận là nơi khai sinh của bóng đá cấp câu lạc bộ, do Sheffield F.C. thành lập vào năm 1857 là câu lạc bộ cổ nhất trên thế giới.[285] Hiệp hội bóng đá Anh là thể chế quản lý thể thao lâu năm nhất, có các điều lệ bóng đá được soạn thảo lần đầu vào năm 1863.[291] Cúp FA và giải bóng đá Anh là các giải thi đấu đầu tiên. Hiện nay, Ngoại hạng Anh là giải đấu bóng đá có nhiều người theo dõi nhất thế giới,[292] sinh lợi nhiều nhất,[293] và nằm vào hàng tinh hoa.[294] Liverpool, Manchester United, Nottingham Forest, Chelsea , Aston Villa và Manchester City đã giành cúp châu Âu, trong khi Arsenal, Leeds United, Tottenham Hotspur đã từng lọt tới trận chung kết.`,
+            content: `Bóng đá là môn thể thao phổ biến nhất, đội tuyển bóng đá quốc gia Anh có sân nhà là sân vận động Wembley. Anh thi đấu với Scotland trong trận đấu bóng đá quốc tế đầu tiên vào năm 1872.[288] Anh được FIFA cho là "quê hương của bóng đá", và từng tổ chức đồng thời giành chức vô địch tại Giải bóng đá vô địch thế giới 1966, giành thắng lợi trước Tây Đức với tỷ số 4–2 trong trận chung kết, với ba bàn thắng của Geoff Hurst.[289] Trận chung kết này thu hút tới 32,3 triệu khán giả truyền hình Anh, là sự kiện truyền hình được xem nhiều nhất tại Anh Quốc cho đến nay.[290] Anh cũng được FIFA công nhận là nơi khai sinh của bóng đá cấp câu lạc bộ, do Sheffield F.C. thành lập vào năm 1857 là câu lạc bộ cổ nhất trên thế giới.[285] Hiệp hội bóng đá Anh là thể chế quản lý thể thao lâu năm nhất, có các điều lệ bóng đá được soạn thảo lần đầu vào năm 1863.[291] Cúp FA và giải bóng đá Anh là các giải thi đấu đầu tiên. Hiện nay, Ngoại hạng Anh là giải đấu bóng đá có nhiều người theo dõi nhất thế giới,[292] sinh lợi nhiều nhất,[293] và nằm vào hàng tinh hoa.[294] Liverpool, Manchester United, Nottingham Forest, Chelsea , Aston Villa và Manchester City đã giành cúp châu Âu, trong khi Arsenal, Leeds United, Tottenham Hotspur đã từng lọt tới trận chung kết.`,
           },
           {
-            content:
-              `Cricket nói chung được cho là phát triển từ sơ kỳ Trung cổ trong các cộng đồng nông nghiệp và thợ luyện kim tại Weald.[296] Đội tuyển cricket Anh là đội tuyển hợp nhất của Anh và Wales. Một trong những cặp đấu nổi tiếng nhất của môn này là loạt The Ashes giữa Anh và Úc, được tổ chức từ năm 1882. Trận chung kết 2009 Ashes được gần 2 triệu người theo dõi, song cực điểm 2005 Ashes được 7,4 triệu người theo dõi do nó được phát trên truyền hình mặt đất.[297] Anh từng bốn lần tổ chức giải vô địch cricket thế giới (1975, 1979, 1983, 1999), và sẽ tổ chức mùa giải năm 2019, song chưa từng vô địch. Anh từng tổ chức ICC World Twenty20 năm 2009, và vô địch mùa giải năm 2010 khi đánh bại Úc trong trận chung kết. Có nhiều giải thi đấu trong nước, gồm cả giải vô địch các hạt, trong đó Yorkshire là câu lạc bộ thành công nhất với 31 lần giành chiến thắng.[298] Sân cricket Lord's tại Luân Đôn thỉnh thoảng được gọi là "Mecca của môn Cricket".`,
+            content: `Cricket nói chung được cho là phát triển từ sơ kỳ Trung cổ trong các cộng đồng nông nghiệp và thợ luyện kim tại Weald.[296] Đội tuyển cricket Anh là đội tuyển hợp nhất của Anh và Wales. Một trong những cặp đấu nổi tiếng nhất của môn này là loạt The Ashes giữa Anh và Úc, được tổ chức từ năm 1882. Trận chung kết 2009 Ashes được gần 2 triệu người theo dõi, song cực điểm 2005 Ashes được 7,4 triệu người theo dõi do nó được phát trên truyền hình mặt đất.[297] Anh từng bốn lần tổ chức giải vô địch cricket thế giới (1975, 1979, 1983, 1999), và sẽ tổ chức mùa giải năm 2019, song chưa từng vô địch. Anh từng tổ chức ICC World Twenty20 năm 2009, và vô địch mùa giải năm 2010 khi đánh bại Úc trong trận chung kết. Có nhiều giải thi đấu trong nước, gồm cả giải vô địch các hạt, trong đó Yorkshire là câu lạc bộ thành công nhất với 31 lần giành chiến thắng.[298] Sân cricket Lord's tại Luân Đôn thỉnh thoảng được gọi là "Mecca của môn Cricket".`,
           },
           {
             content:
@@ -639,7 +635,6 @@ const pages = [
         href: "#use",
         title: "Sử dụng ở các quốc gia",
       },
-      
     ],
     paragraph: [
       {
@@ -656,7 +651,7 @@ const pages = [
         segment: [
           {
             content:
-              'Tiếng Anh là một ngôn ngữ German Tây có nguồn gốc từ nhóm phương ngữ Anh-Frisia đưa đến Anh bởi các dân tộc German từ nhiều khu vực khác nhau của tây bắc nước Đức và miền bắc Hà Lan. Dân bản xứ tại thời điểm này nói tiếng Britton chung (một ngôn ngữ Celt), và chịu ảnh hưởng của sự chiếm đóng của người La Mã. Nhóm ngôn ngữ này (tiếng Wales, tiếng Cornwall, tiếng Cumbria) đã cùng chung với tiếng Anh bước vào thời kỳ hiện đại, nhưng do sự xa cách của chúng với các ngôn ngữ German, ảnh hưởng đối với tiếng Anh bị hạn chế đáng kể.',
+              "Tiếng Anh là một ngôn ngữ German Tây có nguồn gốc từ nhóm phương ngữ Anh-Frisia đưa đến Anh bởi các dân tộc German từ nhiều khu vực khác nhau của tây bắc nước Đức và miền bắc Hà Lan. Dân bản xứ tại thời điểm này nói tiếng Britton chung (một ngôn ngữ Celt), và chịu ảnh hưởng của sự chiếm đóng của người La Mã. Nhóm ngôn ngữ này (tiếng Wales, tiếng Cornwall, tiếng Cumbria) đã cùng chung với tiếng Anh bước vào thời kỳ hiện đại, nhưng do sự xa cách của chúng với các ngôn ngữ German, ảnh hưởng đối với tiếng Anh bị hạn chế đáng kể.",
           },
           {
             content:
@@ -685,8 +680,7 @@ const pages = [
         id: 4,
         segment: [
           {
-            content:
-              `Tiếng Anh Mỹ là ngôn ngữ chính tại Hoa Kỳ. Ở Canada, giọng nói có vẻ rất giống với tiếng Anh Mỹ nhưng có một vài ngoại lệ (xem tiếng Anh Canada). Phép chính tả tiếng Anh Mỹ ở Canada đôi khi được sử dụng, nhưng theo truyền thống, phép chính tả Anh (ngoại trừ một số từ như programme, -isation / -ise / -isable, chilli, v.v.) được sử dụng. Mặc dù tiếng Anh khối thịnh vượng được nói nhiều nhất, tiếng Anh Mỹ được thấy thường xuyên hơn trên internet. Từ vựng tiếng Anh Mỹ chiếm ưu thế trong phương tiện trực quan: "movies" (tiếng Anh Anh: "films") và television.`,
+            content: `Tiếng Anh Mỹ là ngôn ngữ chính tại Hoa Kỳ. Ở Canada, giọng nói có vẻ rất giống với tiếng Anh Mỹ nhưng có một vài ngoại lệ (xem tiếng Anh Canada). Phép chính tả tiếng Anh Mỹ ở Canada đôi khi được sử dụng, nhưng theo truyền thống, phép chính tả Anh (ngoại trừ một số từ như programme, -isation / -ise / -isable, chilli, v.v.) được sử dụng. Mặc dù tiếng Anh khối thịnh vượng được nói nhiều nhất, tiếng Anh Mỹ được thấy thường xuyên hơn trên internet. Từ vựng tiếng Anh Mỹ chiếm ưu thế trong phương tiện trực quan: "movies" (tiếng Anh Anh: "films") và television.`,
           },
           {
             content:
@@ -780,7 +774,7 @@ const pages = [
         segment: [
           {
             content:
-              'Hợp chúng quốc Hoa Kỳ[17][19][20] (tiếng Anh: The United States of America, United States of America, USA), gọi tắt là Hoa Kỳ (tiếng Anh: United States, US hoặc U.S.) hoặc ngắn gọn là Mỹ là một quốc gia cộng hòa lập hiến liên bang ở châu Mỹ, nằm tại Tây Bán cầu, lãnh thổ bao gồm 50 tiểu bang và một đặc khu liên bang (trong đó có 48 tiểu bang lục địa), thủ đô là Washington, D.C., thành phố lớn nhất là New York. Hoa Kỳ nằm ở giữa Bắc Mỹ, giáp biển Thái Bình Dương ở phía tây, Đại Tây Dương ở phía đông, Canada ở phía bắc và Mexico ở phía nam. Tiểu bang Alaska nằm trong vùng tây bắc của lục địa Bắc Mỹ, giáp với Canada ở phía đông và Nga ở phía tây qua eo biển Bering. Tiểu bang Hawaii nằm giữa Thái Bình Dương. Hoa Kỳ có 14 vùng lãnh thổ trực thuộc nằm rải rác trong vùng biển Caribe và Thái Bình Dương cùng 326 Biệt khu thổ dân châu Mỹ.',
+              "Hợp chúng quốc Hoa Kỳ[17][19][20] (tiếng Anh: The United States of America, United States of America, USA), gọi tắt là Hoa Kỳ (tiếng Anh: United States, US hoặc U.S.) hoặc ngắn gọn là Mỹ là một quốc gia cộng hòa lập hiến liên bang ở châu Mỹ, nằm tại Tây Bán cầu, lãnh thổ bao gồm 50 tiểu bang và một đặc khu liên bang (trong đó có 48 tiểu bang lục địa), thủ đô là Washington, D.C., thành phố lớn nhất là New York. Hoa Kỳ nằm ở giữa Bắc Mỹ, giáp biển Thái Bình Dương ở phía tây, Đại Tây Dương ở phía đông, Canada ở phía bắc và Mexico ở phía nam. Tiểu bang Alaska nằm trong vùng tây bắc của lục địa Bắc Mỹ, giáp với Canada ở phía đông và Nga ở phía tây qua eo biển Bering. Tiểu bang Hawaii nằm giữa Thái Bình Dương. Hoa Kỳ có 14 vùng lãnh thổ trực thuộc nằm rải rác trong vùng biển Caribe và Thái Bình Dương cùng 326 Biệt khu thổ dân châu Mỹ.",
           },
           {
             content:
@@ -788,15 +782,15 @@ const pages = [
           },
           {
             content:
-              'Hoa Kỳ được thành lập ban đầu với 13 thuộc địa của Đế quốc Anh nằm dọc theo bờ biển Đại Tây Dương. Sau khi tự tuyên bố trở thành các tiểu bang độc lập, 13 cựu thuộc địa đưa ra tuyên ngôn độc lập vào ngày 4 tháng 7 năm 1776 và đánh bại người Anh trong chiến tranh Cách mạng Mỹ, đây là cuộc chiến tranh thuộc địa giành độc lập thành công đầu tiên trong lịch sử.[22] Hội nghị Liên bang quyết định sử dụng bản Hiến pháp Hoa Kỳ vào ngày 17 tháng 9 năm 1787. Việc thông qua bản hiến pháp này một năm sau đó đã biến các cựu thuộc địa thành một phần của nước cộng hòa chung duy nhất. Đạo luật nhân quyền Hoa Kỳ gồm mười tu chính án hiến pháp được thông qua năm 1791. Sau khi giành độc lập, theo học thuyết Vận mệnh hiển nhiên, Hoa Kỳ bắt đầu công cuộc đánh đuổi người da đỏ bản địa và mở rộng lãnh thổ mạnh mẽ trên khắp Bắc Mỹ trong suốt thế kỷ 19.[23] Nội chiến Hoa Kỳ kết thúc với thắng lợi của lực lượng chính phủ liên bang đã chấm dứt chế độ nô lệ cũng như sự chia rẽ tư tưởng. Đến cuối thế kỷ 19, Hoa Kỳ đã mở rộng sự ảnh hưởng lên toàn bộ Thái Bình Dương[24] và trở thành nền kinh tế lớn nhất thế giới từ đó tới nay.[25] Chiến thắng trong chiến tranh với Tây Ban Nha cùng chiến tranh thế giới thứ nhất đã xác định vị thế đại cường quốc toàn cầu của Hoa Kỳ. Thắng lợi trong chiến tranh thế giới thứ hai và chiến tranh Lạnh tiếp tục khẳng định và giữ vững vị thế siêu cường của quốc gia này.',
+              "Hoa Kỳ được thành lập ban đầu với 13 thuộc địa của Đế quốc Anh nằm dọc theo bờ biển Đại Tây Dương. Sau khi tự tuyên bố trở thành các tiểu bang độc lập, 13 cựu thuộc địa đưa ra tuyên ngôn độc lập vào ngày 4 tháng 7 năm 1776 và đánh bại người Anh trong chiến tranh Cách mạng Mỹ, đây là cuộc chiến tranh thuộc địa giành độc lập thành công đầu tiên trong lịch sử.[22] Hội nghị Liên bang quyết định sử dụng bản Hiến pháp Hoa Kỳ vào ngày 17 tháng 9 năm 1787. Việc thông qua bản hiến pháp này một năm sau đó đã biến các cựu thuộc địa thành một phần của nước cộng hòa chung duy nhất. Đạo luật nhân quyền Hoa Kỳ gồm mười tu chính án hiến pháp được thông qua năm 1791. Sau khi giành độc lập, theo học thuyết Vận mệnh hiển nhiên, Hoa Kỳ bắt đầu công cuộc đánh đuổi người da đỏ bản địa và mở rộng lãnh thổ mạnh mẽ trên khắp Bắc Mỹ trong suốt thế kỷ 19.[23] Nội chiến Hoa Kỳ kết thúc với thắng lợi của lực lượng chính phủ liên bang đã chấm dứt chế độ nô lệ cũng như sự chia rẽ tư tưởng. Đến cuối thế kỷ 19, Hoa Kỳ đã mở rộng sự ảnh hưởng lên toàn bộ Thái Bình Dương[24] và trở thành nền kinh tế lớn nhất thế giới từ đó tới nay.[25] Chiến thắng trong chiến tranh với Tây Ban Nha cùng chiến tranh thế giới thứ nhất đã xác định vị thế đại cường quốc toàn cầu của Hoa Kỳ. Thắng lợi trong chiến tranh thế giới thứ hai và chiến tranh Lạnh tiếp tục khẳng định và giữ vững vị thế siêu cường của quốc gia này.",
           },
           {
             content:
-              'Hoa Kỳ là nước phát triển, thành viên của hầu hết các tổ chức quốc tế lớn như Liên Hợp Quốc, NATO và Khối Đồng minh không thuộc NATO, Liên minh Tình báo Toàn cầu, OECD, WTO, các nhóm G7, G20, Câu lạc bộ Paris,... Nền kinh tế Hoa Kỳ lớn nhất thế giới theo GDP thực tế, danh nghĩa[26], xếp thứ hai theo sức mua tương đương.[27] Hoa Kỳ có chỉ số phát triển con người ở nhóm rất cao[28], đứng hạng nhất về tổng giá trị thương hiệu quốc gia[29], hạng nhì trong báo cáo cạnh tranh toàn cầu[30], hạng 17 về chỉ số tự do kinh tế[31], hạng nhất về ngân sách quốc phòng.[32][33] Đô la Mỹ là loại tiền tệ được giao dịch nhiều nhất và Hoa Kỳ có số lượng tỷ phú cùng triệu phú nhiều nhất thế giới.[34][35] Hoa Kỳ đi đầu trong lĩnh vực khám phá vũ trụ[36], là quốc gia đầu tiên đưa con người đặt chân lên Mặt trăng cũng như sở hữu vũ khí hạt nhân.[37] Hoa Kỳ có số lượng công dân và tổ chức đoạt nhiều giải Nobel nhất trong lịch sử.[38][39] Văn hóa Hoa Kỳ có tầm ảnh hưởng trên toàn cầu.',
+              "Hoa Kỳ là nước phát triển, thành viên của hầu hết các tổ chức quốc tế lớn như Liên Hợp Quốc, NATO và Khối Đồng minh không thuộc NATO, Liên minh Tình báo Toàn cầu, OECD, WTO, các nhóm G7, G20, Câu lạc bộ Paris,... Nền kinh tế Hoa Kỳ lớn nhất thế giới theo GDP thực tế, danh nghĩa[26], xếp thứ hai theo sức mua tương đương.[27] Hoa Kỳ có chỉ số phát triển con người ở nhóm rất cao[28], đứng hạng nhất về tổng giá trị thương hiệu quốc gia[29], hạng nhì trong báo cáo cạnh tranh toàn cầu[30], hạng 17 về chỉ số tự do kinh tế[31], hạng nhất về ngân sách quốc phòng.[32][33] Đô la Mỹ là loại tiền tệ được giao dịch nhiều nhất và Hoa Kỳ có số lượng tỷ phú cùng triệu phú nhiều nhất thế giới.[34][35] Hoa Kỳ đi đầu trong lĩnh vực khám phá vũ trụ[36], là quốc gia đầu tiên đưa con người đặt chân lên Mặt trăng cũng như sở hữu vũ khí hạt nhân.[37] Hoa Kỳ có số lượng công dân và tổ chức đoạt nhiều giải Nobel nhất trong lịch sử.[38][39] Văn hóa Hoa Kỳ có tầm ảnh hưởng trên toàn cầu.",
           },
           {
             content:
-              'Dù vậy, Hoa Kỳ cũng phải đối mặt với nhiều thách thức như chênh lệch giàu nghèo, quản lý súng đạn bất hợp phát, bất bình đẳng xã hội như nạn phân biệt chủng tộc vẫn tồn tại, nhập cư bất hợp pháp[41] và chi phí y tế đắt đỏ.',
+              "Dù vậy, Hoa Kỳ cũng phải đối mặt với nhiều thách thức như chênh lệch giàu nghèo, quản lý súng đạn bất hợp phát, bất bình đẳng xã hội như nạn phân biệt chủng tộc vẫn tồn tại, nhập cư bất hợp pháp[41] và chi phí y tế đắt đỏ.",
           },
         ],
       },
@@ -805,27 +799,27 @@ const pages = [
         segment: [
           {
             content:
-              'Vai trò lãnh đạo của Hoa Kỳ và đồng minh của mình trong Chiến tranh Vùng Vịnh được Liên Hợp Quốc ủng hộ dưới quyền của Tổng thống George H. W. Bush, và sau đó là Chiến tranh Nam Tư giúp duy trì vị thế của Hoa Kỳ như siêu cường duy nhất còn lại. Sự phát triển kinh tế dài nhất trong lịch sử Hoa Kỳ từ 3/1991 đến 3/2001 đã bao trùm hết hai nhiệm kỳ của Tổng thống Bill Clinton.',
+              "Vai trò lãnh đạo của Hoa Kỳ và đồng minh của mình trong Chiến tranh Vùng Vịnh được Liên Hợp Quốc ủng hộ dưới quyền của Tổng thống George H. W. Bush, và sau đó là Chiến tranh Nam Tư giúp duy trì vị thế của Hoa Kỳ như siêu cường duy nhất còn lại. Sự phát triển kinh tế dài nhất trong lịch sử Hoa Kỳ từ 3/1991 đến 3/2001 đã bao trùm hết hai nhiệm kỳ của Tổng thống Bill Clinton.",
           },
           {
             content:
-              'Cuộc Bầu cử Tổng thống Hoa Kỳ năm 2000 gây nhiều tranh cãi được Tối cao Pháp viện Hoa Kỳ can thiệp và giải quyết với kết quả là chức tổng thống về tay Thống đốc bang Texas là George W. Bush, con trai của George H. W. Bush. Vào ngày 11 tháng 9 năm 2001, bọn khủng bố dùng máy bay dân sự cướp được đánh vào Trung tâm Thương mại Thế giới tại Thành phố New York và Ngũ Giác Đài gần Washington, D.C., giết chết gần 3000 người. Sau vụ đó, Tổng thống Bush mở cuộc Chiến tranh chống khủng bố dưới triết lý quân sự nhấn mạnh đến chiến tranh phủ đầu mà bây giờ được biết như Học thuyết Bush. Cuối năm 2001, các lực lượng Hoa Kỳ đã lãnh đạo một cuộc tiến công của NATO vào Afghanistan lật đổ Chính phủ Taliban và phá hủy các trại huấn luyện khủng bố của al-Qaeda. Du kích quân Taliban tiếp tục cuộc chiến tranh du kích chống lực lượng do NATO lãnh đạo.',
+              "Cuộc Bầu cử Tổng thống Hoa Kỳ năm 2000 gây nhiều tranh cãi được Tối cao Pháp viện Hoa Kỳ can thiệp và giải quyết với kết quả là chức tổng thống về tay Thống đốc bang Texas là George W. Bush, con trai của George H. W. Bush. Vào ngày 11 tháng 9 năm 2001, bọn khủng bố dùng máy bay dân sự cướp được đánh vào Trung tâm Thương mại Thế giới tại Thành phố New York và Ngũ Giác Đài gần Washington, D.C., giết chết gần 3000 người. Sau vụ đó, Tổng thống Bush mở cuộc Chiến tranh chống khủng bố dưới triết lý quân sự nhấn mạnh đến chiến tranh phủ đầu mà bây giờ được biết như Học thuyết Bush. Cuối năm 2001, các lực lượng Hoa Kỳ đã lãnh đạo một cuộc tiến công của NATO vào Afghanistan lật đổ Chính phủ Taliban và phá hủy các trại huấn luyện khủng bố của al-Qaeda. Du kích quân Taliban tiếp tục cuộc chiến tranh du kích chống lực lượng do NATO lãnh đạo.",
           },
           {
             content:
-              'Năm 2002, Chính phủ Bush bắt đầu gây áp lực cho sự thay đổi chế độ tại Iraq với các lý do gây nhiều tranh cãi. Thiếu sự ủng hộ của NATO, Bush thành lập một Liên minh tự nguyện và Hoa Kỳ xâm chiếm Iraq năm 2003, lật đổ nhà độc tài Saddam Hussein khỏi quyền lực. Mặc dù đối phó với áp lực từ cả bên ngoài[80] và bên trong nước[81] đòi rút quân, Hoa Kỳ vẫn duy trì sự hiện diện quân sự tại Iraq.',
+              "Năm 2002, Chính phủ Bush bắt đầu gây áp lực cho sự thay đổi chế độ tại Iraq với các lý do gây nhiều tranh cãi. Thiếu sự ủng hộ của NATO, Bush thành lập một Liên minh tự nguyện và Hoa Kỳ xâm chiếm Iraq năm 2003, lật đổ nhà độc tài Saddam Hussein khỏi quyền lực. Mặc dù đối phó với áp lực từ cả bên ngoài[80] và bên trong nước[81] đòi rút quân, Hoa Kỳ vẫn duy trì sự hiện diện quân sự tại Iraq.",
           },
           {
             content:
-              'Năm 2005, bão Katrina gây sự tàn phá nặng dọc theo phần lớn Vùng Duyên hải Vịnh của Hoa Kỳ, tàn phá New Orleans. Ngày 4 tháng 11 năm 2008, trong cuộc khủng hoảng kinh kế lớn, Hoa Kỳ đã bầu Barack Obama làm tổng thống. Ông được tuyên thệ nhậm chức và ngày 20 tháng 1 năm 2009, trở thành người Mỹ gốc Phi đầu tiên giữ chức vụ tổng thống Hoa Kỳ. Năm 2011, thủ lĩnh al-Qaeda là Osama Bin Laden đã bị quân đội Mỹ tiêu diệt sau một cuộc phục kích tại Pakistan.[82] Quân đội Mỹ cũng chính thức chấm dứt cuộc chiến tại Iraq trong năm đó. Tuy vậy, ở Iraq những năm sau đó, tình hình hỗn loạn vẫn tiếp tục với sự nổi lên của nhóm khủng bố Hồi giáo cực đoan ISIS hay Nhà nước Hồi giáo Iraq và Levant, thay thế Al-Qaeda trong khu vực. Đến năm 2014, Hoa Kỳ bình thường hóa quan hệ ngoại giao với Cuba.',
+              "Năm 2005, bão Katrina gây sự tàn phá nặng dọc theo phần lớn Vùng Duyên hải Vịnh của Hoa Kỳ, tàn phá New Orleans. Ngày 4 tháng 11 năm 2008, trong cuộc khủng hoảng kinh kế lớn, Hoa Kỳ đã bầu Barack Obama làm tổng thống. Ông được tuyên thệ nhậm chức và ngày 20 tháng 1 năm 2009, trở thành người Mỹ gốc Phi đầu tiên giữ chức vụ tổng thống Hoa Kỳ. Năm 2011, thủ lĩnh al-Qaeda là Osama Bin Laden đã bị quân đội Mỹ tiêu diệt sau một cuộc phục kích tại Pakistan.[82] Quân đội Mỹ cũng chính thức chấm dứt cuộc chiến tại Iraq trong năm đó. Tuy vậy, ở Iraq những năm sau đó, tình hình hỗn loạn vẫn tiếp tục với sự nổi lên của nhóm khủng bố Hồi giáo cực đoan ISIS hay Nhà nước Hồi giáo Iraq và Levant, thay thế Al-Qaeda trong khu vực. Đến năm 2014, Hoa Kỳ bình thường hóa quan hệ ngoại giao với Cuba.",
           },
           {
             content:
-              'Cuộc bầu cử tổng thống vào cuối năm 2016 đem đến thắng lợi cho ứng viên Đảng Cộng hòa Donald Trump trước ứng viên nữ của Đảng Dân chủ là bà Hillary Clinton. Đây là một cuộc bầu cử Tổng thống đặc biệt. Người chiến thắng, ông Donald Trump, là vị Tổng thống Tân cử có tuổi đời cao nhất trong lịch sử, là vị Tổng thống Tân cử chưa từng đảm nhận các chức vụ chính trị chính thống nào trước đó, là vị Tổng thống Tân cử thu được số phiếu phổ thông cao thứ hai. Trong khi đó, bà Hillary Clinton là người phụ nữ đầu tiên trở thành ứng cử viên Tổng thống đại diện cho một trong hai đảng lớn nhất trong hệ thống chính trị, là ứng cử viên Tổng thống nữ có số phiếu đại cử tri cao nhất trong một cuộc bầu cử, là ứng cử viên Tổng thống nữ có số phiếu phổ thông cao nhất thu được trong một cuộc bầu cử, và là ứng cử viên Tổng thống thất cử nhưng thu được nhiều phiếu phổ thông nhất trong một cuộc bầu cử. Đã có những cáo buộc về sự can thiệp của Liên Bang Nga làm thay đổi kết quả cuộc bầu cử này[83]. Mặc cho các cáo buộc và hàng loạt các cuộc biểu tình phản đối, vào ngày 20 tháng 1 năm 2017, Donald Trump nhậm chức trở thành Tổng thống thứ 45 của Hoa Kỳ. Vào ngày 20 tháng 1 năm 2020, ca nhiễm COVID-19 đầu tiên ở Hoa Kỳ đã được xác nhận.[84] Tính đến ngày 7 tháng 3 năm 2021, Hoa Kỳ có gần 29 triệu ca nhiễm COVID-19 và hơn 520.000 ca tử vong.[85] Cho đến nay, Hoa Kỳ là quốc gia có nhiều người nhiễm COVID-19 được xác nhận nhất kể từ ngày 11 tháng 4 năm 2020.',
+              "Cuộc bầu cử tổng thống vào cuối năm 2016 đem đến thắng lợi cho ứng viên Đảng Cộng hòa Donald Trump trước ứng viên nữ của Đảng Dân chủ là bà Hillary Clinton. Đây là một cuộc bầu cử Tổng thống đặc biệt. Người chiến thắng, ông Donald Trump, là vị Tổng thống Tân cử có tuổi đời cao nhất trong lịch sử, là vị Tổng thống Tân cử chưa từng đảm nhận các chức vụ chính trị chính thống nào trước đó, là vị Tổng thống Tân cử thu được số phiếu phổ thông cao thứ hai. Trong khi đó, bà Hillary Clinton là người phụ nữ đầu tiên trở thành ứng cử viên Tổng thống đại diện cho một trong hai đảng lớn nhất trong hệ thống chính trị, là ứng cử viên Tổng thống nữ có số phiếu đại cử tri cao nhất trong một cuộc bầu cử, là ứng cử viên Tổng thống nữ có số phiếu phổ thông cao nhất thu được trong một cuộc bầu cử, và là ứng cử viên Tổng thống thất cử nhưng thu được nhiều phiếu phổ thông nhất trong một cuộc bầu cử. Đã có những cáo buộc về sự can thiệp của Liên Bang Nga làm thay đổi kết quả cuộc bầu cử này[83]. Mặc cho các cáo buộc và hàng loạt các cuộc biểu tình phản đối, vào ngày 20 tháng 1 năm 2017, Donald Trump nhậm chức trở thành Tổng thống thứ 45 của Hoa Kỳ. Vào ngày 20 tháng 1 năm 2020, ca nhiễm COVID-19 đầu tiên ở Hoa Kỳ đã được xác nhận.[84] Tính đến ngày 7 tháng 3 năm 2021, Hoa Kỳ có gần 29 triệu ca nhiễm COVID-19 và hơn 520.000 ca tử vong.[85] Cho đến nay, Hoa Kỳ là quốc gia có nhiều người nhiễm COVID-19 được xác nhận nhất kể từ ngày 11 tháng 4 năm 2020.",
           },
           {
             content:
-              'Cuộc bầu cử tổng thống vào cuối năm 2020 khiến Donald Trump thất cử và ứng viên Đảng Dân chủ Joe Biden đã chiến thắng.[87] Những người ủng hộ Donald Trump cho rằng cuộc bầu cử đã xảy ra gian lận, họ tiến hành Bạo loạn tại Điện Capitol Hoa Kỳ 2021. Lần đầu tiên kể từ năm 1814, tòa nhà Quốc hội Mỹ bị tấn công và cướp phá.',
+              "Cuộc bầu cử tổng thống vào cuối năm 2020 khiến Donald Trump thất cử và ứng viên Đảng Dân chủ Joe Biden đã chiến thắng.[87] Những người ủng hộ Donald Trump cho rằng cuộc bầu cử đã xảy ra gian lận, họ tiến hành Bạo loạn tại Điện Capitol Hoa Kỳ 2021. Lần đầu tiên kể từ năm 1814, tòa nhà Quốc hội Mỹ bị tấn công và cướp phá.",
           },
         ],
       },
@@ -850,16 +844,13 @@ const pages = [
         id: 4,
         segment: [
           {
-            content:
-              `Hoa Kỳ là nhà nước cộng hòa liên bang tồn tại lâu đời nhất trên thế giới. Quốc gia này là một cộng hòa lập hiến mà "trong đó khối đa số cầm quyền bị kiềm chế bởi quyền của khối thiểu số được luật pháp bảo vệ."[100] Trên cơ bản, Hoa Kỳ có cơ cấu giống như một nền Dân chủ đại nghị mặc dù các công dân Hoa Kỳ sinh sống tại các lãnh thổ không được tham gia bầu trực tiếp các viên chức liên bang.[101]. Tổng thống, Quốc hội và Toà án cùng nắm giữ và chia sẻ quyền lực của chính quyền liên bang (tam quyền phân lập) theo Hiến pháp. Trong khi đó, chính phủ liên bang lại chia sẻ quyền lực với chính quyền của từng tiểu bang. Chủ nghĩa liên bang tại Hoa Kỳ khuyến khích các bang đoàn kết với nhau và ủng hộ các quyết định, các luật lệ do chính quyền trung ương ban hành, tuy nhiên vẫn tồn tại xu hướng ly tâm khi các bang cố gắng bảo vệ các quyền hạn và lợi ích riêng của mình. Một mặt các bang phải tuân thủ những quyết định của chính quyền trung ương, mặt khác chúng lại muốn bảo vệ quyền tự trị đã được Hiến pháp bảo đảm. Điều này ngày càng khó khăn khi các bang phải phụ thuộc chính quyền trung ương về mặt tài chính.`,
+            content: `Hoa Kỳ là nhà nước cộng hòa liên bang tồn tại lâu đời nhất trên thế giới. Quốc gia này là một cộng hòa lập hiến mà "trong đó khối đa số cầm quyền bị kiềm chế bởi quyền của khối thiểu số được luật pháp bảo vệ."[100] Trên cơ bản, Hoa Kỳ có cơ cấu giống như một nền Dân chủ đại nghị mặc dù các công dân Hoa Kỳ sinh sống tại các lãnh thổ không được tham gia bầu trực tiếp các viên chức liên bang.[101]. Tổng thống, Quốc hội và Toà án cùng nắm giữ và chia sẻ quyền lực của chính quyền liên bang (tam quyền phân lập) theo Hiến pháp. Trong khi đó, chính phủ liên bang lại chia sẻ quyền lực với chính quyền của từng tiểu bang. Chủ nghĩa liên bang tại Hoa Kỳ khuyến khích các bang đoàn kết với nhau và ủng hộ các quyết định, các luật lệ do chính quyền trung ương ban hành, tuy nhiên vẫn tồn tại xu hướng ly tâm khi các bang cố gắng bảo vệ các quyền hạn và lợi ích riêng của mình. Một mặt các bang phải tuân thủ những quyết định của chính quyền trung ương, mặt khác chúng lại muốn bảo vệ quyền tự trị đã được Hiến pháp bảo đảm. Điều này ngày càng khó khăn khi các bang phải phụ thuộc chính quyền trung ương về mặt tài chính.`,
           },
           {
-            content:
-              `Chính phủ luôn bị chỉnh lý bởi một hệ thống kiểm tra và cân bằng do Hiến pháp Hoa Kỳ định nghĩa. Hiến pháp Hoa Kỳ là tài liệu pháp lý tối cao của quốc gia và đóng vai trò như một bản khế ước xã hội đối với nhân dân Hoa Kỳ. Các nhà soạn thảo Hiến pháp Hoa Kỳ quy định Hiến pháp là "bộ luật tối cao của đất nước". Các tòa án đã cho rằng câu này có nghĩa là khi có các bộ luật được các bang (kể cả hiến pháp từng bang) hay Quốc hội đưa ra mà mâu thuẫn với hiến pháp liên bang, những luật đó không có hiệu lực. Các quyết định của Tòa án Tối cao trong hai thể kỷ qua đã củng cố cách nhìn này. Hiến pháp đặt quyền người dân trên hết. Quyền hạn của chính phủ được người dân ủy nhiệm. Vì thế, hiến pháp đưa ra nhiều hạn chế quyền hạn của các viên chức này. Các đại biểu chỉ được tiếp tục phục vụ nếu họ được tái bầu cử trong các cuộc bầu cử có định kỳ. Các viên chức bổ nhiệm chỉ phục vụ khi người bổ nhiệm cho phép. Một ngoại trừ của điều này là các thẩm phán của Tòa án Tối cao, được tổng thống bổ nhiệm trọn đời, để tránh các ảnh hưởng chính trị. Hiến pháp còn cho phép người dân thay đổi nó qua các tu chính án.`,
+            content: `Chính phủ luôn bị chỉnh lý bởi một hệ thống kiểm tra và cân bằng do Hiến pháp Hoa Kỳ định nghĩa. Hiến pháp Hoa Kỳ là tài liệu pháp lý tối cao của quốc gia và đóng vai trò như một bản khế ước xã hội đối với nhân dân Hoa Kỳ. Các nhà soạn thảo Hiến pháp Hoa Kỳ quy định Hiến pháp là "bộ luật tối cao của đất nước". Các tòa án đã cho rằng câu này có nghĩa là khi có các bộ luật được các bang (kể cả hiến pháp từng bang) hay Quốc hội đưa ra mà mâu thuẫn với hiến pháp liên bang, những luật đó không có hiệu lực. Các quyết định của Tòa án Tối cao trong hai thể kỷ qua đã củng cố cách nhìn này. Hiến pháp đặt quyền người dân trên hết. Quyền hạn của chính phủ được người dân ủy nhiệm. Vì thế, hiến pháp đưa ra nhiều hạn chế quyền hạn của các viên chức này. Các đại biểu chỉ được tiếp tục phục vụ nếu họ được tái bầu cử trong các cuộc bầu cử có định kỳ. Các viên chức bổ nhiệm chỉ phục vụ khi người bổ nhiệm cho phép. Một ngoại trừ của điều này là các thẩm phán của Tòa án Tối cao, được tổng thống bổ nhiệm trọn đời, để tránh các ảnh hưởng chính trị. Hiến pháp còn cho phép người dân thay đổi nó qua các tu chính án.`,
           },
           {
-            content:
-              `Trong hệ thống liên bang của Hoa Kỳ, công dân Hoa Kỳ có ba cấp bậc chính quyền, đó là liên bang, tiểu bang, và địa phương. Nhiệm vụ của chính quyền địa phương thông thường được phân chia giữa chính quyền quận và chính quyền khu tự quản (thành phố). Trong đa số trường hợp, các viên chức hành pháp và lập pháp được bầu lên theo thể thức công dân bầu ra duy nhất một ứng viên trong từng khu vực bầu cử. Không có đại biểu theo tỷ lệ ở cấp bậc liên bang, và rất hiếm khi có ở cấp bậc thấp hơn. Các viên chức nội các và toà án của liên bang và tiểu bang thường được ngành hành pháp đề cử và phải được ngành lập pháp chấp thuận. Tuổi bầu cử là 18 và việc đăng ký cử tri là trách nhiệm cá nhân; không có luật bắt buộc phải tham gia bầu cử.`,
+            content: `Trong hệ thống liên bang của Hoa Kỳ, công dân Hoa Kỳ có ba cấp bậc chính quyền, đó là liên bang, tiểu bang, và địa phương. Nhiệm vụ của chính quyền địa phương thông thường được phân chia giữa chính quyền quận và chính quyền khu tự quản (thành phố). Trong đa số trường hợp, các viên chức hành pháp và lập pháp được bầu lên theo thể thức công dân bầu ra duy nhất một ứng viên trong từng khu vực bầu cử. Không có đại biểu theo tỷ lệ ở cấp bậc liên bang, và rất hiếm khi có ở cấp bậc thấp hơn. Các viên chức nội các và toà án của liên bang và tiểu bang thường được ngành hành pháp đề cử và phải được ngành lập pháp chấp thuận. Tuổi bầu cử là 18 và việc đăng ký cử tri là trách nhiệm cá nhân; không có luật bắt buộc phải tham gia bầu cử.`,
           },
         ],
       },
@@ -992,7 +983,6 @@ const pages = [
         href: "#Culture",
         title: "Văn hóa",
       },
-
     ],
     paragraph: [
       {
@@ -1000,7 +990,7 @@ const pages = [
         segment: [
           {
             content:
-              'Việt Nam, quốc hiệu là Cộng hòa xã hội chủ nghĩa Việt Nam,[12] là một quốc gia nằm ở cực Đông của bán đảo Đông Dương thuộc khu vực Đông Nam Á, giáp với Lào, Campuchia, Trung Quốc, biển Đông và vịnh Thái Lan.',
+              "Việt Nam, quốc hiệu là Cộng hòa xã hội chủ nghĩa Việt Nam,[12] là một quốc gia nằm ở cực Đông của bán đảo Đông Dương thuộc khu vực Đông Nam Á, giáp với Lào, Campuchia, Trung Quốc, biển Đông và vịnh Thái Lan.",
           },
           {
             content:
@@ -1008,11 +998,12 @@ const pages = [
           },
           {
             content:
-              'Đến thời kỳ cận đại, Việt Nam lần lượt trải qua các giai đoạn Pháp thuộc và Nhật thuộc. Sau khi đánh bại và buộc Nhật Bản đầu hàng, Đồng Minh tạo điều kiện cho Pháp thu hồi Liên bang Đông Dương. Kết thúc Thế chiến II, Việt Nam chịu sự can thiệp trên danh nghĩa giải giáp quân đội Nhật của các nước Đồng Minh bao gồm Anh, Pháp (miền Nam), Trung Hoa Dân Quốc (miền Bắc). Nhà nước Việt Nam Dân chủ Cộng hòa do Mặt trận Việt Minh lãnh đạo ra đời khi Hồ Chí Minh tuyên bố độc lập vào ngày 2 tháng 9 năm 1945 sau thành công của Cách mạng Tháng Tám và chiến thắng Liên hiệp Pháp cùng Quốc gia Việt Nam do Pháp hậu thuẫn trong chiến tranh Đông Dương lần thứ nhất. Sự kiện này dẫn tới việc Hiệp định Genève (1954) được ký kết và Việt Nam bị chia cắt thành hai vùng tập kết quân sự, lấy ranh giới là vĩ tuyến 17. Việt Nam Dân chủ Cộng hoà kiểm soát phần phía bắc còn phía nam do Việt Nam Cộng hoà (nhà nước kế tục Quốc gia Việt Nam) kiểm soát và được Hoa Kỳ ủng hộ. Xung đột về vấn đề thống nhất lãnh thổ đã dẫn tới chiến tranh Việt Nam với sự can thiệp của nhiều nước và kết thúc với chiến thắng của Việt Nam Dân chủ Cộng hòa, Mặt trận Dân tộc Giải phóng miền Nam Việt Nam cùng sự sụp đổ của Việt Nam Cộng hoà vào năm 1975. Chủ quyền phần phía Nam được chính quyền Cộng hoà miền Nam Việt Nam (do Mặt trận Dân tộc Giải phóng miền Nam Việt Nam thành lập) giành quyền kiểm soát. Năm 1976, Việt Nam Dân chủ Cộng hòa và Cộng hoà miền Nam Việt Nam thống nhất thành Cộng hòa xã hội chủ nghĩa Việt Nam.',
+              "Đến thời kỳ cận đại, Việt Nam lần lượt trải qua các giai đoạn Pháp thuộc và Nhật thuộc. Sau khi đánh bại và buộc Nhật Bản đầu hàng, Đồng Minh tạo điều kiện cho Pháp thu hồi Liên bang Đông Dương. Kết thúc Thế chiến II, Việt Nam chịu sự can thiệp trên danh nghĩa giải giáp quân đội Nhật của các nước Đồng Minh bao gồm Anh, Pháp (miền Nam), Trung Hoa Dân Quốc (miền Bắc). Nhà nước Việt Nam Dân chủ Cộng hòa do Mặt trận Việt Minh lãnh đạo ra đời khi Hồ Chí Minh tuyên bố độc lập vào ngày 2 tháng 9 năm 1945 sau thành công của Cách mạng Tháng Tám và chiến thắng Liên hiệp Pháp cùng Quốc gia Việt Nam do Pháp hậu thuẫn trong chiến tranh Đông Dương lần thứ nhất. Sự kiện này dẫn tới việc Hiệp định Genève (1954) được ký kết và Việt Nam bị chia cắt thành hai vùng tập kết quân sự, lấy ranh giới là vĩ tuyến 17. Việt Nam Dân chủ Cộng hoà kiểm soát phần phía bắc còn phía nam do Việt Nam Cộng hoà (nhà nước kế tục Quốc gia Việt Nam) kiểm soát và được Hoa Kỳ ủng hộ. Xung đột về vấn đề thống nhất lãnh thổ đã dẫn tới chiến tranh Việt Nam với sự can thiệp của nhiều nước và kết thúc với chiến thắng của Việt Nam Dân chủ Cộng hòa, Mặt trận Dân tộc Giải phóng miền Nam Việt Nam cùng sự sụp đổ của Việt Nam Cộng hoà vào năm 1975. Chủ quyền phần phía Nam được chính quyền Cộng hoà miền Nam Việt Nam (do Mặt trận Dân tộc Giải phóng miền Nam Việt Nam thành lập) giành quyền kiểm soát. Năm 1976, Việt Nam Dân chủ Cộng hòa và Cộng hoà miền Nam Việt Nam thống nhất thành Cộng hòa xã hội chủ nghĩa Việt Nam.",
           },
           {
-            content:'Sau khi thống nhất, Việt Nam tiếp tục gặp khó khăn do sự sụp đổ và tan rã của đồng minh Liên Xô cùng Khối phía Đông, các lệnh cấm vận của Hoa Kỳ,[13] chiến tranh Đông Dương lần thứ ba và hậu quả của chính sách bao cấp sau nhiều năm áp dụng. Năm 1986, Đảng Cộng sản ban hành cải cách đổi mới, tạo điều kiện hình thành kinh tế thị trường và hội nhập sâu rộng. Cải cách đổi mới kết hợp cùng quy mô dân số lớn đưa Việt Nam trở thành một trong những nước đang phát triển có tốc độ tăng trưởng thuộc nhóm nhanh nhất thế giới, được coi là Hổ mới châu Á dù cho vẫn gặp phải những thách thức như tham nhũng,[14] tội phạm gia tăng,[15] ô nhiễm môi trường[16] và phúc lợi xã hội chưa đầy đủ.[17] Ngoài ra, giới bất đồng chính kiến, chính phủ một số nước phương Tây và các tổ chức theo dõi nhân quyền có quan điểm chỉ trích hồ sơ nhân quyền của Việt Nam liên quan đến các vấn đề tôn giáo, kiểm duyệt truyền thông, hạn chế hoạt động ủng hộ nhân quyền cùng các quyền tự do dân sự.'
-          }
+            content:
+              "Sau khi thống nhất, Việt Nam tiếp tục gặp khó khăn do sự sụp đổ và tan rã của đồng minh Liên Xô cùng Khối phía Đông, các lệnh cấm vận của Hoa Kỳ,[13] chiến tranh Đông Dương lần thứ ba và hậu quả của chính sách bao cấp sau nhiều năm áp dụng. Năm 1986, Đảng Cộng sản ban hành cải cách đổi mới, tạo điều kiện hình thành kinh tế thị trường và hội nhập sâu rộng. Cải cách đổi mới kết hợp cùng quy mô dân số lớn đưa Việt Nam trở thành một trong những nước đang phát triển có tốc độ tăng trưởng thuộc nhóm nhanh nhất thế giới, được coi là Hổ mới châu Á dù cho vẫn gặp phải những thách thức như tham nhũng,[14] tội phạm gia tăng,[15] ô nhiễm môi trường[16] và phúc lợi xã hội chưa đầy đủ.[17] Ngoài ra, giới bất đồng chính kiến, chính phủ một số nước phương Tây và các tổ chức theo dõi nhân quyền có quan điểm chỉ trích hồ sơ nhân quyền của Việt Nam liên quan đến các vấn đề tôn giáo, kiểm duyệt truyền thông, hạn chế hoạt động ủng hộ nhân quyền cùng các quyền tự do dân sự.",
+          },
         ],
       },
       {
@@ -1020,15 +1011,15 @@ const pages = [
         segment: [
           {
             content:
-              'Các nhà khảo cổ học tìm thấy những dấu vết của người đứng thẳng thời đồ đá cũ trên lãnh thổ Việt Nam cách đây khoảng 500.000 năm; các công cụ thô sơ bằng đá và các dấu răng của người tiền sử được phát hiện tại các tỉnh Lạng Sơn, Thanh Hóa, Yên Bái, Ninh Bình và Quảng Bình.[39] Ngoài ra, tại các vùng phía Bắc, con người sinh sống trong các hang động đá vôi và sống bằng các hoạt động săn thú, hái lượm. Trong khi đó, tại các vùng duyên hải miền Trung như Nghệ An, con người chủ yếu sống bằng đánh cá',
+              "Các nhà khảo cổ học tìm thấy những dấu vết của người đứng thẳng thời đồ đá cũ trên lãnh thổ Việt Nam cách đây khoảng 500.000 năm; các công cụ thô sơ bằng đá và các dấu răng của người tiền sử được phát hiện tại các tỉnh Lạng Sơn, Thanh Hóa, Yên Bái, Ninh Bình và Quảng Bình.[39] Ngoài ra, tại các vùng phía Bắc, con người sinh sống trong các hang động đá vôi và sống bằng các hoạt động săn thú, hái lượm. Trong khi đó, tại các vùng duyên hải miền Trung như Nghệ An, con người chủ yếu sống bằng đánh cá",
           },
           {
             content:
-              'Đến thời đại đồ đá mới cách đây 5000 đến 6000 năm, người Việt cổ bắt đầu biết canh tác lúa nước; loạt dấu vết trồng lúa có từ cao nguyên tới đồng bằng.[39] Ngoài ra, con người bắt đầu biết chế tác công cụ theo kiểu khác và làm đồ gốm với kỹ thuật khác.[39] Đến khoảng thiên niên kỷ I TCN vào cuối thời kỳ đồ đồng, khu vực lúa nước ở sông Hồng và sông Cả phát triển thành nền văn hóa Đông Sơn[40] rồi cùng thời gian đó, những nhà nước đầu tiên lần lượt xuất hiện đó là Văn Lang và Âu Lạc.',
+              "Đến thời đại đồ đá mới cách đây 5000 đến 6000 năm, người Việt cổ bắt đầu biết canh tác lúa nước; loạt dấu vết trồng lúa có từ cao nguyên tới đồng bằng.[39] Ngoài ra, con người bắt đầu biết chế tác công cụ theo kiểu khác và làm đồ gốm với kỹ thuật khác.[39] Đến khoảng thiên niên kỷ I TCN vào cuối thời kỳ đồ đồng, khu vực lúa nước ở sông Hồng và sông Cả phát triển thành nền văn hóa Đông Sơn[40] rồi cùng thời gian đó, những nhà nước đầu tiên lần lượt xuất hiện đó là Văn Lang và Âu Lạc.",
           },
           {
             content:
-              'Từ thế kỷ II TCN, các triều đại phong kiến từ phương Bắc cai trị một phần Việt Nam hơn 1000 năm.[42] Sự cai trị này bị ngắt quãng bởi những cuộc khởi nghĩa của những tướng lĩnh như Bà Triệu, Mai Thúc Loan, Hai Bà Trưng hay Lý Bí. Năm 905, Khúc Thừa Dụ giành quyền tự chủ, không phải là độc lập vì Dụ tự nhận mình là quan triều đình phương Bắc.[43] Đến năm 938, sau khi chỉ huy trận sông Bạch Đằng đánh bại quân Nam Hán,[44] Ngô Quyền lập triều xưng vương, đánh dấu một nhà nước độc lập khỏi các triều đình phương Bắc vào năm 939.',
+              "Từ thế kỷ II TCN, các triều đại phong kiến từ phương Bắc cai trị một phần Việt Nam hơn 1000 năm.[42] Sự cai trị này bị ngắt quãng bởi những cuộc khởi nghĩa của những tướng lĩnh như Bà Triệu, Mai Thúc Loan, Hai Bà Trưng hay Lý Bí. Năm 905, Khúc Thừa Dụ giành quyền tự chủ, không phải là độc lập vì Dụ tự nhận mình là quan triều đình phương Bắc.[43] Đến năm 938, sau khi chỉ huy trận sông Bạch Đằng đánh bại quân Nam Hán,[44] Ngô Quyền lập triều xưng vương, đánh dấu một nhà nước độc lập khỏi các triều đình phương Bắc vào năm 939.",
           },
           {
             content:
@@ -1036,25 +1027,24 @@ const pages = [
           },
           {
             content:
-              'Vào đầu thế kỷ XVI, Nhà Lê sơ bị Nhà Mạc cướp ngôi nên một bộ phận quan lại trung thành đã lập người khác trong dòng dõi vua Lê lên làm vua, tái lập Nhà Lê. Nhà Lê trung hưng sau 60 năm giao tranh đã chiến thắng, diệt Nhà Mạc. Vua Lê khi đó là bù nhìn, hai tập đoàn phong kiến Chúa Trịnh và Chúa Nguyễn tranh chấp nhau, gây chiến tranh kéo dài hơn 100 năm, chia cắt Đại Việt thành đàng Ngoài và đàng Trong trong 200 năm. Cuối thế kỷ XVIII, tướng khởi nghĩa Nguyễn Huệ trong 15 năm đã đánh bại cả Chúa Trịnh và Chúa Nguyễn cùng các cuộc xâm chiếm của Xiêm và Thanh để lập Nhà Tây Sơn. Nguyễn Huệ mất, với người kế vị Cảnh Thịnh, nhà Tây Sơn bị Nguyễn Ánh – một thành viên dòng họ Chúa Nguyễn cùng với viện trợ từ Pháp và Xiêm lật đổ, lập Nhà Nguyễn, triều đại cuối cùng ở Việt Nam.[46] Thời phong kiến, các triều Lý, Trần, Hậu Lê và chúa Nguyễn thu phục Chiêm Thành, Chân Lạp và Tây Nguyên ở phía Nam.',
+              "Vào đầu thế kỷ XVI, Nhà Lê sơ bị Nhà Mạc cướp ngôi nên một bộ phận quan lại trung thành đã lập người khác trong dòng dõi vua Lê lên làm vua, tái lập Nhà Lê. Nhà Lê trung hưng sau 60 năm giao tranh đã chiến thắng, diệt Nhà Mạc. Vua Lê khi đó là bù nhìn, hai tập đoàn phong kiến Chúa Trịnh và Chúa Nguyễn tranh chấp nhau, gây chiến tranh kéo dài hơn 100 năm, chia cắt Đại Việt thành đàng Ngoài và đàng Trong trong 200 năm. Cuối thế kỷ XVIII, tướng khởi nghĩa Nguyễn Huệ trong 15 năm đã đánh bại cả Chúa Trịnh và Chúa Nguyễn cùng các cuộc xâm chiếm của Xiêm và Thanh để lập Nhà Tây Sơn. Nguyễn Huệ mất, với người kế vị Cảnh Thịnh, nhà Tây Sơn bị Nguyễn Ánh – một thành viên dòng họ Chúa Nguyễn cùng với viện trợ từ Pháp và Xiêm lật đổ, lập Nhà Nguyễn, triều đại cuối cùng ở Việt Nam.[46] Thời phong kiến, các triều Lý, Trần, Hậu Lê và chúa Nguyễn thu phục Chiêm Thành, Chân Lạp và Tây Nguyên ở phía Nam.",
           },
           {
             content:
-              'Phương Tây tiếp cận Việt Nam từ thế kỷ XVI. Vào thế kỷ XVII, Đàng Trong và Đàng Ngoài trao đổi thương mại trước hết với Bồ Đào Nha và Hà Lan,[48] sau thêm Anh và Pháp. Các tu sĩ Dòng Tên do Bồ Đào Nha bảo trợ[49] đến truyền bá Công giáo từ năm 1615 rồi Hội Thừa sai Paris và Dòng Đa Minh tiếp nối. Công giáo tại Việt Nam phát triển trong 2 thế kỷ tiên khởi XVII và XVIII.[50] Từ thời Gia Long, Nhà Nguyễn bế quan tỏa cảng, cấm ngoại thương, không tiếp xúc công nghệ tiên tiến. Nửa sau thế kỷ 19, Pháp xâm lược bán đảo Đông Dương, thâu tóm nhà Nguyễn và thành lập Liên bang Đông Dương năm 1887. Thời Pháp thuộc, văn hóa, khoa học, kỹ thuật phương Tây được tăng cường truyền bá.',
+              "Phương Tây tiếp cận Việt Nam từ thế kỷ XVI. Vào thế kỷ XVII, Đàng Trong và Đàng Ngoài trao đổi thương mại trước hết với Bồ Đào Nha và Hà Lan,[48] sau thêm Anh và Pháp. Các tu sĩ Dòng Tên do Bồ Đào Nha bảo trợ[49] đến truyền bá Công giáo từ năm 1615 rồi Hội Thừa sai Paris và Dòng Đa Minh tiếp nối. Công giáo tại Việt Nam phát triển trong 2 thế kỷ tiên khởi XVII và XVIII.[50] Từ thời Gia Long, Nhà Nguyễn bế quan tỏa cảng, cấm ngoại thương, không tiếp xúc công nghệ tiên tiến. Nửa sau thế kỷ 19, Pháp xâm lược bán đảo Đông Dương, thâu tóm nhà Nguyễn và thành lập Liên bang Đông Dương năm 1887. Thời Pháp thuộc, văn hóa, khoa học, kỹ thuật phương Tây được tăng cường truyền bá.",
           },
           {
             content:
-              'Thế chiến thứ 2, Nhật đảo chính Pháp ở Đông Dương, dựng nên Đế quốc Việt Nam, chính thể không thực quyền phải nộp thuế và cung ứng Nhật tài nguyên có lúa gạo, góp phần gây nạn đói Ất Dậu. Sau khi Nhật đầu hàng Đồng Minh, Hồ Chí Minh lãnh đạo Việt Minh giành chính quyền, đọc Tuyên ngôn Độc lập thành lập Việt Nam Dân chủ Cộng hòa ngày 2 tháng 9 năm 1945.[52] Pháp tính lấy lại Đông Dương, nhưng vấp phải sự phản kháng của Việt Nam Dân chủ Cộng hòa nên đã buộc phải hậu thuẫn lập Quốc gia Việt Nam do Bảo Đại, cựu hoàng đế Nhà Nguyễn làm Quốc trưởng.',
+              "Thế chiến thứ 2, Nhật đảo chính Pháp ở Đông Dương, dựng nên Đế quốc Việt Nam, chính thể không thực quyền phải nộp thuế và cung ứng Nhật tài nguyên có lúa gạo, góp phần gây nạn đói Ất Dậu. Sau khi Nhật đầu hàng Đồng Minh, Hồ Chí Minh lãnh đạo Việt Minh giành chính quyền, đọc Tuyên ngôn Độc lập thành lập Việt Nam Dân chủ Cộng hòa ngày 2 tháng 9 năm 1945.[52] Pháp tính lấy lại Đông Dương, nhưng vấp phải sự phản kháng của Việt Nam Dân chủ Cộng hòa nên đã buộc phải hậu thuẫn lập Quốc gia Việt Nam do Bảo Đại, cựu hoàng đế Nhà Nguyễn làm Quốc trưởng.",
           },
           {
             content:
-              'Năm 1954, Chiến tranh Đông Dương kết thúc, Pháp phải công nhận sự độc lập của Việt Nam và rút quân, xuất hiện 2 vùng tập kết quân sự chờ cuộc bầu cử thống nhất đất nước[54] nhưng không thành do Hoa Kỳ hậu thuẫn cho Việt Nam Cộng hòa (chính phủ kế thừa Quốc gia Việt Nam) từ chối tổ chức bầu cử.[55] Nhà nước xã hội chủ nghĩa Việt Nam Dân chủ Cộng hòa hậu thuẫn các lực lượng miền Nam nổi dậy chống Chính phủ Việt Nam Cộng hòa, gây ra xung đột quân sự mà tiếp theo đó là sự tham chiến của quân đội Hoa Kỳ và đồng minh.[56] Chiến tranh kết thúc vào ngày 30 tháng 4 năm 1975 khi Tổng thống Việt Nam Cộng hòa tuyên bố đầu hàng.',
+              "Năm 1954, Chiến tranh Đông Dương kết thúc, Pháp phải công nhận sự độc lập của Việt Nam và rút quân, xuất hiện 2 vùng tập kết quân sự chờ cuộc bầu cử thống nhất đất nước[54] nhưng không thành do Hoa Kỳ hậu thuẫn cho Việt Nam Cộng hòa (chính phủ kế thừa Quốc gia Việt Nam) từ chối tổ chức bầu cử.[55] Nhà nước xã hội chủ nghĩa Việt Nam Dân chủ Cộng hòa hậu thuẫn các lực lượng miền Nam nổi dậy chống Chính phủ Việt Nam Cộng hòa, gây ra xung đột quân sự mà tiếp theo đó là sự tham chiến của quân đội Hoa Kỳ và đồng minh.[56] Chiến tranh kết thúc vào ngày 30 tháng 4 năm 1975 khi Tổng thống Việt Nam Cộng hòa tuyên bố đầu hàng.",
           },
           {
             content:
-              'Năm 1976, Cộng hòa Miền Nam Việt Nam và Việt Nam Dân chủ Cộng hòa tổ chức tuyển cử hợp nhất. Do hậu quả chiến tranh, rồi chiến tranh biên giới phía Bắc, chiến tranh biên giới Tây Nam, chính sách bao cấp và bị Hoa Kỳ cấm vận, nước Việt Nam thời hậu chiến phải đối mặt với các vấn đề nghiêm trọng trong lĩnh vực kinh tế-xã hội.[58] Năm 1986, Đại hội Đảng lần VI chấp thuận Đổi mới, cải tổ nhà nước và chuyển nền kinh tế theo hướng mới.[59] Việt Nam bình thường hóa quan hệ với Hoa Kỳ năm 1995 và gia nhập ASEAN vào cùng năm. Năm 2007, Việt Nam gia nhập tổ chức kinh tế thế giới WTO.',
+              "Năm 1976, Cộng hòa Miền Nam Việt Nam và Việt Nam Dân chủ Cộng hòa tổ chức tuyển cử hợp nhất. Do hậu quả chiến tranh, rồi chiến tranh biên giới phía Bắc, chiến tranh biên giới Tây Nam, chính sách bao cấp và bị Hoa Kỳ cấm vận, nước Việt Nam thời hậu chiến phải đối mặt với các vấn đề nghiêm trọng trong lĩnh vực kinh tế-xã hội.[58] Năm 1986, Đại hội Đảng lần VI chấp thuận Đổi mới, cải tổ nhà nước và chuyển nền kinh tế theo hướng mới.[59] Việt Nam bình thường hóa quan hệ với Hoa Kỳ năm 1995 và gia nhập ASEAN vào cùng năm. Năm 2007, Việt Nam gia nhập tổ chức kinh tế thế giới WTO.",
           },
-
         ],
       },
       {
@@ -1090,8 +1080,7 @@ const pages = [
               "Việt Nam theo chế độ xã hội chủ nghĩa với cơ chế có duy nhất một đảng chính trị lãnh đạo là Đảng Cộng sản Việt Nam. Vào năm 2016, các đại biểu là Đảng viên trong Quốc hội có tỉ lệ là 95,8%,[60] những người đứng đầu Chính phủ, các Bộ và Quốc hội cũng như các cơ quan tư pháp đều là Đảng viên và do Ban Chấp hành Trung ương hoặc Bộ Chính trị đề cử.",
           },
           {
-            content:
-              `Đảng Cộng sản Việt Nam, đứng đầu bởi Tổng Bí thư, là Đảng duy nhất lãnh đạo trên chính trường Việt Nam, cam kết với các nguyên tắc của Lênin "tập trung dân chủ" và không cho phép đa đảng.[61] Thường trực Ban Bí thư, có nhiệm vụ phụ trách, chủ trì công việc hàng ngày của Ban Bí thư.`,
+            content: `Đảng Cộng sản Việt Nam, đứng đầu bởi Tổng Bí thư, là Đảng duy nhất lãnh đạo trên chính trường Việt Nam, cam kết với các nguyên tắc của Lênin "tập trung dân chủ" và không cho phép đa đảng.[61] Thường trực Ban Bí thư, có nhiệm vụ phụ trách, chủ trì công việc hàng ngày của Ban Bí thư.`,
           },
           {
             content:
@@ -1123,8 +1112,7 @@ const pages = [
         id: 5,
         segment: [
           {
-            content:
-              `Chính sách Đổi mới năm 1986 đã thiết lập mô hình "Kinh tế thị trường định hướng xã hội chủ nghĩa". Các thành phần kinh tế được mở rộng hơn nhưng những ngành kinh tế chủ lực, thiết yếu vẫn dưới sự điều hành của Nhà nước. Từ năm 1993 đến 1997, kinh tế Việt Nam đạt tốc độ tăng trưởng trung bình hằng năm khoảng 9%. Tăng trưởng GDP đạt mức 8,5% vào năm 1997 nhưng giảm xuống 4% năm 1998 do ảnh hưởng của cuộc khủng hoảng tài chính châu Á năm 1997 và tăng nhẹ lên mức 4,8% năm 1999. Tăng trưởng GDP tiếp tục tăng lên từ 6% đến 7% trong giai đoạn giữa những năm 2000 và 2002. Ngày 7 tháng 11 năm 2006, Việt Nam được phép gia nhập WTO sau khi kết thúc đàm phán song phương với các nước có yêu cầu và chính thức là thành viên thứ 150 vào ngày 11 tháng 1 năm 2007.[66] Sau cải cách kinh tế – xã hội, theo một số nghiên cứu, bất bình đẳng thu nhập đã gia tăng.`,
+            content: `Chính sách Đổi mới năm 1986 đã thiết lập mô hình "Kinh tế thị trường định hướng xã hội chủ nghĩa". Các thành phần kinh tế được mở rộng hơn nhưng những ngành kinh tế chủ lực, thiết yếu vẫn dưới sự điều hành của Nhà nước. Từ năm 1993 đến 1997, kinh tế Việt Nam đạt tốc độ tăng trưởng trung bình hằng năm khoảng 9%. Tăng trưởng GDP đạt mức 8,5% vào năm 1997 nhưng giảm xuống 4% năm 1998 do ảnh hưởng của cuộc khủng hoảng tài chính châu Á năm 1997 và tăng nhẹ lên mức 4,8% năm 1999. Tăng trưởng GDP tiếp tục tăng lên từ 6% đến 7% trong giai đoạn giữa những năm 2000 và 2002. Ngày 7 tháng 11 năm 2006, Việt Nam được phép gia nhập WTO sau khi kết thúc đàm phán song phương với các nước có yêu cầu và chính thức là thành viên thứ 150 vào ngày 11 tháng 1 năm 2007.[66] Sau cải cách kinh tế – xã hội, theo một số nghiên cứu, bất bình đẳng thu nhập đã gia tăng.`,
           },
           {
             content:
@@ -1161,7 +1149,6 @@ const pages = [
           },
         ],
       },
-
     ],
     description: {
       items: [
@@ -1241,7 +1228,6 @@ const pages = [
         href: "#Culture",
         title: "Văn hóa",
       },
-
     ],
     paragraph: [
       {
@@ -1249,29 +1235,27 @@ const pages = [
         segment: [
           {
             content:
-              'Đông Nam Á (tiếng Anh: Southeast Asia, viết tắt: SEA) là tiểu vùng địa lý phía đông nam của châu Á, bao gồm các khu vực phía nam của Trung Quốc, phía đông nam của tiểu lục địa Ấn Độ và phía tây bắc của Úc.[5] Đông Nam Á có phía bắc giáp Đông Á, phía tây giáp Nam Á và vịnh Bengal, phía đông giáp Châu Đại Dương và Thái Bình Dương, phía nam giáp Australia và Ấn Độ Dương. Ngoài Lãnh thổ Ấn Độ Dương thuộc Anh và hai trong số 26 đảo san hô của Maldives ở Nam Á, Đông Nam Á là tiểu vùng duy nhất khác của châu Á nằm một phần trong Nam Bán cầu. Phần lớn tiểu vùng này vẫn ở Bắc bán cầu. Đông Timor và phần phía nam của Indonesia là những phần duy nhất nằm ở phía nam của xích đạo.',
+              "Đông Nam Á (tiếng Anh: Southeast Asia, viết tắt: SEA) là tiểu vùng địa lý phía đông nam của châu Á, bao gồm các khu vực phía nam của Trung Quốc, phía đông nam của tiểu lục địa Ấn Độ và phía tây bắc của Úc.[5] Đông Nam Á có phía bắc giáp Đông Á, phía tây giáp Nam Á và vịnh Bengal, phía đông giáp Châu Đại Dương và Thái Bình Dương, phía nam giáp Australia và Ấn Độ Dương. Ngoài Lãnh thổ Ấn Độ Dương thuộc Anh và hai trong số 26 đảo san hô của Maldives ở Nam Á, Đông Nam Á là tiểu vùng duy nhất khác của châu Á nằm một phần trong Nam Bán cầu. Phần lớn tiểu vùng này vẫn ở Bắc bán cầu. Đông Timor và phần phía nam của Indonesia là những phần duy nhất nằm ở phía nam của xích đạo.",
           },
           {
-            content:
-              `Theo định nghĩa ngày nay, Đông Nam Á bao gồm hai khu vực địa lý:
+            content: `Theo định nghĩa ngày nay, Đông Nam Á bao gồm hai khu vực địa lý:
 
               Đông Nam Á lục địa, còn được gọi là Bán đảo Đông Dương và theo lịch sử là Đông Dương, bao gồm Campuchia, Lào, Myanmar, bán đảo Malaysia, Thái Lan và Việt Nam.
-              Đông Nam Á hải đảo, còn được gọi là Quần đảo Mã Lai và theo lịch sử là Nusantara, bao gồm các quần đảo Andaman và Nicobar (Ấn Độ), Brunei, Đông Malaysia, Đông Timor, Indonesia, Philippines và Singapore.`
+              Đông Nam Á hải đảo, còn được gọi là Quần đảo Mã Lai và theo lịch sử là Nusantara, bao gồm các quần đảo Andaman và Nicobar (Ấn Độ), Brunei, Đông Malaysia, Đông Timor, Indonesia, Philippines và Singapore.`,
           },
           {
             content:
               "Khu vực này nằm gần giao điểm của các mảng địa chất, với cả các hoạt động địa chấn và núi lửa mạnh mẽ. Mảng Sunda là mảng địa chất chính của khu vực, bao gồm hầu hết các quốc gia Đông Nam Á trừ Myanmar, bắc Thái Lan, bắc Lào, bắc Việt Nam và bắc Luzon của Philippines. Các dãy núi ở Myanmar, Thái Lan và bán đảo Malaysia là một phần của vành đai Alpide, trong khi các đảo của Philippines là một phần của Vành đai lửa Thái Bình Dương. Cả hai vành đai địa chấn đều gặp nhau ở Indonesia, khiến khu vực này có khả năng xảy ra động đất và phun trào núi lửa tương đối cao.",
           },
           {
-            content:`Vùng này bao gồm khoảng 4.500.000 km2 (1.700.000 dặm vuông Anh), chiếm 10,5% diện tích châu Á hoặc 3% tổng diện tích Trái đất. Tổng dân số của Đông Nam Á là hơn 655 triệu người, chiếm khoảng 8,5% dân số thế giới. Đây là khu vực địa lý đông dân thứ ba ở Châu Á sau Nam Á và Đông Á.[10] Khu vực này đa dạng về văn hóa và dân tộc, với hàng trăm ngôn ngữ được sử dụng bởi các nhóm dân tộc khác nhau.[11] Mười quốc gia trong khu vực là thành viên của Hiệp hội các quốc gia Đông Nam Á (ASEAN), một tổ chức khu vực được thành lập để hội nhập kinh tế, chính trị, quân sự, giáo dục và văn hóa giữa các quốc gia thành viên`
+            content: `Vùng này bao gồm khoảng 4.500.000 km2 (1.700.000 dặm vuông Anh), chiếm 10,5% diện tích châu Á hoặc 3% tổng diện tích Trái đất. Tổng dân số của Đông Nam Á là hơn 655 triệu người, chiếm khoảng 8,5% dân số thế giới. Đây là khu vực địa lý đông dân thứ ba ở Châu Á sau Nam Á và Đông Á.[10] Khu vực này đa dạng về văn hóa và dân tộc, với hàng trăm ngôn ngữ được sử dụng bởi các nhóm dân tộc khác nhau.[11] Mười quốc gia trong khu vực là thành viên của Hiệp hội các quốc gia Đông Nam Á (ASEAN), một tổ chức khu vực được thành lập để hội nhập kinh tế, chính trị, quân sự, giáo dục và văn hóa giữa các quốc gia thành viên`,
           },
           {
             content:
               "Dân tộc Đông Nam Á lấy dân tộc Nam Đảo và dân tộc Mã Lai chiếm vị trí chủ đạo, cư dân trong khu vực phần nhiều theo Hồi giáo và Phật giáo, các tôn giáo khác như Kitô giáo, Ấn Độ giáo và tôn giáo có liên quan đến thuyết vật linh cũng tồn tại ở bên trong khu vực này. Indonesia là nước có người theo Hồi giáo nhiều nhất trên thế giới, Thái Lan là nước Phật giáo lớn nhất thế giới, Philippines là nước có tín đồ Công giáo Rôma nhiều nhất ở Đông Bán cầu.",
           },
           {
-            content:
-              `Đông Nam Á nằm ở "ngã tư đường" giữa châu Á và châu Đại Dương, Thái Bình Dương và Ấn Độ Dương. Eo biển Malacca chính là "yết hầu" của giao lộ này, địa vị chiến lược trọng yếu vô cùng. Eo biển Malacca nằm ở giữa bán đảo Mã Lai và đảo Sumatra, tổng chiều dài chừng 1.080 km, chỗ hẹp nhất chỉ có 3,7 km, đủ lưu thông tàu thủy tải trọng 250.000 tấn, các nước bờ tây Thái Bình Dương phần nhiều đi qua tuyến hàng hải này hướng tới Nam Á, Tây Á, bờ biển phía đông châu Phi và các nước đi sát bờ biển ở châu Âu. Các nước ven bờ eo biển Malacca có Thái Lan, Singapore và Malaysia, trong đó Singapore ở vào chỗ hẹp nhất của eo biển Malacca, là vị trí giao thông đặc biệt trọng yếu.`,
+            content: `Đông Nam Á nằm ở "ngã tư đường" giữa châu Á và châu Đại Dương, Thái Bình Dương và Ấn Độ Dương. Eo biển Malacca chính là "yết hầu" của giao lộ này, địa vị chiến lược trọng yếu vô cùng. Eo biển Malacca nằm ở giữa bán đảo Mã Lai và đảo Sumatra, tổng chiều dài chừng 1.080 km, chỗ hẹp nhất chỉ có 3,7 km, đủ lưu thông tàu thủy tải trọng 250.000 tấn, các nước bờ tây Thái Bình Dương phần nhiều đi qua tuyến hàng hải này hướng tới Nam Á, Tây Á, bờ biển phía đông châu Phi và các nước đi sát bờ biển ở châu Âu. Các nước ven bờ eo biển Malacca có Thái Lan, Singapore và Malaysia, trong đó Singapore ở vào chỗ hẹp nhất của eo biển Malacca, là vị trí giao thông đặc biệt trọng yếu.`,
           },
         ],
       },
@@ -1283,13 +1267,13 @@ const pages = [
               "Khu vực này đã là nơi sinh sống của Homo erectus từ khoảng 1.500.000 năm trước trong kỷ Pleistocen giữa.[43] Các nhóm Homo sapien khác biệt, tổ tiên của các quần thể Đông-Á-Âu (liên quan đến Đông Á), và các quần thể người Nam-Âu-Á (liên quan đến Papuan), đã đến khu vực này trong khoảng từ 50.000 TCN đến 70.000 TCN, với một số tranh cãi rằng họ đã đến Đông Nam Á trước đó nữa.[44][45] Nghệ thuật đá có niên đại từ 40.000 năm trước (hiện là lâu đời nhất thế giới) đã được phát hiện trong các hang động của Borneo.[46] Homo floresiensis cũng sống trong khu vực này cho đến ít nhất 50.000 năm trước, sau đó bị tuyệt chủng.[47] Trong phần lớn thời gian này, các hòn đảo ngày nay ở phía tây Indonesia được nhập vào một vùng đất duy nhất được gọi là Sundaland do mực nước biển thấp hơn.",
           },
           {
-            content:
-              `Di tích cổ đại của những người săn bắn hái lượm ở Biển Đông Nam Á, chẳng hạn như một người săn bắn hái lượm Holocen từ Nam Sulawesi, có tổ tiên từ cả hai, dòng dõi Nam-Á-Âu (đại diện là người Papuans và thổ dân Úc), và dòng dõi Đông-Âu (đại diện là Người Đông Á). Cá thể săn bắn hái lượm có khoảng ~ 50% tổ tiên "gốc Đông Á", và được định vị giữa người Đông Á hiện đại và người Papua của Châu Đại Dương. Các tác giả kết luận rằng tổ tiên liên quan đến Đông Á đã mở rộng từ Đông Nam Á lục địa sang Đông Nam Á Đông Nam Á hải đảo sớm hơn nhiều so với đề xuất trước đây, sớm nhất là 25.000 TCN, rất lâu trước khi các nhóm người thuộc ngữ hệ Nam Á và ngữ hệ Nam Đảo phát triển.`,
+            content: `Di tích cổ đại của những người săn bắn hái lượm ở Biển Đông Nam Á, chẳng hạn như một người săn bắn hái lượm Holocen từ Nam Sulawesi, có tổ tiên từ cả hai, dòng dõi Nam-Á-Âu (đại diện là người Papuans và thổ dân Úc), và dòng dõi Đông-Âu (đại diện là Người Đông Á). Cá thể săn bắn hái lượm có khoảng ~ 50% tổ tiên "gốc Đông Á", và được định vị giữa người Đông Á hiện đại và người Papua của Châu Đại Dương. Các tác giả kết luận rằng tổ tiên liên quan đến Đông Á đã mở rộng từ Đông Nam Á lục địa sang Đông Nam Á Đông Nam Á hải đảo sớm hơn nhiều so với đề xuất trước đây, sớm nhất là 25.000 TCN, rất lâu trước khi các nhóm người thuộc ngữ hệ Nam Á và ngữ hệ Nam Đảo phát triển.`,
           },
 
           {
-            content:'Tổ tiên riêng biệt của người Basal-Đông Á (Đông-Á-Âu) gần đây được tìm thấy có nguồn gốc ở Đông Nam Á lục địa vào khoảng thời gian ~ 50.000 năm TCN, và được mở rộng qua nhiều làn sóng di cư lần lượt về phía nam và phía bắc. Luồng gen của tổ tiên Đông-Âu-Á vào Đông Nam Á hải đảo và Châu Đại Dương có thể ước tính khoảng 25.000 năm TCN (cũng có thể sớm hơn). Các quần thể Nam-Á-Âu ở Biển Đông Nam Á thời tiền đồ đá mới phần lớn bị thay thế bởi sự mở rộng của các quần thể Đông-Á-Âu khác nhau, bắt đầu từ khoảng 50.000 năm trước TCN đến 25.000 năm trước đây từ Đông Nam Á lục địa. Những người còn lại, được gọi là Negrito, tạo thành các nhóm thiểu số nhỏ ở các vùng cách biệt về địa lý.'
-          }
+            content:
+              "Tổ tiên riêng biệt của người Basal-Đông Á (Đông-Á-Âu) gần đây được tìm thấy có nguồn gốc ở Đông Nam Á lục địa vào khoảng thời gian ~ 50.000 năm TCN, và được mở rộng qua nhiều làn sóng di cư lần lượt về phía nam và phía bắc. Luồng gen của tổ tiên Đông-Âu-Á vào Đông Nam Á hải đảo và Châu Đại Dương có thể ước tính khoảng 25.000 năm TCN (cũng có thể sớm hơn). Các quần thể Nam-Á-Âu ở Biển Đông Nam Á thời tiền đồ đá mới phần lớn bị thay thế bởi sự mở rộng của các quần thể Đông-Á-Âu khác nhau, bắt đầu từ khoảng 50.000 năm trước TCN đến 25.000 năm trước đây từ Đông Nam Á lục địa. Những người còn lại, được gọi là Negrito, tạo thành các nhóm thiểu số nhỏ ở các vùng cách biệt về địa lý.",
+          },
         ],
       },
       {
@@ -1300,16 +1284,14 @@ const pages = [
               "Khí hậu Đông Nam Á chủ yếu là nhiệt đới nóng ẩm quanh năm với lượng mưa dồi dào. Miền Bắc Việt Nam và các vùng miền núi của Lào và Myanmar là những khu vực duy nhất ở Đông Nam Á có khí hậu cận nhiệt đới, có mùa đông ôn hòa hơn với nhiệt độ cực đại thấp tới 20 °C hay 68 °F. Phần lớn khu vực Đông Nam Á có mùa khô và ẩm do sự thay đổi theo mùa của gió hoặc gió mùa. Vành đai mưa nhiệt đới gây ra lượng mưa bổ sung trong mùa gió mùa. Rừng nhiệt đới lớn thứ hai trên Trái đất (với rừng nhiệt đới Amazon là rừng nhiệt đới lớn nhất). Các trường hợp ngoại lệ đối với khí hậu và thảm thực vật rừng nhiệt đới này là:",
           },
           {
-            content:
-              `1/các khu vực núi ở khu vực phía bắc và các đảo cao hơn, nơi có độ cao dẫn đến nhiệt độ ôn hòa hơn`,
+            content: `1/các khu vực núi ở khu vực phía bắc và các đảo cao hơn, nơi có độ cao dẫn đến nhiệt độ ôn hòa hơn`,
           },
           {
-            content:
-              `2/“vùng khô hạn” của miền trung Myanmar trong bóng mưa của dãy núi Arakan, nơi lượng mưa hàng năm có thể thấp tới 600 milimét hay 24 inch, dưới nhiệt độ nóng vượt trội là khô đủ để được coi là bán khô hạn.`
+            content: `2/“vùng khô hạn” của miền trung Myanmar trong bóng mưa của dãy núi Arakan, nơi lượng mưa hàng năm có thể thấp tới 600 milimét hay 24 inch, dưới nhiệt độ nóng vượt trội là khô đủ để được coi là bán khô hạn.`,
           },
           {
-            content:`Đông Nam Á là một trong những khu vực dễ bị tác động do biến đổi khí hậu nhất trên thế giới.[115][116] Biến đổi khí hậu sẽ có ảnh hưởng lớn đến nông nghiệp ở Đông Nam Á như hệ thống thủy lợi sẽ bị ảnh hưởng bởi những thay đổi về lượng mưa và dòng chảy, và sau đó là chất lượng và nguồn cung cấp nước.[117] Biến đổi khí hậu cũng có khả năng đe dọa nghiêm trọng đến ngành thủy sản ở Đông Nam Á.[115] Mặc dù là một trong những khu vực dễ bị tổn thương nhất trước tác động của biến đổi khí hậu trên thế giới, các quốc gia Đông Nam Á đang bị tụt hậu về các biện pháp giảm thiểu khí hậu của họ.`
-          }
+            content: `Đông Nam Á là một trong những khu vực dễ bị tác động do biến đổi khí hậu nhất trên thế giới.[115][116] Biến đổi khí hậu sẽ có ảnh hưởng lớn đến nông nghiệp ở Đông Nam Á như hệ thống thủy lợi sẽ bị ảnh hưởng bởi những thay đổi về lượng mưa và dòng chảy, và sau đó là chất lượng và nguồn cung cấp nước.[117] Biến đổi khí hậu cũng có khả năng đe dọa nghiêm trọng đến ngành thủy sản ở Đông Nam Á.[115] Mặc dù là một trong những khu vực dễ bị tổn thương nhất trước tác động của biến đổi khí hậu trên thế giới, các quốc gia Đông Nam Á đang bị tụt hậu về các biện pháp giảm thiểu khí hậu của họ.`,
+          },
         ],
       },
       {
@@ -1411,9 +1393,9 @@ const pages = [
         title: "Trình tự",
       },
       {
-        key:'3',
-        href:'#Background',
-        title:'Bối cảnh'
+        key: "3",
+        href: "#Background",
+        title: "Bối cảnh",
       },
       {
         key: "4",
@@ -1427,7 +1409,7 @@ const pages = [
         segment: [
           {
             content:
-              'Chiến tranh thế giới thứ hai (còn được nhắc đến với các tên gọi Đệ nhị thế chiến, Thế chiến II hay Đại chiến thế giới lần thứ hai) là một cuộc chiến tranh thế giới bắt đầu từ khoảng năm 1939 và chấm dứt vào năm 1945. Cuộc chiến có sự tham gia của đại đa số các quốc gia trên thế giới — bao gồm tất cả các cường quốc — tạo thành hai liên minh quân sự đối lập: Đồng Minh và Phe Trục. Trong diện mạo một cuộc chiến tranh toàn diện, Thế chiến II có sự tham gia trực tiếp của hơn 100 triệu nhân sự từ hơn 30 quốc gia. Các bên tham chiến chính đã dồn toàn bộ nguồn lực kinh tế, công nghiệp và khoa học cho nỗ lực tham chiến, làm mờ đi ranh giới giữa nguồn lực dân sự và quân sự. Chiến tranh thế giới thứ hai là cuộc xung đột đẫm máu nhất trong lịch sử nhân loại, gây nên cái chết của 70 đến 85 triệu người, với số lượng thường dân tử vong nhiều hơn quân nhân. Hàng chục triệu người đã phải bỏ mạng trong các vụ thảm sát, diệt chủng (trong đó có Holocaust), chết vì thiếu lương thực hay vì bệnh tật. Máy bay đóng vai trò quan trọng đối với tiến trình cuộc chiến, bao gồm ném bom chiến lược vào các trung tâm dân cư, và đối với sự phát triển vũ khí hạt nhân cũng như hai lần duy nhất sử dụng loại vũ khí này trong chiến tranh.',
+              "Chiến tranh thế giới thứ hai (còn được nhắc đến với các tên gọi Đệ nhị thế chiến, Thế chiến II hay Đại chiến thế giới lần thứ hai) là một cuộc chiến tranh thế giới bắt đầu từ khoảng năm 1939 và chấm dứt vào năm 1945. Cuộc chiến có sự tham gia của đại đa số các quốc gia trên thế giới — bao gồm tất cả các cường quốc — tạo thành hai liên minh quân sự đối lập: Đồng Minh và Phe Trục. Trong diện mạo một cuộc chiến tranh toàn diện, Thế chiến II có sự tham gia trực tiếp của hơn 100 triệu nhân sự từ hơn 30 quốc gia. Các bên tham chiến chính đã dồn toàn bộ nguồn lực kinh tế, công nghiệp và khoa học cho nỗ lực tham chiến, làm mờ đi ranh giới giữa nguồn lực dân sự và quân sự. Chiến tranh thế giới thứ hai là cuộc xung đột đẫm máu nhất trong lịch sử nhân loại, gây nên cái chết của 70 đến 85 triệu người, với số lượng thường dân tử vong nhiều hơn quân nhân. Hàng chục triệu người đã phải bỏ mạng trong các vụ thảm sát, diệt chủng (trong đó có Holocaust), chết vì thiếu lương thực hay vì bệnh tật. Máy bay đóng vai trò quan trọng đối với tiến trình cuộc chiến, bao gồm ném bom chiến lược vào các trung tâm dân cư, và đối với sự phát triển vũ khí hạt nhân cũng như hai lần duy nhất sử dụng loại vũ khí này trong chiến tranh.",
           },
           {
             content:
@@ -1435,15 +1417,15 @@ const pages = [
           },
           {
             content:
-              'Với tham vọng thống trị châu Á và Thái Bình Dương, Nhật Bản đã gây chiến với Trung Hoa Dân Quốc vào năm 1937. Vào tháng 12 năm 1941, Nhật Bản tiến hành tấn công gần như cùng lúc các lãnh thổ của Hoa Kỳ và Anh tại Đông Nam Á và Trung Thái Bình Dương, bao gồm cả cuộc tấn công nhằm vào hạm đội Mỹ đóng tại Trân Châu Cảng. Sau khi Hoa Kỳ lẫn Anh tuyên chiến với Nhật Bản, các nước phe Trục Châu Âu tuyên chiến với Hoa Kỳ theo cam kết trong hiệp ước liên minh. Nhật Bản nhanh chóng làm chủ phần lớn Tây Thái Bình Dương, nhưng bước tiến của họ đã bị chặn đứng sau khi để thua trận Midway quan trọng vào năm 1942. Không lâu sau đó, Đức và Ý bị đánh bật khỏi Bắc Phi và phải hứng chịu thất bại quyết định tại Stalingrad trước Liên Xô. Những thất bại then chốt trong năm 1943 – bao gồm một loạt thất bại của Đức trên Mặt trận phía Đông, cuộc xâm lược đảo Sicilia và lục địa Ý của Đồng Minh, cũng như cuộc tấn công của Đồng Minh ở Thái Bình Dương – đã khiến phe Trục đánh mất thế chủ động ​​và buộc phải rút lui chiến lược trên mọi mặt trận. Năm 1944, Đồng Minh phương Tây xâm lược nước Pháp do Đức chiếm đóng, trong khi Liên Xô giành lại những lãnh thổ bị mất và đang trên đường tiến vào lãnh thổ Đức và các quốc gia Phe Trục khác. Trong suốt hai năm 1944 và 1945, chiến sự dần đảo chiều trên lục địa châu Á, trong khi quân Đồng Minh làm tê liệt lực lượng Hải quân Nhật Bản và chiếm đóng đảo quan trọng ở phía Tây Thái Bình Dương.',
+              "Với tham vọng thống trị châu Á và Thái Bình Dương, Nhật Bản đã gây chiến với Trung Hoa Dân Quốc vào năm 1937. Vào tháng 12 năm 1941, Nhật Bản tiến hành tấn công gần như cùng lúc các lãnh thổ của Hoa Kỳ và Anh tại Đông Nam Á và Trung Thái Bình Dương, bao gồm cả cuộc tấn công nhằm vào hạm đội Mỹ đóng tại Trân Châu Cảng. Sau khi Hoa Kỳ lẫn Anh tuyên chiến với Nhật Bản, các nước phe Trục Châu Âu tuyên chiến với Hoa Kỳ theo cam kết trong hiệp ước liên minh. Nhật Bản nhanh chóng làm chủ phần lớn Tây Thái Bình Dương, nhưng bước tiến của họ đã bị chặn đứng sau khi để thua trận Midway quan trọng vào năm 1942. Không lâu sau đó, Đức và Ý bị đánh bật khỏi Bắc Phi và phải hứng chịu thất bại quyết định tại Stalingrad trước Liên Xô. Những thất bại then chốt trong năm 1943 – bao gồm một loạt thất bại của Đức trên Mặt trận phía Đông, cuộc xâm lược đảo Sicilia và lục địa Ý của Đồng Minh, cũng như cuộc tấn công của Đồng Minh ở Thái Bình Dương – đã khiến phe Trục đánh mất thế chủ động ​​và buộc phải rút lui chiến lược trên mọi mặt trận. Năm 1944, Đồng Minh phương Tây xâm lược nước Pháp do Đức chiếm đóng, trong khi Liên Xô giành lại những lãnh thổ bị mất và đang trên đường tiến vào lãnh thổ Đức và các quốc gia Phe Trục khác. Trong suốt hai năm 1944 và 1945, chiến sự dần đảo chiều trên lục địa châu Á, trong khi quân Đồng Minh làm tê liệt lực lượng Hải quân Nhật Bản và chiếm đóng đảo quan trọng ở phía Tây Thái Bình Dương.",
           },
           {
             content:
-              'Sau khi giải phóng các vùng lãnh thổ do Đức chiếm đóng, Đồng Minh phương Tây và Liên Xô tiến hành xâm lược nước Đức. Chiến tranh tại châu Âu kết thúc sau cái chết của Adolf Hitler, chỉ ít lâu trước khi Berlin thất thủ vào tay quân đội Liên Xô và Đức đầu hàng vô điều kiện vào ngày 8 tháng 5 năm 1945. Sau khi Tuyên bố Potsdam của Đồng Minh vào ngày 26 tháng 7 năm 1945 bị phía Nhật Bản khước từ, Hoa Kỳ đã thả hai quả bom nguyên tử đầu tiên xuống thành phố Hiroshima vào ngày 6 và Nagasaki vào ngày 9 tháng 8 năm 1945. Đối mặt trước một cuộc xâm lược sắp xảy ra vào quần đảo Nhật Bản và việc Liên Xô tham chiến, tiến hành xâm lược Mãn Châu vào ngày 9 tháng 8, Nhật Bản tuyên bố đầu hàng vào ngày 15 tháng 8 năm 1945, ấn định chiến thắng toàn diện trên chiến trường Châu Á cho Phe Đồng Minh. Sau chiến tranh, cả Đức lẫn Nhật Bản bị chiếm đóng. Các tòa án tội ác chiến tranh được mở nhằm xét xử các nhà lãnh đạo Đức và Nhật Bản. Bất chấp tội ác chiến tranh được ghi nhận đầy đủ (chủ yếu gây ra ở Hy Lạp và Nam Tư), phần lớn các nhà lãnh đạo và tướng lĩnh Ý vẫn được ân xá nhờ vào các hoạt động ngoại giao.',
+              "Sau khi giải phóng các vùng lãnh thổ do Đức chiếm đóng, Đồng Minh phương Tây và Liên Xô tiến hành xâm lược nước Đức. Chiến tranh tại châu Âu kết thúc sau cái chết của Adolf Hitler, chỉ ít lâu trước khi Berlin thất thủ vào tay quân đội Liên Xô và Đức đầu hàng vô điều kiện vào ngày 8 tháng 5 năm 1945. Sau khi Tuyên bố Potsdam của Đồng Minh vào ngày 26 tháng 7 năm 1945 bị phía Nhật Bản khước từ, Hoa Kỳ đã thả hai quả bom nguyên tử đầu tiên xuống thành phố Hiroshima vào ngày 6 và Nagasaki vào ngày 9 tháng 8 năm 1945. Đối mặt trước một cuộc xâm lược sắp xảy ra vào quần đảo Nhật Bản và việc Liên Xô tham chiến, tiến hành xâm lược Mãn Châu vào ngày 9 tháng 8, Nhật Bản tuyên bố đầu hàng vào ngày 15 tháng 8 năm 1945, ấn định chiến thắng toàn diện trên chiến trường Châu Á cho Phe Đồng Minh. Sau chiến tranh, cả Đức lẫn Nhật Bản bị chiếm đóng. Các tòa án tội ác chiến tranh được mở nhằm xét xử các nhà lãnh đạo Đức và Nhật Bản. Bất chấp tội ác chiến tranh được ghi nhận đầy đủ (chủ yếu gây ra ở Hy Lạp và Nam Tư), phần lớn các nhà lãnh đạo và tướng lĩnh Ý vẫn được ân xá nhờ vào các hoạt động ngoại giao.",
           },
           {
             content:
-              'Chiến tranh thế giới thứ hai thay đổi cục diện chính trị lẫn cấu trúc xã hội toàn cầu. Tổ chức Liên Hiệp Quốc (LHQ) được thành lập nhằm thúc đẩy hợp tác quốc tế và ngăn chặn các cuộc xung đột trong tương lai. Các cường quốc chiến thắng, bao gồm Trung Quốc, Pháp, Liên Xô, Vương quốc Anh và Hoa Kỳ, trở thành thành viên thường trực của Hội đồng Bảo an Liên Hợp Quốc. Liên Xô và Hoa Kỳ nổi lên như hai siêu cường đối trọng nhau, tạo tiền đề cho Chiến tranh Lạnh kéo dài gần nửa thế kỷ. Trong bối cảnh châu Âu bị tàn phá, ảnh hưởng của các cường quốc suy yếu, khởi đầu quá trình phi thực dân hóa ở châu Phi và châu Á. Hầu hết các quốc gia có ngành công nghiệp bị thiệt hại đều hướng tới việc phục hồi và mở rộng kinh tế. Sự hội nhập chính trị, đặc biệt là ở châu Âu, vốn bắt đầu như một nỗ lực ngăn chặn các hành động thù địch trong tương lai đã chấm dứt những mối thù địch trước chiến tranh và rèn luyện ý thức về bản sắc chung.',
+              "Chiến tranh thế giới thứ hai thay đổi cục diện chính trị lẫn cấu trúc xã hội toàn cầu. Tổ chức Liên Hiệp Quốc (LHQ) được thành lập nhằm thúc đẩy hợp tác quốc tế và ngăn chặn các cuộc xung đột trong tương lai. Các cường quốc chiến thắng, bao gồm Trung Quốc, Pháp, Liên Xô, Vương quốc Anh và Hoa Kỳ, trở thành thành viên thường trực của Hội đồng Bảo an Liên Hợp Quốc. Liên Xô và Hoa Kỳ nổi lên như hai siêu cường đối trọng nhau, tạo tiền đề cho Chiến tranh Lạnh kéo dài gần nửa thế kỷ. Trong bối cảnh châu Âu bị tàn phá, ảnh hưởng của các cường quốc suy yếu, khởi đầu quá trình phi thực dân hóa ở châu Phi và châu Á. Hầu hết các quốc gia có ngành công nghiệp bị thiệt hại đều hướng tới việc phục hồi và mở rộng kinh tế. Sự hội nhập chính trị, đặc biệt là ở châu Âu, vốn bắt đầu như một nỗ lực ngăn chặn các hành động thù địch trong tương lai đã chấm dứt những mối thù địch trước chiến tranh và rèn luyện ý thức về bản sắc chung.",
           },
         ],
       },
@@ -1452,15 +1434,15 @@ const pages = [
         segment: [
           {
             content:
-              'Thời điểm bắt đầu cuộc chiến tại Châu Âu thường được xem là khi quân Đức tiến hành xâm lược Ba Lan vào ngày 1 tháng 9 năm 1939[6][7] và khi Vương quốc Anh và Pháp tuyên chiến với Đức hai ngày sau đó. Đối với chiến tranh Thái Bình Dương, giới học giả chưa có sự thống nhất trong việc tính ngày bắt đầu cuộc chiến. Có người tán thành thời điểm Nhật Bản xâm lược Trung Quốc vào ngày 7 tháng 7 năm 1937[8][9] trong khi một số người khác lại coi sự kiện Nhật Bản xâm lược Mãn Châu vào ngày 19 tháng 9 năm 1931 mới là ngày khởi đầu cuộc chiến.',
+              "Thời điểm bắt đầu cuộc chiến tại Châu Âu thường được xem là khi quân Đức tiến hành xâm lược Ba Lan vào ngày 1 tháng 9 năm 1939[6][7] và khi Vương quốc Anh và Pháp tuyên chiến với Đức hai ngày sau đó. Đối với chiến tranh Thái Bình Dương, giới học giả chưa có sự thống nhất trong việc tính ngày bắt đầu cuộc chiến. Có người tán thành thời điểm Nhật Bản xâm lược Trung Quốc vào ngày 7 tháng 7 năm 1937[8][9] trong khi một số người khác lại coi sự kiện Nhật Bản xâm lược Mãn Châu vào ngày 19 tháng 9 năm 1931 mới là ngày khởi đầu cuộc chiến.",
           },
           {
             content:
-              'Một số học giả khác tán thành với ý kiến của sử gia người Anh A. J. P. Taylor, cho rằng Chiến tranh Trung–Nhật cùng với chiến tranh ở châu Âu và các thuộc địa xảy ra song song cho trước khi hợp thành một cuộc chiến duy nhất vào năm 1941. Bài viết này của Wikipedia sử dụng cách tính ngày truyền thống. Một số thời điểm khác đôi khi cũng được sử dụng làm ngày bắt đầu Chiến tranh thế giới thứ hai bao gồm cuộc xâm lược Abyssinia của Ý vào ngày 3 tháng 10 năm 1935.[13] Nhà sử học người Anh Antony Beevor xem trận Khalkhin Gol giữa Nhật Bản và Liên Xô từ tháng 5 đến tháng 9 năm 1939 là ngày khởi đầu của Thế chiến thứ hai.',
+              "Một số học giả khác tán thành với ý kiến của sử gia người Anh A. J. P. Taylor, cho rằng Chiến tranh Trung–Nhật cùng với chiến tranh ở châu Âu và các thuộc địa xảy ra song song cho trước khi hợp thành một cuộc chiến duy nhất vào năm 1941. Bài viết này của Wikipedia sử dụng cách tính ngày truyền thống. Một số thời điểm khác đôi khi cũng được sử dụng làm ngày bắt đầu Chiến tranh thế giới thứ hai bao gồm cuộc xâm lược Abyssinia của Ý vào ngày 3 tháng 10 năm 1935.[13] Nhà sử học người Anh Antony Beevor xem trận Khalkhin Gol giữa Nhật Bản và Liên Xô từ tháng 5 đến tháng 9 năm 1939 là ngày khởi đầu của Thế chiến thứ hai.",
           },
           {
             content:
-              'Tương tự như ngày bắt đầu, ngày kết thúc chính xác của cuộc chiến cũng không được các học giả thống nhất rộng rãi. Một số người chấp nhận ngày 14 tháng 8 năm 1945 khi hiệp định đình chiến giữa Nhật Bản và Đồng Minh được ký kết (Ngày V-J) là ngày chiến tranh kết thúc thay vì ngày 2 tháng 9 năm 1945 khi Nhật Bản chính thức đầu hàng, chấm dứt chiến tranh tại châu Á. Năm 1951, một hiệp ước hòa bình giữa Nhật Bản và Đồng Minh được ký kết. Năm 1990, một hiệp ước liên quan đến tương lai của Đức cho phép hai phần Đông và Tây của nước này thống nhất đã được thông qua, giải quyết hầu hết các vấn đề tồn đọng sau Thế chiến II. Cho đến khi Liên Xô giải tán, giữa hai nước Xô – Nhật không có hiệp ước hòa bình chính thức nào được ký kết.',
+              "Tương tự như ngày bắt đầu, ngày kết thúc chính xác của cuộc chiến cũng không được các học giả thống nhất rộng rãi. Một số người chấp nhận ngày 14 tháng 8 năm 1945 khi hiệp định đình chiến giữa Nhật Bản và Đồng Minh được ký kết (Ngày V-J) là ngày chiến tranh kết thúc thay vì ngày 2 tháng 9 năm 1945 khi Nhật Bản chính thức đầu hàng, chấm dứt chiến tranh tại châu Á. Năm 1951, một hiệp ước hòa bình giữa Nhật Bản và Đồng Minh được ký kết. Năm 1990, một hiệp ước liên quan đến tương lai của Đức cho phép hai phần Đông và Tây của nước này thống nhất đã được thông qua, giải quyết hầu hết các vấn đề tồn đọng sau Thế chiến II. Cho đến khi Liên Xô giải tán, giữa hai nước Xô – Nhật không có hiệp ước hòa bình chính thức nào được ký kết.",
           },
         ],
       },
@@ -1480,8 +1462,7 @@ const pages = [
               "Bất chấp xu hướng chuộng hòa bình phát triển mạnh mẽ sau Thế chiến I,[16] chủ nghĩa báo thù dân tộc và chủ nghĩa xét lại đã nổi lên tại một số quốc gia châu Âu trong cùng thời kỳ. Xu hướng này đặc biệt phát triển mạnh mẽ tại Đức bởi những tổn thất đáng kể về lãnh thổ, thuộc địa và tài chính mà Hòa ước Versailles áp đặt. Đức mất khoảng 13% lãnh thổ quê nhà và toàn bộ thuộc địa ở hải ngoại. Đức bị ngăn cấm sáp nhập các quốc gia khác, bị buộc phải trả những khoản bồi thường khổng lồ. Quân đội bị giới hạn về quy mô và khả năng chiến đấu.",
           },
           {
-            content:
-              `Đế quốc Đức bị giải thể trong Cách mạng Đức 1918–1919. Một chính phủ dân chủ, sử gọi là Cộng hòa Weimar, được thành lập. Thời kỳ giữa hai cuộc chiến chứng kiến sự xung đột giữa những người ủng hộ nền cộng hòa non trẻ và những người chống đối không nhân nhượng ở cả cánh hữu lẫn cánh tả. Ý với tư cách là một đồng minh của phe Entente đã giành được một số vùng lãnh thổ sau chiến tranh. Tuy nhiên, những người theo chủ nghĩa dân tộc Ý đã tức giận vì những lời hứa của Vương quốc Anh và Pháp khi thuyết phục nước này tham chiến đã không được thực hiện. Từ năm 1922 đến năm 1925, phong trào Phát xít do Benito Mussolini lãnh đạo đã lên cầm quyền tại Ý, áp dụng chủ nghĩa dân tộc, chế độ toàn trị và cộng tác giai cấp, xóa bỏ nền dân chủ đại nghị, đàn áp các lực lượng xã hội chủ nghĩa, cánh tả và tự do, đồng thời theo đuổi chính sách đối ngoại bành trướng hung hãn nhằm vào đưa Ý trở thành một cường quốc trên thế giới và hứa hẹn tạo dựng một "Đế chế La Mã Mới".`,
+            content: `Đế quốc Đức bị giải thể trong Cách mạng Đức 1918–1919. Một chính phủ dân chủ, sử gọi là Cộng hòa Weimar, được thành lập. Thời kỳ giữa hai cuộc chiến chứng kiến sự xung đột giữa những người ủng hộ nền cộng hòa non trẻ và những người chống đối không nhân nhượng ở cả cánh hữu lẫn cánh tả. Ý với tư cách là một đồng minh của phe Entente đã giành được một số vùng lãnh thổ sau chiến tranh. Tuy nhiên, những người theo chủ nghĩa dân tộc Ý đã tức giận vì những lời hứa của Vương quốc Anh và Pháp khi thuyết phục nước này tham chiến đã không được thực hiện. Từ năm 1922 đến năm 1925, phong trào Phát xít do Benito Mussolini lãnh đạo đã lên cầm quyền tại Ý, áp dụng chủ nghĩa dân tộc, chế độ toàn trị và cộng tác giai cấp, xóa bỏ nền dân chủ đại nghị, đàn áp các lực lượng xã hội chủ nghĩa, cánh tả và tự do, đồng thời theo đuổi chính sách đối ngoại bành trướng hung hãn nhằm vào đưa Ý trở thành một cường quốc trên thế giới và hứa hẹn tạo dựng một "Đế chế La Mã Mới".`,
           },
           {
             content:
@@ -1521,23 +1502,22 @@ const pages = [
               "Sự thất bại của Hội Quốc Liên trong việc ngăn chặn chiến tranh đã dẫn đến việc thành lập Liên Hiệp Quốc, một tổ chức quốc tế mới và có nhiều sửa đổi, cho đến nay vẫn là tổ chức quan trọng nhất trong việc thúc đẩy hoà bình và hợp tác.",
           },
           {
-            content:'Chiến tranh thế giới thứ II làm thay đổi căn bản tư duy chính trị quốc tế của các cường quốc trên thế giới. Sau cuộc chiến này, nhiều quốc gia từ bỏ tư duy bá quyền, dùng sức mạnh để xâm chiếm lãnh thổ của quốc gia khác. Quan hệ quốc tế từ dựa trên sức mạnh, "cá lớn nuốt cá bé", chuyển sang quan hệ bình đẳng, cùng tồn tại hòa bình. Đồng thời ngay sau chiến tranh, phe Đồng Minh đã bị rạn nứt khi có xung đột về hệ tư tưởng. Mỗi phía đã giành một khu vực khác nhau trong các lãnh thổ phe Trục. Tại châu Âu, mỗi phía liên minh với nhau trong khu vực ảnh hưởng. Về phía tây, các nước Mỹ, Anh và Pháp đã lập ra Liên minh Bắc Đại Tây Dương (NATO). Về phía đông, Liên Xô lập ra liên minh với các nước Đông Âu khác bằng Hiệp ước Warszawa. Xung đột giữa hai phe sau này là một trong những hậu quả của cuộc chiến tranh thế giới thứ hai.'
-          },
-          {
             content:
-            `Khắp mọi nơi, các phong trào chống thực dân phát triển mạnh hơn khi chiến tranh kết thúc. Điều này xuất phát từ hệ quả của Chiến tranh thế giới thứ hai`
+              'Chiến tranh thế giới thứ II làm thay đổi căn bản tư duy chính trị quốc tế của các cường quốc trên thế giới. Sau cuộc chiến này, nhiều quốc gia từ bỏ tư duy bá quyền, dùng sức mạnh để xâm chiếm lãnh thổ của quốc gia khác. Quan hệ quốc tế từ dựa trên sức mạnh, "cá lớn nuốt cá bé", chuyển sang quan hệ bình đẳng, cùng tồn tại hòa bình. Đồng thời ngay sau chiến tranh, phe Đồng Minh đã bị rạn nứt khi có xung đột về hệ tư tưởng. Mỗi phía đã giành một khu vực khác nhau trong các lãnh thổ phe Trục. Tại châu Âu, mỗi phía liên minh với nhau trong khu vực ảnh hưởng. Về phía tây, các nước Mỹ, Anh và Pháp đã lập ra Liên minh Bắc Đại Tây Dương (NATO). Về phía đông, Liên Xô lập ra liên minh với các nước Đông Âu khác bằng Hiệp ước Warszawa. Xung đột giữa hai phe sau này là một trong những hậu quả của cuộc chiến tranh thế giới thứ hai.',
           },
           {
-            content:`Những thiệt hại của các cường quốc châu Âu trong cuộc chiến này khiến họ mất đi rất nhiều năng lực quân sự và kinh tế khả dĩ có thể duy trì hệ thống thuộc địa. Trong khi đó các dân tộc thuộc địa đã chống lại một cách sống còn, quyết không nhân nhượng (như trường hợp Việt Nam, Algérie).
+            content: `Khắp mọi nơi, các phong trào chống thực dân phát triển mạnh hơn khi chiến tranh kết thúc. Điều này xuất phát từ hệ quả của Chiến tranh thế giới thứ hai`,
+          },
+          {
+            content: `Những thiệt hại của các cường quốc châu Âu trong cuộc chiến này khiến họ mất đi rất nhiều năng lực quân sự và kinh tế khả dĩ có thể duy trì hệ thống thuộc địa. Trong khi đó các dân tộc thuộc địa đã chống lại một cách sống còn, quyết không nhân nhượng (như trường hợp Việt Nam, Algérie).
             Thời kỳ bị Đức chiếm đóng đã gây nên tác động sâu sắc đến tâm lý các dân tộc châu Âu. Họ biết đến mất mát của chiến tranh và nỗi khổ đau khi phải chịu ách thống trị. Điều này ít nhiều đã ảnh hưởng đến quyết tâm muốn trở lại cai trị các dân tộc thuộc địa của họ. Đồng thời họ cũng nhận thức rằng sự tồn tại của chủ nghĩa thực dân và tư duy bá quyền trong quan hệ chính trị quốc tế chính là một trong những nguyên nhân dẫn đến cuộc chiến này. Các nước Đồng Minh đã ký Hiến chương Đại Tây Dương cam kết giải phóng cho các thuộc địa và giải trừ quân bị sau khi thế chiến thứ II kết thúc nhằm xây dựng một thế giới mới tốt đẹp hơn và tránh lặp lại những cuộc chiến tương tự trong tương lai.
             Các cuộc chiếm đóng của Đức Quốc xã ở Bắc Phi và Nhật Bản ở châu Á đã tàn phá uy tín của Anh, Pháp, Hà Lan đối với hệ thống thuộc địa của họ. Các dân tộc thuộc địa đã nhận thức được rằng những cường quốc cai trị mình vẫn có thể bị đánh bại.
             Sự trỗi dậy của Mỹ và việc mở rộng ảnh hưởng của Liên Xô cũng tạo ra sự ủng hộ cho phong trào giải phóng dân tộc vì hai nước này muốn xóa bỏ chủ nghĩa thực dân, thiết lập một trật tự thế giới mới, lôi kéo các nước thuộc địa mới giành được độc lập trở thành đồng minh, thâm nhập thị trường và khai thác tài nguyên tại các nước từng là thuộc địa. Các đế quốc tại Tây Âu phải phụ thuộc vào viện trợ Mỹ để tái thiết nên chịu áp lực chính trị của Mỹ phải phóng các thuộc địa. Hơn nữa Mỹ và Liên Xô đều hình thành dựa trên hệ tư tưởng chống chủ nghĩa thực dân. Mỹ từng là thuộc địa của Anh và đã chiến đấu để giành độc lập còn Liên Xô là liên minh các quốc gia từng là các tỉnh, các chư hầu của Đế quốc Nga đã giành độc lập sau khi chế độ Sa hoàng sụp đổ.
             Phong trào giải phóng dân tộc xảy đến là sự tất yếu. Những điều kiện vào cuối cuộc Thế chiến thật sự là cơ hội lớn cho các nước thuộc địa.
-            `
-          }
+            `,
+          },
         ],
       },
-      
     ],
     description: {
       items: [
@@ -1617,7 +1597,6 @@ const pages = [
         href: "#more",
         title: "Các trung tâm công nghệ khác cũng có tên valley",
       },
-      
     ],
     paragraph: [
       {
@@ -1625,7 +1604,7 @@ const pages = [
         segment: [
           {
             content:
-              'Thung lũng Silicon[1] (tiếng Anh: Silicon Valley; còn được người Mỹ gốc Việt gọi là Thung lũng Điện tử) là phần phía Nam của vùng vịnh San Francisco tại phía Bắc California ở Mỹ. Ban đầu tên này được dùng để chỉ một số lượng lớn các nhà phát minh và hãng sản xuất các loại chíp silicon (bộ xử lý vi mạch bằng silic), nhưng sau đó nó trở thành cái tên hoán dụ cho tất cả các khu thương mại công nghệ cao (high tech) trong khu vực.',
+              "Thung lũng Silicon[1] (tiếng Anh: Silicon Valley; còn được người Mỹ gốc Việt gọi là Thung lũng Điện tử) là phần phía Nam của vùng vịnh San Francisco tại phía Bắc California ở Mỹ. Ban đầu tên này được dùng để chỉ một số lượng lớn các nhà phát minh và hãng sản xuất các loại chíp silicon (bộ xử lý vi mạch bằng silic), nhưng sau đó nó trở thành cái tên hoán dụ cho tất cả các khu thương mại công nghệ cao (high tech) trong khu vực.",
           },
           {
             content:
@@ -1637,15 +1616,15 @@ const pages = [
           },
           {
             content:
-              'Silicon ám chỉ đến độ tập trung cao độ của các ngành công nghiệp liên quan đến công nghệ bán dẫn và công nghệ vi tính trong vùng. Chữ Valley (thung lũng) ám chỉ đến thung lũng Santa Clara, nằm ở cực Nam của vịnh San Francisco.',
+              "Silicon ám chỉ đến độ tập trung cao độ của các ngành công nghiệp liên quan đến công nghệ bán dẫn và công nghệ vi tính trong vùng. Chữ Valley (thung lũng) ám chỉ đến thung lũng Santa Clara, nằm ở cực Nam của vịnh San Francisco.",
           },
           {
             content:
-              'Cái tên này còn có thể được áp dụng để chỉ các vùng lân cận nằm ở hai bên vịnh San Francisco. Tại đó, nhiều ngành công nghiệp được phát triển một cách nhanh chóng. Về địa lý mà nói, nếp gấp của bề mặt Trái Đất tạo nên Silicon Valley, cũng đồng thời tạo nên vịnh San Francisco nữa — điều khác biệt duy nhất giữa chúng là độ cao.',
+              "Cái tên này còn có thể được áp dụng để chỉ các vùng lân cận nằm ở hai bên vịnh San Francisco. Tại đó, nhiều ngành công nghiệp được phát triển một cách nhanh chóng. Về địa lý mà nói, nếp gấp của bề mặt Trái Đất tạo nên Silicon Valley, cũng đồng thời tạo nên vịnh San Francisco nữa — điều khác biệt duy nhất giữa chúng là độ cao.",
           },
           {
             content:
-              'Trong rất nhiều năm giữa hai thập niên 1970 và thập niên 1980, các nhà báo thường nhắc đến nó với cái tên Silicon Valley. Đây là cái tên người ta dùng trước khi nó trở thành một cái tên thông dụng trong nền văn hóa của Hoa Kỳ. Do không quen thuộc với silic, các tác giả viết báo chí thường hiểu nhầm nó là một chữ đánh vần sai của chữ silicon, một chất liệu dùng để trét (caulking), để bơm ngực (breast implants) và còn là chất liệu dùng trong nhiều sản phẩm khác được giới thiệu với công chúng gần đây.',
+              "Trong rất nhiều năm giữa hai thập niên 1970 và thập niên 1980, các nhà báo thường nhắc đến nó với cái tên Silicon Valley. Đây là cái tên người ta dùng trước khi nó trở thành một cái tên thông dụng trong nền văn hóa của Hoa Kỳ. Do không quen thuộc với silic, các tác giả viết báo chí thường hiểu nhầm nó là một chữ đánh vần sai của chữ silicon, một chất liệu dùng để trét (caulking), để bơm ngực (breast implants) và còn là chất liệu dùng trong nhiều sản phẩm khác được giới thiệu với công chúng gần đây.",
           },
         ],
       },
@@ -1654,10 +1633,10 @@ const pages = [
         segment: [
           {
             content:
-              'Hàng ngàn tập đoàn công nghệ có trụ sở ở Silicon Valley; trong số đó, những tên sau đây nằm trong danh sách Forbes 500:',
+              "Hàng ngàn tập đoàn công nghệ có trụ sở ở Silicon Valley; trong số đó, những tên sau đây nằm trong danh sách Forbes 500:",
           },
           {
-            content:`
+            content: `
             Adobe Systems,
             Advanced Micro Devices (AMD),
             Agilent Technologies,
@@ -1689,14 +1668,14 @@ const pages = [
             Synopsys,
             Varian Medical Systems,
             Xilinx,
-            Yahoo!`
+            Yahoo!`,
           },
 
           {
-            content:`Thêm vào đó, các tập đoàn danh tiếng có trụ sở ở Silicon Valley bao gồm (một số không còn tồn tại hay đã bị sáp nhập):`
+            content: `Thêm vào đó, các tập đoàn danh tiếng có trụ sở ở Silicon Valley bao gồm (một số không còn tồn tại hay đã bị sáp nhập):`,
           },
           {
-            content:`Adaptec,
+            content: `Adaptec,
             Atmel,
             Cypress Semiconductor,
             Foundry Networks,
@@ -1718,22 +1697,21 @@ const pages = [
             VeriSign,
             Veritas Software (được Symantec mua lại),
             VMware (Được EMC mua lại),
-            SV Probe.`
+            SV Probe.`,
           },
           {
-            content:`Phù hợp với tôn chỉ của mình, Silicon Valley cũng là nơi đặt trụ sở chính của Fry's Electronics, một công ty bao gồm nhiều siêu thị (superstore) bán các vật liệu công nghệ cao high tech.`
+            content: `Phù hợp với tôn chỉ của mình, Silicon Valley cũng là nơi đặt trụ sở chính của Fry's Electronics, một công ty bao gồm nhiều siêu thị (superstore) bán các vật liệu công nghệ cao high tech.`,
           },
           {
-            content:`Danh sách các tập đoàn lớn nhất, xem Category:Companies based in the Silicon Valley`
-          }
+            content: `Danh sách các tập đoàn lớn nhất, xem Category:Companies based in the Silicon Valley`,
+          },
         ],
       },
       {
         id: 3,
         segment: [
           {
-            content:
-              `Đại học Carnegie Mellon (West Coast Campus),
+            content: `Đại học Carnegie Mellon (West Coast Campus),
               Đại học San José,
               Đại học Santa Clara,
               Đại học Stanford.`,
@@ -1743,8 +1721,7 @@ const pages = [
               "Các trường đại học sau đây không có trụ sở ở Silicon Valley, nhưng có các phương tiện dùng cho nghiên cứu và cho các người tốt nghiệp đại học:",
           },
           {
-            content:
-              `Đại học Tiểu bang California tại East Bay (California State University),
+            content: `Đại học Tiểu bang California tại East Bay (California State University),
               Đại học California tại Davis,
               Đại học California tại Berkeley,
               Đại học California tại Santa Cruz.`,
@@ -1759,8 +1736,7 @@ const pages = [
               "Một số thành phố nằm ở Silicon Valley (theo thứ tự bảng chữ cái):",
           },
           {
-            content:
-              `Campbell,
+            content: `Campbell,
               Cupertino,
               Los Altos,
               Los Gatos,
@@ -1779,8 +1755,7 @@ const pages = [
               "Một số thành phố nằm gần Silicon Valley có thể được xem thuộc vùng này:",
           },
           {
-            content:
-              `Oakland,
+            content: `Oakland,
               Hayward,
               Union,
               Fremont,
@@ -1794,12 +1769,10 @@ const pages = [
         id: 5,
         segment: [
           {
-            content:
-              `Những người phát triển kế hoạch của chính phủ và kinh doanh mạng lưới thích sử dụng tên "valley" để diễn tả khu vực của họ giống như thành quả đã đạt được của Silicon Valley; ví dụ, the Vale do Aço.`,
+            content: `Những người phát triển kế hoạch của chính phủ và kinh doanh mạng lưới thích sử dụng tên "valley" để diễn tả khu vực của họ giống như thành quả đã đạt được của Silicon Valley; ví dụ, the Vale do Aço.`,
           },
           {
-            content:
-              `Bangalore thường được gọi là "Silicon Valley của Ấn Độ" bởi vì nó đã trở thành một trung tâm công nghệ cao. Cũng là nơi đặt đại bản doanh của hơn 1.000 công ty công nghệ hàng đầu gồm: IBM, Intel, Dell, Cisco, Sun Microsystems và Oracle. Bởi nơi đây có nguồn nhân lực dồi dào, vốn tiếng Anh tốt cùng tiền lương rẻ bằng 1/8 lần so với Mỹ. Nhưng nếu so sánh với Silicon Valley ở California thì Bangalore cần một thời gian dài để bắt kịp. Silicon Valley nổi tiếng vì các hoạt động kinh doanh mạnh mẽ, nhưng ở Bangalore dân chúng thích gia nhập công ty hơn là bắt đầu dự án kinh doanh.`,
+            content: `Bangalore thường được gọi là "Silicon Valley của Ấn Độ" bởi vì nó đã trở thành một trung tâm công nghệ cao. Cũng là nơi đặt đại bản doanh của hơn 1.000 công ty công nghệ hàng đầu gồm: IBM, Intel, Dell, Cisco, Sun Microsystems và Oracle. Bởi nơi đây có nguồn nhân lực dồi dào, vốn tiếng Anh tốt cùng tiền lương rẻ bằng 1/8 lần so với Mỹ. Nhưng nếu so sánh với Silicon Valley ở California thì Bangalore cần một thời gian dài để bắt kịp. Silicon Valley nổi tiếng vì các hoạt động kinh doanh mạnh mẽ, nhưng ở Bangalore dân chúng thích gia nhập công ty hơn là bắt đầu dự án kinh doanh.`,
           },
         ],
       },
@@ -1847,7 +1820,8 @@ const pages = [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Baltoro_glacier_from_air.jpg/330px-Baltoro_glacier_from_air.jpg",
-        title: "Sông băng Baltoro trên dãy núi Karakoram, Baltistan, phía Bắc Pakistan. Với chiều dài 62 km, nó là một trong những sông băng vùng núi dài nhất thế giới",
+        title:
+          "Sông băng Baltoro trên dãy núi Karakoram, Baltistan, phía Bắc Pakistan. Với chiều dài 62 km, nó là một trong những sông băng vùng núi dài nhất thế giới",
       },
     ],
     subtitle: [
@@ -1883,7 +1857,7 @@ const pages = [
         segment: [
           {
             content:
-              'Sông băng hay băng hà là một khối băng lâu năm (có tỷ trọng thấp hơn băng thường), di chuyển liên tục bởi trọng lượng của chính nó; nó hình thành ở nơi mà tuyết tích tụ và vượt quá sự tiêu mòn (ablation: gồm có sự tan chảy và thăng hoa) qua rất nhiều năm, thường là hàng thế kỷ. Các sông băng từ từ biến dạng và chảy do sức ép gây ra bởi khối lượng của chúng, tạo thành các kẽ nứt (crevasse), băng trôi (serac), và nhiều dạng nổi bật khác biệt khác. Chúng cũng bào mòn đá và các mảnh vụn từ đất nền để tạo nên các dạng địa hình như núi dạng vòm và băng tích. Các sông băng chỉ hình thành trên mặt đất và khác hẳn so với lớp băng mỏng hơn nhiều trên biển và hồ mà hình thành trên mặt nước.',
+              "Sông băng hay băng hà là một khối băng lâu năm (có tỷ trọng thấp hơn băng thường), di chuyển liên tục bởi trọng lượng của chính nó; nó hình thành ở nơi mà tuyết tích tụ và vượt quá sự tiêu mòn (ablation: gồm có sự tan chảy và thăng hoa) qua rất nhiều năm, thường là hàng thế kỷ. Các sông băng từ từ biến dạng và chảy do sức ép gây ra bởi khối lượng của chúng, tạo thành các kẽ nứt (crevasse), băng trôi (serac), và nhiều dạng nổi bật khác biệt khác. Chúng cũng bào mòn đá và các mảnh vụn từ đất nền để tạo nên các dạng địa hình như núi dạng vòm và băng tích. Các sông băng chỉ hình thành trên mặt đất và khác hẳn so với lớp băng mỏng hơn nhiều trên biển và hồ mà hình thành trên mặt nước.",
           },
           {
             content:
@@ -1891,31 +1865,30 @@ const pages = [
           },
           {
             content:
-              'Băng ở sông băng là nguồn dự trữ nước ngọt lớn nhất trên Trái Đất.[2] Nhiều sông băng từ các vùng khí hậu ôn đới, miền núi, và theo mùa vùng cực trữ nước dưới dạng băng trong suốt các mùa lạnh và xả nước ra vào mùa hè vì nhiệt độ cao làm sông băng tan chảy, tạo thành nguồn nước mà đặc biệt quan trọng cho thực vật, động vật và con người sử dụng khi mà các nguồn nước khác hiếm đi. Ở những môi trường như Nam cực và có vị trí cao, sự chênh lệch nhiệt độ giữa các mùa thường không đủ để làm tan băng.',
+              "Băng ở sông băng là nguồn dự trữ nước ngọt lớn nhất trên Trái Đất.[2] Nhiều sông băng từ các vùng khí hậu ôn đới, miền núi, và theo mùa vùng cực trữ nước dưới dạng băng trong suốt các mùa lạnh và xả nước ra vào mùa hè vì nhiệt độ cao làm sông băng tan chảy, tạo thành nguồn nước mà đặc biệt quan trọng cho thực vật, động vật và con người sử dụng khi mà các nguồn nước khác hiếm đi. Ở những môi trường như Nam cực và có vị trí cao, sự chênh lệch nhiệt độ giữa các mùa thường không đủ để làm tan băng.",
+          },
+          {
+            content: `Vì khối lượng sông băng bị ảnh hưởng bởi những thay đổi khí hậu lâu dài, ví dụ như lượng mưa, nhiệt độ trung bình, và mây bao phủ. Sự thay đổi khối lượng sông băng được xem như là một trong những dấu hiệu nhạy cảm nhất của sự thay đổi khí hậu và là nguồn thay đổi chủ yếu của mực nước biển.`,
           },
           {
             content:
-              `Vì khối lượng sông băng bị ảnh hưởng bởi những thay đổi khí hậu lâu dài, ví dụ như lượng mưa, nhiệt độ trung bình, và mây bao phủ. Sự thay đổi khối lượng sông băng được xem như là một trong những dấu hiệu nhạy cảm nhất của sự thay đổi khí hậu và là nguồn thay đổi chủ yếu của mực nước biển.`,
+              "Một mảnh lớn của băng bị nén, hay của sông băng, sẽ có màu xanh lam vì một lượng lớn nước thường có màu xanh lam. Điều này là do phân tử nước hấp thụ các màu khác hiệu quả hơn màu xanh lam. Lý do khác giải thích cho màu xanh lam của các sông băng là do chúng không có các bọt khí. Những bọt khí này tạo màu trắng cho băng thường, bị ép mạnh bởi áp suất của các lớp băng bị nén khi sông băng hình thành.",
           },
           {
             content:
-              'Một mảnh lớn của băng bị nén, hay của sông băng, sẽ có màu xanh lam vì một lượng lớn nước thường có màu xanh lam. Điều này là do phân tử nước hấp thụ các màu khác hiệu quả hơn màu xanh lam. Lý do khác giải thích cho màu xanh lam của các sông băng là do chúng không có các bọt khí. Những bọt khí này tạo màu trắng cho băng thường, bị ép mạnh bởi áp suất của các lớp băng bị nén khi sông băng hình thành.',
+              "Các sông băng được phân loại bởi hình thái, đặc điểm nhiệt độ, và hoạt động của chúng. Sông băng vùng núi, hay còn được gọi là sông băng đài vòng, hình thành trên các chỏm và sườn núi. Sông băng vùng núi mà lấp đầy một thung lũng đôi khi cũng được gọi là sông băng thung lũng. Một khối lớn băng từ sông băng trải dài cả một ngọn núi, dãy núi, hay núi lửa thì được gọi là chỏm băng hay đồng băng.[3] Theo định nghĩa, các chỏm băng có diện tích nhỏ hơn 50.000 km vuông (20.000 dặm vuông).",
           },
           {
             content:
-              'Các sông băng được phân loại bởi hình thái, đặc điểm nhiệt độ, và hoạt động của chúng. Sông băng vùng núi, hay còn được gọi là sông băng đài vòng, hình thành trên các chỏm và sườn núi. Sông băng vùng núi mà lấp đầy một thung lũng đôi khi cũng được gọi là sông băng thung lũng. Một khối lớn băng từ sông băng trải dài cả một ngọn núi, dãy núi, hay núi lửa thì được gọi là chỏm băng hay đồng băng.[3] Theo định nghĩa, các chỏm băng có diện tích nhỏ hơn 50.000 km vuông (20.000 dặm vuông).',
+              "Các khối sông băng có diện tích lớn hơn 50.000 km vuông được gọi là mảng băng, hay sông băng lục địa.[4] Với độ sâu vài km, chúng che đi địa hình nằm bên dưới. Chỉ có các đỉnh núi (nunatak) là nhô ra khỏi bề mặt băng. Các mảng băng duy nhất hiện còn tồn tại là hai mảng băng bao phủ Nam Cực và Greenland. Chúng có chứa lượng nước ngọt rất lớn, đủ để mà nếu như cả hai mảng băng này tan ra hết, mực nước biển toàn cầu sẽ dâng lên đến 70 m.[5] Những phần của mảng băng hay chỏm băng mà kéo dài ra mặt nước thì được gọi là thềm băng; chúng thường có xu hướng mỏng, độ dốc hạn chế và vận tốc giảm hẳn.[6] Các vùng hẹp và di chuyển nhanh của một mảng băng được gọi là suối băng (ice stream).[7][8] Ở Nam cực, nhiều suối băng chảy thẳng ra các thềm băng. Một số chảy trực tiếp ra biển, thường là với một lưỡi băng (ice tongue), như sông băng Mertz.",
           },
           {
             content:
-              'Các khối sông băng có diện tích lớn hơn 50.000 km vuông được gọi là mảng băng, hay sông băng lục địa.[4] Với độ sâu vài km, chúng che đi địa hình nằm bên dưới. Chỉ có các đỉnh núi (nunatak) là nhô ra khỏi bề mặt băng. Các mảng băng duy nhất hiện còn tồn tại là hai mảng băng bao phủ Nam Cực và Greenland. Chúng có chứa lượng nước ngọt rất lớn, đủ để mà nếu như cả hai mảng băng này tan ra hết, mực nước biển toàn cầu sẽ dâng lên đến 70 m.[5] Những phần của mảng băng hay chỏm băng mà kéo dài ra mặt nước thì được gọi là thềm băng; chúng thường có xu hướng mỏng, độ dốc hạn chế và vận tốc giảm hẳn.[6] Các vùng hẹp và di chuyển nhanh của một mảng băng được gọi là suối băng (ice stream).[7][8] Ở Nam cực, nhiều suối băng chảy thẳng ra các thềm băng. Một số chảy trực tiếp ra biển, thường là với một lưỡi băng (ice tongue), như sông băng Mertz.',
+              "Sông băng thủy triều là những sông băng mà kết thúc ngoài biển, bao gồm hầu hết các sông băng chảy từ Greenland, Nam cực, đảo Baffin và đảo Ellesmere ở Canada, Đông Nam Alaska, phía Bắc và phía Nam đồng băng Patagonian. Khi băng ra đến biển, các mảnh băng vỡ ra, tạo thành các tảng băng trôi. Hầu hết sông băng thủy triều vỡ ra ở trên mực nước biển, thường gây ra những chấn động dữ dội khi băng trôi rơi xuống nước. Sông băng thủy triều trải qua những chu kỳ tiến và lùi hàng thế kỷ mà ít bị ảnh hưởng hơn hẳn bởi sự thay đổi khí hậu so với các dạng sông băng khác.",
           },
           {
             content:
-              'Sông băng thủy triều là những sông băng mà kết thúc ngoài biển, bao gồm hầu hết các sông băng chảy từ Greenland, Nam cực, đảo Baffin và đảo Ellesmere ở Canada, Đông Nam Alaska, phía Bắc và phía Nam đồng băng Patagonian. Khi băng ra đến biển, các mảnh băng vỡ ra, tạo thành các tảng băng trôi. Hầu hết sông băng thủy triều vỡ ra ở trên mực nước biển, thường gây ra những chấn động dữ dội khi băng trôi rơi xuống nước. Sông băng thủy triều trải qua những chu kỳ tiến và lùi hàng thế kỷ mà ít bị ảnh hưởng hơn hẳn bởi sự thay đổi khí hậu so với các dạng sông băng khác.',
-          },
-          {
-            content:
-              'Về mặt nhiệt độ, sông băng ôn đới luôn ở nhiệt độ nóng chảy cả năm, từ bề mặt đến đáy. Băng ở sông băng vùng cực luôn ở dưới nhiệt độ đóng băng từ bề mặt đến đáy, dù rằng tại bề mặt thì các đụn tuyết có thể bị tan chảy theo mùa. Sông băng cận vùng cực bao gồm cả băng vùng cực và vùng ôn đới, tùy thuộc vào độ sâu bên dưới bề mặt và vị trí dọc theo chiều dài sông băng. Theo một cách tương tự, trạng thái nhiệt độ của một sông băng thường được mô tả chỉ bởi nhiệt độ tại đáy của nó. Sông băng nền lạnh thì mặt phân giới giữa băng và mặt đất thường ở dưới nhiệt độ đóng băng, và do đó nó bị đóng băng đến phần nền đất nằm bên dưới. Còn sông băng nền ấm thì tại mặt phân giới, nhiệt độ thường trên hoặc bằng với nhiệt độ đóng băng, và nó có thể trượt tại tiếp điểm này.[9] Sự trái ngược này được cho là một mức độ đặc biệt nhằm chi phối khả năng làm xói mòn nền đất một cách hiệu quả của sông băng, vì khi trượt đi, băng sẽ thúc đẩy quá trình kéo phần đất đá ra khỏi bề mặt bên dưới.[10] Những sông băng nào mà có một phần là nền lạnh, một phần là nền ấm thì được gọi là sông băng đa nhiệt.',
+              "Về mặt nhiệt độ, sông băng ôn đới luôn ở nhiệt độ nóng chảy cả năm, từ bề mặt đến đáy. Băng ở sông băng vùng cực luôn ở dưới nhiệt độ đóng băng từ bề mặt đến đáy, dù rằng tại bề mặt thì các đụn tuyết có thể bị tan chảy theo mùa. Sông băng cận vùng cực bao gồm cả băng vùng cực và vùng ôn đới, tùy thuộc vào độ sâu bên dưới bề mặt và vị trí dọc theo chiều dài sông băng. Theo một cách tương tự, trạng thái nhiệt độ của một sông băng thường được mô tả chỉ bởi nhiệt độ tại đáy của nó. Sông băng nền lạnh thì mặt phân giới giữa băng và mặt đất thường ở dưới nhiệt độ đóng băng, và do đó nó bị đóng băng đến phần nền đất nằm bên dưới. Còn sông băng nền ấm thì tại mặt phân giới, nhiệt độ thường trên hoặc bằng với nhiệt độ đóng băng, và nó có thể trượt tại tiếp điểm này.[9] Sự trái ngược này được cho là một mức độ đặc biệt nhằm chi phối khả năng làm xói mòn nền đất một cách hiệu quả của sông băng, vì khi trượt đi, băng sẽ thúc đẩy quá trình kéo phần đất đá ra khỏi bề mặt bên dưới.[10] Những sông băng nào mà có một phần là nền lạnh, một phần là nền ấm thì được gọi là sông băng đa nhiệt.",
           },
         ],
       },
@@ -1973,19 +1946,19 @@ const pages = [
         segment: [
           {
             content:
-              'Các sông băng hiện diện trên mỗi lục địa và xấp xỉ 50 quốc gia, ngoại trừ các nước (Úc, Nam Phi) mà chỉ có sông băng ở các vùng lãnh thổ đảo cận Nam Cực xa xôi. Những sông băng trải dài được tìm thấy ở Nam Cực, Chile, Canada, Alaska, Greenland và Iceland. Các sông băng vùng núi thường trải rất rộng, đặc biệt là ở Andes, Himalaya, Dãy núi Rocky, Dãy núi Kavkaz, Anpơ. Vùng đất liền Úc hiện tại không còn sông băng, dù rằng một sông băng nhỏ trên núi Kosciuszko đã từng hiện diện vào thời kỳ băng hà cuối cùng.[24] Ở New Guinea, các sông băng nhỏ, biến mất nhanh nằm ở trên đỉnh cáo nhất của khối núi Puncak Jaya.[25] Châu Phi có các sông băng trên núi Kilimanjaro ở Tanzania, trên núi Kenya và núi Rwenzori. Các hòn đảo ngoài đại dương với sông băng xuất hiện là ở Iceland, Svalbard, New Zealand, Jan Mayen và các hòn đảo cận Nam Cực như Marion, Đảo Heard và quần đảo McDonald, Kerguelen, đảo Bouvet. Trong suốt thời kỳ băng hà kỷ Đệ Tứ, Đài Loan, Hawaii, Mauna Kea [26] và Tenerife cũng có các sông băng vùng núi rộng lớn, trong khi quần đảo Faroe và quần đảo Crozet[27] thì hoàn toàn bị băng bao phủ.',
+              "Các sông băng hiện diện trên mỗi lục địa và xấp xỉ 50 quốc gia, ngoại trừ các nước (Úc, Nam Phi) mà chỉ có sông băng ở các vùng lãnh thổ đảo cận Nam Cực xa xôi. Những sông băng trải dài được tìm thấy ở Nam Cực, Chile, Canada, Alaska, Greenland và Iceland. Các sông băng vùng núi thường trải rất rộng, đặc biệt là ở Andes, Himalaya, Dãy núi Rocky, Dãy núi Kavkaz, Anpơ. Vùng đất liền Úc hiện tại không còn sông băng, dù rằng một sông băng nhỏ trên núi Kosciuszko đã từng hiện diện vào thời kỳ băng hà cuối cùng.[24] Ở New Guinea, các sông băng nhỏ, biến mất nhanh nằm ở trên đỉnh cáo nhất của khối núi Puncak Jaya.[25] Châu Phi có các sông băng trên núi Kilimanjaro ở Tanzania, trên núi Kenya và núi Rwenzori. Các hòn đảo ngoài đại dương với sông băng xuất hiện là ở Iceland, Svalbard, New Zealand, Jan Mayen và các hòn đảo cận Nam Cực như Marion, Đảo Heard và quần đảo McDonald, Kerguelen, đảo Bouvet. Trong suốt thời kỳ băng hà kỷ Đệ Tứ, Đài Loan, Hawaii, Mauna Kea [26] và Tenerife cũng có các sông băng vùng núi rộng lớn, trong khi quần đảo Faroe và quần đảo Crozet[27] thì hoàn toàn bị băng bao phủ.",
           },
           {
             content:
-              'Lớp tuyết vĩnh cửu cần thiết cho sự hình thành sông băng bị ảnh hưởng bởi các nhân tố chẳng hạn như độ dốc của đất, lượng tuyết rơi và các cơn gió. Các sông băng có thể được tìm thấy ở bất kỳ vĩ độ nào ngoại trừ 20 – 27 độ Bắc đến Nam của xích đạo nơi mà có sự hiện diện của vòng tuần hoàn Hadley, làm giảm lượng mưa nhiều đến nỗi mà với ánh nắng từ mặt trời, mức tuyết vĩnh cửu nằm ở trên 6.500 m (21.330 ft). Tuy nhiên, giữa 19 độ Bắc và 19 độ Nam, lượng mưa cao hơn và những ngọn núi trên 5.000 m (16.400 ft) thường có tuyết vĩnh cửu.',
+              "Lớp tuyết vĩnh cửu cần thiết cho sự hình thành sông băng bị ảnh hưởng bởi các nhân tố chẳng hạn như độ dốc của đất, lượng tuyết rơi và các cơn gió. Các sông băng có thể được tìm thấy ở bất kỳ vĩ độ nào ngoại trừ 20 – 27 độ Bắc đến Nam của xích đạo nơi mà có sự hiện diện của vòng tuần hoàn Hadley, làm giảm lượng mưa nhiều đến nỗi mà với ánh nắng từ mặt trời, mức tuyết vĩnh cửu nằm ở trên 6.500 m (21.330 ft). Tuy nhiên, giữa 19 độ Bắc và 19 độ Nam, lượng mưa cao hơn và những ngọn núi trên 5.000 m (16.400 ft) thường có tuyết vĩnh cửu.",
           },
           {
             content:
-              'Kể cả ở vĩ độ cao, sự hình thành sông băng cũng không phải là không thể tránh được. Những vùng ở Bắc Cực, chẳng hạn như ở đảo Banks, và thung lũng khô McMurdo ở Nam Cực được xem là những hoang mạc vùng cực nơi mà sông băng không thể hình thành vì lượng tuyết rơi quá thấp, dù rằng cực kỳ lạnh. Không khí lạnh thì không giống không khí ấm, nó không thể mang theo nhiều hơi nước được. Kể cả trong những thời kỳ băng hà của kỷ Đệ Tứ, ở Mãn Châu, đồng bằng Siberia[28], vùng trung và bắc Alaska,[29] dù rằng lạnh bất thường, nhưng lượng tuyết rơi quá ít nên các sông băng không thể hình thành.',
+              "Kể cả ở vĩ độ cao, sự hình thành sông băng cũng không phải là không thể tránh được. Những vùng ở Bắc Cực, chẳng hạn như ở đảo Banks, và thung lũng khô McMurdo ở Nam Cực được xem là những hoang mạc vùng cực nơi mà sông băng không thể hình thành vì lượng tuyết rơi quá thấp, dù rằng cực kỳ lạnh. Không khí lạnh thì không giống không khí ấm, nó không thể mang theo nhiều hơi nước được. Kể cả trong những thời kỳ băng hà của kỷ Đệ Tứ, ở Mãn Châu, đồng bằng Siberia[28], vùng trung và bắc Alaska,[29] dù rằng lạnh bất thường, nhưng lượng tuyết rơi quá ít nên các sông băng không thể hình thành.",
           },
           {
             content:
-              'Ngoài các vùng cực khô và không bị sông băng bao phủ, một vài ngọn núi và núi lửa ở Bolivia, Chile và Argentina khá cao (từ 4.500 m (14.800 ft) đến 6.900 m (22.600 ft)) và rất lạnh, nhưng tương đối ít mưa nên tuyết không thể tích lũy thành sông băng được. Điều này là do những đỉnh núi này nằm gần hoặc ở trong hoang mạc siêu khô cằn Atacama.',
+              "Ngoài các vùng cực khô và không bị sông băng bao phủ, một vài ngọn núi và núi lửa ở Bolivia, Chile và Argentina khá cao (từ 4.500 m (14.800 ft) đến 6.900 m (22.600 ft)) và rất lạnh, nhưng tương đối ít mưa nên tuyết không thể tích lũy thành sông băng được. Điều này là do những đỉnh núi này nằm gần hoặc ở trong hoang mạc siêu khô cằn Atacama.",
           },
         ],
       },
@@ -2062,28 +2035,23 @@ const pages = [
               "Tốc độ gây xói mòn của sông băng là rất đa dạng. Sáu nhân tố sau điều khiển tốc độ gây xói mòn:",
           },
           {
-            content:
-              "Vận tốc di chuyển của sông băng",
+            content: "Vận tốc di chuyển của sông băng",
           },
           {
-            content:
-              "Độ dày của băng",
+            content: "Độ dày của băng",
           },
           {
             content:
               "Hình dạng, độ phong phú và độ cứng của các mảnh đá có trong băng ở đáy sông băng",
           },
           {
-            content:
-              "Độ dễ xói mòn tương đối của bề mặt dưới sông băng",
+            content: "Độ dễ xói mòn tương đối của bề mặt dưới sông băng",
           },
           {
-            content:
-              "Điều kiện nhiệt độ ở đáy sông băng",
+            content: "Điều kiện nhiệt độ ở đáy sông băng",
           },
           {
-            content:
-              "Độ thẩm thấu và áp suất của nước ở đáy sông băng",
+            content: "Độ thẩm thấu và áp suất của nước ở đáy sông băng",
           },
           {
             content:
@@ -2171,8 +2139,6 @@ const pages = [
         href: "#Ecological",
         title: "Sinh thái",
       },
-
-
     ],
     paragraph: [
       {
@@ -2187,20 +2153,18 @@ const pages = [
               "Himalaya là dãy núi cao nhất Trái Đất và là nơi của 14 đỉnh núi cao nhất thế giới: các đỉnh cao trên 8.000 m, bao gồm cả đỉnh Everest. Để thấy được kích thước khổng lồ của những đỉnh núi trong dãy Himalaya, có thể so với đỉnh Aconcagua trong dãy Andes, với độ cao 6.962 m, là đỉnh cao nhất bên ngoài Himalaya, trong khi hệ thống núi Himalaya có trên 50 ngọn núi khác nhau đạt chiều cao vượt quá 7.200 m. Dãy Himalaya cũng là nơi khởi nguồn của 3 hệ thống sông lớn trên thế giới, đó là lưu vực các sông như sông Ấn, sông Hằng-Brahmaputra và sông Dương Tử. Khoảng 750 triệu người sống trên lưu vực của các con sông bắt nguồn từ dãy Himalaya, tính luôn cả Bangladesh.",
           },
           {
-            content:
-              `Được nâng lên bởi sự hút chìm của mảng kiến ​​tạo Ấn Độ dưới mảng Á-Âu, dãy Himalaya chạy theo hướng tây-tây bắc đến đông-đông nam trong một vòng cung dài 2.400 km (1.500 mi). Neo phía tây của nó, Nanga Parbat, nằm ngay phía nam của khúc quanh cực bắc của sông Indus. Neo phía đông của nó, Namcha Barwa, nằm ở phía tây của khúc quanh lớn của sông Yarlung Tsangpo (thượng nguồn của sông Brahmaputra). Dãy núi Himalaya giáp phía tây bắc bởi dãy Karakoram và dãy Hindu Kush. Ở phía bắc, chuỗi được tách ra khỏi cao nguyên Tây Tạng bởi một thung lũng kiến ​​tạo rộng 50–60 km (31-37 mi) được gọi là Indus-Tsangpo. Hướng về phía nam vòng cung của dãy Himalaya được bao quanh bởi Đồng bằng Ấn-Hằng rất thấp. Phạm vi thay đổi về chiều rộng từ 350 km (220 mi) ở phía tây (Pakistan) đến 150 km (93 mi) ở phía đông (tỉnh Arunachal Pradesh). Himalaya khác biệt với các dãy lớn khác của Trung Á, mặc dù đôi khi thuật ngữ 'Himalaya' (hay 'Đại Hy Mã Lạp Sơn') được sử dụng một cách ít thông dụng hơn để bao gồm Karakoram và một số phạm vi khác.`,
+            content: `Được nâng lên bởi sự hút chìm của mảng kiến ​​tạo Ấn Độ dưới mảng Á-Âu, dãy Himalaya chạy theo hướng tây-tây bắc đến đông-đông nam trong một vòng cung dài 2.400 km (1.500 mi). Neo phía tây của nó, Nanga Parbat, nằm ngay phía nam của khúc quanh cực bắc của sông Indus. Neo phía đông của nó, Namcha Barwa, nằm ở phía tây của khúc quanh lớn của sông Yarlung Tsangpo (thượng nguồn của sông Brahmaputra). Dãy núi Himalaya giáp phía tây bắc bởi dãy Karakoram và dãy Hindu Kush. Ở phía bắc, chuỗi được tách ra khỏi cao nguyên Tây Tạng bởi một thung lũng kiến ​​tạo rộng 50–60 km (31-37 mi) được gọi là Indus-Tsangpo. Hướng về phía nam vòng cung của dãy Himalaya được bao quanh bởi Đồng bằng Ấn-Hằng rất thấp. Phạm vi thay đổi về chiều rộng từ 350 km (220 mi) ở phía tây (Pakistan) đến 150 km (93 mi) ở phía đông (tỉnh Arunachal Pradesh). Himalaya khác biệt với các dãy lớn khác của Trung Á, mặc dù đôi khi thuật ngữ 'Himalaya' (hay 'Đại Hy Mã Lạp Sơn') được sử dụng một cách ít thông dụng hơn để bao gồm Karakoram và một số phạm vi khác.`,
           },
           {
             content:
-              'Dãy Himalaya có 52,7 triệu người sinh sống, trải khắp 5 quốc gia: Bhutan, Trung Quốc, Ấn Độ, Nepal và Pakistan. Phạm vi Hindu Kush ở Afghanistan và Hkakabo Razi ở Myanmar thường không được tính, nhưng cả hai đều có (cùng với Bangladesh) một phần của hệ thống sông Hindu Kush Himalaya (HKH). Himalaya có ảnh hưởng sâu sắc đến khí hậu của khu vực, giúp giữ mưa gió mùa trên đồng bằng Ấn Độ và hạn chế lượng mưa trên cao nguyên Tây Tạng. Himalaya đã định hình sâu sắc các nền văn hóa của tiểu lục địa Ấn Độ, với nhiều đỉnh núi thuộc dãy núi Himalaya được coi là linh thiêng trong Ấn Độ giáo, Phật giáo và Kỳ Na giáo.',
+              "Dãy Himalaya có 52,7 triệu người sinh sống, trải khắp 5 quốc gia: Bhutan, Trung Quốc, Ấn Độ, Nepal và Pakistan. Phạm vi Hindu Kush ở Afghanistan và Hkakabo Razi ở Myanmar thường không được tính, nhưng cả hai đều có (cùng với Bangladesh) một phần của hệ thống sông Hindu Kush Himalaya (HKH). Himalaya có ảnh hưởng sâu sắc đến khí hậu của khu vực, giúp giữ mưa gió mùa trên đồng bằng Ấn Độ và hạn chế lượng mưa trên cao nguyên Tây Tạng. Himalaya đã định hình sâu sắc các nền văn hóa của tiểu lục địa Ấn Độ, với nhiều đỉnh núi thuộc dãy núi Himalaya được coi là linh thiêng trong Ấn Độ giáo, Phật giáo và Kỳ Na giáo.",
           },
           {
             content:
               'Tên của phạm vi bắt nguồn từ tiếng Phạn Himālaya (हिमालय, "Nơi ở của tuyết"), từ himá (हिम, "tuyết") và ā-laya (आलय, "nơi ở, nơi trú ngụ"). Hiện tại chúng được gọi là "Dãy núi Himalaya", thường được rút ngắn thành "Himalaya". Trước đây, chúng được mô tả theo số ít là Himalaya và được biểu hiện dưới dạng Himavan trong các tác phẩm cũ. Điều này trước đây cũng được phiên âm là Himmaleh, như trong thơ của Emily Dickinson và các bài tiểu luận của Henry David Thoreau.',
           },
           {
-            content:
-              `Những ngọn núi được biết đến với tên gọi là Himālaya trong tiếng Nepal và tiếng Hindi (cả hai đều được viết là हिमालय), hay dãy núi tuyết '(ཧི་མ་ལ་ཡ་) ở Tây Tạng, dãy núi Himāliya (tiếng Urdu: سلسلہ کوہ ہمالیہ) trong tiếng Urdu và dãy núi Ximalaya (tiếng Trung giản thể: 喜马拉雅山脉; tiếng Trung phồn thể: 喜馬拉雅山脈; bính âm: Xǐmǎlāyǎ Shānmài) trong tiếng Trung Quốc. (Tiếng Quảng Đông: hei-mã-lai-ngã san-mặk (hei1 maa5 laai1 ngaa5 saan1 mak6).)`,
+            content: `Những ngọn núi được biết đến với tên gọi là Himālaya trong tiếng Nepal và tiếng Hindi (cả hai đều được viết là हिमालय), hay dãy núi tuyết '(ཧི་མ་ལ་ཡ་) ở Tây Tạng, dãy núi Himāliya (tiếng Urdu: سلسلہ کوہ ہمالیہ) trong tiếng Urdu và dãy núi Ximalaya (tiếng Trung giản thể: 喜马拉雅山脉; tiếng Trung phồn thể: 喜馬拉雅山脈; bính âm: Xǐmǎlāyǎ Shānmài) trong tiếng Trung Quốc. (Tiếng Quảng Đông: hei-mã-lai-ngã san-mặk (hei1 maa5 laai1 ngaa5 saan1 mak6).)`,
           },
         ],
       },
@@ -2209,19 +2173,19 @@ const pages = [
         segment: [
           {
             content:
-              'Dãy Himalaya bao gồm các dãy núi song song: Đồi Sivalik ở phía nam; dãy Himalaya thấp hơn; dãy núi Đại Himalaya, là dãy cao nhất và trung tâm; và dãy Himalaya ở phía bắc. Karakoram thường được coi là tách biệt với dãy Himalaya.',
+              "Dãy Himalaya bao gồm các dãy núi song song: Đồi Sivalik ở phía nam; dãy Himalaya thấp hơn; dãy núi Đại Himalaya, là dãy cao nhất và trung tâm; và dãy Himalaya ở phía bắc. Karakoram thường được coi là tách biệt với dãy Himalaya.",
           },
           {
             content:
-              'Ở giữa đường cong lớn của dãy núi Himalaya nằm trên đỉnh Dhaulagiri và khối núi Annapurna ở Nepal cao 8.000 m (26.000 ft) ở Nepal, cách nhau bởi Hẻm núi Kali Gandaki. Hẻm núi phân chia dãy Himalaya thành các phần phía tây và phía đông cả về mặt sinh thái và địa lý - đường đèo ở đầu Kali Gandaki, Kora La là điểm thấp nhất trên đường vòng giữa Everest và K2 (đỉnh cao nhất của dãy Karakoram và Pakistan). Về phía đông của Annapurna là các đỉnh Manaslu cao 8.000 m (5,0 dặm) và qua biên giới ở Tây Tạng, Shishapangma. Ở phía nam của nó nằm ở thủ đô Kathmandu của Nepal và là thành phố lớn nhất ở dãy Himalaya. Phía đông thung lũng Kathmandu là thung lũng của sông Bhote/Sun Kosi dâng lên ở Tây Tạng và cung cấp tuyến đường bộ chính giữa Nepal và Trung Quốc - Xa lộ Araniko/Quốc lộ Trung Quốc 318. Xa hơn về phía đông là dãy núi Mahalangur với bốn trong số sáu những ngọn núi cao nhất thế giới, bao gồm cả cao nhất: Cho Oyu, Everest, Lhotse và Makalu. Vùng Khumbu, một nơi phổ biến cho môn trekking, được tìm thấy ở đây trên các phương pháp phía tây nam đến Everest. Sông Arun thoát các sườn phía bắc của những ngọn núi này, trước khi quay về phía nam và chảy đến phạm vi phía đông của Makalu.',
+              "Ở giữa đường cong lớn của dãy núi Himalaya nằm trên đỉnh Dhaulagiri và khối núi Annapurna ở Nepal cao 8.000 m (26.000 ft) ở Nepal, cách nhau bởi Hẻm núi Kali Gandaki. Hẻm núi phân chia dãy Himalaya thành các phần phía tây và phía đông cả về mặt sinh thái và địa lý - đường đèo ở đầu Kali Gandaki, Kora La là điểm thấp nhất trên đường vòng giữa Everest và K2 (đỉnh cao nhất của dãy Karakoram và Pakistan). Về phía đông của Annapurna là các đỉnh Manaslu cao 8.000 m (5,0 dặm) và qua biên giới ở Tây Tạng, Shishapangma. Ở phía nam của nó nằm ở thủ đô Kathmandu của Nepal và là thành phố lớn nhất ở dãy Himalaya. Phía đông thung lũng Kathmandu là thung lũng của sông Bhote/Sun Kosi dâng lên ở Tây Tạng và cung cấp tuyến đường bộ chính giữa Nepal và Trung Quốc - Xa lộ Araniko/Quốc lộ Trung Quốc 318. Xa hơn về phía đông là dãy núi Mahalangur với bốn trong số sáu những ngọn núi cao nhất thế giới, bao gồm cả cao nhất: Cho Oyu, Everest, Lhotse và Makalu. Vùng Khumbu, một nơi phổ biến cho môn trekking, được tìm thấy ở đây trên các phương pháp phía tây nam đến Everest. Sông Arun thoát các sườn phía bắc của những ngọn núi này, trước khi quay về phía nam và chảy đến phạm vi phía đông của Makalu.",
           },
           {
             content:
-              'Ở vùng viễn đông của Nepal, dãy Himalaya nổi lên khối núi Kanchenjunga ở biên giới với Ấn Độ, ngọn núi cao thứ ba trên thế giới, đỉnh núi cao nhất 8.000 m (26.000 ft) và là điểm cao nhất của Ấn Độ. Phía đông của Kanchenjunga thuộc bang Sikkim của Ấn Độ. Trước đây là một Vương quốc độc lập, nó nằm trên tuyến đường chính từ Ấn Độ đến Lhasa, Tây Tạng, đi qua đèo Nathu La vào Tây Tạng. Phía đông Sikkim là Vương quốc Phật giáo cổ đại của Bhutan. Ngọn núi cao nhất ở Bhutan là Gangkhar Puensum, đây cũng là một ứng cử viên nặng ký cho ngọn núi chưa được chinh phục cao nhất thế giới. Dãy Himalaya ở đây đang ngày càng trở nên gồ ghề với những thung lũng dốc rừng rậm rạp. Himalaya tiếp tục, quay nhẹ về phía đông bắc, qua bang Arunachal Pradesh của Ấn Độ cũng như Tây Tạng, trước khi đi đến kết thúc ở đỉnh Namche Barwa, nằm ở Tây Tạng bên trong khúc quanh lớn của sông Yarlung Tsangpo. Ở phía bên kia của Tsangpo, về phía đông, là những ngọn núi Kangri Garpo. Tuy nhiên, những ngọn núi cao ở phía bắc của Tsangpo, bao gồm cả Gyala Peri, đôi khi cũng được đưa vào dãy Himalaya.',
+              "Ở vùng viễn đông của Nepal, dãy Himalaya nổi lên khối núi Kanchenjunga ở biên giới với Ấn Độ, ngọn núi cao thứ ba trên thế giới, đỉnh núi cao nhất 8.000 m (26.000 ft) và là điểm cao nhất của Ấn Độ. Phía đông của Kanchenjunga thuộc bang Sikkim của Ấn Độ. Trước đây là một Vương quốc độc lập, nó nằm trên tuyến đường chính từ Ấn Độ đến Lhasa, Tây Tạng, đi qua đèo Nathu La vào Tây Tạng. Phía đông Sikkim là Vương quốc Phật giáo cổ đại của Bhutan. Ngọn núi cao nhất ở Bhutan là Gangkhar Puensum, đây cũng là một ứng cử viên nặng ký cho ngọn núi chưa được chinh phục cao nhất thế giới. Dãy Himalaya ở đây đang ngày càng trở nên gồ ghề với những thung lũng dốc rừng rậm rạp. Himalaya tiếp tục, quay nhẹ về phía đông bắc, qua bang Arunachal Pradesh của Ấn Độ cũng như Tây Tạng, trước khi đi đến kết thúc ở đỉnh Namche Barwa, nằm ở Tây Tạng bên trong khúc quanh lớn của sông Yarlung Tsangpo. Ở phía bên kia của Tsangpo, về phía đông, là những ngọn núi Kangri Garpo. Tuy nhiên, những ngọn núi cao ở phía bắc của Tsangpo, bao gồm cả Gyala Peri, đôi khi cũng được đưa vào dãy Himalaya.",
           },
           {
             content:
-              'Đi về phía tây từ Dhaulagiri, miền tây Nepal có phần xa xôi và thiếu những ngọn núi cao lớn, nhưng là nơi có hồ Rara, hồ lớn nhất ở Nepal. Sông Karnali dâng lên ở Tây Tạng nhưng cắt qua trung tâm của khu vực. Xa hơn về phía tây, biên giới với Ấn Độ theo sông Sarda và cung cấp một tuyến giao thương vào Trung Quốc, nơi trên cao nguyên Tây Tạng là đỉnh cao của Gurla Mandhata. Ngay bên kia hồ Manasarovar từ đây là núi Kailash linh thiêng, nằm sát nguồn của bốn con sông chính của dãy Himalaya và được tôn sùng trong Ấn Độ giáo, Phật giáo, Sufism, Kỳ Na giáo và Bonpo. Ở bang Uttarakhand mới được thành lập của Ấn Độ, dãy Himalaya lại nổi bật trở lại ở huyện Kumaon với các đỉnh núi cao Nanda Devi và Kamet. Bang này cũng là một điểm đến hành hương quan trọng, với nguồn gốc của sông Hằng tại Gangotri và Yamuna tại Yamunotri, và các đền thờ tại Badrinathpuri và Kedarnath.',
+              "Đi về phía tây từ Dhaulagiri, miền tây Nepal có phần xa xôi và thiếu những ngọn núi cao lớn, nhưng là nơi có hồ Rara, hồ lớn nhất ở Nepal. Sông Karnali dâng lên ở Tây Tạng nhưng cắt qua trung tâm của khu vực. Xa hơn về phía tây, biên giới với Ấn Độ theo sông Sarda và cung cấp một tuyến giao thương vào Trung Quốc, nơi trên cao nguyên Tây Tạng là đỉnh cao của Gurla Mandhata. Ngay bên kia hồ Manasarovar từ đây là núi Kailash linh thiêng, nằm sát nguồn của bốn con sông chính của dãy Himalaya và được tôn sùng trong Ấn Độ giáo, Phật giáo, Sufism, Kỳ Na giáo và Bonpo. Ở bang Uttarakhand mới được thành lập của Ấn Độ, dãy Himalaya lại nổi bật trở lại ở huyện Kumaon với các đỉnh núi cao Nanda Devi và Kamet. Bang này cũng là một điểm đến hành hương quan trọng, với nguồn gốc của sông Hằng tại Gangotri và Yamuna tại Yamunotri, và các đền thờ tại Badrinathpuri và Kedarnath.",
           },
           {
             content:
@@ -2295,8 +2259,8 @@ const pages = [
               "Himalaya có ảnh hưởng sâu sắc đến khí hậu của tiểu lục địa Ấn Độ và cao nguyên Tây Tạng. Chúng ngăn những cơn gió lạnh, khô cằn thổi về phía nam vào tiểu lục địa, khiến phần lớn khu vực Nam Á ấm hơn nhiều so với các vùng ôn đới tương ứng ở các lục địa khác. Nó cũng tạo thành một rào cản cho gió mùa, khiến chúng không di chuyển về phía bắc và gây ra mưa lớn ở vùng Terai. Himalaya cũng được cho là đóng một phần quan trọng trong sự hình thành các sa mạc Trung Á, như sa mạc Taklamakan và sa mạc Gobi.",
           },
           {
-            content:`Sự gia tăng tổn thất băng trên dãy Himalaya trong 40 năm qua đã được chứng minh bằng ảnh vệ tinh. Ngay cả khi mục tiêu 1,5 °C đầy tham vọng sẽ đạt được, sông băng Himalaya dự kiến ​​sẽ mất một phần ba bề mặt của chúng.`
-          }
+            content: `Sự gia tăng tổn thất băng trên dãy Himalaya trong 40 năm qua đã được chứng minh bằng ảnh vệ tinh. Ngay cả khi mục tiêu 1,5 °C đầy tham vọng sẽ đạt được, sông băng Himalaya dự kiến ​​sẽ mất một phần ba bề mặt của chúng.`,
+          },
         ],
       },
       {
@@ -2381,7 +2345,7 @@ const pages = [
         segment: [
           {
             content:
-              'Biến đổi khí hậu là sự thay đổi của hệ thống khí hậu gồm khí quyển, thủy quyển, sinh quyển, thạch quyển, băng quyển hiện tại và trong tương lai bởi các nguyên nhân tự nhiên và nhân tạo trong một giai đoạn nhất định tính bằng thập kỷ hay hàng triệu năm. Sự biển đổi có thể là thay đổi thời tiết bình quân hay thay đổi sự phân bố các sự kiện thời tiết quanh một mức trung bình. Sự biến đổi khí hậu có thể giới hạn trong một vùng nhất định hay có thể xuất hiện trên toàn Địa Cầu. Trong những năm gần đây, đặc biệt trong ngữ cảnh chính sách môi trường, biến đổi khí hậu thường đề cập tới sự thay đổi khí hậu hiện nay, được gọi chung bằng hiện tượng nóng lên toàn cầu. Nguyên nhân chính làm biến đổi khí hậu Trái Đất là do sự gia tăng các hoạt động tạo ra các chất thải khí nhà kính, các hoạt động khai thác quá mức các bể hấp thụ và bể chứa khí nhà kính như sinh khối, rừng, các hệ sinh thái biển, ven bờ và đất liền khác.',
+              "Biến đổi khí hậu là sự thay đổi của hệ thống khí hậu gồm khí quyển, thủy quyển, sinh quyển, thạch quyển, băng quyển hiện tại và trong tương lai bởi các nguyên nhân tự nhiên và nhân tạo trong một giai đoạn nhất định tính bằng thập kỷ hay hàng triệu năm. Sự biển đổi có thể là thay đổi thời tiết bình quân hay thay đổi sự phân bố các sự kiện thời tiết quanh một mức trung bình. Sự biến đổi khí hậu có thể giới hạn trong một vùng nhất định hay có thể xuất hiện trên toàn Địa Cầu. Trong những năm gần đây, đặc biệt trong ngữ cảnh chính sách môi trường, biến đổi khí hậu thường đề cập tới sự thay đổi khí hậu hiện nay, được gọi chung bằng hiện tượng nóng lên toàn cầu. Nguyên nhân chính làm biến đổi khí hậu Trái Đất là do sự gia tăng các hoạt động tạo ra các chất thải khí nhà kính, các hoạt động khai thác quá mức các bể hấp thụ và bể chứa khí nhà kính như sinh khối, rừng, các hệ sinh thái biển, ven bờ và đất liền khác.",
           },
         ],
       },
@@ -2390,7 +2354,7 @@ const pages = [
         segment: [
           {
             content:
-              'Định nghĩa chung nhất cho sự biến đổi khí hậu là sự thay đổi các đặc điểm mang tính thống kê của hệ thống khí hậu khi xét đến những chu kỳ dài hoặc hàng thập kỷ hoặc lâu hơn, mà không kể đến các nguyên nhân.[1][2] Theo đó, những thay đổi bất thường trên những chu kỳ ngắn hơn một vài thập kỷ, như El Niño, không thể hiện sự thay đổi khí hậu.',
+              "Định nghĩa chung nhất cho sự biến đổi khí hậu là sự thay đổi các đặc điểm mang tính thống kê của hệ thống khí hậu khi xét đến những chu kỳ dài hoặc hàng thập kỷ hoặc lâu hơn, mà không kể đến các nguyên nhân.[1][2] Theo đó, những thay đổi bất thường trên những chu kỳ ngắn hơn một vài thập kỷ, như El Niño, không thể hiện sự thay đổi khí hậu.",
           },
           {
             content:
@@ -2406,18 +2370,15 @@ const pages = [
               "Những nhân tố có thể làm cho sự biến đổi khí hậu xuất hiện là thay đổi bức xạ khí quyển, bao gồm các quá trình như biến đổi bức xạ mặt trời, độ lệch quỹ đạo của Trái Đất, quá trình kiến tạo núi, kiến tạo trôi dạt lục địa và sự thay đổi nồng độ khí nhà kính. Nhiều phản ứng khác nhau của môi trường về biến đổi khí hậu có thể tăng cường hoặc giảm bớt các biến đổi ban đầu. Một số thành phần của hệ thống khí hậu, chẳng hạn như các đại dương và chỏm băng, phản ứng chậm với biến đổi bức xạ mặt trời vì khối lượng lớn. Do đó, hệ thống khí hậu có thể mất hàng thế kỷ hoặc lâu hơn để phản ứng hoàn toàn với những biến đổi từ bên ngoài.",
           },
           {
-            content:
-              `Thay đổi ở đại dương
+            content: `Thay đổi ở đại dương
               Đại dương là một nền tảng của hệ thống khí hậu. Những dao động ngắn hạn (vài năm đến vài thập niên) như El Niño, dao động thập kỷ Thái Bình Dương (Pacific decadal oscillation), và dao động bắc Đại Tây Dương (North Atlantic Installation), và dao động Bắc Cực (Arctic oscillation), thể hiện khả năng dao động hậu hơn là thay đổi khí hậu. Trong khoảng thời gian dài hơn, những thay đổi đối với các quá trình diễn ra trong đại dương như hoàn lưu muối nhiệt đóng vai trò quan trọng trong sự tái phân bố nhiệt trong đại dương trên thế giới.`,
           },
           {
-            content:
-              `Thay đổi quỹ đạo
+            content: `Thay đổi quỹ đạo
               Những biến đổi nhỏ về quỹ đạo Trái Đất gây ra những thay đổi về sự phân bố năng lượng mặt trời theo mùa trên bề mặt Trái Đất và cách nó được phân bố trên toàn cầu. Đó là những thay đổi rất nhỏ theo năng lượng mặt trời trung bình hàng năm trên một đơn vị diện tích; nhưng nó có thể gây biến đổi mạnh mẽ về sự phân bố các mùa và địa lý. Có 3 kiểu thay đổi quỹ đạo là thay đổi quỹ đạo lệch tâm của Trái Đất, thay đổi trục quay, và tiến động của trục Trái Đất. Kết hợp các yếu tố trên, chúng tạo ra các chu kỳ Milankovitch, là các yếu tố ảnh hưởng mạnh mẽ đến khí hậu và mối tương quan của chúng với các chu kỳ băng hà và gian băng,[4] quan hệ của chúng với sự phát triển và thoái lui của Sahara,[4] và đối với sự xuất hiện của chúng trong các địa tầng.[5]`,
           },
           {
-            content:
-              `Hiện tượng núi lửa
+            content: `Hiện tượng núi lửa
               Núi lửa là một quá trình vận chuyển vật chất từ vỏ và lớp phủ của Trái Đất lên bề mặt của nó. Phun trào núi lửa, mạch nước phun, và suối nước nóng, là những ví dụ của các quá trình đó giải phóng khí núi lửa và hoặc các hạt bụi vào khí quyển.
               
               Phun trào đủ lớn để ảnh hưởng đến khí hậu xảy ra trên một số lần trung bình mỗi thế kỷ, và gây ra làm mát (bằng một phần ngăn chặn sự lây truyền của bức xạ mặt trời đến bề mặt Trái Đất) trong thời gian một vài năm. Các vụ phun trào của núi lửa Pinatubo vào năm 1991, là vụ phun trào núi lửa lớn thứ hai trên mặt đất của thế kỷ XX [6] (sau vụ phun trào năm 1912 của núi lửa Novarupta[7]) ảnh hưởng đến khí hậu đáng kể. Nhiệt độ toàn cầu giảm khoảng 0,5 °C (0.9 °F). Vụ phun trào của núi Tambora năm 1815 đã khiến không có một mùa hè trong một năm.[8] Phần lớn các vụ phun trào lớn hơn xảy ra chỉ một vài lần mỗi trăm triệu năm, nhưng có thể gây ra sự ấm lên toàn cầu và tuyệt chủng hàng loạt.[9]
@@ -2425,15 +2386,13 @@ const pages = [
               Núi lửa cũng là một phần của chu kỳ carbon mở rộng. Trong khoảng thời gian rất dài (địa chất), chúng giải phóng khí cacbonic từ lớp vỏ Trái Đất và lớp phủ, chống lại sự hấp thu của đá trầm tích và bồn địa chất khác dioxide carbon. Cục Khảo sát Địa chất Hoa Kỳ ước tính rằng các hoạt động của con người tạo ra nhiều hơn 100-300 lần số lượng khí carbon dioxide phát ra từ núi lửa.`,
           },
           {
-            content:
-            `Kiến tạo mảng
+            content: `Kiến tạo mảng
             Qua hàng triệu năm, sự chuyển động của các mảng làm tái sắp xếp các lục địa và đại dương trên toàn cầu đồng thời hình thành lên địa hình bề mặt. Điều này có thể ảnh hưởng đến các kiểu khí hậu khu vực và toàn cầu cũng như các dòng tuần hoàn khí quyển-đại dương.[11]
             
             Vị trí của các lục địa tạo nên hình dạng của các đại dương và tác động đến các kiểu dòng chảy trong đại dương. Vị trí của các biển đóng vai trò quan trọng trong việc kiểm soát sự truyền nhiệt và độ ẩm trên toàn cầu và hình thành nên khí hậu toàn cầu. Một ví dụ về ảnh hưởng của kiến tạo đến sự tuần hoàn trong đại dương là sự hình thành eo đất Panama cách đây khoảng 5 triệu năm, đã làm dừng sự trộn lẫn trực tiếp giữa Đại Tây Dương và Thái Bình Dương. Đều này có ảnh hưởng rất mạnh mẽ đến các chế độ động lực học của đại dương của hải lưu Gulf Stream và đã làm cho bắc bán cầu bị phủ băng.[12][13] Trong suốt kỷ Cacbon, khoảng 300 đến 365 triệu năm trước, hoạt động kiến tạo mảng có thể đã làm tích trữ một lượng lớn cacbon và làm tăng băng hà.[14] Các dấu hiệu địa chất cho thấy những kiểu tuần hoàn "gió mùa lớn" (megamonsoonal) trong suốt thời gian tồn tại của siêu lục địa Pangaea, và từ mô hình khí hậu người ta cho rằng sự tồn tại của siêu lục địa đã dẫn đến việc hình thành gió mùa.`,
           },
           {
-            content:
-              `Trong hoàn cảnh biến đổi khí hậu, các yếu tố do con người tạo ra cũng ảnh hưởng đến khí hậu. Quan điểm khoa học về biến đổi khí hậu được nhiều người đồng ý là "khí hậu đang thay đổi và những thay đổi này một phần lớn do tác động của con người." [16] Việc chạy đua các phát triển công nghệ, con người đã biến hệ sinh thái thích nghi vốn có, thành một thế giới mà hệ sinh thái động vật và thực vật dần dần thu hẹp. Một số loài đã hoàn toàn biến mất, và một số có nguy cơ tuyệt chủng, sông ngòi bị ngăn đập. Rác và chất thải nhựa do con người thải ra cũng góp phần ô nhiễm, và khí thải từ các lò phản ứng hạt nhân. Do đó, các cuộc thảo luận đang hướng vào 2 cách, một là giảm tác động của con người và tìm cách thích nghi với sự biến đổi đã từng xảy ra trong quá khứ[17] và được dự kiến xảy ra trong tương lai.`,
+            content: `Trong hoàn cảnh biến đổi khí hậu, các yếu tố do con người tạo ra cũng ảnh hưởng đến khí hậu. Quan điểm khoa học về biến đổi khí hậu được nhiều người đồng ý là "khí hậu đang thay đổi và những thay đổi này một phần lớn do tác động của con người." [16] Việc chạy đua các phát triển công nghệ, con người đã biến hệ sinh thái thích nghi vốn có, thành một thế giới mà hệ sinh thái động vật và thực vật dần dần thu hẹp. Một số loài đã hoàn toàn biến mất, và một số có nguy cơ tuyệt chủng, sông ngòi bị ngăn đập. Rác và chất thải nhựa do con người thải ra cũng góp phần ô nhiễm, và khí thải từ các lò phản ứng hạt nhân. Do đó, các cuộc thảo luận đang hướng vào 2 cách, một là giảm tác động của con người và tìm cách thích nghi với sự biến đổi đã từng xảy ra trong quá khứ[17] và được dự kiến xảy ra trong tương lai.`,
           },
           {
             content:
@@ -2447,7 +2406,7 @@ const pages = [
           {
             content:
               "Dấu hiệu của sự thay đổi khí hậu được lấy từ nhiều nguồn khác nhau có thể được sử dụng để tái hiện lại khí hậu trong quá khứ. Những ghi chép toàn cầu hoàn chỉnh mang tính hợp lý về nhiệt độ bề mặt bắt đầu được ghi nhận từ giữa sau thế kỷ XIX. Đối với những giai đoạn trước đây, hầu hết đều là dấu hiệu ghi nhận gián tiếp - biến đổi khí hậu được suy ra từ những thay đổi proxy, các nhân tố phản ánh khí hậu như thảm thực vật, lõi băng,[20] khí hậu thực vật, thay đổi mực nước biển và địa chất sông băng.",
-          }
+          },
         ],
       },
     ],
@@ -2530,7 +2489,7 @@ const pages = [
         segment: [
           {
             content:
-              'Bạc má lớn (danh pháp hai phần: Parus major) là một loài chim trong họ Bạc má. Bạc má lớn là một loài phổ biến ở châu Âu, Trung Đông, Trung Á, phân bố đến tận phía đông khu vực sinh thái Cổ Bắc giới, sông Amur và phân bố tại một phần Bắc Phi. Bạc má lớn hầu như không di trú nếu mùa đông không quá khắc nghiệt. Trước năm 2005, loài này được gộp chung với rất nhiều phân loài khác. Các nghiên cứu DNA cho thấy sự khác biệt giữa một số phân loài của bạc má lớn. Hiện nay các phân loài này đã được tách ra thành hai loài riêng biệt là bạc má lưng xám (Parus cinereus) ở Nam Á và bạc má Nhật Bản (Parus minor) ở Đông Á. Bạc má lớn vẫn là loài phổ biến nhất trong chi Parus.',
+              "Bạc má lớn (danh pháp hai phần: Parus major) là một loài chim trong họ Bạc má. Bạc má lớn là một loài phổ biến ở châu Âu, Trung Đông, Trung Á, phân bố đến tận phía đông khu vực sinh thái Cổ Bắc giới, sông Amur và phân bố tại một phần Bắc Phi. Bạc má lớn hầu như không di trú nếu mùa đông không quá khắc nghiệt. Trước năm 2005, loài này được gộp chung với rất nhiều phân loài khác. Các nghiên cứu DNA cho thấy sự khác biệt giữa một số phân loài của bạc má lớn. Hiện nay các phân loài này đã được tách ra thành hai loài riêng biệt là bạc má lưng xám (Parus cinereus) ở Nam Á và bạc má Nhật Bản (Parus minor) ở Đông Á. Bạc má lớn vẫn là loài phổ biến nhất trong chi Parus.",
           },
           {
             content:
@@ -2543,19 +2502,19 @@ const pages = [
         segment: [
           {
             content:
-              'Theo phiên bản thứ 10 của Systema Naturae năm 1758, Carl Linnaeus đặt danh pháp khoa học cho bạc má lớn là Parus major.[3] Tên khoa học của loài có nguồn gốc từ tiếng Latinh: parus (bạc má) và maior (rộng lớn).[4] Francis Willughby đã sử dụng tên này vào thế kỷ 17.',
+              "Theo phiên bản thứ 10 của Systema Naturae năm 1758, Carl Linnaeus đặt danh pháp khoa học cho bạc má lớn là Parus major.[3] Tên khoa học của loài có nguồn gốc từ tiếng Latinh: parus (bạc má) và maior (rộng lớn).[4] Francis Willughby đã sử dụng tên này vào thế kỷ 17.",
           },
           {
             content:
-              'Bạc má lớn trước đây được cho là phân bố từ Anh đến Nhật Bản và phía nam đến các đảo của Indonesia, với 36 phân loài được mô tả thuộc bốn nhóm phân loài chính. Nhóm major có 13 phân loài phân bố trên khắp châu Âu, vùng ôn đới châu Á và Bắc Phi. Nhóm minor với 9 phân loài phân bố từ đông nam Nga và Nhật Bản đến phía bắc của đông nam châu Á. Nhóm cinereus với 11 phân loài được tìm thấy từ Iran qua Nam Á đến Indonesia. Ba phân loài bokharensis thường được coi là một loài riêng biệt, Parus bokharensis. Cách phân loại này từng được cho là tạo thành một loài vành đai quanh Cao nguyên Tây Tạng, với dòng gen chung xuyên suốt các phân loài. Tuy nhiên, lý thuyết này đã bị bác bỏ khi việc kiểm tra các chuỗi DNA ty thể đã phát hiện ra rằng bốn nhóm là đơn ngành, và các vùng lai giữa các nhóm là kết quả của quá trình lai thứ cấp sau khoảng thời gian tạm tách biệt nhau.',
+              "Bạc má lớn trước đây được cho là phân bố từ Anh đến Nhật Bản và phía nam đến các đảo của Indonesia, với 36 phân loài được mô tả thuộc bốn nhóm phân loài chính. Nhóm major có 13 phân loài phân bố trên khắp châu Âu, vùng ôn đới châu Á và Bắc Phi. Nhóm minor với 9 phân loài phân bố từ đông nam Nga và Nhật Bản đến phía bắc của đông nam châu Á. Nhóm cinereus với 11 phân loài được tìm thấy từ Iran qua Nam Á đến Indonesia. Ba phân loài bokharensis thường được coi là một loài riêng biệt, Parus bokharensis. Cách phân loại này từng được cho là tạo thành một loài vành đai quanh Cao nguyên Tây Tạng, với dòng gen chung xuyên suốt các phân loài. Tuy nhiên, lý thuyết này đã bị bác bỏ khi việc kiểm tra các chuỗi DNA ty thể đã phát hiện ra rằng bốn nhóm là đơn ngành, và các vùng lai giữa các nhóm là kết quả của quá trình lai thứ cấp sau khoảng thời gian tạm tách biệt nhau.",
           },
           {
             content:
-              'Một nghiên cứu được công bố vào năm 2005 đã xác nhận sự khác biệt giữa nhóm major với nhóm cinereus và nhóm minor, và cùng với phân loài P. m. bokharensis tách khỏi hai nhóm này vào khoảng 1,5 triệu năm trước. Sự khác biệt giữa nhóm bokharensis và các nhóm khác được ước tính là từ khoảng nửa triệu năm trước. Nghiên cứu cũng kiểm tra các giống lai của đại diện các nhóm major và minor ở Thung lũng Amur, nơi có sự giao thoa của hai nhóm. Kết quả cho thấy con lai rất hiếm, tức là có một số rào cản sinh sản giữa hai nhóm. Nghiên cứu khuyến nghị tách hai nhóm phía đông thành loài mới bao gồm: bạc má lưng xám (Parus cinereus) và bạc má Nhật Bản (Parus minor). Riêng bạc má Turkestan thì vẫn gộp chung với bạc má lớn.[8] Cách phân loại này đã được một số cơ quan có thẩm quyền tuân theo, như là Danh sách các loài chim trên thế giới của IOC (IOC World Bird List).[9] Cẩm nang về các loài chim trên thế giới (Handbook of the Birds of the World) thì phân loại các loài thuộc chi Parus theo cách ban đầu: coi bạc má Turkestan là một loài riêng biệt, nhưng vẫn gộp bạc má Nhật Bản và bạc má lưng xám với bạc má lớn,[10] các phân loại này gây nhiều tranh cãi.',
+              "Một nghiên cứu được công bố vào năm 2005 đã xác nhận sự khác biệt giữa nhóm major với nhóm cinereus và nhóm minor, và cùng với phân loài P. m. bokharensis tách khỏi hai nhóm này vào khoảng 1,5 triệu năm trước. Sự khác biệt giữa nhóm bokharensis và các nhóm khác được ước tính là từ khoảng nửa triệu năm trước. Nghiên cứu cũng kiểm tra các giống lai của đại diện các nhóm major và minor ở Thung lũng Amur, nơi có sự giao thoa của hai nhóm. Kết quả cho thấy con lai rất hiếm, tức là có một số rào cản sinh sản giữa hai nhóm. Nghiên cứu khuyến nghị tách hai nhóm phía đông thành loài mới bao gồm: bạc má lưng xám (Parus cinereus) và bạc má Nhật Bản (Parus minor). Riêng bạc má Turkestan thì vẫn gộp chung với bạc má lớn.[8] Cách phân loại này đã được một số cơ quan có thẩm quyền tuân theo, như là Danh sách các loài chim trên thế giới của IOC (IOC World Bird List).[9] Cẩm nang về các loài chim trên thế giới (Handbook of the Birds of the World) thì phân loại các loài thuộc chi Parus theo cách ban đầu: coi bạc má Turkestan là một loài riêng biệt, nhưng vẫn gộp bạc má Nhật Bản và bạc má lưng xám với bạc má lớn,[10] các phân loại này gây nhiều tranh cãi.",
           },
           {
             content:
-              'Phân loài đại diện của bạc má lớn là phân loài phổ biến nhất, với phạm vi trải dài từ bán đảo Iberia đến thung lũng Amur và từ Scandinavia đến Trung Đông. Các phân loài khác phân bố hẹp hơn nhiều, bốn phân loài có phân bố hạn chế ở các đảo và phần còn lại của phân loài P. m. major phân bố ở các vùng biệt cư để tránh kỷ băng hà trước đây. Sự phổ biến của một phân loài duy nhất, đồng nhất về mặt hình thái trên một khu vực rộng lớn như vậy cho thấy rằng phân loài đại diện đã nhanh chóng tái định cư trên một khu vực rộng lớn sau kỷ băng hà cuối cùng. Giả thuyết này được hỗ trợ bởi các nghiên cứu di truyền cho thấy một thắt cổ chai di truyền gần đây về mặt địa chất, dẫn đến sự gia tăng dân số nhanh chóng.',
+              "Phân loài đại diện của bạc má lớn là phân loài phổ biến nhất, với phạm vi trải dài từ bán đảo Iberia đến thung lũng Amur và từ Scandinavia đến Trung Đông. Các phân loài khác phân bố hẹp hơn nhiều, bốn phân loài có phân bố hạn chế ở các đảo và phần còn lại của phân loài P. m. major phân bố ở các vùng biệt cư để tránh kỷ băng hà trước đây. Sự phổ biến của một phân loài duy nhất, đồng nhất về mặt hình thái trên một khu vực rộng lớn như vậy cho thấy rằng phân loài đại diện đã nhanh chóng tái định cư trên một khu vực rộng lớn sau kỷ băng hà cuối cùng. Giả thuyết này được hỗ trợ bởi các nghiên cứu di truyền cho thấy một thắt cổ chai di truyền gần đây về mặt địa chất, dẫn đến sự gia tăng dân số nhanh chóng.",
           },
           {
             content:
@@ -2646,7 +2605,8 @@ const pages = [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Traffic_jam_Sao_Paulo_09_2006_30a.jpg/450px-Traffic_jam_Sao_Paulo_09_2006_30a.jpg",
-        title: "Giao thông là nguồn chính gây ô nhiễm tiếng ồn ở các thành phố.",
+        title:
+          "Giao thông là nguồn chính gây ô nhiễm tiếng ồn ở các thành phố.",
       },
     ],
     subtitle: [
@@ -2677,7 +2637,7 @@ const pages = [
         segment: [
           {
             content:
-              'Ô nhiễm tiếng ồn (Tiếng Anh: Noise pollution hoặc noise disturbance) là tiếng ồn trong môi trường vượt quá ngưỡng nhất định gây khó chịu cho người hoặc động vật. Hầu hết ở các nước, nguồn gây ô nhiễm tiếng ồn chủ yếu từ tiếng ồn ngoài trời như phương tiện giao thông, vận tải, xe có động cơ, máy bay và tàu hỏa.[1][2] Tiếng ồn ngoài trời còn được nói gọn từ tiếng ồn môi trường.',
+              "Ô nhiễm tiếng ồn (Tiếng Anh: Noise pollution hoặc noise disturbance) là tiếng ồn trong môi trường vượt quá ngưỡng nhất định gây khó chịu cho người hoặc động vật. Hầu hết ở các nước, nguồn gây ô nhiễm tiếng ồn chủ yếu từ tiếng ồn ngoài trời như phương tiện giao thông, vận tải, xe có động cơ, máy bay và tàu hỏa.[1][2] Tiếng ồn ngoài trời còn được nói gọn từ tiếng ồn môi trường.",
           },
           {
             content:
@@ -2685,11 +2645,11 @@ const pages = [
           },
           {
             content:
-              'Tiếng ồn ngoài trời có thể được gây ra bởi hoạt động của máy móc, xây dựng hay các buổi biểu diễn âm nhạc, đặc biệt là ở một số nơi làm việc. Điếc do tiếng ồn có thể bị gây ra ở bên ngoài (ví dụ như tàu hỏa) hoặc ở bên trong (ví dụ như âm nhạc).'
+              "Tiếng ồn ngoài trời có thể được gây ra bởi hoạt động của máy móc, xây dựng hay các buổi biểu diễn âm nhạc, đặc biệt là ở một số nơi làm việc. Điếc do tiếng ồn có thể bị gây ra ở bên ngoài (ví dụ như tàu hỏa) hoặc ở bên trong (ví dụ như âm nhạc).",
           },
           {
             content:
-              'Mức tiếng ồn cao có thể góp phần gây các bệnh tim mạch ở người như bệnh động mạch vành.[4] Ở một số loài động vật, tiếng ồn quá mức có thể làm tăng nguy cơ tử vong bằng cách thay đổi vật ăn thịt, cản trở việc phát hiện con mồi, khó khăn trong việc sinh sản và có thể gây ra mất thính lực vĩnh viễn.',
+              "Mức tiếng ồn cao có thể góp phần gây các bệnh tim mạch ở người như bệnh động mạch vành.[4] Ở một số loài động vật, tiếng ồn quá mức có thể làm tăng nguy cơ tử vong bằng cách thay đổi vật ăn thịt, cản trở việc phát hiện con mồi, khó khăn trong việc sinh sản và có thể gây ra mất thính lực vĩnh viễn.",
           },
         ],
       },
@@ -2697,46 +2657,42 @@ const pages = [
         id: 2,
         segment: [
           {
-            content:
-              'Ô nhiễm tiếng ồn chủ yếu do 2 nguyên nhân cơ bản.',
+            content: "Ô nhiễm tiếng ồn chủ yếu do 2 nguyên nhân cơ bản.",
+          },
+          {
+            content: "Do nguồn gốc thiên nhiên",
           },
           {
             content:
-              'Do nguồn gốc thiên nhiên',
+              "Do hoạt động của núi lửa và động đất.Tuy nhiên đây chỉ là một nguyên nhân thứ yếu, chỉ lúc nào có núi lửa và động đất thì lúc đó mới có ô nhiễm về tiếng ồn và chỉ thực sự tác động đến các hộ dân sống gần khu vực núi lửa hoặc động đất. Mặt khác đây không phải là nguyên nhân có tính chu kỳ mà nó xảy ra một cách ngẫu nhiên.",
           },
           {
-            content:
-              'Do hoạt động của núi lửa và động đất.Tuy nhiên đây chỉ là một nguyên nhân thứ yếu, chỉ lúc nào có núi lửa và động đất thì lúc đó mới có ô nhiễm về tiếng ồn và chỉ thực sự tác động đến các hộ dân sống gần khu vực núi lửa hoặc động đất. Mặt khác đây không phải là nguyên nhân có tính chu kỳ mà nó xảy ra một cách ngẫu nhiên.',
+            content: "Do nguồn gốc nhân tạo",
           },
           {
-            content:
-              'Do nguồn gốc nhân tạo',
-          },
-          {
-            content:
-              `Đây được xem là nguyên nhân chủ yếu gây ra hiện tượng ô nhiễm tiếng ồn.
+            content: `Đây được xem là nguyên nhân chủ yếu gây ra hiện tượng ô nhiễm tiếng ồn.
 
               Hiện nay phương tiện giao thông đang ngày càng tăng với mức độ chóng mặt, mật độ xe lưu thông trên đường phố ngày càng lớn, gây nên ô nhiễm về tiếng ồn do tiếng của động cơ, tiếng còi cũng như tiếng phanh xe. Ở Việt Nam, số lượng phương tiện kém chất lượng lưu thông trên đường phố khá nhiều đã tạo nên sự ô nhiễm về tiếng ồn đáng kể.`,
           },
           {
             content:
-              'Máy bay cũng là một nguồn gây ô nhiễm không thể bỏ qua. Lúc máy bay cất cánh hoặc hạ cánh là lúc mà các hộ dân sống gần sân bay phải chịu một tần số âm thanh không nhỏ. Nên có biện pháp di dời sân bay ra xa khu vực đông dân cư để giảm thiểu tiếng ồn.',
+              "Máy bay cũng là một nguồn gây ô nhiễm không thể bỏ qua. Lúc máy bay cất cánh hoặc hạ cánh là lúc mà các hộ dân sống gần sân bay phải chịu một tần số âm thanh không nhỏ. Nên có biện pháp di dời sân bay ra xa khu vực đông dân cư để giảm thiểu tiếng ồn.",
           },
           {
             content:
-              'Hơn nữa, việc sử dụng các loại máy móc trong xây dựng là khá phổ biến. Đây là một nguồn góp phần gây ô nhiễm tiếng ồn không nhỏ.',
+              "Hơn nữa, việc sử dụng các loại máy móc trong xây dựng là khá phổ biến. Đây là một nguồn góp phần gây ô nhiễm tiếng ồn không nhỏ.",
           },
           {
             content:
-              'Hoạt động công nghiệp và sản xuất thì việc sử dụng máy móc được xem là không thể thiếu. Tuy nhiên do ý thức của các cơ sở sản xuất, của một số khu công nghiệp đã làm cho mức độ ô nhiễm tiếng ồn đang ngày càng tăng cao.',
+              "Hoạt động công nghiệp và sản xuất thì việc sử dụng máy móc được xem là không thể thiếu. Tuy nhiên do ý thức của các cơ sở sản xuất, của một số khu công nghiệp đã làm cho mức độ ô nhiễm tiếng ồn đang ngày càng tăng cao.",
           },
           {
             content:
-              'Trong sinh hoạt, việc bật máy nghe nhạc quá lớn cũng tác động không nhỏ đến thính giác của người xung quanh, nhất là trong các vũ trường hay quán bar. Đây là nguồn gây ô nhiễm mà được xem là khó xử lý nhất và chỉ dựa vào ý thức của người dân là chủ yếu.',
+              "Trong sinh hoạt, việc bật máy nghe nhạc quá lớn cũng tác động không nhỏ đến thính giác của người xung quanh, nhất là trong các vũ trường hay quán bar. Đây là nguồn gây ô nhiễm mà được xem là khó xử lý nhất và chỉ dựa vào ý thức của người dân là chủ yếu.",
           },
           {
             content:
-              'Một số nguồn gây ô nhiễm tiếng ồn khác như: Các cuộc biểu tình, các sự kiện công cộng, các sự kiện thể thao (trường bắn, karting...). Nguồn từ động vật như tiếng chó sủa, tiếng heo, vịt kêu từ các hộ chăn nuôi. Tiếng ồn từ nhà hàng xóm, như tiếng nhạc bật lớn, la hét, tiếng ồn máy cắt, báo động vô tình, pháo hoa. Đặc biệt tiếng điện thoại di động ở những nơi công cộng, bao gồm phòng học, hội nghị cũng là một nguồn gây ô nhiễm tiếng ồn.',
+              "Một số nguồn gây ô nhiễm tiếng ồn khác như: Các cuộc biểu tình, các sự kiện công cộng, các sự kiện thể thao (trường bắn, karting...). Nguồn từ động vật như tiếng chó sủa, tiếng heo, vịt kêu từ các hộ chăn nuôi. Tiếng ồn từ nhà hàng xóm, như tiếng nhạc bật lớn, la hét, tiếng ồn máy cắt, báo động vô tình, pháo hoa. Đặc biệt tiếng điện thoại di động ở những nơi công cộng, bao gồm phòng học, hội nghị cũng là một nguồn gây ô nhiễm tiếng ồn.",
           },
         ],
       },
@@ -2744,8 +2700,7 @@ const pages = [
         id: 3,
         segment: [
           {
-            content:
-              "Con người",
+            content: "Con người",
           },
           {
             content:
@@ -2764,8 +2719,7 @@ const pages = [
               "Mức độ tiếng ồn cao ảnh hưởng đến tim mạch, việc tiếp xúc với tiếng ồn trong khoảng thời gian tám giờ, có thể gây ra sự tăng huyết áp từ 5-10 độ[6]. Ngoài ra tiếng ồn làm gia tăng căng thẳng, gây co mạch dẫn đến tăng huyết áp đã nói ở trên, cũng tăng tỷ lệ mắc bệnh động mạch vành.",
           },
           {
-            content:
-              "Động vật hoang dã",
+            content: "Động vật hoang dã",
           },
           {
             content:
@@ -2860,7 +2814,8 @@ const pages = [
         key: "3",
         href: "#mission",
         title: "Nhiệm vụ",
-      },{
+      },
+      {
         key: "4",
         href: "#constitutive",
         title: "Cấu trúc",
@@ -2872,7 +2827,7 @@ const pages = [
         segment: [
           {
             content:
-              'Tổ chức Y tế Thế giới (viết tắt TCYTTG; tiếng Anh: World Health Organization - WHO; tiếng Pháp: Organisation mondiale de la santé - OMS) là một cơ quan chuyên môn của Liên Hợp Quốc, WHO đóng vai trò thẩm quyền điều phối các vấn đề sức khỏe và y tế cộng đồng trên bình diện quốc tế, WHO tham gia giúp đỡ các quốc gia thành viên, WHO cung cấp những thông tin chính xác, những địa chỉ đáng tin cậy trên lĩnh vực sức khỏe con người, WHO sẽ đứng ra để giải quyết những vấn đề cấp bách về sức khỏe cộng đồng và dịch bệnh của con người.[1] Kể từ khi WHO được thành lập, nó đã đóng một vai trò hàng đầu trong việc loại trừ bệnh đậu mùa. Các ưu tiên hiện tại của tổ chức bao gồm các bệnh truyền nhiễm, đặc biệt là HIV / AIDS, Ebola, sốt rét và lao; giảm thiểu những tác động của bệnh không truyền nhiễm; theo dõi sức khoẻ sinh sản và tình dục, sự phát triển và tuổi già; Dinh dưỡng, an ninh lương thực và ăn uống lành mạnh; sức khỏe nghề nghiệp; lạm dụng thuốc kháng sinh; và thúc đẩy sự phát triển của các báo cáo, các ấn phẩm và kết nối mạng toàn cầu.',
+              "Tổ chức Y tế Thế giới (viết tắt TCYTTG; tiếng Anh: World Health Organization - WHO; tiếng Pháp: Organisation mondiale de la santé - OMS) là một cơ quan chuyên môn của Liên Hợp Quốc, WHO đóng vai trò thẩm quyền điều phối các vấn đề sức khỏe và y tế cộng đồng trên bình diện quốc tế, WHO tham gia giúp đỡ các quốc gia thành viên, WHO cung cấp những thông tin chính xác, những địa chỉ đáng tin cậy trên lĩnh vực sức khỏe con người, WHO sẽ đứng ra để giải quyết những vấn đề cấp bách về sức khỏe cộng đồng và dịch bệnh của con người.[1] Kể từ khi WHO được thành lập, nó đã đóng một vai trò hàng đầu trong việc loại trừ bệnh đậu mùa. Các ưu tiên hiện tại của tổ chức bao gồm các bệnh truyền nhiễm, đặc biệt là HIV / AIDS, Ebola, sốt rét và lao; giảm thiểu những tác động của bệnh không truyền nhiễm; theo dõi sức khoẻ sinh sản và tình dục, sự phát triển và tuổi già; Dinh dưỡng, an ninh lương thực và ăn uống lành mạnh; sức khỏe nghề nghiệp; lạm dụng thuốc kháng sinh; và thúc đẩy sự phát triển của các báo cáo, các ấn phẩm và kết nối mạng toàn cầu.",
           },
           {
             content:
@@ -2880,15 +2835,15 @@ const pages = [
           },
           {
             content:
-              'WHO có trụ sở đặt tại Geneva, Thụy Sĩ. Tổng Giám đốc hiện nay là Tedros_Adhanom, đảm trách từ năm 2017.',
+              "WHO có trụ sở đặt tại Geneva, Thụy Sĩ. Tổng Giám đốc hiện nay là Tedros_Adhanom, đảm trách từ năm 2017.",
           },
           {
             content:
-              'Ngân sách 2015 của WHO là khoảng 4 tỷ đô la Mỹ trong đó khoảng 930 triệu đô la Mỹ sẽ được cung cấp bởi các quốc gia thành viên với thêm 3 tỷ đô la Mỹ nữa là từ đóng góp tự nguyện.',
+              "Ngân sách 2015 của WHO là khoảng 4 tỷ đô la Mỹ trong đó khoảng 930 triệu đô la Mỹ sẽ được cung cấp bởi các quốc gia thành viên với thêm 3 tỷ đô la Mỹ nữa là từ đóng góp tự nguyện.",
           },
           {
             content:
-              'Song vào tháng 7 năm 2020 Mỹ đã chính thức tuyên bố ngưng hẳn tài trợ.',
+              "Song vào tháng 7 năm 2020 Mỹ đã chính thức tuyên bố ngưng hẳn tài trợ.",
           },
         ],
       },
@@ -2897,11 +2852,11 @@ const pages = [
         segment: [
           {
             content:
-              'Năm 2015 WHO có 194 thành viên quốc gia hay vùng lãnh thổ.',
+              "Năm 2015 WHO có 194 thành viên quốc gia hay vùng lãnh thổ.",
           },
           {
             content:
-              'Đại hội đồng là cơ quan ra quyết định tối cao của WHO, họp hàng năm tại Geneva, Thuỵ Sĩ vào tháng 5 với sự tham dự của tất cả các nước thành viên. Đại hội đồng đề cử Tổng Giám đốc, thông qua chính sách tài chính và ngân sách chương trình của WHO.',
+              "Đại hội đồng là cơ quan ra quyết định tối cao của WHO, họp hàng năm tại Geneva, Thuỵ Sĩ vào tháng 5 với sự tham dự của tất cả các nước thành viên. Đại hội đồng đề cử Tổng Giám đốc, thông qua chính sách tài chính và ngân sách chương trình của WHO.",
           },
         ],
       },
@@ -2909,8 +2864,7 @@ const pages = [
         id: 3,
         segment: [
           {
-            content:
-              `Mục tiêu của WHO là giúp mọi người có được sức khoẻ tốt nhất. Từ năm 1977, Hội đồng Y tế Thế giới đề ra khẩu hiệu "Sức khoẻ cho tất cả mọi người vào năm 2000" và coi là ưu tiên cao nhất của WHO. Để đạt được những mục tiêu này, tổ chức WHO đã đề ra bốn định hướng chiến lược tác động qua lại lẫn nhau:`,
+            content: `Mục tiêu của WHO là giúp mọi người có được sức khoẻ tốt nhất. Từ năm 1977, Hội đồng Y tế Thế giới đề ra khẩu hiệu "Sức khoẻ cho tất cả mọi người vào năm 2000" và coi là ưu tiên cao nhất của WHO. Để đạt được những mục tiêu này, tổ chức WHO đã đề ra bốn định hướng chiến lược tác động qua lại lẫn nhau:`,
           },
           {
             content:
@@ -3009,7 +2963,8 @@ const pages = [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/375px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg",
-        title: "Jeff Bezos tại Amazon Spheres Grand Opening tại Seattle, năm 2018",
+        title:
+          "Jeff Bezos tại Amazon Spheres Grand Opening tại Seattle, năm 2018",
       },
     ],
     subtitle: [
@@ -3035,11 +2990,10 @@ const pages = [
         segment: [
           {
             content:
-              'Jeffrey Preston Bezos (/ˈbeɪzoʊs/;[a][2] né Jorgensen; sinh ngày 12 tháng 1 năm 1964) là doanh nhân, nhà tư bản công nghiệp, trùm truyền thông và nhà đầu tư người Mỹ. Bezos được biết đến như là người sáng lập, CEO và Chủ tịch Hội đồng quản trị công ty công nghệ đa quốc gia Amazon.',
+              "Jeffrey Preston Bezos (/ˈbeɪzoʊs/;[a][2] né Jorgensen; sinh ngày 12 tháng 1 năm 1964) là doanh nhân, nhà tư bản công nghiệp, trùm truyền thông và nhà đầu tư người Mỹ. Bezos được biết đến như là người sáng lập, CEO và Chủ tịch Hội đồng quản trị công ty công nghệ đa quốc gia Amazon.",
           },
           {
-            content:
-              `Bezos được đưa vào danh sách "centibillionaire" (những người có tài sản tối thiểu 100 tỷ USD) đầu tiên theo đánh giá tài sản từ Forbes, người giàu nhất thế giới kể từ năm 2017 và được mệnh danh là "người giàu nhất trong lịch sử hiện đại" sau khi giá trị tài sản ròng của ông tăng lên $150 tỷ USD vào tháng 7 năm 2018.`,
+            content: `Bezos được đưa vào danh sách "centibillionaire" (những người có tài sản tối thiểu 100 tỷ USD) đầu tiên theo đánh giá tài sản từ Forbes, người giàu nhất thế giới kể từ năm 2017 và được mệnh danh là "người giàu nhất trong lịch sử hiện đại" sau khi giá trị tài sản ròng của ông tăng lên $150 tỷ USD vào tháng 7 năm 2018.`,
           },
           {
             content:
@@ -3047,19 +3001,19 @@ const pages = [
           },
           {
             content:
-              'Sinh ra ở Albuquerque, New Mexico và lớn lên tại Houston và sau đó là Miami, Jeff Bezos tốt nghiệp Đại học Princeton năm 1986 với bằng kỹ sư điện và khoa học máy tính. Ông làm việc ở Phố Wall trong nhiều lĩnh vực liên quan từ năm 1986 đến đầu năm 1994. Ông thành lập Amazon vào cuối năm 1994 trong một chuyến đi xuyên quốc gia từ Thành phố New York đến Seattle.',
+              "Sinh ra ở Albuquerque, New Mexico và lớn lên tại Houston và sau đó là Miami, Jeff Bezos tốt nghiệp Đại học Princeton năm 1986 với bằng kỹ sư điện và khoa học máy tính. Ông làm việc ở Phố Wall trong nhiều lĩnh vực liên quan từ năm 1986 đến đầu năm 1994. Ông thành lập Amazon vào cuối năm 1994 trong một chuyến đi xuyên quốc gia từ Thành phố New York đến Seattle.",
           },
           {
             content:
-              'Công ty bắt đầu như một cửa hàng sách trực tuyến và từ đó đã mở rộng ra nhiều loại sản phẩm và dịch vụ thương mại điện tử khác, bao gồm truyền phát video và âm thanh, điện toán đám mây và AI. Đây hiện là công ty bán hàng trực tuyến lớn nhất thế giới, công ty Internet lớn nhất theo doanh thu và là nhà cung cấp trợ lý ảo[4] và dịch vụ cơ sở hạ tầng đám mây lớn nhất thế giới thông qua chi nhánh Dịch vụ web Amazon (Amazon Web Services).',
+              "Công ty bắt đầu như một cửa hàng sách trực tuyến và từ đó đã mở rộng ra nhiều loại sản phẩm và dịch vụ thương mại điện tử khác, bao gồm truyền phát video và âm thanh, điện toán đám mây và AI. Đây hiện là công ty bán hàng trực tuyến lớn nhất thế giới, công ty Internet lớn nhất theo doanh thu và là nhà cung cấp trợ lý ảo[4] và dịch vụ cơ sở hạ tầng đám mây lớn nhất thế giới thông qua chi nhánh Dịch vụ web Amazon (Amazon Web Services).",
           },
           {
             content:
-              'Jeff Bezos thành lập công ty sản xuất trong lĩnh vực hàng không vũ trụ và du hành không gian tiểu quỹ đạo Blue Origin năm 2000. Một chuyến bay thử nghiệm Blue Origin lần đầu tiên đạt được thành công vào không gian vào năm 2015 và công ty đã có kế hoạch sắp tới để bắt đầ đưa con người lên các chuyến bay thương mại lên vũ trụ.',
+              "Jeff Bezos thành lập công ty sản xuất trong lĩnh vực hàng không vũ trụ và du hành không gian tiểu quỹ đạo Blue Origin năm 2000. Một chuyến bay thử nghiệm Blue Origin lần đầu tiên đạt được thành công vào không gian vào năm 2015 và công ty đã có kế hoạch sắp tới để bắt đầ đưa con người lên các chuyến bay thương mại lên vũ trụ.",
           },
           {
             content:
-              'Bezos cũng đã mua lại tờ The Washington Post của Mỹ vào năm 2013 với giá $250 triệu đô la, và quản lý nhiều khoản đầu tư khác thông qua công ty đầu tư mạo hiểm Bezos Expeditions của mình.',
+              "Bezos cũng đã mua lại tờ The Washington Post của Mỹ vào năm 2013 với giá $250 triệu đô la, và quản lý nhiều khoản đầu tư khác thông qua công ty đầu tư mạo hiểm Bezos Expeditions của mình.",
           },
         ],
       },
@@ -3067,8 +3021,7 @@ const pages = [
         id: 2,
         segment: [
           {
-            content:
-              'Gia đình',
+            content: "Gia đình",
           },
           {
             content:
@@ -3076,11 +3029,11 @@ const pages = [
           },
           {
             content:
-              'Ban giám hiệu nhà trường ban đầu không cho phép nữ sinh học hết trung học. Bà Jacklyn đã khiến nhà trường phải nhượng bộ để quay trở lại nhưng sẽ có điều kiện. Điều kiện thứ nhất, Jacklyn chỉ được có mặt khi chuông bắt đầu và phải rời trường khi chuông kết thúc trong vòng năm phút. Điều kiện thứ hai, không được trò chuyện với các học sinh khác. Điều kiện thứ ba, không được ăn trưa trong nhà ăn tự phục vụ. Điều kiện thứ tư, sẽ không được phép đi lên khán đài với các bạn cùng lớp để nhận bằng tốt nghiệp.',
+              "Ban giám hiệu nhà trường ban đầu không cho phép nữ sinh học hết trung học. Bà Jacklyn đã khiến nhà trường phải nhượng bộ để quay trở lại nhưng sẽ có điều kiện. Điều kiện thứ nhất, Jacklyn chỉ được có mặt khi chuông bắt đầu và phải rời trường khi chuông kết thúc trong vòng năm phút. Điều kiện thứ hai, không được trò chuyện với các học sinh khác. Điều kiện thứ ba, không được ăn trưa trong nhà ăn tự phục vụ. Điều kiện thứ tư, sẽ không được phép đi lên khán đài với các bạn cùng lớp để nhận bằng tốt nghiệp.",
           },
           {
             content:
-              'Ông ngoại của Bezos là Lawrence Preston Gise, giám đốc khu vực của Ủy ban Năng lượng nguyên tử Hoa Kỳ (AEC) ở Albuquerque.[10] Ông Gise đã nghỉ hưu sớm và dành thời gian ở trang trại của gia đình gần Cotulla, Texas, Jeff Bezos đã có nhiều mùa hè tại đây vào thời thơ ấu.[11] Về sau Jeff Bezos dự định mua trang trại này và mở rộng nó từ 25.000 mẫu Anh (10.117 ha) lên 300.000 mẫu Anh (121.406 ha).[12][13] Bà ngoại của Jeff là Mattie Louise Gise (nhũ danh Strait), từ đó Jeff có mối quan hệ họ hàng với ca sĩ nhạc đồng quê George Strait.',
+              "Ông ngoại của Bezos là Lawrence Preston Gise, giám đốc khu vực của Ủy ban Năng lượng nguyên tử Hoa Kỳ (AEC) ở Albuquerque.[10] Ông Gise đã nghỉ hưu sớm và dành thời gian ở trang trại của gia đình gần Cotulla, Texas, Jeff Bezos đã có nhiều mùa hè tại đây vào thời thơ ấu.[11] Về sau Jeff Bezos dự định mua trang trại này và mở rộng nó từ 25.000 mẫu Anh (10.117 ha) lên 300.000 mẫu Anh (121.406 ha).[12][13] Bà ngoại của Jeff là Mattie Louise Gise (nhũ danh Strait), từ đó Jeff có mối quan hệ họ hàng với ca sĩ nhạc đồng quê George Strait.",
           },
           {
             content:
@@ -3088,7 +3041,7 @@ const pages = [
           },
           {
             content:
-              'Từ đó bà có thể thuê được một căn hộ cho riêng mình với con trai, nhưng không có tiền để có một chiếc điện thoại. Vì muốn nói chuyện với con gái hàng ngày nên ông ngoại của Jeff đã cài một máy bộ đàm loại walkie-talkie để bà Jacklyn có thể mở lên nghe vào 7 giờ sáng mỗi ngày. Quyết tâm tiếp tục việc học của mình, Jacklyn đăng ký vào trường học ban đêm và chọn các lớp học của mình dựa trên việc giáo sư sẽ cho phép cô mang trẻ sơ sinh đến lớp.',
+              "Từ đó bà có thể thuê được một căn hộ cho riêng mình với con trai, nhưng không có tiền để có một chiếc điện thoại. Vì muốn nói chuyện với con gái hàng ngày nên ông ngoại của Jeff đã cài một máy bộ đàm loại walkie-talkie để bà Jacklyn có thể mở lên nghe vào 7 giờ sáng mỗi ngày. Quyết tâm tiếp tục việc học của mình, Jacklyn đăng ký vào trường học ban đêm và chọn các lớp học của mình dựa trên việc giáo sư sẽ cho phép cô mang trẻ sơ sinh đến lớp.",
           },
           {
             content:
@@ -3100,19 +3053,18 @@ const pages = [
           },
           {
             content:
-              'Khi gia đình trẻ phải chuyển đi vì công việc của ông Mike Bezos, thì giấc mơ tốt nghiệp đại học của bà Jacklyn đã bị đình trệ trong nhiều năm.',
+              "Khi gia đình trẻ phải chuyển đi vì công việc của ông Mike Bezos, thì giấc mơ tốt nghiệp đại học của bà Jacklyn đã bị đình trệ trong nhiều năm.",
           },
           {
             content:
               'Khi con vào đại học, bà cũng thấy ghen tị với chúng. Vì vậy, cuối cùng, bà Jacklyn đã quay trở lại trường đại học. Bà Jacklyn tốt nghiệp Đại học Saints Elizabeth ở tuổi 40. "Tôi chưa bao giờ tự hào hơn về bản thân mình. Tôi cảm thấy như mình cao 10 feet và bây giờ tăng thêm 5 feet. Đó là một lợi ích khá lớn từ việc tốt nghiệp đại học. Khi cuối cùng tôi cũng có cơ hội bước lên sân khấu nhận bằng tốt nghiệp, những tiếng reo hò lớn nhất đến từ gia đình tôi."',
           },
           {
-            content:
-              'Thời niên thiếu',
+            content: "Thời niên thiếu",
           },
           {
             content:
-              'Jeff Bezos theo học tại trường tiểu học River Oaks ở Houston từ năm lớp bốn đến lớp sáu.',
+              "Jeff Bezos theo học tại trường tiểu học River Oaks ở Houston từ năm lớp bốn đến lớp sáu.",
           },
           {
             content:
@@ -3120,7 +3072,7 @@ const pages = [
           },
           {
             content:
-            'Năm 1986, ông tốt nghiệp hạng xuất sắc (summa cum laude) từ Đại học Princeton với GPA 4.2, bằng Cử nhân Khoa học Kỹ thuật (BSE) ngành kỹ thuật điện và khoa học máy tính; ông cũng là thành viên của Phi Beta Kappa.[27][28] Khi còn ở Princeton, Bezos là thành viên của câu lạc bộ Quadrangle Club.[29] Ngoài ra, ông được bầu vào Tau Beta Pi và là chủ tịch của Princeton chapter dành cho sinh viên khám phá và phát triển không gian (SEDS).',
+              "Năm 1986, ông tốt nghiệp hạng xuất sắc (summa cum laude) từ Đại học Princeton với GPA 4.2, bằng Cử nhân Khoa học Kỹ thuật (BSE) ngành kỹ thuật điện và khoa học máy tính; ông cũng là thành viên của Phi Beta Kappa.[27][28] Khi còn ở Princeton, Bezos là thành viên của câu lạc bộ Quadrangle Club.[29] Ngoài ra, ông được bầu vào Tau Beta Pi và là chủ tịch của Princeton chapter dành cho sinh viên khám phá và phát triển không gian (SEDS).",
           },
         ],
       },
@@ -3128,8 +3080,7 @@ const pages = [
         id: 3,
         segment: [
           {
-            content:
-              "Thời kỳ đầu",
+            content: "Thời kỳ đầu",
           },
           {
             content:
@@ -3144,8 +3095,7 @@ const pages = [
               "Sau đó gia nhập D. E. Shaw & Co, một quỹ đầu cơ mới thành lập với sự nhấn mạnh vào mô hình toán học vào năm 1990 và làm việc ở đó cho đến năm 1994. Jeff trở thành phó chủ tịch thứ tư của D. E. Shaw ở tuổi 30.",
           },
           {
-            content:
-              "Amazon",
+            content: "Amazon",
           },
           {
             content:
@@ -3176,8 +3126,7 @@ const pages = [
               "Cuối năm 2002, tốc độ chi tiêu quá nhanh của Amazon khiến công ty gặp khó khăn về tài chính khi doanh thu bị đình trệ.[42] Sau khi công ty suýt phá sản, Jeff cho đóng cửa các trung tâm phân phối và sa thải 14% lực lượng lao động của Amazon.",
           },
           {
-            content:
-              `Năm 2003, Amazon đã hồi phục từ sự bất ổn tài chính và đem lại lợi nhuận $400 triệu.[43] Vào tháng 11 năm 2007, Bezos cho ra mắt Amazon Kindle.[44] Theo hồ sơ năm 2008 của tạp chí Time, Bezos muốn tạo ra một thiết bị cho phép đọc "lưu lượng truy cập" tương tự như trải nghiệm của các video game.`,
+            content: `Năm 2003, Amazon đã hồi phục từ sự bất ổn tài chính và đem lại lợi nhuận $400 triệu.[43] Vào tháng 11 năm 2007, Bezos cho ra mắt Amazon Kindle.[44] Theo hồ sơ năm 2008 của tạp chí Time, Bezos muốn tạo ra một thiết bị cho phép đọc "lưu lượng truy cập" tương tự như trải nghiệm của các video game.`,
           },
           {
             content:
@@ -3286,7 +3235,7 @@ const pages = [
         segment: [
           {
             content:
-              'Amazon.com, Inc. [5] (/ˈæməzɒn/) là một công ty công nghệ đa quốc gia của Mỹ có trụ sở tại Seattle, Washington tập trung vào điện toán đám mây, truyền phát kỹ thuật số, trí tuệ nhân tạo và thương mại điện tử. Công ty này được coi là một trong những công ty công nghệ Big Four cùng với Google, Apple và Facebook.',
+              "Amazon.com, Inc. [5] (/ˈæməzɒn/) là một công ty công nghệ đa quốc gia của Mỹ có trụ sở tại Seattle, Washington tập trung vào điện toán đám mây, truyền phát kỹ thuật số, trí tuệ nhân tạo và thương mại điện tử. Công ty này được coi là một trong những công ty công nghệ Big Four cùng với Google, Apple và Facebook.",
           },
           {
             content:
@@ -3294,11 +3243,11 @@ const pages = [
           },
           {
             content:
-              'Amazon được Jeff Bezos thành lập vào ngày 5 tháng 7 năm 1994, tại Bellevue, Washington. Công ty ban đầu kinh doanh như một nhà phân phối trực tuyến sách nhưng sau đó mở rộng thêm để bán đồ điện tử, phần mềm, trò chơi video, may mặc, đồ nội thất, thực phẩm, đồ chơi và trang sức. Năm 2015, Amazon đã vượt qua Walmart trở thành nhà bán lẻ có giá trị nhất tại Hoa Kỳ tính theo giá trị vốn hóa thị trường.[16] Vào năm 2017, Amazon đã mua lại Whole Foods Market với giá 13,4 tỷ đô la, điều này đã làm tăng đáng kể sự hiện diện của Amazon với tư cách là một nhà bán lẻ truyền thống.[17] Năm 2018, Bezos tuyên bố rằng dịch vụ giao hàng trong hai ngày của họ, Amazon Prime, đã có trên 100 triệu người đăng ký trên toàn thế giới.',
+              "Amazon được Jeff Bezos thành lập vào ngày 5 tháng 7 năm 1994, tại Bellevue, Washington. Công ty ban đầu kinh doanh như một nhà phân phối trực tuyến sách nhưng sau đó mở rộng thêm để bán đồ điện tử, phần mềm, trò chơi video, may mặc, đồ nội thất, thực phẩm, đồ chơi và trang sức. Năm 2015, Amazon đã vượt qua Walmart trở thành nhà bán lẻ có giá trị nhất tại Hoa Kỳ tính theo giá trị vốn hóa thị trường.[16] Vào năm 2017, Amazon đã mua lại Whole Foods Market với giá 13,4 tỷ đô la, điều này đã làm tăng đáng kể sự hiện diện của Amazon với tư cách là một nhà bán lẻ truyền thống.[17] Năm 2018, Bezos tuyên bố rằng dịch vụ giao hàng trong hai ngày của họ, Amazon Prime, đã có trên 100 triệu người đăng ký trên toàn thế giới.",
           },
           {
             content:
-              'Amazon phân phối tải xuống và phát trực tuyến video, âm nhạc, audiobook thông qua các công ty con Amazon Prime Video, Amazon Music và Audible. Amazon cũng có một chi nhánh xuất bản, Amazon Publishing, một hãng phim và truyền hình, Amazon Studios và một công ty con về điện toán đám mây, Amazon Web Services. Công ty cũng sản xuất hàng điện tử tiêu dùng bao gồm thiết bị đọc ebook Kindle, máy tính bảng Fire, Fire TV, và các thiết bị Echo. Ngoài ra, các công ty con của Amazon cũng bao gồm Ring, Twitch.tv, Whole Foods Market và IMDb. Amazon cũng đã dính vào nhiều scandal, nhiều nhất là bị chỉ trích vì vi phạm giám sát công nghệ,[20] văn hóa làm việc siêu cạnh tranh và đòi hỏi cao,[21] trốn thuế,[22] và thực hành chống cạnh tranh.',
+              "Amazon phân phối tải xuống và phát trực tuyến video, âm nhạc, audiobook thông qua các công ty con Amazon Prime Video, Amazon Music và Audible. Amazon cũng có một chi nhánh xuất bản, Amazon Publishing, một hãng phim và truyền hình, Amazon Studios và một công ty con về điện toán đám mây, Amazon Web Services. Công ty cũng sản xuất hàng điện tử tiêu dùng bao gồm thiết bị đọc ebook Kindle, máy tính bảng Fire, Fire TV, và các thiết bị Echo. Ngoài ra, các công ty con của Amazon cũng bao gồm Ring, Twitch.tv, Whole Foods Market và IMDb. Amazon cũng đã dính vào nhiều scandal, nhiều nhất là bị chỉ trích vì vi phạm giám sát công nghệ,[20] văn hóa làm việc siêu cạnh tranh và đòi hỏi cao,[21] trốn thuế,[22] và thực hành chống cạnh tranh.",
           },
         ],
       },
@@ -3306,28 +3255,26 @@ const pages = [
         id: 2,
         segment: [
           {
-            content:
-              '1994–2009: những năm đầu',
+            content: "1994–2009: những năm đầu",
           },
           {
             content:
-              'Jeff Bezos thành lập Amazon vào ngày 5 tháng 7 năm 1994. Sở dĩ Jeff Bezos chọn khu vực Seattle để thành lập Amazon vì nơi đây có nhiều nhân tài kỹ thuật và Microsoft cũng ở trong khu vực này.',
+              "Jeff Bezos thành lập Amazon vào ngày 5 tháng 7 năm 1994. Sở dĩ Jeff Bezos chọn khu vực Seattle để thành lập Amazon vì nơi đây có nhiều nhân tài kỹ thuật và Microsoft cũng ở trong khu vực này.",
           },
           {
             content:
-              'Amazon lên sàn chứng khoán vào tháng 5 năm 1997. Bắt đầu bán nhạc và video vào năm 1998 và bắt đầu hoạt động quốc tế bằng cách mua lại các nhà bán sách trực tuyến ở Vương quốc Anh và Đức. Năm sau, công ty bắt đầu bán nhạc, trò chơi điện tử, đồ điện tử tiêu dùng, đồ gia dụng, phần mềm, trò chơi và đồ chơi.',
+              "Amazon lên sàn chứng khoán vào tháng 5 năm 1997. Bắt đầu bán nhạc và video vào năm 1998 và bắt đầu hoạt động quốc tế bằng cách mua lại các nhà bán sách trực tuyến ở Vương quốc Anh và Đức. Năm sau, công ty bắt đầu bán nhạc, trò chơi điện tử, đồ điện tử tiêu dùng, đồ gia dụng, phần mềm, trò chơi và đồ chơi.",
           },
           {
             content:
               'Năm 2002, công ty ra mắt Amazon Web Services (AWS), ban đầu tập trung vào việc cung cấp API cho các nhà phát triển web để xây dựng các ứng dụng web trên nền tảng thương mại điện tử của Amazon.[27][28] Năm 2004, AWS được mở rộng để cung cấp số liệu thống kê về mức độ phổ biến của trang web và dữ liệu thu thập dữ liệu web từ Alexa Web Information Service.[29] AWS sau đó chuyển sang cung cấp các dịch vụ doanh nghiệp với Simple Storage Service (S3) vào năm 2006,[30] và Elastic Compute Cloud (EC2) vào năm 2008,[31] cho phép các công ty thuê lưu trữ dữ liệu và sức mạnh tính toán từ Amazon. Năm 2006, Amazon cũng ra mắt chương trình Fulfillment by Amazon (FBA), cho phép cá nhân và các công ty nhỏ (được gọi là "người bán bên thứ ba") bán sản phẩm thông qua kho và cơ sở hạ tầng hoàn tất đơn hàng của Amazon.',
           },
           {
-            content:
-              '2010–nay: tăng trưởng',
+            content: "2010–nay: tăng trưởng",
           },
           {
             content:
-              'Amazon đã mua lại chuỗi siêu thị Whole Foods Market vào năm 2017.[33] Đây là nhà bán lẻ điện tử hàng đầu tại Hoa Kỳ với doanh thu ròng khoảng 178 tỷ USD vào năm 2017. Amazon có hơn 300 triệu tài khoản khách hàng hoạt động trên toàn cầu.',
+              "Amazon đã mua lại chuỗi siêu thị Whole Foods Market vào năm 2017.[33] Đây là nhà bán lẻ điện tử hàng đầu tại Hoa Kỳ với doanh thu ròng khoảng 178 tỷ USD vào năm 2017. Amazon có hơn 300 triệu tài khoản khách hàng hoạt động trên toàn cầu.",
           },
           {
             content:
@@ -3335,7 +3282,7 @@ const pages = [
           },
           {
             content:
-              'Vào ngày 2 tháng 2 năm 2021, Bezos thông báo rằng ông sẽ từ chức CEO để trở thành chủ tịch điều hành hội đồng quản trị của Amazon. Cuộc chuyển giao chính thức diễn ra vào ngày 5 tháng 7 năm 2021, với cựu CEO của AWS Andy Jassy thay thế ông làm CEO.[40][41] Vào tháng 1 năm 2023, Amazon đã cắt giảm hơn 18.000 việc làm, chủ yếu ở lĩnh vực bán lẻ tiêu dùng và bộ phận nhân sự trong nỗ lực cắt giảm chi phí.',
+              "Vào ngày 2 tháng 2 năm 2021, Bezos thông báo rằng ông sẽ từ chức CEO để trở thành chủ tịch điều hành hội đồng quản trị của Amazon. Cuộc chuyển giao chính thức diễn ra vào ngày 5 tháng 7 năm 2021, với cựu CEO của AWS Andy Jassy thay thế ông làm CEO.[40][41] Vào tháng 1 năm 2023, Amazon đã cắt giảm hơn 18.000 việc làm, chủ yếu ở lĩnh vực bán lẻ tiêu dùng và bộ phận nhân sự trong nỗ lực cắt giảm chi phí.",
           },
         ],
       },
@@ -3343,8 +3290,7 @@ const pages = [
         id: 3,
         segment: [
           {
-            content:
-              "Amazon.com ",
+            content: "Amazon.com ",
           },
           {
             content:
@@ -3355,12 +3301,10 @@ const pages = [
               "Lượt truy cập vào amazon.com đã tăng từ 615 triệu lượt truy cập hàng năm vào năm 2008,[47] lên hơn 2 tỷ lượt mỗi tháng vào năm 2022.[48] Nền tảng thương mại điện tử này là trang web được truy cập nhiều thứ 14 trên thế giới.[49] Kết quả do công cụ tìm kiếm của Amazon tạo ra một phần phụ thuộc vào phí quảng cáo.",
           },
           {
-            content:
-              "Quan hệ hợp tác giữa các nhà bán hàng",
+            content: "Quan hệ hợp tác giữa các nhà bán hàng",
           },
           {
-            content:
-              `Năm 2000, nhà bán lẻ đồ chơi của Mỹ Toys "R" Us đã ký một thỏa thuận 10 năm với Amazon, trị giá 50 triệu đô la mỗi năm cộng với một phần doanh thu, theo đó Toys "R" Us sẽ là nhà cung cấp độc quyền đồ chơi và sản phẩm dành cho trẻ sơ sinh trên dịch vụ, và trang web của chuỗi sẽ chuyển hướng đến danh mục Toys & Games của Amazon. Năm 2004, Toys "R" Us đã kiện Amazon, cáo buộc rằng do nhận thấy thiếu sự đa dạng trong kho hàng của Toys "R" Us, Amazon đã cố tình cho phép các nhà bán hàng bên thứ ba bán các sản phẩm trên dịch vụ trong các danh mục mà Toys "R" Us đã được cấp độc quyền. Năm 2006, một tòa án đã phán quyết có lợi cho Toys "R" Us, cho phép công ty này hủy bỏ hợp đồng với Amazon và thành lập trang web thương mại điện tử độc lập của riêng mình. Sau đó, công ty đã được trao 51 triệu đô la Mỹ tiền bồi thường thiệt hại.`,
+            content: `Năm 2000, nhà bán lẻ đồ chơi của Mỹ Toys "R" Us đã ký một thỏa thuận 10 năm với Amazon, trị giá 50 triệu đô la mỗi năm cộng với một phần doanh thu, theo đó Toys "R" Us sẽ là nhà cung cấp độc quyền đồ chơi và sản phẩm dành cho trẻ sơ sinh trên dịch vụ, và trang web của chuỗi sẽ chuyển hướng đến danh mục Toys & Games của Amazon. Năm 2004, Toys "R" Us đã kiện Amazon, cáo buộc rằng do nhận thấy thiếu sự đa dạng trong kho hàng của Toys "R" Us, Amazon đã cố tình cho phép các nhà bán hàng bên thứ ba bán các sản phẩm trên dịch vụ trong các danh mục mà Toys "R" Us đã được cấp độc quyền. Năm 2006, một tòa án đã phán quyết có lợi cho Toys "R" Us, cho phép công ty này hủy bỏ hợp đồng với Amazon và thành lập trang web thương mại điện tử độc lập của riêng mình. Sau đó, công ty đã được trao 51 triệu đô la Mỹ tiền bồi thường thiệt hại.`,
           },
           {
             content:
@@ -3383,68 +3327,54 @@ const pages = [
               "Vào tháng 9 năm 2017, Amazon đã liên doanh với một trong những người bán của mình, JV Appario Retail thuộc sở hữu của Tập đoàn Patni, đã ghi nhận tổng doanh thu là 104,44 triệu đô la Mỹ (759 crore ₹) trong năm tài chính 2017–2018.[62] Tính đến ngày 11 tháng 10 năm 2017, AmazonFresh bán một loạt sản phẩm mang thương hiệu Booths để giao hàng tận nhà ở một số khu vực được lựa chọn.[63] Vào tháng 11 năm 2018, Amazon đã đạt được thỏa thuận với Apple Inc. để bán một số sản phẩm thông qua dịch vụ này, thông qua công ty và các Nhà bán lẻ được ủy quyền của Apple được lựa chọn. Kết quả của mối quan hệ hợp tác này, chỉ các Nhà bán lẻ được ủy quyền của Apple mới được phép bán sản phẩm của Apple trên Amazon kể từ ngày 4 tháng 1 năm 2019.",
           },
           {
-            content:
-              "Nhãn hiệu riêng",
+            content: "Nhãn hiệu riêng",
           },
           {
             content:
               "Amazon bán nhiều sản phẩm dưới thương hiệu riêng của mình, bao gồm sạc điện thoại, pin và khăn lau tã. Thương hiệu AmazonBasics được giới thiệu vào năm 2009 và hiện có hàng trăm dòng sản phẩm, bao gồm vỏ điện thoại thông minh, chuột máy tính, pin, tạ và chuồng chó. Amazon sở hữu 34 thương hiệu riêng tính đến năm 2019. Những thương hiệu này chiếm 0,15% doanh số bán hàng toàn cầu của Amazon, trong khi mức trung bình của các nhà bán lẻ lớn khác là 18%.[66] Các thương hiệu bán lẻ khác của Amazon bao gồm Presto!, Mama Bear và Amazon Essentials.",
           },
           {
-            content:
-              "Người bán bên thứ ba",
+            content: "Người bán bên thứ ba",
           },
           {
             content:
               "Amazon có được nhiều doanh số bán hàng (khoảng 40% vào năm 2008) từ những người bán bên thứ ba bán sản phẩm trên Amazon.[68] Một số nhà bán hàng thương mại điện tử lớn khác cũng sử dụng Amazon để bán sản phẩm của họ bên cạnh việc bán chúng thông qua trang web của họ. Việc bán hàng được xử lý thông qua Amazon.com và đến tay những người bán hàng riêng lẻ để xử lý và thực hiện đơn hàng và Amazon cho thuê không gian cho các nhà bán lẻ này. Những người bán hàng nhỏ lẻ hàng hóa đã qua sử dụng và mới sẽ đến Amazon Marketplace để cung cấp hàng hóa với giá cố định.",
           },
           {
-            content:
-              "Chương trình tiếp thị liên kết",
+            content: "Chương trình tiếp thị liên kết",
           },
           {
-            content:
-              `Các nhà xuất bản có thể đăng ký làm chi nhánh và nhận hoa hồng khi giới thiệu khách hàng đến Amazon bằng cách đặt các liên kết đến Amazon trên trang web của họ nếu việc giới thiệu dẫn đến việc bán hàng. Trên toàn thế giới, Amazon có "hơn 900.000 thành viên" trong các chương trình tiếp thị liên kết của mình.[70] Vào giữa năm 2014, Chương trình Tiếp thị Liên kết của Amazon được sử dụng bởi 1,2% tổng số trang web và đây là mạng lưới quảng cáo phổ biến thứ hai sau Google Ads.[71] Các trang web và tổ chức phi lợi nhuận thường xuyên sử dụng nó để cung cấp một cách để những người ủng hộ kiếm được hoa hồng cho họ.`,
+            content: `Các nhà xuất bản có thể đăng ký làm chi nhánh và nhận hoa hồng khi giới thiệu khách hàng đến Amazon bằng cách đặt các liên kết đến Amazon trên trang web của họ nếu việc giới thiệu dẫn đến việc bán hàng. Trên toàn thế giới, Amazon có "hơn 900.000 thành viên" trong các chương trình tiếp thị liên kết của mình.[70] Vào giữa năm 2014, Chương trình Tiếp thị Liên kết của Amazon được sử dụng bởi 1,2% tổng số trang web và đây là mạng lưới quảng cáo phổ biến thứ hai sau Google Ads.[71] Các trang web và tổ chức phi lợi nhuận thường xuyên sử dụng nó để cung cấp một cách để những người ủng hộ kiếm được hoa hồng cho họ.`,
           },
           {
-            content:
-              `Xếp hạng bán hàng của Amazon`,
+            content: `Xếp hạng bán hàng của Amazon`,
           },
           {
-            content:
-              `Xếp hạng bán hàng trên Amazon (ASR) cho biết mức độ phổ biến của một sản phẩm được bán trên bất kỳ trang web nào của Amazon. Đây là chỉ số tương đối về mức độ phổ biến được cập nhật hàng giờ. Về cơ bản, đây là một "danh sách bán chạy nhất" cho hàng triệu sản phẩm mà Amazon dự trữ.[74] Mặc dù ASR không ảnh hưởng trực tiếp đến doanh số bán hàng của sản phẩm, nhưng Amazon sử dụng ASR để xác định sản phẩm nào sẽ được đưa vào danh sách bán chạy nhất.[74] Các sản phẩm xuất hiện trong các danh sách này sẽ được hiển thị nhiều hơn trên trang web của Amazon và điều này có thể dẫn đến việc tăng doanh số bán hàng. Cụ thể, các sản phẩm có thứ hạng bán hàng tăng mạnh (lên hoặc xuống) có thể được đưa vào danh sách "movers and shakers" của Amazon; danh sách như vậy cung cấp thêm sự hiển thị có thể dẫn đến việc tăng doanh số bán hàng.[75] Vì lý do cạnh tranh, Amazon không công bố số liệu bán hàng thực tế cho công chúng. Tuy nhiên, Amazon hiện đã bắt đầu công bố dữ liệu điểm bán hàng thông qua dịch vụ Nielsen BookScan cho các tác giả đã được xác minh.[76] Mặc dù ASR đã trở thành nguồn suy đoán của các nhà xuất bản, nhà sản xuất và nhà tiếp thị, nhưng bản thân Amazon không tiết lộ chi tiết về thuật toán tính xếp hạng bán hàng. Một số công ty đã phân tích dữ liệu bán hàng của Amazon để tạo ước tính doanh số dựa trên ASR,[77][78][79] mặc dù Amazon tuyên bố:`,
+            content: `Xếp hạng bán hàng trên Amazon (ASR) cho biết mức độ phổ biến của một sản phẩm được bán trên bất kỳ trang web nào của Amazon. Đây là chỉ số tương đối về mức độ phổ biến được cập nhật hàng giờ. Về cơ bản, đây là một "danh sách bán chạy nhất" cho hàng triệu sản phẩm mà Amazon dự trữ.[74] Mặc dù ASR không ảnh hưởng trực tiếp đến doanh số bán hàng của sản phẩm, nhưng Amazon sử dụng ASR để xác định sản phẩm nào sẽ được đưa vào danh sách bán chạy nhất.[74] Các sản phẩm xuất hiện trong các danh sách này sẽ được hiển thị nhiều hơn trên trang web của Amazon và điều này có thể dẫn đến việc tăng doanh số bán hàng. Cụ thể, các sản phẩm có thứ hạng bán hàng tăng mạnh (lên hoặc xuống) có thể được đưa vào danh sách "movers and shakers" của Amazon; danh sách như vậy cung cấp thêm sự hiển thị có thể dẫn đến việc tăng doanh số bán hàng.[75] Vì lý do cạnh tranh, Amazon không công bố số liệu bán hàng thực tế cho công chúng. Tuy nhiên, Amazon hiện đã bắt đầu công bố dữ liệu điểm bán hàng thông qua dịch vụ Nielsen BookScan cho các tác giả đã được xác minh.[76] Mặc dù ASR đã trở thành nguồn suy đoán của các nhà xuất bản, nhà sản xuất và nhà tiếp thị, nhưng bản thân Amazon không tiết lộ chi tiết về thuật toán tính xếp hạng bán hàng. Một số công ty đã phân tích dữ liệu bán hàng của Amazon để tạo ước tính doanh số dựa trên ASR,[77][78][79] mặc dù Amazon tuyên bố:`,
           },
           {
-            content:
-              `Xin lưu ý rằng số liệu xếp hạng bán hàng của chúng tôi chỉ đơn giản là một hướng dẫn chung cho khách hàng và không phải là thông tin bán hàng xác định cho các nhà xuất bản—chúng tôi cho rằng bạn thường xuyên có thông tin này từ các nguồn phân phối của mình.`,
+            content: `Xin lưu ý rằng số liệu xếp hạng bán hàng của chúng tôi chỉ đơn giản là một hướng dẫn chung cho khách hàng và không phải là thông tin bán hàng xác định cho các nhà xuất bản—chúng tôi cho rằng bạn thường xuyên có thông tin này từ các nguồn phân phối của mình.`,
           },
           {
-            content:
-              `Cửa hàng`,
+            content: `Cửa hàng`,
           },
           {
-            content:
-              `Vào tháng 11 năm 2015, Amazon đã mở cửa hàng sách Amazon Books đầu tiên tại University Village ở Seattle. Cửa hàng có diện tích 5.500 feet vuông và giá của tất cả các sản phẩm đều giống với trên trang web của Amazon.[81] Amazon đã mở cửa hàng sách thứ 10 vào năm 2017;[82] giới truyền thông suy đoán rằng Amazon có kế hoạch mở rộng quy mô lên 300 đến 400 cửa hàng sách trên khắp cả nước.`,
+            content: `Vào tháng 11 năm 2015, Amazon đã mở cửa hàng sách Amazon Books đầu tiên tại University Village ở Seattle. Cửa hàng có diện tích 5.500 feet vuông và giá của tất cả các sản phẩm đều giống với trên trang web của Amazon.[81] Amazon đã mở cửa hàng sách thứ 10 vào năm 2017;[82] giới truyền thông suy đoán rằng Amazon có kế hoạch mở rộng quy mô lên 300 đến 400 cửa hàng sách trên khắp cả nước.`,
           },
           {
-            content:
-              `Vào tháng 6 năm 2018, có thông tin cho rằng Amazon có kế hoạch mở các cửa hàng sách truyền thống ở Đức.[83] Vào tháng 8 năm 2019, Amazon đã nộp đơn xin mở cửa hàng rượu ở San Francisco, CA, như một phương tiện để vận chuyển bia và rượu trong thành phố.[84] Năm 2020, Amazon Fresh đã mở một số cửa hàng ở Mỹ và Vương quốc Anh.`,
+            content: `Vào tháng 6 năm 2018, có thông tin cho rằng Amazon có kế hoạch mở các cửa hàng sách truyền thống ở Đức.[83] Vào tháng 8 năm 2019, Amazon đã nộp đơn xin mở cửa hàng rượu ở San Francisco, CA, như một phương tiện để vận chuyển bia và rượu trong thành phố.[84] Năm 2020, Amazon Fresh đã mở một số cửa hàng ở Mỹ và Vương quốc Anh.`,
           },
           {
-            content:
-              `Phần cứng và dịch vụ`,
+            content: `Phần cứng và dịch vụ`,
           },
           {
-            content:
-              `Amazon có nhiều sản phẩm và dịch vụ khác nhau, bao gồm trợ lý kỹ thuật số Alexa, Amazon Music và Prime Video dành cho âm nhạc và video, Amazon Appstore dành cho ứng dụng Android và dòng sản phẩm phần cứng Kindle của máy đọc sách điện tử và máy tính bảng. Audible cung cấp sách nói để mua và nghe.`,
+            content: `Amazon có nhiều sản phẩm và dịch vụ khác nhau, bao gồm trợ lý kỹ thuật số Alexa, Amazon Music và Prime Video dành cho âm nhạc và video, Amazon Appstore dành cho ứng dụng Android và dòng sản phẩm phần cứng Kindle của máy đọc sách điện tử và máy tính bảng. Audible cung cấp sách nói để mua và nghe.`,
           },
           {
-            content:
-              `Vào tháng 9 năm 2021, Amazon đã công bố ra mắt Astro, robot gia đình đầu tiên của mình, được trang bị công nghệ nhà thông minh Alexa. Robot này có thể được điều khiển từ xa khi không ở nhà, để kiểm tra vật nuôi, người hoặc an ninh gia đình. Nó sẽ gửi thông báo cho chủ sở hữu nếu phát hiện thấy điều gì bất thường`,
+            content: `Vào tháng 9 năm 2021, Amazon đã công bố ra mắt Astro, robot gia đình đầu tiên của mình, được trang bị công nghệ nhà thông minh Alexa. Robot này có thể được điều khiển từ xa khi không ở nhà, để kiểm tra vật nuôi, người hoặc an ninh gia đình. Nó sẽ gửi thông báo cho chủ sở hữu nếu phát hiện thấy điều gì bất thường`,
           },
           {
-            content:
-              `Vào tháng 1 năm 2023, Amazon đã công bố ra mắt RXPass, một dịch vụ giao thuốc theo toa. Dịch vụ này cho phép các thành viên Amazon Prime ở Mỹ trả 5 đô la Mỹ mỗi tháng để truy cập 60 loại thuốc. Dịch vụ này đã được ra mắt ngay sau khi thông báo ngoại trừ ở các tiểu bang có yêu cầu giao thuốc theo toa cụ thể. Người hưởng lợi của các chương trình chăm sóc sức khỏe của chính phủ như Medicare và Medicaid sẽ không thể đăng ký RXPass.`,
+            content: `Vào tháng 1 năm 2023, Amazon đã công bố ra mắt RXPass, một dịch vụ giao thuốc theo toa. Dịch vụ này cho phép các thành viên Amazon Prime ở Mỹ trả 5 đô la Mỹ mỗi tháng để truy cập 60 loại thuốc. Dịch vụ này đã được ra mắt ngay sau khi thông báo ngoại trừ ở các tiểu bang có yêu cầu giao thuốc theo toa cụ thể. Người hưởng lợi của các chương trình chăm sóc sức khỏe của chính phủ như Medicare và Medicaid sẽ không thể đăng ký RXPass.`,
           },
         ],
       },
@@ -3452,24 +3382,21 @@ const pages = [
         id: 4,
         segment: [
           {
-            content:
-              "Logistics",
+            content: "Logistics",
           },
           {
             content:
               "Amazon sử dụng nhiều dịch vụ vận chuyển khác nhau để giao hàng. Các dịch vụ mang thương hiệu Amazon bao gồm: Amazon Air, Amazon Flex[88], Amazon Logistics[89], Amazon Prime Air.",
           },
           {
-            content:
-              `Amazon sử dụng lao động trực tiếp để làm việc tại các nhà kho, trung tâm phân phối số lượng lớn, các địa điểm "Amazon Hub Locker+" có nhân viên và các trạm giao hàng nơi tài xế nhận gói hàng. Tính đến tháng 12 năm 2020, Amazon không tuyển dụng tài xế giao hàng làm nhân viên.`,
+            content: `Amazon sử dụng lao động trực tiếp để làm việc tại các nhà kho, trung tâm phân phối số lượng lớn, các địa điểm "Amazon Hub Locker+" có nhân viên và các trạm giao hàng nơi tài xế nhận gói hàng. Tính đến tháng 12 năm 2020, Amazon không tuyển dụng tài xế giao hàng làm nhân viên.`,
           },
           {
             content:
               "Rakuten Intelligence ước tính rằng vào năm 2020 tại Hoa Kỳ, tỷ lệ giao hàng chặng cuối là 56% bởi các dịch vụ được ký hợp đồng trực tiếp của Amazon (chủ yếu ở các khu vực đô thị), 30% bởi Bưu điện Hoa Kỳ (chủ yếu ở các khu vực nông thôn) và 14% bởi UPS.[91] Vào tháng 4 năm 2021, Amazon báo cáo với các nhà đầu tư rằng họ đã tăng công suất giao hàng nội bộ lên 50% trong 12 tháng qua (bao gồm năm đầu tiên của đại dịch COVID-19 tại Hoa Kỳ).",
           },
           {
-            content:
-              "Chuỗi cung ứng",
+            content: "Chuỗi cung ứng",
           },
           {
             content:
@@ -3612,15 +3539,15 @@ const pages = [
         segment: [
           {
             content:
-              'Thuật ngữ điện toán đám mây xuất hiện bắt nguồn từ ứng dụng điện toán lưới (grid computing) trong thập niên 1960, tiếp theo là điện toán theo nhu cầu (utility computing) và phần mềm dịch vụ (SaaS).',
+              "Thuật ngữ điện toán đám mây xuất hiện bắt nguồn từ ứng dụng điện toán lưới (grid computing) trong thập niên 1960, tiếp theo là điện toán theo nhu cầu (utility computing) và phần mềm dịch vụ (SaaS).",
           },
           {
             content:
-              'Điện toán lưới đặt trọng tâm vào việc di chuyển một tải công việc (workload) đến địa điểm của các tài nguyên điện toán cần thiết để sử dụng. Một lưới là một nhóm máy chủ mà trên đó nhiệm vụ lớn được chia thành những tác vụ nhỏ để chạy song song, được xem là một máy chủ ảo.',
+              "Điện toán lưới đặt trọng tâm vào việc di chuyển một tải công việc (workload) đến địa điểm của các tài nguyên điện toán cần thiết để sử dụng. Một lưới là một nhóm máy chủ mà trên đó nhiệm vụ lớn được chia thành những tác vụ nhỏ để chạy song song, được xem là một máy chủ ảo.",
           },
           {
             content:
-              'Với điện toán đám mây, các tài nguyên điện toán như máy chủ có thể được định hình động hoặc cắt nhỏ từ cơ sở hạ tầng phần cứng nền và trở nên sẵn sàng thực hiện nhiệm vụ, hỗ trợ những môi trường không phải là điện toán lưới như Web ba lớp chạy các ứng dụng truyền thống hay ứng dụng Web 2.0.',
+              "Với điện toán đám mây, các tài nguyên điện toán như máy chủ có thể được định hình động hoặc cắt nhỏ từ cơ sở hạ tầng phần cứng nền và trở nên sẵn sàng thực hiện nhiệm vụ, hỗ trợ những môi trường không phải là điện toán lưới như Web ba lớp chạy các ứng dụng truyền thống hay ứng dụng Web 2.0.",
           },
         ],
       },
@@ -3628,33 +3555,28 @@ const pages = [
         id: 3,
         segment: [
           {
-            content:
-              "So sánh",
+            content: "So sánh",
           },
           {
-            content:
-              `Điện toán máy chủ ảo thường bị lẫn lộn với điện toán lưới, ("một dạng của điện toán phân tán trong đó tồn tại một 'siêu máy tính ảo', là sự bao gồm một cụm mạng máy tính, những máy tính liên kết mềm, hoạt động phối hợp để thực thi những tác vụ cực lớn"), điện toán theo nhu cầu (utility computing) ("khối những tài nguyên máy tính, như các bộ xử lý và bộ nhớ, trong vai trò một dịch vụ trắc lượng tương tự với các công trình hạ tầng kỹ thuật truyền thống chẳng hạn như điện lực hay mạng điện thoại")[1] và điện toán tự trị (autonomic computing) ("những hệ thống máy tính có khả năng tự quản lý").[2] Thực ra nhiều hệ thống điện toán máy đám mây ngày nay được trang bị hệ thống lưới, có tính năng tự trị và được tiếp thị giống như những tiện ích, nhưng điện toán đám mây có thể được nhìn nhận như một bước phát triển tự nhiên tiếp theo từ mô hình lưới-theo nhu cầu.[3] Nhiều kiến trúc đám mây thành công có cơ sở hạ tầng không quy tập hay ít quy tập hay những hệ thống tiếp thị trong đó có mạng ngang hàng như BitTorrent và Skype và điện toán tình nguyện như SETI@home.`,
+            content: `Điện toán máy chủ ảo thường bị lẫn lộn với điện toán lưới, ("một dạng của điện toán phân tán trong đó tồn tại một 'siêu máy tính ảo', là sự bao gồm một cụm mạng máy tính, những máy tính liên kết mềm, hoạt động phối hợp để thực thi những tác vụ cực lớn"), điện toán theo nhu cầu (utility computing) ("khối những tài nguyên máy tính, như các bộ xử lý và bộ nhớ, trong vai trò một dịch vụ trắc lượng tương tự với các công trình hạ tầng kỹ thuật truyền thống chẳng hạn như điện lực hay mạng điện thoại")[1] và điện toán tự trị (autonomic computing) ("những hệ thống máy tính có khả năng tự quản lý").[2] Thực ra nhiều hệ thống điện toán máy đám mây ngày nay được trang bị hệ thống lưới, có tính năng tự trị và được tiếp thị giống như những tiện ích, nhưng điện toán đám mây có thể được nhìn nhận như một bước phát triển tự nhiên tiếp theo từ mô hình lưới-theo nhu cầu.[3] Nhiều kiến trúc đám mây thành công có cơ sở hạ tầng không quy tập hay ít quy tập hay những hệ thống tiếp thị trong đó có mạng ngang hàng như BitTorrent và Skype và điện toán tình nguyện như SETI@home.`,
           },
 
           {
-            content:
-              "Kiến trúc",
+            content: "Kiến trúc",
           },
           {
             content:
               "Đại bộ phận hạ tầng cơ sở của điện toán đám mây hiện nay là sự kết hợp của những dịch vụ đáng tin cậy được phân phối thông qua các trung tâm dữ liệu (data center) được xây dựng trên những máy chủ với những cấp độ khác nhau của các công nghệ ảo hóa. Những dịch vụ này có thể được truy cập từ bất kỳ đâu trên thế giới, trong đó Đám mây là một điểm truy cập duy nhất cho tất cả các máy tính có nhu cầu của khách hàng. Các dịch vụ thương mại cần đáp ứng yêu cầu chất lượng dịch vụ từ phía khách hàng và thông thường đều đưa ra các mức thỏa thuận dịch vụ (Service level agreement).[5] Các tiêu chuẩn mở (Open standard) và phần mềm mã nguồn mở (open source software) cũng góp phần phát triển điện toán máy chủ ảo.",
           },
           {
-            content:
-              "Các đặc tính",
+            content: "Các đặc tính",
           },
           {
             content:
               "Như vậy, trước đây để có thể triển khai một ứng dụng (ví dụ một trang Web), bạn phải đi mua/thuê một hay nhiều máy chủ (server), sau đó đặt máy chủ tại các trung tâm dữ liệu (data center) thì nay điện toán đám mây cho phép bạn giản lược quá trình mua/thuê đi. Bạn chỉ cần nêu ra yêu cầu của mình, hệ thống sẽ tự động gom nhặt các tài nguyên rỗi (free) để đáp ứng yêu cầu của bạn. Chính vì vậy, có thể kể đến một vài lợi ích cơ bản của điện toán đám mây như sau:",
           },
           {
-            content:
-              `Sử dụng các tài nguyên tính toán động (Dynamic computing resources): Các tài nguyên được cấp phát cho doanh nghiệp đúng như những gì doanh nghiệp muốn một cách tức thời. Thay vì việc doanh nghiệp phải tính toán xem có nên mở rộng hay không, phải đầu tư bao nhiêu máy chủ thì nay doanh nghiệp chỉ cần yêu cầu "Hey, đám mây, chúng tôi cần thêm tài nguyên tương đương với 1 CPU 3.0 GHz, 128GB RAM…" và đám mây sẽ tự tìm kiếm tài nguyên rỗi để cung cấp cho bạn.`,
+            content: `Sử dụng các tài nguyên tính toán động (Dynamic computing resources): Các tài nguyên được cấp phát cho doanh nghiệp đúng như những gì doanh nghiệp muốn một cách tức thời. Thay vì việc doanh nghiệp phải tính toán xem có nên mở rộng hay không, phải đầu tư bao nhiêu máy chủ thì nay doanh nghiệp chỉ cần yêu cầu "Hey, đám mây, chúng tôi cần thêm tài nguyên tương đương với 1 CPU 3.0 GHz, 128GB RAM…" và đám mây sẽ tự tìm kiếm tài nguyên rỗi để cung cấp cho bạn.`,
           },
           {
             content:
@@ -3669,8 +3591,7 @@ const pages = [
               "Tăng khả năng sử dụng tài nguyên tính toán: Một trong những câu hỏi đau đầu của việc đầu tư tài nguyên (ví dụ máy chủ) là bao lâu thì nó sẽ hết khấu hao, tôi đầu tư như thế có lãi hay không, có bị outdate về công nghệ hay không. Khi sử dụng tài nguyên trên đám mây thì bạn không còn phải quan tâm tới điều này nữa.",
           },
           {
-            content:
-              "Các mô hình dịch vụ",
+            content: "Các mô hình dịch vụ",
           },
           {
             content:
@@ -3681,12 +3602,10 @@ const pages = [
               "Cơ sở hạ tầng như một dịch vụ (IaaS - Infrastructure as a Service)",
           },
           {
-            content:
-              "Nền tảng như một dịch vụ (PaaS - Platform as a Service)",
+            content: "Nền tảng như một dịch vụ (PaaS - Platform as a Service)",
           },
           {
-            content:
-              "Phần mềm như một dịch vụ (SaaS - Software as a Service)",
+            content: "Phần mềm như một dịch vụ (SaaS - Software as a Service)",
           },
           {
             content:
@@ -3697,24 +3616,19 @@ const pages = [
               "Cùng với sự phát triển công nghệ cũng như nhu cầu của người dùng, một số loại dịch vụ điện toán đám mây mới được cung cấp như Trí tuệ nhân tạo như một dịch vụ (AIaaS),[7] Desktop as a Service (DaaS),[8] IT as a service (ITaaS)[9] hay Ransomware as a service (RaaS)[10] nhằm cung cấp các dịch điện toán đám mây cho các ứng dụng đặc thù.",
           },
           {
-            content:
-              "Các mô hình triển khai",
+            content: "Các mô hình triển khai",
           },
           {
-            content:
-              "Đám mây riêng (Private cloud)",
+            content: "Đám mây riêng (Private cloud)",
           },
           {
-            content:
-              "Đám mây chung (Public cloud)",
+            content: "Đám mây chung (Public cloud)",
           },
           {
-            content:
-              "Đám mây lai (Hybrid cloud)",
+            content: "Đám mây lai (Hybrid cloud)",
           },
           {
-            content:
-              "Các công ty",
+            content: "Các công ty",
           },
           {
             content:

@@ -1,13 +1,18 @@
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Form, Input } from "antd";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
+import axios from "../api/axios";
+import { useAuth } from "../contexts/AuthContext";
+
 const Login: React.FC = () => {
   const [human, setHuman] = useState(false);
-  const handleSubmit = (values: unknown) => {
-    console.log(values);
-    //xử lý logic đăng nhập
+  const { user, login } = useAuth();
+  const navigate = useNavigate();
+  const handleSubmit = async ({ email, password }) => {
+    login(email, password);
+    if (!user) navigate("/");
   };
   const checkToken = (token: string | null) => {
     token ? setHuman(true) : setHuman(false);
@@ -21,12 +26,12 @@ const Login: React.FC = () => {
         onFinish={handleSubmit}
       >
         <Form.Item
-          name="username"
+          name="email"
           rules={[{ required: true, message: "Please input your Username!" }]}
         >
           <Input
             prefix={<UserOutlined className="site-form-item-icon" />}
-            placeholder="Tên đăng nhập"
+            placeholder="Email"
           />
         </Form.Item>
         <Form.Item
