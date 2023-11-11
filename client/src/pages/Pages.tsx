@@ -1,29 +1,35 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { EditOutlined, ReadOutlined, SearchOutlined } from "@ant-design/icons";
 import { Button, Card, Result, Pagination } from "antd";
 import Meta from "antd/es/card/Meta";
 import Paragraph from "antd/es/typography/Paragraph";
-import pages from "../utils/data";
 
+// import axios from "axios";
+import { PageTypes } from "../types/types";
+
+import getAllPage from "../api/getAllPages";
+import Loading from "./Loading";
 const Pages: React.FC = () => {
   const { key } = useParams();
+  const pages = getAllPage();
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [searchText, setSearchText] = useState<string>("");
   const itemsPerPage = 4;
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    if (pages && searchText) setLoading(false);
+  }, [pages]);
+  const filteredPages =
+    key && key !== null && pages
+      ? pages.filter((item) =>
+          item.title.toLowerCase().includes(key.toLowerCase())
+        )
+      : pages;
 
-  const filteredPages = key
-    ? pages.filter((item) =>
-        item.title.toLowerCase().includes(key.toLowerCase())
-      )
-    : pages;
-
-  const sortPages = (
-    order: "asc" | "desc",
-    pagesToSort: typeof filteredPages
-  ) => {
-    return [...pagesToSort].sort((a, b) => {
+  const sortPages = (order: "asc" | "desc", filteredPages: PageTypes[]) => {
+    return filteredPages.sort((a, b) => {
       const titleA = a.title.toLowerCase();
       const titleB = b.title.toLowerCase();
       return order === "asc"
@@ -68,17 +74,22 @@ const Pages: React.FC = () => {
           <option value="asc">Sắp xếp thứ A-Z</option>
           <option value="desc">Sắp xếp thứ Z-A</option>
         </select>
-        <div className="flex border p-2 w-[350px] rounded-lg h-full">
-          <input
-            type="text"
-            className="w-[95%] h-full focus:outline-none px-2"
-            value={searchText}
-            onChange={handleSearchChange}
-            placeholder="Tìm kiếm..."
-          />
-          <SearchOutlined />
-        </div>
+        {key ? (
+          ""
+        ) : (
+          <div className="flex border p-2 w-[350px] rounded-lg h-full">
+            <input
+              type="text"
+              className="w-[95%] h-full focus:outline-none px-2"
+              value={searchText}
+              onChange={handleSearchChange}
+              placeholder="Tìm kiếm..."
+            />
+            <SearchOutlined />
+          </div>
+        )}
       </div>
+
       {currentData.length > 0 ? (
         <div className="flex flex-col gap-5">
           <div className="grid grid-cols-4 gap-8">
@@ -108,7 +119,7 @@ const Pages: React.FC = () => {
                     title={item.title}
                     description={
                       <Paragraph ellipsis={{ rows: 6 }}>
-                        {item.paragraph[0].segment[0].content + "..."}
+                        {item.paragraph[0].segment[0].content}
                       </Paragraph>
                     }
                   />
@@ -123,6 +134,8 @@ const Pages: React.FC = () => {
             onChange={handlePageChange}
           />
         </div>
+      ) : loading ? (
+        <Loading />
       ) : (
         <Result
           className="mx-auto"

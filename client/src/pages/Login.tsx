@@ -3,18 +3,23 @@ import { Button, Form, Input } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
-import axios from "../api/axios";
 import { useAuth } from "../contexts/AuthContext";
 
 const Login: React.FC = () => {
   const [human, setHuman] = useState(false);
   const { user, login } = useAuth();
   const navigate = useNavigate();
-  const handleSubmit = async ({ email, password }) => {
+  const handleSubmit = async ({
+    email,
+    password,
+  }: {
+    email: string;
+    password: string;
+  }) => {
     login(email, password);
     if (!user) navigate("/");
   };
-  const checkToken = (token: string | null) => {
+  const checkHuman = (token: string | null) => {
     token ? setHuman(true) : setHuman(false);
   };
   return (
@@ -46,7 +51,7 @@ const Login: React.FC = () => {
         </Form.Item>
         <ReCAPTCHA
           sitekey="6LdVipMoAAAAAKI2EvA4ks0wZsmOa5rkeba3XlI8"
-          onChange={checkToken}
+          onChange={checkHuman}
         />
         <Form.Item className="mx-auto py-2">
           <Button

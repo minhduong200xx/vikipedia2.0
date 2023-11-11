@@ -5,6 +5,7 @@ import "./index.css";
 import "./i18n/i18n.ts";
 import Loading from "./pages/Loading.tsx";
 import AuthProvider from "./contexts/AuthContext.tsx";
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <Suspense fallback={<Loading />}>
     <AuthProvider>

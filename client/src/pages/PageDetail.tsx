@@ -9,9 +9,10 @@ import {
 // import Emblem from "../assets/img/Emblem_of_Hanoi.svg.png";
 const { Title, Paragraph } = Typography;
 import { Link, useParams } from "react-router-dom";
-import pages from "../utils/data";
+import getAllPage from "../api/getAllPages";
 const PageDetail: React.FC = () => {
   const { id } = useParams();
+  const pages = getAllPage();
   const data = pages.find((item) => item.id == id);
   return (
     <div className="flex flex-row h-full">
@@ -76,8 +77,12 @@ const PageDetail: React.FC = () => {
           className="mx-auto"
           status="404"
           title="404"
-          subTitle="Sorry, the page you visited does not exist."
-          extra={<Button>Quay lại trang chủ</Button>}
+          subTitle="Trang bạn tìm kiếm không tồn tại"
+          extra={
+            <Link to={"/"}>
+              <Button>Quay lại trang chủ</Button>
+            </Link>
+          }
         />
       )}
     </div>
