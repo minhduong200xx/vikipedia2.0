@@ -128,7 +128,9 @@ const Pages: React.FC = () => {
           className="mx-auto"
           status="404"
           title="404"
-          subTitle={`Xin lỗi chúng tôi không tìm thấy dữ liệu với từ khoá "${key}"`}
+          subTitle={`Xin lỗi chúng tôi không tìm thấy dữ liệu với từ khoá "${
+            key ? key : searchText
+          }"`}
           extra={<Button>Quay lại trang chủ</Button>}
         />
       )}

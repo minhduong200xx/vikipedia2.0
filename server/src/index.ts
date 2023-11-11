@@ -19,7 +19,7 @@ app.use(
 app.use(compression());
 app.use(cookieParser());
 app.use(bodyParser.json());
-
+app.use(cors());
 const server = http.createServer(app);
 
 server.listen(8080, () => {
@@ -31,6 +31,10 @@ const MONGO_URL =
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
+// MongoDB connection events
+mongoose.connection.on("connected", () => {
+  console.log("Connected to MongoDB");
+});
 mongoose.connection.on("error", (error: Error) => console.log(error));
 
 app.use("/", router());

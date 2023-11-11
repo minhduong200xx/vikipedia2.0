@@ -18,7 +18,7 @@ const PageDetail: React.FC = () => {
       {data ? (
         <div className="flex flex-row h-full">
           <div className=" w-36 h-full flex flex-col font-bold gap-2">
-            <Anchor direction="vertical" items={data.subtitle} />
+            <Anchor direction="vertical" items={data.subtitle}></Anchor>
           </div>
           <div className="w-[70%] h-full">
             <Title level={3} className="text-2xl font-bold border-b">
