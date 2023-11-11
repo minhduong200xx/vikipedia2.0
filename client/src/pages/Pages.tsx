@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { EditOutlined, ReadOutlined, SearchOutlined } from "@ant-design/icons";
-import { Button, Card, Result, Pagination, Spin } from "antd";
+import { Button, Card, Result, Pagination } from "antd";
 import Meta from "antd/es/card/Meta";
 import Paragraph from "antd/es/typography/Paragraph";
 import { PageTypes } from "../types/types";
-import Loading from "./Loading";
 import useGetAllPage from "../hooks/useGetAllPages";
 const Pages: React.FC = () => {
   const { key } = useParams();
