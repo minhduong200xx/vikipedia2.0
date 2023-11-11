@@ -6,6 +6,7 @@ import {
   deletePages,
   addPage,
 } from "../controllers/pages";
+import { getPageByTitle } from "db/pages";
 
 export default (router: express.Router) => {
   router.get("/pages", getAllPages);

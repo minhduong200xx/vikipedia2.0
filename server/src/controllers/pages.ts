@@ -5,6 +5,7 @@ import {
   getPageById,
   getPageByTitle,
   createPage,
+  updatePageById,
 } from "../db/pages";
 export const getAllPages = async (
   req: express.Request,
@@ -19,6 +20,7 @@ export const getAllPages = async (
     return res.sendStatus(400);
   }
 };
+
 export const deletePages = async (
   req: express.Request,
   res: express.Response
@@ -41,14 +43,7 @@ export const updatePage = async (
   try {
     const { id } = req.params;
     const values = req.body;
-
-    if (!values) {
-      return res.sendStatus(400);
-    }
-
-    const page = await getPageById(id);
-    page.set(values);
-    await page.save();
+    const page = await updatePageById(id, values);
     return res.json(page);
   } catch (error) {
     console.log(error);

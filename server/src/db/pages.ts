@@ -66,5 +66,5 @@ export const createPage = async (values: Record<string, any>) => {
 export const deletePageById = (id: string) =>
   PageModel.findOneAndDelete({ id: id });
 
-export const updateUserById = (id: string, values: Record<string, any>) =>
-  PageModel.findByIdAndUpdate(id, values);
+export const updatePageById = (id: string, values: Record<string, any>) =>
+  PageModel.findOneAndReplace({ id: id }, values);

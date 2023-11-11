@@ -2259,7 +2259,8 @@ const pages = [
               "Himalaya có ảnh hưởng sâu sắc đến khí hậu của tiểu lục địa Ấn Độ và cao nguyên Tây Tạng. Chúng ngăn những cơn gió lạnh, khô cằn thổi về phía nam vào tiểu lục địa, khiến phần lớn khu vực Nam Á ấm hơn nhiều so với các vùng ôn đới tương ứng ở các lục địa khác. Nó cũng tạo thành một rào cản cho gió mùa, khiến chúng không di chuyển về phía bắc và gây ra mưa lớn ở vùng Terai. Himalaya cũng được cho là đóng một phần quan trọng trong sự hình thành các sa mạc Trung Á, như sa mạc Taklamakan và sa mạc Gobi.",
           },
           {
-            content: `Sự gia tăng tổn thất băng trên dãy Himalaya trong 40 năm qua đã được chứng minh bằng ảnh vệ tinh. Ngay cả khi mục tiêu 1,5 °C đầy tham vọng sẽ đạt được, sông băng Himalaya dự kiến ​​sẽ mất một phần ba bề mặt của chúng.`,
+            content:
+              "Sự gia tăng tổn thất băng trên dãy Himalaya trong 40 năm qua đã được chứng minh bằng ảnh vệ tinh. Ngay cả khi mục tiêu 1,5 °C đầy tham vọng sẽ đạt được, sông băng Himalaya dự kiến ​​sẽ mất một phần ba bề mặt của chúng.",
           },
         ],
       },
@@ -2757,30 +2758,30 @@ const pages = [
       items: [
         {
           key: "1",
-          label: "Biệt danh",
+          label: "",
           children: [
             {
-              name: "Hà Thành",
+              name: "",
               link: "#",
             },
           ],
         },
         {
           key: "2",
-          label: "Tên cũ",
+          label: "",
           children: [
             {
-              name: "Đông Đô",
+              name: "",
               link: "#",
             },
           ],
         },
         {
           key: "3",
-          label: "Quốc Gia",
+          label: "",
           children: [
             {
-              name: "Việt Nam",
+              name: "",
               link: "#",
             },
           ],
@@ -3665,6 +3666,5398 @@ const pages = [
           children: [
             {
               name: "Tập tin-Hình ảnh-Video-Âm nhạc",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //////////// English ///////////////
+  // 1 Ha Noi
+  {
+    id: "21",
+    title: "Hà Nội",
+    shortDesc: [""],
+    images: [
+      {
+        src: "data:image/jpeg;base64,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",
+        title: "Biểu trưng",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Names",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Geography",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content:
+              "Hanoi[a] (Vietnamese: Hà Nội [haː˨˩ noj˧˨ʔ] ⓘ), officially the Hanoi Capital (Vietnamese: Thủ đô Hà Nội), is the capital and second-most populous city of Vietnam. It covers an area of 3,359.82 km2 (1,297.2 sq mi),[3] and consists of 12 urban districts, one district-leveled town and 17 rural districts. It is located within the Red River Delta of Northern Vietnam.",
+          },
+          {
+            content:
+              "Hanoi's history goes back to the third century BCE, when a portion of the modern-day city served as the capital of the historic Vietnamese nation of Âu Lạc. Following the collapse of Âu Lạc, the city was part of Han China. In 1010, Vietnamese emperor Lý Thái Tổ established the capital of the imperial Vietnamese nation Đại Việt in modern-day central Hanoi, naming the city Thăng Long (literally 'Ascending Dragon'). Thăng Long remained Đại Việt's political centre until 1802, when the Nguyễn dynasty, the last imperial Vietnamese dynasty, moved the capital to Huế. The city was renamed Hanoi in 1831, and served as the capital of French Indochina from 1902 to 1945. On 6 January 1946, the National Assembly of the Democratic Republic of Vietnam designated Hanoi as the capital of the newly independent country, which would last during the First Indochina War (1946–1954) and the Vietnam War (1955–1975). Hanoi has been the capital of the Socialist Republic of Vietnam since 1976.",
+          },
+          {
+            content:
+              "A major tourist destination in Vietnam, Hanoi offers well-preserved French colonial architecture, religious sites dedicated to Buddhism, Catholicism, Confucianism and Taoism, several historical landmarks of Vietnamese imperial periods, and a large number of museums. The Central Sector of the Imperial Citadel of Thăng Long in Ba Dinh District was recognized as a UNESCO World Heritage Site in 2010.",
+          },
+          {
+            content: `Hanoi has a high Human Development Index of 0.799, ranking first amongst all the municipalities and provinces of Vietnam.[18] The city hosts various educational institutions and cultural venues of significance, including the Vietnam National University, the Mỹ Đình National Stadium, and the Vietnam National Museum of Fine Arts. Hanoi was the only Asia-Pacific locality to be granted the "City for Peace" title by UNESCO on 16 July 1999, recognizing its contributions to the struggle for peace, its efforts to promote equality in the community, protect the environment, promote culture and education, and care for younger generations.[19] The 42nd President of the United States, Bill Clinton, made an historic visit to Vietnam in November 2000. He was the first U.S. leader ever to officially visit Hanoi.[20] Hanoi joined UNESCO's Network of Creative Cities as a Design City on 31 October 2019, on the occasion of World Cities' Day.[21] The city has also hosted numerous political and international events, including APEC Vietnam 2006,[22] 132nd Assembly of the Inter-Parliamentary Union (IPU-132),[23] 2019 North Korea–United States Hanoi Summit,[24] as well as 2009 Asian Indoor Games,[25] and the Southeast Asian Games in 2003 and 2021.`,
+          },
+          {
+            content: `Hanoi has had various names throughout history. It was known first as Long Biên (龍邊, "dragon edge"), then Tống Bình (宋平, "Song peace") and Long Đỗ (龍肚, "dragon belly"). Long Biên later gave its name to the famed Long Biên Bridge, built during French colonial times, and more recently to a new district to the east of the Red River. Several older names of Hanoi feature long (龍, "dragon"), linked to the curved formation of the Red River around the city, which was symbolized as a dragon.`,
+          },
+          {
+            content: `In 866, it was turned into a citadel and named Đại La (大羅, "big net"). This gave it the nickname La Thành (羅城, "net citadel"). Both Đại La and La Thành are names of major streets in modern Hanoi. When Lý Thái Tổ established the capital in the area in 1010, it was named Thăng Long (昇龍, "rising dragon").[29][30] Thăng Long later became the name of a major bridge on the highway linking the city center to Nội Bài Airport, and the Thăng Long Boulevard expressway in the southwest of the city center. In modern time, the city is usually referred to as Thăng Long – Hà Nội, when its long history is discussed.`,
+          },
+          {
+            content: `During the Hồ dynasty, it was called Đông Đô (東都, "eastern metropolis").[27][31] During the Ming occupation, it was called Đông Quan (東關, "eastern gate").[27][28][31] During the Lê dynasty, Hanoi was known as Đông Kinh (東京, "eastern capital"),[32] which gave the name to Tonkin and Gulf of Tonkin. A square adjacent to the Hoàn Kiếm lake was named Đông Kinh Nghĩa Thục after the reformist Tonkin Free School under French colonization.`,
+          },
+          {
+            content: `After the end of the Tây Sơn had expanded further south, the city was named Bắc Thành (北城, "northern citadel").[27][28][31] Minh Mạng renamed the city Hà Nội (河內, "inside the rivers") in 1831. This has remained its official name until modern times.`,
+          },
+          {
+            content: `Several unofficial names of Hanoi include: Kẻ Chợ (marketplace), Tràng An (long peace), Phượng Thành/Phụng Thành (phoenix city), Long Thành (short for Kinh thành Thăng Long, "citadel of Thăng Long"), Kinh kỳ (capital city), Hà Thành (short for Thành phố Hà Nội, "city of Hanoi"), Hoàng Diệu, and Thủ Đô (capital).`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `After the Đổi Mới economic policies were approved in 1986, the Communist Party and national and municipal governments hoped to attract international investments for urban development projects in Hanoi.[70] The high-rise commercial buildings did not begin to appear until ten years later due to the international investment community being skeptical of the security of their investments in Vietnam.[70] Rapid urban development and rising costs displaced many residential areas in central Hanoi.[70] Following a short period of economic stagnation after the 1997 Asian financial crisis, Hanoi resumed its rapid economic growth.[70]
+
+              On 29 May 2008, it was decided that Hà Tây Province, Vĩnh Phúc Province's Mê Linh District and four communes of Lương Sơn District, Hòa Bình Province be merged into the metropolitan area of Hanoi from 1 August 2008.[71] Hanoi's total area then increased to 334,470 hectares in 29 subdivisions[72] with the new population being 6,232,940.,[72] effectively tripling its size. The Hanoi Capital Region (Vùng Thủ đô Hà Nội), a metropolitan area covering Hanoi and six surrounding provinces under its administration, will have an area of 13,436 square kilometres (5,188 sq mi) with 15 million people by 2020.
+              
+              Hanoi has experienced a rapid construction boom recently. Skyscrapers, appearing in new urban areas, have dramatically changed the cityscape and have formed a modern skyline outside the old city. In 2015, Hanoi is ranked 39th by Emporis in the list of world cities with most skyscrapers over 100 m; its two tallest buildings are Hanoi Landmark 72 Tower (336 m, second tallest in Vietnam after Ho Chi Minh City's Landmark 81 and third tallest in south-east Asia after Malaysia's Petronas Towers) and Hanoi Lotte Center (272 m, also, third tallest in Vietnam).
+              
+              Public outcry in opposition to the redevelopment of culturally significant areas in Hanoi persuaded the national government to implement a low-rise policy surrounding Hoàn Kiếm Lake.[70] The Ba Đình District is also protected from commercial redevelopment.[70]
+              
+              On 12 September 2023, at least 56 people died in a huge fire in an apartment block in Hanoi. The blaze highlighted that many newly built apartments of fast-growing Hanoi lack sufficient fire safety.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `Hanoi is a landlocked municipality in the northern region of Vietnam, situated in Vietnam's Red River delta, nearly 90 km (56 mi) from the coast. Hanoi contains three basic kinds of terrain, which are the delta area, the midland area and the mountainous zone. In general, the terrain becomes gradually lower from north to south and from west to east, with the average height ranging from 5 to 20 meters above sea level. Hills and mountainous zones are located in the northern and western parts of the city. The highest peak is at Ba Vi with 1281 m, located west of the city proper.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Nicknames",
+          children: [
+            {
+              name: "City of Soaring Dragon",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "The Capital of a Millennium of Culture/Literature",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Country",
+          children: [
+            {
+              name: " Vietnam",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //2 Ha Nam
+  {
+    id: "22",
+    title: "Hà Nam province",
+    shortDesc: ["Hà Nam"],
+    images: [
+      {
+        src: "data:image/jpeg;base64,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",
+        title: "Hà Nam",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Names",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Geography",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Hà Nam (Vietnamese: [haː˨˩ naːm˧˧] ⓘ) is a province of northern Vietnam, in the Red River Delta. The province's name derives from Chữ Hán 河南, meaning "south of the river".`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `Hà Nam, and Vietnam as a whole, implemented the second five-year plan between 1975 and 1980. This plan included protecting the country's national border and gradually overcoming difficulties within the country itself. Between 1981 and 1985, the administration attempted to improve the society and culture of Vietnam.`,
+          },
+          {
+            content: `The years between 1975 and 1985 were a difficult time for the country in general and for Hà Nam province in particular. In this period, the society and economy of Vietnam went through a number of severe difficulties and the majority of the population's standard of living was very low. Despite these events, Hà Nam still managed to make some important gains.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `Hà Nam is subdivided into six district-level sub-divisions: 4 districts:
+            Bình Lục,
+            Kim Bảng,
+            Lý Nhân,
+            Thanh Liêm`,
+          },
+          {
+            content: `1 provincial city:
+            Phủ Lý`,
+          },
+          {
+            content: `1 town:
+            Duy Tiên`,
+          },
+          {
+            content: `They are further subdivided into seven commune-level towns (or townlets), 98 communes, and 11 wards.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Nickname",
+          children: [
+            {
+              name: "South of the river",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Capital",
+          children: [
+            {
+              name: "Phủ Lý",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Country",
+          children: [
+            {
+              name: "Vietnam",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 3 Dao giang sinh
+  {
+    id: "23",
+    title: "The flag of Christmas Island ",
+    shortDesc: ["Christmas Island"],
+    images: [
+      {
+        src: "https://shorturl.at/lz356",
+        title: "",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Names",
+      },
+      {
+        key: "2",
+        href: "#design",
+        title: "Design",
+      },
+      {
+        key: "3",
+        href: "#history",
+        title: "History",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content:
+              "The flag of Christmas Island was unofficially adopted in 1986 after being chosen the winner in a competition for a flag for the territory. It was designed by Tony Couch of Sydney, Australia. The flag was made official in 2002 on Australia Day, when the administrator of the territory, Bill Taylor, presented the flag to the Christmas Island Shire.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "The flag of Christmas Island consists of a green and blue background, split from the top left corner to the bottom right. These colours are intended to represent the land and sea respectively. The Southern Cross constellation appears in the bottom left of the flag similar to the flag of Australia. In the top right, the golden bosun bird[1] (Phaethon lepturus fulvus, one of six subspecies of the white-tailed tropicbird) appears.[2] It is considered to be a symbol of the Island. The last motif appears in the centre of the flag on a golden disc is the map of the island in green. The disc itself was originally only included to offset the green colour of the map, but has become linked to the mining industry.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "In 1986, the Christmas Island Assembly announced a competition to design both a flag and a coat of arms for the territory. There was a prize fund of $100, and some 69 entries were submitted. The winning submission was created by Tony Couch, a resident of Sydney who had previously worked on Christmas Island. The new flag was announced on 14 April 1986, by the Christmas Island Assembly.",
+          },
+          {
+            content: `The first attempt to make the flag official occurred in 1995 when the Minister of the Islands at the time took the view that implementation could take place on Australia Day 1996 via a formal announcement by the Administrator rather than an amendment to the Christmas Island Act 1958. Although this was agreed, the declaration never took place.`,
+          },
+          {
+            content: `Subsequently, Christmas Island official Gary Dunt revived the issue in 2001 and the flag was formally declared the official flag of Christmas Island on Australia Day 2002 (26 January), by the administrator of the territory, Bill Taylor. Councillor Mariam Kawi accepted the flag as a representative of the Shire of Christmas Island.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Adopted",
+          children: [
+            {
+              name: `14 April 1986 (unofficially)
+              26 January 2002 (officially)`,
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Designed by",
+          children: [
+            {
+              name: "Tony Couch",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 4 Hai quan anh
+  {
+    id: "24",
+    title: "Royal Navy",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://shorturl.at/hxIQX",
+        title: "",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#Introduce",
+        title: "Introduce",
+      },
+      {
+        key: "2",
+        href: "#Fleet",
+        title: "Fleet",
+      },
+      {
+        key: "3",
+        href: "#role",
+        title: "Role",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `The Royal Navy (RN) is the United Kingdom's naval warfare force and a component of His Majesty's Naval Service. Although warships were used by English and Scottish kings from the early medieval period, the first major maritime engagements were fought in the Hundred Years' War against France. The modern Royal Navy traces its origins to the early 16th century; the oldest of the UK's armed services, it is consequently known as the Senior Service.`,
+          },
+          {
+            content: `From the middle decades of the 17th century, and through the 18th century, the Royal Navy vied with the Dutch Navy and later with the French Navy for maritime supremacy. From the mid-18th century until the Second World War, it was the world's most powerful navy. The Royal Navy played a key part in establishing and defending the British Empire, and four Imperial fortress colonies and a string of imperial bases and coaling stations secured the Royal Navy's ability to assert naval superiority globally. Owing to this historical prominence, it is common, even among non-Britons, to refer to it as "the Royal Navy" without qualification. Following World War I, it was significantly reduced in size,[7] although at the onset of World War II it was still the world's largest. During the Cold War, the Royal Navy transformed into a primarily anti-submarine force, hunting for Soviet submarines and mostly active in the GIUK gap. Following the collapse of the Soviet Union, its focus has returned to expeditionary operations around the world and it remains one of the world's foremost blue-water navies.`,
+          },
+          {
+            content: `The Royal Navy maintains a fleet of technologically sophisticated ships, submarines, and aircraft, including 2 aircraft carriers, 2 amphibious transport docks, 4 ballistic missile submarines (which maintain the nuclear deterrent), 6 nuclear fleet submarines, 6 guided missile destroyers, 11 frigates, 9 mine-countermeasure vessels and 26 patrol vessels. As of April 2023, there are 70 operational commissioned ships (including submarines as well as one historic ship, HMS Victory) in the Royal Navy, plus 13 ships of the Royal Fleet Auxiliary (RFA); there are also five Merchant Navy ships available to the RFA under a private finance initiative. The RFA replenishes Royal Navy warships at sea, and augments the Royal Navy's amphibious warfare capabilities through its three Bay-class landing ship vessels. It also works as a force multiplier for the Royal Navy, often doing patrols that frigates used to do.`,
+          },
+          {
+            content: `The Royal Navy is part of His Majesty's Naval Service, which also includes the Royal Marines and the Royal Fleet Auxiliary. The professional head of the Naval Service is the First Sea Lord who is an admiral and member of the Defence Council of the United Kingdom. The Defence Council delegates management of the Naval Service to the Admiralty Board, chaired by the Secretary of State for Defence. The Royal Navy operates from three bases in Britain where commissioned ships and submarines are based: Portsmouth, Clyde and Devonport, the last being the largest operational naval base in Western Europe, as well as two naval air stations, RNAS Yeovilton and RNAS Culdrose where maritime aircraft are based.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "In terms of number of ships and size of ships, the Royal Navy has been in decline since the 1960s. The following figures, which do not take into account the increase in modern technology in naval vessels, are merely indicative. general decline of fleets.[4] The following table shows the decline in the number of ships since 1960.",
+          },
+          {
+            content: `		
+            1 ship of the line,
+            2 aircraft carriers,
+            10 submarines,
+            2 amphibious transport docks,
+            6 destroyers,
+            11 frigates,
+            8 offshore patrol vessels,
+            9 mine countermeasures vessels,
+            18 fast patrol boats,
+            2 survey ships,
+            1 ice patrol ship`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "Currently, the Royal Navy is responsible for protecting the interests of the United Kingdom both at home and abroad, implementing the defense policy and foreign policy of the British Royal government. The British Navy also plays an important role in Britain's contribution to NATO.",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Founded",
+          children: [
+            {
+              name: "1546; 477 years ago",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Country",
+          children: [
+            {
+              name: "United Kingdom of Great Britain and Northern Ireland",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Type",
+          children: [
+            {
+              name: "Navy",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "Size",
+          children: [
+            {
+              name: "32,360 active personnel (July 2023), 3,370 maritime reserve (July 2023), 70 commissioned ships; 83 including RFA; 160 aircraft",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 5 Anh Quoc
+  {
+    id: "25",
+    title: "England",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/188px-Flag_of_England.svg.png",
+        title: "Flag",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Geography",
+      },
+      {
+        key: "4",
+        href: "#Governance",
+        title: "Governance",
+      },
+      {
+        key: "5",
+        href: "#economy",
+        title: "Economy",
+      },
+      {
+        key: "6",
+        href: "#sport",
+        title: "Sport",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content:
+              "England is a country that is part of the United Kingdom.[6] It shares land borders with Wales to its west and Scotland to its north, while Ireland is located across the Irish Sea to its west and northwest, and the Celtic Sea lies to its southwest. It is separated from continental Europe by the North Sea to the east and the English Channel to the south. The country covers roughly 62% of the island of Great Britain, which is in the North Atlantic, and includes over 100 smaller islands such as the Isles of Scilly and the Isle of Wight.",
+          },
+          {
+            content:
+              "The area now called England was first inhabited by modern humans during the Upper Paleolithic, but takes its name from the Angles, a Germanic tribe who settled during the 5th and 6th centuries. England became a unified state in the 10th century and has had a significant cultural and legal impact on the wider world since the Age of Discovery, which began during the 15th century.[7] The Kingdom of England, which included Wales after 1535, ceased being a separate sovereign state on 1 May 1707 when the Acts of Union put the terms agreed in the Treaty of Union the previous year into effect; this resulted in a political union with the Kingdom of Scotland that created the Kingdom of Great Britain.",
+          },
+          {
+            content: `England is the origin of many well-known worldwide exports, including the English language, the English law system (which served as the basis for the common law systems of many other countries), association football (the world's most popular sport), and the Church of England; its parliamentary system of government has been widely adopted by other nations.[9] The Industrial Revolution began in 18th-century England, transforming its society into the world's first industrialised nation.[10] England is home to the two oldest universities in the English-speaking world: the University of Oxford, founded in 1096, and the University of Cambridge, founded in 1209. Both universities are ranked among the most prestigious in the world.`,
+          },
+          {
+            content: `England's terrain chiefly consists of low hills and plains, especially in the centre and south. Upland and mountainous terrain is mostly found in the north and west, including Dartmoor, the Lake District, the Pennines, and the Shropshire Hills. The country's capital is London, the greater metropolitan of which has a population of 14.2 million as of 2021, representing the United Kingdom's largest metropolitan area. England's population of 56.3 million comprises 84% of the population of the United Kingdom,[13] largely concentrated around London, the southeast, and conurbations in the centre, the northwest, the northeast, and Yorkshire, which each developed as major industrial regions during the 19th century.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "The earliest known evidence of human presence in the area now known as England was that of Homo antecessor, dating to approximately 780,000 years ago. The oldest proto-human bones discovered in England date from 500,000 years ago.[23] Modern humans are known to have inhabited the area during the Upper Paleolithic period, though permanent settlements were only established within the last 6,000 years.[24] After the last ice age only large mammals such as mammoths, bison and woolly rhinoceros remained. Roughly 11,000 years ago, when the ice sheets began to recede, humans repopulated the area; genetic research suggests they came from the northern part of the Iberian Peninsula.[25] The sea level was lower than the present day and Britain was connected by land bridge to Ireland and Eurasia.[26] As the seas rose, it was separated from Ireland 10,000 years ago and from Eurasia two millennia later.",
+          },
+          {
+            content:
+              "The Beaker culture arrived around 2,500 BC, introducing drinking and food vessels constructed from clay, as well as vessels used as reduction pots to smelt copper ores.[27] It was during this time that major Neolithic monuments such as Stonehenge and Avebury were constructed. By heating together tin and copper, which were in abundance in the area, the Beaker culture people made bronze, and later iron from iron ores. The development of iron smelting allowed the construction of better ploughs, advancing agriculture (for instance, with Celtic fields), as well as the production of more effective weapons.",
+          },
+          {
+            content: `During the Iron Age, Celtic culture, deriving from the Hallstatt and La Tène cultures, arrived from Central Europe. Brythonic was the spoken language during this time. Society was tribal; according to Ptolemy's Geographia there were around 20 tribes in the area. Like other regions on the edge of the Empire, Britain had long enjoyed trading links with the Romans. Julius Caesar of the Roman Republic attempted to invade twice in 55 BC; although largely unsuccessful, he managed to set up a client king from the Trinovantes.`,
+          },
+          {
+            content: `The Romans invaded Britain in 43 AD during the reign of Emperor Claudius, subsequently conquering much of Britain, and the area was incorporated into the Roman Empire as Britannia province.[29] The best-known of the native tribes who attempted to resist were the Catuvellauni led by Caratacus. Later, an uprising led by Boudica, Queen of the Iceni, ended with Boudica's suicide following her defeat at the Battle of Watling Street.[30] The author of one study of Roman Britain suggested that from 43 AD to 84 AD, the Roman invaders killed somewhere between 100,000 and 250,000 people from a population of perhaps 2,000,000.[31] This era saw a Greco-Roman culture prevail with the introduction of Roman law, Roman architecture, aqueducts, sewers, many agricultural items and silk.[32] In the 3rd century, Emperor Septimius Severus died at Eboracum (now York), where Constantine was subsequently proclaimed emperor a century later.`,
+          },
+          {
+            content:
+              'There is debate about when Christianity was first introduced; it was no later than the 4th century, probably much earlier. According to Bede, missionaries were sent from Rome by Eleutherius at the request of the chieftain Lucius of Britain in 180 AD, to settle differences as to Eastern and Western ceremonials, which were disturbing the church. There are traditions linked to Glastonbury claiming an introduction through Joseph of Arimathea, while others claim through Lucius of Britain.[34] By 410, during the decline of the Roman Empire, Britain was left exposed by the end of Roman rule in Britain and the withdrawal of Roman army units, to defend the frontiers in continental Europe and partake in civil wars.[35] Celtic Christian monastic and missionary movements flourished. This period of Christianity was influenced by ancient Celtic culture in its sensibilities, polity, practices and theology. Local "congregations" were centred in the monastic community and monastic leaders were more like chieftains, as peers, rather than in the more hierarchical system of the Roman-dominated church.',
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "Geographically, England includes the central and southern two-thirds of the island of Great Britain, plus such offshore islands as the Isle of Wight and the Isles of Scilly. It is bordered by two other countries of the United Kingdom: to the north by Scotland and to the west by Wales.",
+          },
+          {
+            content:
+              "England is closer than any other part of mainland Britain to the European continent. It is separated from France (Hauts-de-France) by a 21-mile (34 km)[104] sea gap, though the two countries are connected by the Channel Tunnel near Folkestone.[105] England also has shores on the Irish Sea, North Sea and Atlantic Ocean.",
+          },
+          {
+            content: `The ports of London, Liverpool, and Newcastle lie on the tidal rivers Thames, Mersey and Tyne respectively. At 220 miles (350 km), the Severn is the longest river flowing through England.[106] It empties into the Bristol Channel and is notable for its Severn Bore (a tidal bore), which can reach 2 metres (6.6 ft) in height.[107] However, the longest river entirely in England is the Thames, which is 215 miles (346 km) in length.`,
+          },
+          {
+            content:
+              "There are many lakes in England; the largest is Windermere, within the aptly named Lake District.[109] Most of England's landscape consists of low hills and plains, with upland and mountainous terrain in the north and west of the country. The northern uplands include the Pennines, a chain of uplands dividing east and west, the Lake District mountains in Cumbria, and the Cheviot Hills, straddling the border between England and Scotland. The highest point in England, at 978 metres (3,209 ft), is Scafell Pike in the Lake District.[109] The Shropshire Hills are near Wales while Dartmoor and Exmoor are two upland areas in the south-west of the country. The approximate dividing line between terrain types is often indicated by the Tees–Exe line.",
+          },
+          {
+            content: `The Pennines, known as the "backbone of England", are the oldest range of mountains in the country, originating from the end of the Paleozoic Era around 300 million years ago.[111] Their geological composition includes, among others, sandstone and limestone, and also coal. There are karst landscapes in calcite areas such as parts of Yorkshire and Derbyshire. The Pennine landscape is high moorland in upland areas, indented by fertile valleys of the region's rivers. They contain two national parks, the Yorkshire Dales and the Peak District. In the West Country, Dartmoor and Exmoor of the Southwest Peninsula include upland moorland supported by granite.`,
+          },
+          {
+            content: `The English Lowlands are in the central and southern regions of the country, consisting of green rolling hills, including the Cotswold Hills, Chiltern Hills, North and South Downs; where they meet the sea they form white rock exposures such as the cliffs of Dover. This also includes relatively flat plains such as the Salisbury Plain, Somerset Levels, South Coast Plain and The Fens.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content:
+              "England is part of the United Kingdom, a constitutional monarchy with a parliamentary system.[85] There has not been a government of England since 1707, when the Acts of Union 1707, putting into effect the terms of the Treaty of Union, joined England and Scotland to form the Kingdom of Great Britain.[63] Before the union England was ruled by its monarch and the Parliament of England. Today England is governed directly by the Parliament of the United Kingdom, although other countries of the United Kingdom have devolved governments.",
+          },
+          {
+            content:
+              "In the House of Commons which is the lower house of the British Parliament based at the Palace of Westminster, there are 532 members of parliament (MPs) for constituencies in England, out of the 650 total.[87] England is represented by 345 MPs from the Conservative Party, 179 from the Labour Party, seven from the Liberal Democrats, one from the Green Party, and the Speaker of the House.",
+          },
+          {
+            content:
+              "Since devolution, in which other countries of the United Kingdom – Scotland, Wales and Northern Ireland – each have their own devolved parliament or assemblies for local issues, there has been debate about how to counterbalance this in England. Originally it was planned that various regions of England would be devolved, but following the proposal's rejection by the North East in a 2004 referendum, this has not been carried out.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content:
+              "England's economy is one of the largest and most dynamic in the world, with an average GDP per capita of £34,690.[5] HM Treasury, led by the Chancellor of the Exchequer, is responsible for developing and executing the government's public finance policy and economic policy.[125] Usually regarded as a mixed market economy, it has adopted many free market principles, yet maintains an advanced social welfare infrastructure.",
+          },
+          {
+            content:
+              "The economy of England is the largest part of the UK's economy.[127] England is a leader in the chemical and pharmaceutical sectors and in key technical industries, particularly aerospace, the arms industry, and the software industry. London, home to the London Stock Exchange, the United Kingdom's main stock exchange and the largest in Europe, is England's financial centre, with 100 of Europe's 500 largest corporations being based there.[128] London is the largest financial centre in Europe and as of 2014 is the second largest in the world.",
+          },
+          {
+            content:
+              "London has also been named as the fastest growing technology hub in Europe, with England having over 100 unique tech companies with a value of $1 billion or more.[130][131] The Bank of England, founded in 1694 as private banker to the government of England and a state-owned institution since 1946, is the United Kingdom's central bank.[132] The bank has a monopoly on the issue of banknotes in England and Wales, although not in other parts of the UK. The government has devolved responsibility to the bank's Monetary Policy Committee for managing the monetary policy of the country and setting interest rates.",
+          },
+          {
+            content:
+              "England is highly industrialised, but since the 1970s there has been a decline in traditional heavy and manufacturing industries, and an increasing emphasis on a more service industry oriented economy.[80] Tourism has become a significant industry, attracting millions of visitors to England each year. The export part of the economy is dominated by pharmaceuticals, automotives, crude oil and petroleum from the English parts of North Sea oil along with Wytch Farm, aircraft engines and alcoholic beverages.[134] The creative industries accounted for 7 per cent GVA in 2005 and grew at an average of 6 per cent per annum between 1997 and 2005.",
+          },
+          {
+            content: `Agriculture is intensive, highly mechanised and efficient by European standards, producing 60% of food needs with only 2% of the labour force.[136] Two-thirds of production is devoted to livestock, the remainder to arable crops.[137] The main crops that are grown are wheat, barley, oats, potatoes, sugar beets. England retains a significant fishing industry. Its fleets bring home a variety of fish, ranging from sole to herring. England is also rich in natural resources including coal, petroleum, natural gas, tin, limestone, iron ore, salt, clay, chalk, gypsum, lead, and silica.`,
+          },
+        ],
+      },
+      {
+        id: 6,
+        segment: [
+          {
+            content:
+              "England has a strong sporting heritage, and during the 19th century codified many sports that are now played around the world. Sports originating in England include association football,[325] cricket, rugby union, rugby league, tennis, boxing, badminton, squash,[326] rounders,[327] hockey, snooker, billiards, darts, table tennis, bowls, netball, thoroughbred horseracing, greyhound racing and fox hunting. It has helped the development of golf, sailing and Formula One.",
+          },
+          {
+            content: `Football is the most popular of these sports. The England national football team, whose home venue is Wembley Stadium, played Scotland in the first ever international football match in 1872.[328] Referred to as the "home of football" by FIFA, England hosted and won the 1966 FIFA World Cup.[329] With a British television audience peak of 32.30 million viewers, the final is the most watched television event ever in the UK.[330] England is recognised by FIFA as the birthplace of club football: Sheffield F.C., founded in 1857, is the world's oldest club.`,
+          },
+          {
+            content: `Cricket is generally thought to have been developed in the early medieval period among the farming and metalworking communities of the Weald.[331] The England cricket team is a composite England and Wales team. One of the game's top rivalries is The Ashes series between England and Australia, contested since 1882. Lord's Cricket Ground situated in London is sometimes referred to as the "Mecca of Cricket".[332] After winning the 2019 Cricket World Cup, England became the first country to win the World Cups in football, rugby union and cricket.`,
+          },
+          {
+            content:
+              "William Penny Brookes was prominent in organising the format for the modern Olympic Games.[334] London has hosted the Summer Olympic Games three times, in 1908, 1948, and 2012. England competes in the Commonwealth Games, held every four years. Sport England is the governing body responsible for distributing funds and providing strategic guidance for sporting activity in England.",
+          },
+          {
+            content:
+              "Rugby union originated in Rugby School, Warwickshire in the early 19th century.[335] The top level of club participation is the English Premiership. Rugby league was born in Huddersfield in 1895. Since 2008, the England national rugby league team has been a full test nation in lieu of the Great Britain national rugby league team, which won three World Cups. Club sides play in Super League, the present-day embodiment of the Rugby Football League Championship. Rugby League is most popular among towns in the northern English counties of Lancashire, Yorkshire and Cumbria.",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Status",
+          children: [
+            {
+              name: "	Country",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Capital",
+          children: [
+            {
+              name: "London",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "National language",
+          children: [
+            {
+              name: "English",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 6 Tieng Anh-Anh
+  {
+    id: "26",
+    title: "British English",
+    shortDesc: ["BrE, en-GB, or BE"],
+    images: [
+      {
+        src: "",
+        title: "",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#Dialects",
+        title: "Dialects",
+      },
+      {
+        key: "4",
+        href: "#Relantion",
+        title: "Relationship with Commonwealth English",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `British English (BrE, en-GB, or BE)[3] is the set of varieties of the English language native to Great Britain.[6] More narrowly, it can refer specifically to the English language in England, or, more broadly, to the collective dialects of English throughout the British Isles taken as a single umbrella variety, for instance additionally incorporating Scottish English, Welsh English, and Northern Irish English. Tom McArthur in the Oxford Guide to World English acknowledges that British English shares "all the ambiguities and tensions [with] the word 'British' and as a result can be used and interpreted in two ways, more broadly or more narrowly, within a range of blurring and ambiguity".`,
+          },
+          {
+            content: `Variations exist in formal (both written and spoken) English in the United Kingdom. For example, the adjective wee is almost exclusively used in parts of Scotland, North East England, Northern Ireland, Ireland, and occasionally Yorkshire, whereas the adjective little is predominant elsewhere. Nevertheless, there is a meaningful degree of uniformity in written English within the United Kingdom, and this could be described by the term British English. The forms of spoken English, however, vary considerably more than in most other areas of the world where English is spoken[8] and so a uniform concept of British English is more difficult to apply to the spoken language.`,
+          },
+          {
+            content: `Globally, countries that are former British colonies or members of the Commonwealth tend to follow British English, as is the case for English used within the European Union.[9] In China both British English and American English are taught.[10] The UK government actively teaches and promotes English around the world and operates in over 200 countries.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "English is a West Germanic language that originated from the Anglo-Frisian dialects brought to Britain by Germanic settlers from various parts of what is now northwest Germany and the northern Netherlands. The resident population at this time was generally speaking Common Brittonic—the insular variety of Continental Celtic, which was influenced by the Roman occupation. This group of languages (Welsh, Cornish, Cumbric) cohabited alongside English into the modern period, but due to their remoteness from the Germanic languages, influence on English was notably limited. However, the degree of influence remains debated, and it has recently been argued that its grammatical influence accounts for the substantial innovations noted between English and the other West Germanic languages.",
+          },
+          {
+            content: `Initially, Old English was a diverse group of dialects, reflecting the varied origins of the Anglo-Saxon kingdoms of England. One of these dialects, Late West Saxon, eventually came to dominate. The original Old English language was then influenced by two waves of invasion: the first was by speakers of the Scandinavian branch of the Germanic family, who settled in parts of Britain in the eighth and ninth centuries; the second was the Normans in the 11th century, who spoke Old Norman and ultimately developed an English variety of this called Anglo-Norman. These two invasions caused English to become "mixed" to some degree (though it was never a truly mixed language in the strictest sense of the word; mixed languages arise from the cohabitation of speakers of different languages, who develop a hybrid tongue for basic communication).`,
+          },
+          {
+            content: `The more idiomatic, concrete and descriptive English is, the more it is from Anglo-Saxon origins. The more intellectual and abstract English is, the more it contains Latin and French influences, e.g. swine (like the Germanic schwein) is the animal in the field bred by the occupied Anglo-Saxons and pork (like the French porc) is the animal at the table eaten by the occupying Normans.[15] Another example is the Anglo-Saxon cu meaning cow, and the French bœuf meaning beef.`,
+          },
+          {
+            content: `Cohabitation with the Scandinavians resulted in a significant grammatical simplification and lexical enrichment of the Anglo-Frisian core of English; the later Norman occupation led to the grafting onto that Germanic core of a more elaborate layer of words from the Romance branch of the European languages. This Norman influence entered English largely through the courts and government. Thus, English developed into a "borrowing" language of great flexibility and with a huge vocabulary.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "Dialects and accents vary between the four countries that make up the United Kingdom, as well as within the countries themselves.",
+          },
+          {
+            content:
+              "The main subgroups are often classified as British English (or English spoken in the UK, including Southern English, West Counties, East Midlands and West Midlands, Northern English), Northern Ulster English. Irish, Welsh English (often confused with Welsh), and Scottish English (not to be confused with Scottish or Scottish Gaelic). English dialects also differ in the words they have borrowed from other languages.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `British English is the basis of, and very similar to Commonwealth English.[42] Commonwealth English is English spoken and written in Commonwealth countries, though often with some local variation. This includes English spoken in Australia, Malta, New Zealand, Nigeria, and South Africa. It also includes South Asian English used in South Asia, in English varieties in Southeast Asia, and in parts of Africa. Canadian English is based on British English, but has more influence from American English.[43] British English, for example, is the closest English to Indian English, but Indian English has extra vocabulary and some English words are assigned different meanings.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Native to",
+          children: [
+            {
+              name: "United Kingdom",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Ethnicity",
+          children: [
+            {
+              name: "British people",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Standard forms",
+          children: [
+            {
+              name: `	
+              Received Pronunciation
+              Standard Scottish English
+              Standard Hiberno-English`,
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //7 Hoa ky
+  {
+    id: "27",
+    title: "United States of America",
+    shortDesc: ["America"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/188px-Flag_of_the_United_States_%28Pantone%29.svg.png",
+        title: "Flag",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Geography",
+      },
+      {
+        key: "4",
+        href: "#politics",
+        title: "Government and politics",
+      },
+      {
+        key: "5",
+        href: "#Technology",
+        title: "Science, technology, and energy",
+      },
+      {
+        key: "6",
+        href: "#Political",
+        title: "Political subdivisions",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `The United States of America (USA), commonly known as the United States (U.S.) or simply America, is a country primarily located in North America and consisting of 50 states, a federal district, five major unincorporated territories, and nine Minor Outlying Islands.[i] It includes 326 Indian reservations. It is the world's third-largest country by both land and total area.[c] It shares land borders with Canada to its north and with Mexico to its south and has maritime borders with the Bahamas, Cuba, Russia, and other nations.[j] With a population of over 333 million,[k] it is the most populous country in the Americas and the third-most populous in the world. The national capital of the United States is Washington, D.C., and its most populous city and principal financial center is New York City.`,
+          },
+          {
+            content:
+              "Indigenous peoples have inhabited the Americas for thousands of years. Beginning in 1607, British colonization led to the establishment of the Thirteen Colonies in what is now the Eastern United States. They clashed with the British Crown over taxation and political representation, which led to the American Revolution and the ensuing Revolutionary War. The United States declared independence on July 4, 1776, becoming the first nation-state founded on Enlightenment principles of unalienable natural rights, consent of the governed, and liberal democracy. The country began expanding across North America, spanning the continent by 1848. Sectional division over slavery led to the secession of the Confederate States of America, which fought the remaining states of the Union during the American Civil War (1861–1865). With the Union's victory and preservation, slavery was abolished nationally. However, racial discrimination and inequality continued into subsequent centuries. By 1900, the United States had established itself as a great power, becoming the world's largest economy. After Japan's attack on Pearl Harbor in 1941, the U.S. entered World War II on the side of the Allies. The aftermath of the war left the United States and the Soviet Union as the world's two superpowers and led to the Cold War, during which both countries engaged in a struggle for ideological dominance and international influence but avoided direct military conflict. During the Space Race, the United States landed the first humans on the Moon, notably with the Apollo 11 mission in 1969. Following the Soviet Union's collapse and the end of the Cold War, the United States has emerged as the world's sole superpower since the 1990s.",
+          },
+          {
+            content: `The United States government is a federal presidential constitutional republic and liberal democracy with three separate branches of government: executive, legislative, and judicial. It has a bicameral national legislature composed of the House of Representatives, a lower house based on population; and the Senate, an upper house based on equal representation for each state. Many policy issues are decentralized at a state or local level, with widely differing laws by jurisdiction which may not conflict with the Constitution.[26][27] The U.S. ranks very highly in international measures of quality of life, income and wealth, economic competitiveness, human rights, innovation, and education; it has low levels of perceived corruption. It has higher levels of incarceration and inequality than most other liberal democracies and is the only liberal democracy without universal healthcare. As a melting pot of cultures and ethnicities, the U.S. has been extensively shaped by the world's largest immigrant population.`,
+          },
+          {
+            content: `Highly developed, the U.S. has by far the largest amount of wealth of any country. The American economy accounts for approximately a quarter of global GDP and is the world's largest by nominal GDP. The U.S. is the world's largest importer and second-largest exporter, as well as the largest consumer market. It is a founding member of the United Nations, the World Bank, the International Monetary Fund, the Organization of American States, NATO and WHO, and is a permanent member of the United Nations Security Council. It is the world's foremost political, cultural, economic, military, and scientific power.`,
+          },
+          {
+            content: `The first documentary evidence of the phrase "United States of America" dates back to a letter from January 2, 1776, written by Stephen Moylan, a Continental Army aide to General George Washington, to Joseph Reed, Washington's aide-de-camp. Moylan expressed his desire to go "with full and ample powers from the United States of America to Spain" to seek assistance in the Revolutionary War effort.[28][29][30] The first known publication of the phrase "United States of America" was in an anonymous essay in The Virginia Gazette newspaper in Williamsburg, on April 6, 1776.`,
+          },
+          {
+            content: `By June 1776, the name "United States of America" appeared in drafts of the Articles of Confederation and Perpetual Union, authored by John Dickinson, a Founding Father from the Province of Pennsylvania,[32][33] and in the Declaration of Independence, written primarily by Thomas Jefferson and adopted by the Second Continental Congress in Philadelphia, on July 4, 1776.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "After World War II, the United States launched the Marshall Plan to aid in the reconstruction of Europe.[150] This period also marked the beginning of the Cold War, where geopolitical tensions between the U.S. and the Soviet Union driven by ideological differences and competition for international influence led the two countries to dominate the affairs of Europe,[151] with the U.S.-led capitalist Western Bloc opposing the Soviet-led communist Eastern Bloc. The U.S. engaged in regime change against governments perceived to be aligned with the Soviet Union, participated in conflicts like the Korean and Vietnam Wars, and competed in the Space Race, culminating in the first crewed Moon landing in 1969. Domestically, the U.S. experienced large economic growth, urbanization, and population growth following World War II,[157] and admitted Alaska and Hawaii as states.",
+          },
+          {
+            content:
+              'The civil rights movement emerged, with Martin Luther King Jr. becoming a prominent leader in the early 1960s.[159] President Lyndon B. Johnson initiated the "Great Society", introducing sweeping legislation and policies to address poverty and racial inequalities, the Voting Rights Act and the Civil Rights Act most prominent among them.[160] The counterculture movement in the U.S. brought significant social changes, including the liberalization of attitudes towards what substances are acceptable for recreational drug use, sexuality[161][162] and the beginning of the modern gay rights movement as well as open defiance of the military draft and opposition to intervention in Vietnam.',
+          },
+          {
+            content: `The presidency of Richard Nixon saw the American withdrawal from Vietnam but also the Watergate scandal, which led to his resignation and a decline in public trust of government that expanded for decades.[164] After a surge in female labor participation around the 1970s, by 1985, the majority of women aged 16 and over were employed.[165] The 1970s and early 1980s saw economic stagflation and President Ronald Reagan responded with neoliberal reforms and a rollback strategy towards the Soviet Union.[166][167][168][169] The late 1980s and early 1990s saw the collapse of the Warsaw Pact and the dissolution of the Soviet Union, which marked the end of the Cold War and solidified the U.S. as the world's sole superpower.`,
+          },
+          {
+            content:
+              "In the first decades of the 21st century, the U.S. faced challenges from terrorism, with the September 11 attacks in 2001 leading to the war on terror and military interventions in Afghanistan and Iraq.[174][175] The U.S. housing bubble in 2006 culminated in the 2007–2008 financial crisis and the Great Recession, the largest economic contraction since the Great Depression.[176] Amid the financial crisis, Barack Obama, the first multiracial president, was elected in 2008.",
+          },
+          {
+            content:
+              "Political polarization increased as sociopolitical debates on cultural issues dominated political discussion.[179] The COVID-19 pandemic resulted in over 100 million confirmed cases and 1 million deaths,[180] making it the most deadly pandemic in U.S. history.[181] Attempts to overturn the 2020 U.S. presidential election culminated in the January 6, 2021 attack on the United States Capitol that attempted to prevent the peaceful transition of power to president-elect Joe Biden.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "The 48 contiguous states and the District of Columbia occupy a combined area of 3,119,885 square miles (8,080,470 km2). Of this area, 2,959,064 square miles (7,663,940 km2) is contiguous land, composing 83.65% of total U.S. land area.[183][184] About 15% is occupied by Alaska, a state in northwestern North America, with the remainder in Hawaii, a state and archipelago in the central Pacific, and the five populated but unincorporated insular territories of Puerto Rico, American Samoa, Guam, the Northern Mariana Islands, and the U.S. Virgin Islands.[185] Measured by only land area, the United States is third in size behind Russia and China, and just ahead of Canada.[186] The United States is the world's third-largest nation by land and total area behind Russia and Canada.",
+          },
+          {
+            content:
+              "The coastal plain of the Atlantic seaboard gives way further inland to deciduous forests and the rolling hills of the Piedmont.[188] The Appalachian Mountains and the Adirondack massif divide the eastern seaboard from the Great Lakes and the grasslands of the Midwest.[189] The Mississippi–Missouri River, the world's fourth longest river system, runs mainly north–south through the heart of the country. The flat, fertile prairie of the Great Plains stretches to the west, interrupted by a highland region in the southeast.",
+          },
+          {
+            content:
+              "The Rocky Mountains, west of the Great Plains, extend north to south across the country, peaking at over 14,000 feet (4,300 m) in Colorado.[190] Farther west are the rocky Great Basin and deserts such as the Chihuahua, Sonoran, and Mojave.[191] The Sierra Nevada and Cascade mountain ranges run close to the Pacific coast, both ranges also reaching altitudes higher than 14,000 feet (4,300 m). The lowest and highest points in the contiguous United States are in the state of California,[192] and only about 84 miles (135 km) apart.[193] At an elevation of 20,310 feet (6,190.5 m), Alaska's Denali is the highest peak in the country and in North America.[194] Active volcanoes are common throughout Alaska's Alexander and Aleutian Islands, and Hawaii consists of volcanic islands. The supervolcano underlying Yellowstone National Park in the Rockies is the continent's largest volcanic feature.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `The United States was founded on the principles of the American Enlightenment. It is a federal republic of 50 states, a federal district, five territories and several uninhabited island possessions.[221][222][223] It is the world's oldest surviving federation, and, according to the World Economic Forum, the oldest democracy as well.[224] It is a liberal representative democracy "in which majority rule is tempered by minority rights protected by law.`,
+          },
+          {
+            content: `The U.S. Constitution serves as the country's supreme legal document, establishing the structure and responsibilities of the federal government and its relationship with the individual states. The Constitution has been amended 27 times.`,
+          },
+          {
+            content: `The federal government comprises three branches, which are headquartered in Washington, D.C. and regulated by a system of checks and balances defined by the Constitution.`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content:
+              "The United States has been a leader in technological innovation since the late 19th century and scientific research since the mid-20th century. Methods for producing interchangeable parts and the establishment of a machine tool industry enabled the U.S. to have large-scale manufacturing of sewing machines, bicycles, and other items in the late 19th century. In the early 20th century, factory electrification, the introduction of the assembly line, and other labor-saving techniques created the system of mass production.[331] In the 21st century, approximately two-thirds of research and development funding comes from the private sector.[332] In 2022, the United States was the country with the second-highest number of published scientific papers.[333] As of 2021, the U.S. ranked second by the number of patent applications, and third by trademark and industrial design applications.[334] The U.S. had 2,944 active satellites in space in December 2021, the highest number of any country.[335] In 2022, the United States ranked 3rd in the Global Innovation Index.",
+          },
+          {
+            content:
+              "As of 2021, the United States receives approximately 79.1% of its energy from fossil fuels.[337] In 2021, the largest source of the country's energy came from petroleum (36.1%), followed by natural gas (32.2%), coal (10.8%), renewable sources (12.5%), and nuclear power (8.4%).[337] The United States constitutes less than 5% of the world's population, but consumes 17% of the world's energy.[338] It accounts for about 20% of both the world's annual petroleum consumption and petroleum supply.[339] The U.S. ranks as second-highest emitter of greenhouse gases, exceeded only by China.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        segment: [
+          {
+            content:
+              "In the American federal system, sovereignty is shared between two levels of government: federal and state. Each of the 50 states has territory where it shares sovereignty with the federal government. People in the states are also represented by local elected governments, which are administrative divisions of the states. States are subdivided into counties or county equivalents, and further divided into municipalities. The District of Columbia is a federal district that contains the capital of the United States, the city of Washington.[236] The territories and the District of Columbia are administrative divisions of the federal government. Governance on many issues is decentralized.",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Thủ đô",
+          children: [
+            {
+              name: "Washington, D.C.",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Thành phố lớn nhất",
+          children: [
+            {
+              name: "Thành phố New York",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Ngôn ngữ quốc gia",
+          children: [
+            {
+              name: "Tiếng Anh",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "Chính phủ",
+          children: [
+            {
+              name: "Liên bang tổng thống chế cộng hòa lập hiến",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "5",
+          label: " Tổng thống",
+          children: [
+            {
+              name: "Joe Biden (D)",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 8 Viet Nam
+  {
+    id: "28",
+    title: "Vietnam",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/188px-Flag_of_Vietnam.svg.png",
+        title: "Flag",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Geography",
+      },
+      {
+        key: "4",
+        href: "#Politics",
+        title: "Politics",
+      },
+      {
+        key: "5",
+        href: "#Economy",
+        title: "Economy",
+      },
+      {
+        key: "6",
+        href: "#Culture",
+        title: "Culture",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Vietnam[b] (Vietnamese: Việt Nam, [vîət nāːm] ⓘ), officially the Socialist Republic of Vietnam (SRV),[c] is a country at the eastern edge of mainland Southeast Asia, with an area of 331,212 square kilometres (127,882 sq mi) and a population of over 100 million, making it the world's fifteenth-most populous country. Vietnam shares land borders with China to the north, and Laos and Cambodia to the west. It shares maritime borders with Thailand through the Gulf of Thailand, and the Philippines, Indonesia, and Malaysia through the South China Sea. Its capital is Hanoi and its largest city is Ho Chi Minh City (commonly referred to by its former name, Saigon).`,
+          },
+          {
+            content: `Vietnam was inhabited by the Paleolithic age, with states established in the first millennium BC on the Red River Delta in modern-day northern Vietnam. The Han dynasty annexed Northern and Central Vietnam under Chinese rule from 111 BC, until the first dynasty emerged in 939. Successive monarchical dynasties absorbed Chinese influences through Confucianism and Buddhism, and expanded southward to the Mekong Delta, conquering Champa. During most of the 17th and 18th centuries, Vietnam was effectively divided into two domains of Đàng Trong and Đàng Ngoài. The Nguyễn—the last imperial dynasty—surrendered to France in 1883. In 1887, its territory was integrated into French Indochina as three separate regions. In the immediate aftermath of World War II, the nationalist coalition Viet Minh, led by the communist revolutionary Ho Chi Minh, launched the August Revolution and declared Vietnam's independence in 1945.`,
+          },
+          {
+            content: `Vietnam went through prolonged warfare in the 20th century. After World War II, France returned to reclaim colonial power in the First Indochina War, from which Vietnam emerged victorious in 1954. As a result of the treaties signed between the Viet Minh and France, Vietnam was also separated into two parts. The Vietnam War began shortly after, between the communist North, supported by the Soviet Union and China, and the anti-communist South, supported by the United States. Upon the North Vietnamese victory in 1975, Vietnam reunified as a unitary socialist state under the Communist Party of Vietnam (CPV) in 1976. An ineffective planned economy, a trade embargo by the West, and wars with Cambodia and China crippled the country further. In 1986, the CPV initiated economic and political reforms similar to the Chinese economic reform, transforming the country to a socialist-oriented market economy. The reforms facilitated Vietnamese reintegration into the global economy and politics.`,
+          },
+          {
+            content: `A developing country with a lower-middle-income economy, Vietnam is nonetheless one of the fastest-growing economies of the 21st century. Vietnam has high levels of corruption, censorship, environmental issues and a poor human rights record; the country ranks among the lowest in international measurements of civil liberties, freedom of the press, and freedom of religion and ethnic minorities. It is part of international and intergovernmental institutions including the ASEAN, the APEC, the CPTPP, the Non-Aligned Movement, the OIF, and the WTO. It has assumed a seat on the United Nations Security Council twice.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "Archaeologists found traces of Paleolithic upright humans on Vietnamese territory about 500,000 years ago; Rudimentary stone tools and tooth marks of prehistoric people were discovered in the provinces of Lang Son, Thanh Hoa, Yen Bai, Ninh Binh and Quang Binh.[39] In addition, in the northern regions, people live in limestone caves and live by hunting and gathering activities. Meanwhile, in the central coastal regions like Nghe An, people mainly live by fishing.",
+          },
+          {
+            content:
+              "During the Neolithic Age 5,000 to 6,000 years ago, ancient Vietnamese people began to know how to cultivate wet rice; A series of traces of rice cultivation exist from the highlands to the plains.[39] In addition, people began to know how to make tools in different ways and make pottery with different techniques.[39] Around the first millennium BC at the end of the Bronze Age, the wet rice area in the Red River and Ca River developed into the Dong Son culture[40], and at the same time, the first states appeared one after another. Those are Van Lang and Au Lac.",
+          },
+          {
+            content:
+              "Since the second century BC, feudal dynasties from the North ruled part of Vietnam for more than 1,000 years.[42] This rule was interrupted by uprisings by generals such as Ba Trieu, Mai Thuc Loan, Hai Ba Trung or Ly Bi. In 905, Khuc Thua Du gained autonomy, not independence because Du considered himself a northern court official.[43] In 938, after commanding the Bach Dang River battle to defeat the Southern Han army,[44] Ngo Quyen established a dynasty and proclaimed himself king, marking an independent state from the Northern courts in 939.",
+          },
+          {
+            content:
+              'After the Ngo dynasty, the Dinh, Early Le, Ly and Tran dynasties organized governments similar to the Chinese dynasties, taking Buddhism as the main religion of the country and spreading both Confucianism and Taoism. The Le, Ly and Tran dynasties fought back against the attacks of the Song and Mong-Yuan dynasties, all winning and protecting Dai Viet. In 1400, Ho Quy Ly usurped the Tran dynasty, established the Ho Dynasty, renamed the country Dai Ngu, and carried out reforms. In 1407, Dai Ngu was annexed by the Ming Dynasty. Some members of the Tran royal family rebelled, established the Later Tran Dynasty and were defeated by the Ming army after 7 years. In 1427, Le Loi defeated the Ming army, established the Later Le dynasty, and regained independence (in 1428). There is a view that this was the dynasty in which Vietnamese feudalism reached its "peak", especially during the reign of King Le Thanh Tong (1460–1497).',
+          },
+          {
+            content:
+              "In the early 16th century, the early Le Dynasty was usurped by the Mac Dynasty, so a group of loyal mandarins established another person from the Le dynasty as king, reestablishing the Le Dynasty. The restored Le Dynasty, after 60 years of fighting, won and destroyed the Mac Dynasty. King Le at that time was a puppet, two feudal groups, Lord Trinh and Lord Nguyen, disputed with each other, causing a war that lasted more than 100 years, dividing Dai Viet into Outer and Inner dynasties for 200 years. At the end of the 18th century, insurgent general Nguyen Hue in 15 years defeated both Lord Trinh and Lord Nguyen along with the invasions of Siam and Qing to establish the Tay Son Dynasty. Nguyen Hue died, with his successor Canh Thinh, the Tay Son dynasty was overthrown by Nguyen Anh - a member of the Nguyen family with aid from France and Siam, establishing the Nguyen Dynasty, the last dynasty in Vietnam.[46 ] During feudal times, the Ly, Tran, Later Le dynasties and Lord Nguyen conquered Champa, Chenla and the Central Highlands in the South.",
+          },
+          {
+            content:
+              "The West approached Vietnam since the 16th century. In the 17th century, Dang Trong and Dang Ngoai exchanged trade first with Portugal and the Netherlands,[48] then with England and France. Portuguese-sponsored Jesuits[49] came to spread Catholicism in 1615, then the Paris Missionary Society and the Dominican Order followed. Catholicism in Vietnam developed in the first two centuries of the 17th and 18th centuries.[50] Since the reign of Gia Long, the Nguyen Dynasty has been secluded, banned foreign trade, and has no contact with advanced technology. In the second half of the 19th century, France invaded the Indochina peninsula, took over the Nguyen Dynasty and established the Indochina Federation in 1887. During the French colonial period, Western culture, science and technology were increasingly spread.",
+          },
+          {
+            content:
+              "World War II, Japan overthrew the French in Indochina, established the Vietnamese Empire, a regime with no real power that had to pay taxes and supply Japan with resources including rice, contributing to the At Dau famine. After Japan surrendered to the Allies, Ho Chi Minh led the Viet Minh to seize power, reading the Declaration of Independence to establish the Democratic Republic of Vietnam on September 2, 1945.[52] France intended to take back Indochina, but faced resistance from the Democratic Republic of Vietnam, so it was forced to support the establishment of the State of Vietnam with Bao Dai, former emperor of the Nguyen Dynasty, as Head of State.",
+          },
+          {
+            content: `In 1954, the Indochina War ended, France had to recognize Vietnam's independence and withdraw its troops, two military staging areas appeared waiting for elections to unify the country[54] but failed because of the United States. supporting the Republic of Vietnam (the successor government to the State of Vietnam) refusing to hold elections.[55] The Socialist State of Vietnam, the Democratic Republic of Vietnam, supported the southern forces to rebel against the Government of the Republic of Vietnam, causing a military conflict that was followed by the participation of the US military and its allies. [56] The war ended on April 30, 1975 when the President of the Republic of Vietnam announced the surrender.`,
+          },
+          {
+            content:
+              "In 1976, the Republic of South Vietnam and the Democratic Republic of Vietnam held a unified election. Due to the consequences of the war, the Northern border war, the Southwest border war, the subsidy policy and the US embargo, post-war Vietnam faced serious problems in the field of socio-economic.[58] In 1986, the 6th Party Congress approved Doi Moi, reforming the state and moving the economy in a new direction.[59] Vietnam normalized relations with the United States in 1995 and joined ASEAN the same year. In 2007, Vietnam joined the world economic organization WTO.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "Vietnam is located on the eastern Indochinese Peninsula between the latitudes 8° and 24°N, and the longitudes 102° and 110°E. It covers a total area of approximately 331,212 km2 (127,882 sq mi).[f] The combined length of the country's land boundaries is 4,639 km (2,883 mi), and its coastline is 3,444 km (2,140 mi) long.[170] At its narrowest point in the central Quảng Bình Province, the country is as little as 50 kilometres (31 mi) across, though it widens to around 600 kilometres (370 mi) in the north.[171] Vietnam's land is mostly hilly and densely forested, with level land covering no more than 20%. Mountains account for 40% of the country's land area,[172] and tropical forests cover around 42%.[173] The Red River Delta in the north, a flat, roughly triangular region covering 15,000 km2 (5,792 sq mi),[174] is smaller but more intensely developed and more densely populated than the Mekong River Delta in the south. Once an inlet of the Gulf of Tonkin, it has been filled in over the millennia by riverine alluvial deposits.[175][176] The delta, covering about 40,000 km2 (15,444 sq mi), is a low-level plain no more than 3 metres (9.8 ft) above sea level at any point. It is criss-crossed by a maze of rivers and canals, which carry so much sediment that the delta advances 60 to 80 metres (196.9 to 262.5 ft) into the sea every year.[177][178] The exclusive economic zone of Vietnam covers 417,663 km2 (161,261 sq mi) in the South China Sea.",
+          },
+          {
+            content:
+              "Southern Vietnam is divided into coastal lowlands, the mountains of the Annamite Range, and extensive forests. Comprising five relatively flat plateaus of basalt soil, the highlands account for 16% of the country's arable land and 22% of its total forested land.[180] The soil in much of the southern part of Vietnam is relatively low in nutrients as a result of intense cultivation.[181] Several minor earthquakes have been recorded.[182][183] The northern part of the country consists mostly of highlands and the Red River Delta. Fansipan (also known as Phan Xi Păng), which is located in Lào Cai Province, is the highest mountain in Vietnam, standing 3,143 m (10,312 ft) high.[184] From north to south Vietnam, the country also has numerous islands; Phú Quốc is the largest.[185] The Hang Sơn Đoòng Cave is considered the largest known cave passage in the world since its discovery in 2009. The Ba Bể Lake and Mekong River are the largest lake and longest river in the country.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `Vietnam is a unitary Marxist-Leninist one-party socialist republic, one of the two communist states (the other being Laos) in Southeast Asia.[226] Although Vietnam remains officially committed to socialism as its defining creed, its economic policies have grown increasingly capitalist,[227][228] with The Economist characterising its leadership as "ardently capitalist communists".[229] Under the constitution, the Communist Party of Vietnam (CPV) asserts their role in all branches of the country's politics and society.[226] The president is the elected head of state and the commander-in-chief of the military, serving as the chairman of the Council of Supreme Defence and Security, and holds the second highest office in Vietnam as well as performing executive functions and state appointments and setting policy.`,
+          },
+          {
+            content: `The general secretary of the CPV performs numerous key administrative functions, controlling the party's national organisation.[226] The prime minister is the head of government, presiding over a council of ministers composed of five deputy prime ministers and the heads of 26 ministries and commissions. Only political organisations affiliated with or endorsed by the CPV are permitted to contest elections in Vietnam. These include the Vietnamese Fatherland Front and worker and trade unionist parties.`,
+          },
+          {
+            content:
+              "The National Assembly of Vietnam is the unicameral state legislature composed of 500 members.[230] Headed by a chairman, it is superior to both the executive and judicial branches, with all government ministers being appointed from members of the National Assembly.[226] The Supreme People's Court of Vietnam, headed by a chief justice, is the country's highest court of appeal, though it is also answerable to the National Assembly. Beneath the Supreme People's Court stand the provincial municipal courts and many local courts. Military courts possess special jurisdiction in matters of state security. Vietnam maintains the death penalty for numerous offences.",
+          },
+          {
+            content:
+              "In 2023, a three-person collective leadership was responsible for governing Vietnam. President Vo Van Thuong (since 2023),[232] Prime Minister Pham Minh Chinh (since 2021)[233] and the most powerful leader Nguyen Phu Trong (since 2011) as the Communist Party of Vietnam’s General Secretary",
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content: `Throughout the history of Vietnam, its economy has been based largely on agriculture—primarily wet rice cultivation.[268] Bauxite, an important material in the production of aluminium, is mined in central Vietnam.[269] Since reunification, the country's economy is shaped primarily by the CPV through Five Year Plans decided upon at the plenary sessions of the Central Committee and national congresses.[270] The collectivisation of farms, factories, and capital goods was carried out as part of the establishment of central planning, with millions of people working for state enterprises. Under strict state control, Vietnam's economy continued to be plagued by inefficiency, corruption in state-owned enterprises, poor quality and underproduction.[271][272][273] With the decline in economic aid from its main trading partner, the Soviet Union, following the erosion of the Eastern bloc in the late 1980s, and the subsequent collapse of the Soviet Union, as well as the negative impacts of the post-war trade embargo imposed by the United States,[274][275] Vietnam began to liberalise its trade by devaluing its exchange rate to increase exports and embarked on a policy of economic development.`,
+          },
+          {
+            content:
+              "In 1986, the Sixth National Congress of the CPV introduced socialist-oriented market economic reforms as part of the Đổi Mới reform program. Private ownership began to be encouraged in industry, commerce and agriculture and state enterprises were restructured to operate under market constraints.[277][278] This led to the five-year economic plans being replaced by the socialist-oriented market mechanism.[279] As a result of these reforms, Vietnam achieved approximately 8% annual gross domestic product (GDP) growth between 1990 and 1997.[280][281] The United States ended its economic embargo against Vietnam in early 1994.[282] Although the 1997 Asian financial crisis caused an economic slowdown to 4–5% growth per year, its economy began to recover in 1999,[277] and grew at around 7% per year from 2000 to 2005, one of the fastest in the world.[283][284] On 11 January 2007, Vietnam became the 150th member of the WTO (World Trade Organization).[285]According to the General Statistics Office of Vietnam (GSO), growth remained strong despite the late-2000s global recession, holding at 6.8% in 2010. Vietnam's year-on-year inflation rate reached 11.8% in December 2010 and the currency, the Vietnamese đồng, was devalued three times.",
+          },
+          {
+            content:
+              "Deep poverty, defined as the percentage of the population living on less than $1 per day, has declined significantly in Vietnam and the relative poverty rate is now less than that of China, India and the Philippines.[288] This decline can be attributed to equitable economic policies aimed at improving living standards and preventing the rise of inequality.[289] These policies have included egalitarian land distribution during the initial stages of the Đổi Mới program, investment in poorer remote areas, and subsidising of education and healthcare.[290][291] Since the early 2000s, Vietnam has applied sequenced trade liberalisation, a two-track approach opening some sectors of the economy to international markets.[289][292] Manufacturing, information technology and high-tech industries now form a large and fast-growing part of the national economy. Although Vietnam is a relative newcomer to the oil industry, it is the third-largest oil producer in Southeast Asia with a total 2011 output of 318,000 barrels per day (50,600 m3/d).[293] In 2010, Vietnam was ranked as the eighth-largest crude petroleum producer in the Asia and Pacific region.[294] The US bought the highest amount of Vietnam's exports,[295] while goods from China were the most popular Vietnamese import.",
+          },
+          {
+            content:
+              "Based on findings by the International Monetary Fund (IMF) in 2022, the unemployment rate in Vietnam was 2.3%, the nominal GDP US$406.452 billion, and a nominal GDP per capita $4,086.[6][297] Besides the primary sector economy, tourism has contributed significantly to Vietnam's economic growth with 7.94 million foreign visitors recorded in 2015.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        segment: [
+          {
+            content:
+              "Vietnamese culture is considered part of Sinosphere. Vietnam's culture has developed over the centuries from indigenous ancient Đông Sơn culture with wet rice cultivation as its economic base.[37][40] Some elements of the nation's culture have Chinese origins, drawing on elements of Confucianism, Mahāyāna Buddhism, and Taoism in its traditional political system and philosophy.[434][435] Vietnamese society is structured around làng (ancestral villages);[436] all Vietnamese mark a common ancestral anniversary on the tenth day of the third lunar month.[437][438] The influence of Chinese culture such as the Cantonese, Hakka, Hokkien, and Hainanese cultures is more evident in the north where Buddhism is strongly entwined with popular culture.[439] Despite this, there are Chinatowns in the south, such as in Chợ Lớn, where many Chinese have intermarried with Kinh and are indistinguishable among them.[440] In the central and southern parts of Vietnam, traces of Champa and Khmer culture are evidenced through the remains of ruins, artefacts as well within their population as the successor of the ancient Sa Huỳnh culture.[441][442] In recent centuries, Western cultures have become popular among recent generations of Vietnamese.",
+          },
+          {
+            content:
+              "The traditional focuses of Vietnamese culture are based on humanity (nhân nghĩa) and harmony (hòa) in which family and community values are highly regarded.[439] Vietnam reveres a number of key cultural symbols,[443] such as the Vietnamese dragon which is derived from crocodile and snake imagery; Vietnam's national father, Lạc Long Quân is depicted as a holy dragon.[437][444][445] The lạc is a holy bird representing Vietnam's national mother Âu Cơ. Other prominent images that are also revered are the turtle, buffalo and horse.[446] Many Vietnamese also believe in the supernatural and spiritualism where illness can be brought on by a curse or sorcery or caused by non-observance of a religious ethic. Traditional medical practitioners, amulets and other forms of spiritual protection and religious practices may be employed to treat the ill person.[447] In the modern era, the cultural life of Vietnam has been deeply influenced by government-controlled media and cultural programs.[435] For many decades, foreign cultural influences, especially those of Western origin, were shunned. But since the recent reformation, Vietnam has seen a greater exposure to neighbouring Southeast Asian, East Asian as well to Western culture and media.",
+          },
+          {
+            content: `The main Vietnamese formal dress, the áo dài is worn for special occasions such as weddings and religious festivals. White áo dài is the required uniform for girls in many high schools across the country. Other examples of traditional Vietnamese clothing include: the áo tứ thân, a four-piece woman's dress; the áo ngũ, a form of the thân in five-piece form, mostly worn in the north of the country; the yếm, a woman's undergarment; the áo bà ba, rural working "pyjamas" for men and women; the áo gấm, a formal brocade tunic for government receptions; and the áo the, a variant of the áo gấm worn by grooms at weddings.[449][450] Traditional headwear includes the standard conical nón lá and the "lampshade-like" nón quai thao.[450][451] In tourism, a number of popular cultural tourist destinations include the former Imperial City of Huế, the World Heritage Sites of Phong Nha-Kẻ Bàng National Park, Hội An and Mỹ Sơn, coastal regions such as Nha Trang, the caves of Hạ Long Bay and the Marble Mountains.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Capital",
+          children: [
+            {
+              name: "Hanoi",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Largest city",
+          children: [
+            {
+              name: "Ho Chi Minh City",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Official language",
+          children: [
+            {
+              name: "Vietnamese",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "Government",
+          children: [
+            {
+              name: "Socialist republic",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //9 Dong Nam A
+  {
+    id: "29",
+    title: "Southeast Asia",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Southeast_Asia_%28orthographic_projection%29.svg/330px-Southeast_Asia_%28orthographic_projection%29.svg.png",
+        title: "",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Geography",
+      },
+      {
+        key: "4",
+        href: "#Culture",
+        title: "Culture",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content:
+              "Southeast Asia, also spelled South East Asia and South-East Asia, and also known as Southeastern Asia, South-eastern Asia or SEA, is the geographical south-eastern region of Asia, consisting of the regions that are situated south of mainland China, east of the Indian subcontinent, and north-west of mainland Australia which is part of Oceania.[5] Southeast Asia is bordered to the north by East Asia, to the west by South Asia and the Bay of Bengal, to the east by Oceania and the Pacific Ocean, and to the south by Australia and the Indian Ocean. Apart from the British Indian Ocean Territory and two out of 26 atolls of Maldives in South Asia, Maritime Southeast Asia is the only other subregion of Asia that lies partly within the Southern Hemisphere. Mainland Southeast Asia is completely in the Northern Hemisphere. East Timor and the southern portion of Indonesia are the parts of Southeast Asia that lie south of the Equator.",
+          },
+          {
+            content: `The region lies near the intersection of geological plates, with both heavy seismic and volcanic activities.[6] The Sunda Plate is the main plate of the region, featuring almost all Southeast Asian countries except Myanmar, northern Thailand, northern Laos, northern Vietnam, and northern Luzon of the Philippines, while the Sunda Plate only includes western Indonesia to as far east as the Indonesian province of Bali. The mountain ranges in Myanmar, Thailand, Peninsular Malaysia and the Indonesian islands of Sumatra, Java, Bali, Lesser Sunda Islands, and Timor are part of the Alpide belt, while the islands of the Philippines and Indonesia as well as East Timor are part of the Pacific Ring of Fire. Both seismic belts meet in Indonesia, causing the region to have relatively high occurrences of earthquakes and volcanic eruptions, particularly in the Philippines and Indonesia.`,
+          },
+          {
+            content:
+              "It covers about 4,500,000 km2 (1,700,000 sq mi), which is 8% of Eurasia and 3% of Earth's total land area. Its total population is more than 675 million, about 8.5% of the world's population. It is the third most populous geographical region in Asia after South Asia and East Asia.[8] The region is culturally and ethnically diverse, with hundreds of languages spoken by different ethnic groups.[9] Ten countries in the region are members of the Association of Southeast Asian Nations (ASEAN), a regional organisation established for economic, political, military, educational, and cultural integration among its members.",
+          },
+          {
+            content: `Southeast Asia is one of the most culturally diverse regions of the world. There are many different languages and ethnicities in the region. Historically, Southeast Asia was significantly influenced by Indian, Chinese, Muslim, and colonial cultures, which became core components of the region's cultural and political institutions. Most modern Southeast Asian countries were colonized by European powers. European colonisation exploited natural resources and labour from the lands they conquered, and attempted to spread European institutions to the region.[11] Several Southeast Asian countries were also briefly occupied by the Japanese Empire during World War II. The aftermath of World War II saw most of the region decolonised. Today, Southeast Asia is predominantly governed by independent states.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content:
+              "The region was already inhabited by Homo erectus from approximately 1,500,000 years ago during the Middle Pleistocene age.[45] Distinct Homo sapiens groups, ancestral to Eastern non-African (related to East Asians as well as Papuans) populations, reached the region by between 50,000BC to 70,000BC, with some arguing earlier.[46][47] Rock art (parietal art) dating from 40,000 years ago (which is currently the world's oldest) has been discovered in the caves of Borneo.[48] Homo floresiensis also lived in the area up until at least 50,000 years ago, after which they became extinct.[49] During much of this time the present-day islands of western Indonesia were joined into a single landmass known as Sundaland due to lower sea levels.",
+          },
+          {
+            content: `Ancient remains of hunter-gatherers in Maritime Southeast Asia, such as one Holocene hunter-gatherer from South Sulawesi, had ancestry from both the Papuan-related and East Asian-related branches of the Eastern non-African lineage. The hunter-gatherer individual had approximately ~50% "Basal-East Asian" ancestry, and was positioned in between modern East Asians and Papuans of Oceania. The authors concluded that East Asian-related ancestry expanded from Mainland Southeast Asia into Maritime Southeast Asia much earlier than previously suggested, as early as 25,000BC, long before the expansion of Austroasiatic and Austronesian groups.`,
+          },
+
+          {
+            content:
+              "Distinctive Basal-East Asian (East-Eurasian) ancestry was recently found to have originated in Mainland Southeast Asia at ~50,000BC, and expanded through multiple migration waves southwards and northwards respectively. Geneflow of East Asian-related ancestry into Maritime Southeast Asia and Oceania could be estimated to ~25,000BC (possibly also earlier). The pre-Neolithic Papuan-related populations of Maritime Southeast Asia were largely replaced by the expansion of various East Asian-related populations, beginning about 50,000BC to 25,000BC years ago from Mainland Southeast Asia. The remainders, known as Negritos, form small minority groups in geographically isolated regions. Southeast Asia was dominated by East Asian-related ancestry already in 15,000BC, predating the expansion of Austroasiatic and Austronesian peoples.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "Most of Southeast Asia have a tropical climate that is hot and humid all year round with plentiful rainfall. The majority of Southeast Asia has a wet and dry season caused by seasonal shifts in winds or monsoons. The tropical rain belt causes additional rainfall during the monsoon season. The rainforest is the second largest on Earth (with the Amazon rainforest being the largest). Exceptions to the typical tropical climate and forest vegetation are:",
+          },
+          {
+            content: `1/North Vietnam (including Hanoi) with a subtropical climate that is sometimes influenced by cold waves which move from the northeast and the Siberian High during a year`,
+          },
+          {
+            content: `2/Mountain areas in the northern region and the higher islands, where high altitudes lead to milder temperatures`,
+          },
+          {
+            content: `3/The “dry zone” of central Myanmar in the rain shadow of the Arakan Mountains, where annual rainfall can be as low as 600 millimetres or 24 inches, which under the hot temperatures that prevail is dry enough to qualify as semi-arid.`,
+          },
+          {
+            content: `Southeast Asia is one of the most vulnerable regions to climate change in the world.[137][138] Climate change will have a big effect on agriculture in Southeast Asia such as irrigation systems will be affected by changes in rainfall and runoff, and subsequently, water quality and supply.[139] Climate change is impacting agriculture, threatening food security, and is compounded by the disruptions caused by the COVID-19 pandemic.[140] Climate change is also likely to pose a serious threat to the fisheries industry in Southeast Asia.[137] Despite being one of the most vulnerable regions to the effects of climate change in the world, Southeast Asian countries are lagging behind in terms of their climate mitigation measures.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content:
+              "The culture in Southeast Asia is diverse: on mainland Southeast Asia, the culture is a mix of Burmese, Cambodian, Laotian, and Thai (Indian) and Vietnamese (Chinese) cultures. While in Indonesia, the Philippines, Singapore, and Malaysia the culture is a mix of indigenous Austronesian, Indian, Islamic, Western, and Chinese cultures. In addition, Brunei shows a strong influence from Arabia. Vietnam and Singapore show more Chinese influence[186] in that Singapore, although being geographically a Southeast Asian nation, is home to a large Chinese majority and Vietnam was in China's sphere of influence for much of its history. Indian influence in Singapore is only evident through the Tamil migrants,[187] which influenced, to some extent, the cuisine of Singapore. Throughout Vietnam's history, it has had no direct influence from India – only through contact with the Thai, Khmer and Cham peoples. Moreover, Vietnam is also categorised under the East Asian cultural sphere along with China, Korea, and Japan due to a large amount of Chinese influence embedded in their culture and lifestyle.",
+          },
+
+          {
+            content:
+              "Rice paddy agriculture has existed in Southeast Asia for millennia, ranging across the subregion. Some dramatic examples of these rice paddies populate the Banaue Rice Terraces in the mountains of Luzon in the Philippines. Maintenance of these paddies is very labour-intensive. The rice paddies are well-suited to the monsoon climate of the region.",
+          },
+
+          {
+            content:
+              "Stilt houses can be found all over Southeast Asia, from Thailand and Vietnam to Borneo, to Luzon in the Philippines, to Papua New Guinea. The region has diverse metalworking, especially in Indonesia. This includes weaponry, such as the distinctive kris, and musical instruments, such as the gamelan.",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Area",
+          children: [
+            {
+              name: "4.545.792 km2",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Population",
+          children: [
+            {
+              name: "655.298.044",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Population density",
+          children: [
+            {
+              name: "135,6/km2 (351/sq mi)",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "GDP (PPP)",
+          children: [
+            {
+              name: "$9.727 trillion",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "5",
+          label: "GDP (danh nghĩa)",
+          children: [
+            {
+              name: "$3.317 trillion ",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //10 Chien tranh the gioi thu 2
+  {
+    id: "30",
+    title: "World War II",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/2-8_Field_Regt.jpg",
+        title: `Clockwise from top left:
+        German Stuka dive bombers on the Eastern Front, 1943British Matilda II tanks during the North African campaign, 1941Soviet troops at the Battle of Stalingrad, 1942–1943U.S. warships in Lingayen Gulf in the Philippines, 1945Soviet soldier raising a flag over the Reichstag after the Battle of Berlin, 1945U.S. atomic bombing of Nagasaki in Japan, 1945`,
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#Sequence",
+        title: "Start and end dates",
+      },
+      {
+        key: "3",
+        href: "#History",
+        title: "History",
+      },
+      {
+        key: "4",
+        href: "#Aftermath",
+        title: "Aftermath",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `World War II (WWII or WW2) or the Second World War was a global conflict that lasted from 1939 to 1945. The vast majority of the world's countries, including all the great powers, fought as part of two opposing military alliances: the Allies and the Axis. Many participants threw their economic, industrial, and scientific capabilities behind this total war, blurring the distinction between civilian and military resources. Aircraft played a major role, enabling the strategic bombing of population centres and delivery of the only two nuclear weapons ever used in war. It was by far the deadliest conflict in history, resulting in 70 to 85 million fatalities, mostly civilians. Millions died due to genocides, including the Holocaust, as well as starvation, massacres, and disease. In the wake of Axis defeat, Germany, Austria and Japan were occupied, and war crimes tribunals were conducted against German and Japanese leaders.`,
+          },
+          {
+            content: `The causes of the war are debated; contributing factors included the rise of fascism in Europe, the Spanish Civil War, the Second Sino-Japanese War, Soviet–Japanese border conflicts, and tensions in the aftermath of World War I. World War II is generally considered to have begun on 1 September 1939, when Nazi Germany, under Adolf Hitler, invaded Poland. The United Kingdom and France declared war on Germany on 3 September. Under the Molotov–Ribbentrop Pact of August 1939, Germany and the Soviet Union had partitioned Poland and marked out their "spheres of influence" across Finland, Estonia, Latvia, Lithuania and Romania. From late 1939 to early 1941, in a series of campaigns and treaties, Germany conquered or controlled much of continental Europe, in a military alliance, called the Axis, with Italy, Japan, and other countries. Following the onset of campaigns in North Africa and East Africa, and the fall of France in mid-1940, the war continued primarily between the European Axis powers and British Empire, with the war in the Balkans, the aerial Battle of Britain, the Blitz of the UK, and the Battle of the Atlantic. In June 1941, Germany led the European Axis powers in an invasion of the Soviet Union, opening the Eastern Front, the largest land theatre of war in history.`,
+          },
+          {
+            content: `Japan, which aimed to dominate Asia and the Pacific, was at war with the Republic of China by 1937. In December 1941, Japan attacked American and British territories with near-simultaneous offensives against Southeast Asia and the Central Pacific, including an attack on Pearl Harbor which resulted in the United States and the United Kingdom declaring war against Japan. The European Axis powers declared war on the US in solidarity. Japan soon conquered much of the western Pacific, but its advances were halted in 1942 after losing the critical Battle of Midway; Germany and Italy were defeated in North Africa and at Stalingrad in the Soviet Union. Key setbacks in 1943—including German defeats on the Eastern Front, the Allied invasions of Sicily and Italian mainland, and Allied offensives in the Pacific—cost the Axis powers their initiative and forced them into strategic retreat on all fronts. In 1944, the Western Allies invaded German-occupied France, while the Soviet Union regained its territorial losses and pushed Germany and its allies back. During 1944–45, Japan suffered reversals in mainland Asia, while the Allies crippled the Japanese Navy and captured key western Pacific islands. The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Western Allies and the Soviet Union, culminating in the Fall of Berlin to Soviet troops, Hitler's suicide, and the German unconditional surrender on 8 May 1945. Following the refusal of Japan to surrender on the terms of the Potsdam Declaration, the US dropped the first atomic bombs on Hiroshima on 6 August and Nagasaki on 9 August. Faced with imminent invasion of the Japanese archipelago, the possibility of more atomic bombings, and the Soviet Union's declared entry into the war against Japan on the eve of invading Manchuria, Japan announced on 10 August its intention to surrender, signing a surrender document on 2 September 1945.`,
+          },
+          {
+            content: `World War II changed the political alignment and social structure of the world, and set the foundation for the international order for the rest of the 20th century and into the present. The United Nations was established to foster international cooperation and prevent conflicts, with the victorious great powers—China, France, the Soviet Union, the UK, and the US—becoming the permanent members of its Security Council. The Soviet Union and the US emerged as rival superpowers, setting the stage for the nearly half-century-long Cold War. In the wake of European devastation, the influence of its great powers waned, triggering the decolonization of Africa and Asia. Most countries whose industries had been damaged moved towards economic recovery and expansion.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `It is generally considered that, in Europe, World War II started on 1 September 1939,[1][2] beginning with the German invasion of Poland and the United Kingdom and France's declaration of war on Germany two days later on 3 September 1939. Dates for the beginning of the Pacific War include the start of the Second Sino-Japanese War on 7 July 1937,[3][4] or the earlier Japanese invasion of Manchuria, on 19 September 1931.[5][6] Others follow the British historian A. J. P. Taylor, who held that the Sino-Japanese War and war in Europe and its colonies occurred simultaneously, and the two wars became World War II in 1941.[7] Other starting dates sometimes used for World War II include the Italian invasion of Abyssinia on 3 October 1935.[8] The British historian Antony Beevor views the beginning of World War II as the Battles of Khalkhin Gol fought between Japan and the forces of Mongolia and the Soviet Union from May to September 1939.[9] Others view the Spanish Civil War as the start or prelude to World War II.`,
+          },
+          {
+            content: `The exact date of the war's end is also not universally agreed upon. It was generally accepted at the time that the war ended with the armistice of 15 August 1945 (V-J Day), rather than with the formal surrender of Japan on 2 September 1945, which officially ended the war in Asia. A peace treaty between Japan and the Allies was signed in 1951.[12] A 1990 treaty regarding Germany's future allowed the reunification of East and West Germany to take place and resolved most post–World War II issues.[13] No formal peace treaty between Japan and the Soviet Union was ever signed,[14] although the state of war between the two countries was terminated by the Soviet–Japanese Joint Declaration of 1956, which also restored full diplomatic relations between them.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "World War I had radically altered the political European map with the defeat of the Central Powers—including Austria-Hungary, Germany, Bulgaria, and the Ottoman Empire—and the 1917 Bolshevik seizure of power in Russia, which led to the founding of the Soviet Union. Meanwhile, the victorious Allies of World War I, such as France, Belgium, Italy, Romania, and Greece, gained territory, and new nation-states were created out of the collapse of Austria-Hungary and the Ottoman and Russian Empires.",
+          },
+          {
+            content:
+              "To prevent a future world war, the League of Nations was created during the 1919 Paris Peace Conference. The organisation's primary goals were to prevent armed conflict through collective security, military and naval disarmament, and settling international disputes through peaceful negotiations and arbitration.",
+          },
+          {
+            content:
+              "Despite strong pacifist sentiment after World War I,[17] irredentist and revanchist nationalism emerged in several European states in the same period. These sentiments were especially marked in Germany because of the significant territorial, colonial, and financial losses imposed by the Treaty of Versailles. Under the treaty, Germany lost around 13 percent of its home territory and all its overseas possessions, while German annexation of other states was prohibited, reparations were imposed, and limits were placed on the size and capability of the country's armed forces.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `The Allies established occupation administrations in Austria and Germany, both initially divided between western and eastern occupation zones controlled by the Western Allies and the Soviet Union, respectively. However, their paths soon diverged. In Germany, the western and eastern occupation zones controlled by the Western Allies and the Soviet Union officially ended in 1949, with the respective zones becoming separate countries, West Germany and East Germany.[313] In Austria, however, occupation continued until 1955, when a joint settlement between the Western Allies and the Soviet Union permitted the reunification of Austria as a neutral democratic state, officially non-aligned with any political bloc (although in practice having better relations with the Western Allies). A denazification program in Germany led to the prosecution of Nazi war criminals in the Nuremberg trials and the removal of ex-Nazis from power, although this policy moved towards amnesty and re-integration of ex-Nazis into West German society.`,
+          },
+          {
+            content: `Germany lost a quarter of its pre-war (1937) territory. Among the eastern territories, Silesia, Neumark and most of Pomerania were taken over by Poland,[315] and East Prussia was divided between Poland and the Soviet Union, followed by the expulsion to Germany of the nine million Germans from these provinces,[316][317] as well as three million Germans from the Sudetenland in Czechoslovakia. By the 1950s, one-fifth of West Germans were refugees from the east. The Soviet Union also took over the Polish provinces east of the Curzon line,[318] from which 2 million Poles were expelled;[317][319] north-east Romania,[320][321] parts of eastern Finland,[322] and the three Baltic states were annexed into the Soviet Union.[323][324] Italy lost its monarchy, colonial empire and some European territories.`,
+          },
+          {
+            content: `In an effort to maintain world peace,[326] the Allies formed the United Nations,[327] which officially came into existence on 24 October 1945,[328] and adopted the Universal Declaration of Human Rights in 1948 as a common standard for all member nations.[329] The great powers that were the victors of the war—France, China, the United Kingdom, the Soviet Union and the United States—became the permanent members of the UN's Security Council.[330] The five permanent members remain so to the present, although there have been two seat changes, between the Republic of China and the People's Republic of China in 1971, and between the Soviet Union and its successor state, the Russian Federation, following the dissolution of the USSR in 1991. The alliance between the Western Allies and the Soviet Union had begun to deteriorate even before the war was over.`,
+          },
+          {
+            content: `Besides Germany, the rest of Europe was also divided into Western and Soviet spheres of influence.[332] Most eastern and central European countries fell into the Soviet sphere, which led to establishment of Communist-led regimes, with full or partial support of the Soviet occupation authorities. As a result, East Germany,[333] Poland, Hungary, Romania, Bulgaria, Czechoslovakia, and Albania[334] became Soviet satellite states. Communist Yugoslavia conducted a fully independent policy, causing tension with the Soviet Union.[335] A Communist uprising in Greece was put down with Anglo-American support and the country remained aligned with the West.`,
+          },
+          {
+            content: `Post-war division of the world was formalised by two international military alliances, the United States-led NATO and the Soviet-led Warsaw Pact.[337] The long period of political tensions and military competition between them, the Cold War, would be accompanied by an unprecedented arms race and number of proxy wars throughout the world.`,
+          },
+          {
+            content: `In Asia, the United States led the occupation of Japan and administered Japan's former islands in the Western Pacific, while the Soviets annexed South Sakhalin and the Kuril Islands.[339] Korea, formerly under Japanese colonial rule, was divided and occupied by the Soviet Union in the North and the United States in the South between 1945 and 1948. Separate republics emerged on both sides of the 38th parallel in 1948, each claiming to be the legitimate government for all of Korea, which led ultimately to the Korean War.`,
+          },
+          {
+            content: `In China, nationalist and communist forces resumed the civil war in June 1946. Communist forces were victorious and established the People's Republic of China on the mainland, while nationalist forces retreated to Taiwan in 1949.[341] In the Middle East, the Arab rejection of the United Nations Partition Plan for Palestine and the creation of Israel marked the escalation of the Arab–Israeli conflict. While European powers attempted to retain some or all of their colonial empires, their losses of prestige and resources during the war rendered this unsuccessful, leading to decolonisation.`,
+          },
+          {
+            content: `The global economy suffered heavily from the war, although participating nations were affected differently. The United States emerged much richer than any other nation, leading to a baby boom, and by 1950 its gross domestic product per person was much higher than that of any of the other powers, and it dominated the world economy.[344] The Allied occupational authorities pursued a policy of industrial disarmament in Western Germany from 1945 to 1948.[345] Due to international trade interdependencies, this policy led to an economic stagnation in Europe and delayed European recovery from the war for several years.`,
+          },
+          {
+            content: `At the Bretton Woods Conference in July 1944, the Allied nations drew up an economic framework for the post-war world. The agreement created the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (IBRD), which later became part of the World Bank Group. The Bretton Woods system lasted until 1973.[348] Recovery began with the mid-1948 currency reform in Western Germany, and was sped up by the liberalisation of European economic policy that the U.S. Marshall Plan economic aid (1948–1951) both directly and indirectly caused.[349][350] The post-1948 West German recovery has been called the German economic miracle.[351] Italy also experienced an economic boom[352] and the French economy rebounded.[353] By contrast, the United Kingdom was in a state of economic ruin,[354] and although receiving a quarter of the total Marshall Plan assistance, more than any other European country,[355] it continued in relative economic decline for decades.[356] The Soviet Union, despite enormous human and material losses, also experienced rapid increase in production in the immediate post-war era,[357] having seized and transferred most of Germany's industrial plants and exacted war reparations from its satellite states.[b][358] Japan recovered much later.[359] China returned to its pre-war industrial production by 1952.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Date",
+          children: [
+            {
+              name: "1 tháng 9 1939 – 2 tháng 9 1945 (6 năm và 1 ngày)",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Location",
+          children: [
+            {
+              name: "Major theaters:Europe, Pacific, Atlantic, Indian Ocean, South-East Asia, China, Japan, Middle East, Mediterranean, North Africa, Horn of Africa, Central Africa, Australia, Caribbean, North and South America",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Result",
+          children: [
+            {
+              name: `	
+              Allied victory
+              Fall of Nazi Germany, Fascist Italy, and Imperial Japan
+              Allied military occupations of Germany, Japan, Austria, and Korea
+              Beginning of the Nuclear Age
+              Dissolution of the League of Nations and creation of the United Nations
+              Decolonisation of Asia and Africa and decline of European international influence
+              Emergence of the United States and the Soviet Union as rival superpowers and beginning of the Cold War (see Aftermath of World War II)`,
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //11 Thung lung silicon
+  {
+    id: "31",
+    title: "Silicon Valley",
+    shortDesc: [],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/SJPan.jpg/413px-SJPan.jpg",
+        title: `Downtown San Jose, self-proclaimed "capital of Silicon Valley"`,
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#group",
+        title: "Famous corporations",
+      },
+      {
+        key: "3",
+        href: "#university",
+        title: "Universities",
+      },
+      {
+        key: "4",
+        href: "#city",
+        title: "Cities",
+      },
+      {
+        key: "5",
+        href: "#more",
+        title: "Other technology centers also have the name valley",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Silicon Valley is a region in Northern California that is a global center for high technology and innovation. Located in the southern part of the San Francisco Bay Area, it corresponds roughly to the geographical area of the Santa Clara Valley.The term "Silicon Valley" refers to the area in which high-tech business has proliferated in Northern California, and it also serves as a general metonym for California's high-tech business sector.`,
+          },
+          {
+            content: `The cities of Sunnyvale, Mountain View, Palo Alto and Menlo Park are frequently cited as the birthplace of Silicon Valley. San Jose is Silicon Valley's largest city, the third-largest in California, and the 12th-most populous in the United States.[4] Other major Silicon Valley cities include Santa Clara, Redwood City and Cupertino. The San Jose Metropolitan Area has the third-highest GDP per capita in the world (after Zürich, Switzerland and Oslo, Norway), according to the Brookings Institution,[5] and, as of June 2021, has the highest percentage of homes valued at $1 million or more in the United States.`,
+          },
+          {
+            content: `Silicon Valley is home to many of the world's largest high-tech corporations, including the headquarters of more than 30 businesses in the Fortune 1000, and thousands of startup companies. Silicon Valley also accounts for one-third of all of the venture capital investment in the United States, which has helped it to become a leading hub and startup ecosystem for high-tech innovation, although the tech ecosystem has recently become more geographically dispersed.[7][8] It was in Silicon Valley that the silicon-based integrated circuit, the microprocessor, and the microcomputer, among other technologies, were developed. As of 2021, the region employed about a half million information technology workers.`,
+          },
+          {
+            content: `As more high-tech companies were established across San Jose and the Santa Clara Valley, and then north towards the Bay Area's two other major cities, San Francisco and Oakland, the term "Silicon Valley" came to have two definitions: a narrower geographic one, referring to Santa Clara County and southeastern San Mateo County, and a metonymical definition referring to high-tech businesses in the entire Bay Area. The term Silicon Valley is often used as a synecdoche for the American high-technology economic sector. The name also became a global synonym for leading high-tech research and enterprises, and thus inspired similarly named locations, as well as research parks and technology centers with comparable structures all around the world. Many headquarters of tech companies in Silicon Valley have become hotspots for tourism.`,
+          },
+          {
+            content: `"Silicon" refers to the chemical element used in silicon-based transistors and integrated circuit chips, which is the focus of a large number of computer hardware and software innovators and manufacturers in the region. The popularization of the name is credited to Don Hoefler.[1] The first known appearance in print was in his article "Silicon Valley U.S.A.", in the January 11, 1971, issue of the weekly trade newspaper Electronic News. In preparation for this report, during a lunch meeting with marketing people who were visiting the area, he heard them use this term.[13] However, the term did not gain widespread use until the early 1980s,[1] at the time of the introduction of the IBM PC and numerous related hardware and software products to the consumer market.`,
+          },
+          {
+            content: `The urbanized area is built upon an alluvial plain[14] within a longitudinal valley formed by roughly parallel earthquake faults. The area between the faults subsided into a graben or dropped valley.[15][16] Hoefler defined Silicon Valley as the urbanized parts of "the San Francisco Peninsula and Santa Clara Valley".[13] Before the expansive growth of the tech industry, the region had been the largest fruit-producing and packing region in the world up through the 1960s, with 39 fruit canneries.[17][18] The nickname it had been known as during that period was "the Valley of Heart’s Delight"`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `Thousands of technology corporations are headquartered in Silicon Valley; Among them, the following names are on the Forbes 500 list:`,
+          },
+          {
+            content: `
+            Adobe Systems,
+            Advanced Micro Devices (AMD),
+            Agilent Technologies,
+            Altera,
+            Apple Computer,
+            Applied Materials,
+            BEA Systems,
+            Cadence Design Systems,
+            Cisco Systems,
+            Corsair Memory,
+            DreamWorks Animation,
+            eBay,
+            Electronic Arts,
+            Facebook,
+            Google,
+            Hewlett-Packard,
+            Intel,
+            Intuit,
+            Juniper Networks,
+            Logitech,
+            Maxtor,
+            National Semiconductor,
+            Network Appliance,
+            NVIDIA,
+            Oracle,
+            Siebel Systems,
+            Sun Microsystems,
+            Symantec,
+            Synopsys,
+            Varian Medical Systems,
+            Xilinx,
+            Yahoo!`,
+          },
+
+          {
+            content: `Additionally, notable corporations headquartered in Silicon Valley include (some no longer exist or have been merged):`,
+          },
+          {
+            content: `Adaptec,
+            Atmel,
+            Cypress Semiconductor,
+            Foundry Networks,
+            McAfee,
+            Knight-Ridder,
+            LSI Logic,
+            Netscape,
+            NeXT Computer, Inc. ,
+            Palm, Inc.,
+            PalmSource, Inc.,
+            PayPal ,
+            Rambus,
+            Redback Networks,
+            Sumco USA ,
+            Silicon Graphics,
+            TiVo,
+            3Com,
+            VA Software (Slashdot),
+            VeriSign,
+            Veritas Software ),
+            VMware ,
+            SV Probe.`,
+          },
+          {
+            content: `Consistent with its principles, Silicon Valley is also home to the headquarters of Fry's Electronics, a company consisting of many supermarkets (superstores) selling high-tech materials.`,
+          },
+          {
+            content: `For a list of the largest corporations, see Category:Companies based in the Silicon Valley`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `West Coast Campus,
+              San José State University ,
+              Santa Clara University,
+              Stanford University.`,
+          },
+          {
+            content:
+              "The following universities are not based in Silicon Valley, but have research and graduate facilities:",
+          },
+          {
+            content: `California University of Management and Technology
+              California South Bay University
+              University of California, Santa Cruz, Silicon Valley Campus`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content:
+              "Some cities located in Silicon Valley (in alphabetical order):",
+          },
+          {
+            content: `Campbell,
+              Cupertino,
+              Los Altos,
+              Los Gatos,
+              Menlo Park,
+              Mountain View,
+              Milpitas,
+              Palo Alto,
+              Redwood City[b],
+              San Jose,
+              Santa Clara,
+              Saratoga,
+              Sunnyvale.`,
+          },
+          {
+            content:
+              "Some cities located near Silicon Valley can be considered in this region:",
+          },
+          {
+            content: `Oakland,
+              Hayward,
+              Union,
+              Fremont,
+              Newark,
+              Santa Cruz[c],
+              Union.`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content: `Government and network marketing developers like to use the name "valley" to describe their area as achieved by Silicon Valley; for example, the Vale do Aço.`,
+          },
+          {
+            content: `Bangalore is often called the "Silicon Valley of India" because it has become a high-tech hub. It is also home to the headquarters of more than 1,000 leading technology companies including: IBM, Intel, Dell, Cisco, Sun Microsystems and Oracle. Because this place has abundant human resources, good English and wages 1/8 times cheaper than the US. But compared to Silicon Valley in California, Bangalore needs a long time to catch up. Silicon Valley is famous for its strong entrepreneurial activities, but in Bangalore people prefer to join companies rather than start ventures.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  //12 Song bang
+  {
+    id: "32",
+    title: "Glacier",
+    shortDesc: ["Ice River"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Baltoro_glacier_from_air.jpg/330px-Baltoro_glacier_from_air.jpg",
+        title: "Glacier of the Geikie Plateau in Greenland.",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#Formation",
+        title: "Formation",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "Geography",
+      },
+      {
+        key: "4",
+        href: "#Motion",
+        title: "Motion",
+      },
+      {
+        key: "5",
+        href: "#geographyrive",
+        title: "Glacial geology",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `A glacier (US: /ˈɡleɪʃər/; UK: /ˈɡlæsiər, ˈɡleɪsiər/) is a persistent body of dense ice that is constantly moving under its own weight. A glacier forms where the accumulation of snow exceeds its ablation over many years, often centuries. It acquires distinguishing features, such as crevasses and seracs, as it slowly flows and deforms under stresses induced by its weight. As it moves, it abrades rock and debris from its substrate to create landforms such as cirques, moraines, or fjords. Although a glacier may flow into a body of water, it forms only on land and is distinct from the much thinner sea ice and lake ice that form on the surface of bodies of water.`,
+          },
+          {
+            content: `On Earth, 99% of glacial ice is contained within vast ice sheets (also known as "continental glaciers") in the polar regions, but glaciers may be found in mountain ranges on every continent other than the Australian mainland, including Oceania's high-latitude oceanic island countries such as New Zealand. Between latitudes 35°N and 35°S, glaciers occur only in the Himalayas, Andes, and a few high mountains in East Africa, Mexico, New Guinea and on Zard-Kuh in Iran.[2] With more than 7,000 known glaciers, Pakistan has more glacial ice than any other country outside the polar regions.[3][4] Glaciers cover about 10% of Earth's land surface. Continental glaciers cover nearly 13 million km2 (5 million sq mi) or about 98% of Antarctica's 13.2 million km2 (5.1 million sq mi), with an average thickness of ice 2,100 m (7,000 ft). Greenland and Patagonia also have huge expanses of continental glaciers.[5] The volume of glaciers, not including the ice sheets of Antarctica and Greenland, has been estimated at 170,000 km3.`,
+          },
+          {
+            content: `Glacial ice is the largest reservoir of fresh water on Earth, holding with ice sheets about 69 percent of the world's freshwater.[7][8] Many glaciers from temperate, alpine and seasonal polar climates store water as ice during the colder seasons and release it later in the form of meltwater as warmer summer temperatures cause the glacier to melt, creating a water source that is especially important for plants, animals and human uses when other sources may be scant. However, within high-altitude and Antarctic environments, the seasonal temperature difference is often not sufficient to release meltwater.`,
+          },
+          {
+            content: `Since glacial mass is affected by long-term climatic changes, e.g., precipitation, mean temperature, and cloud cover, glacial mass changes are considered among the most sensitive indicators of climate change and are a major source of variations in sea level.`,
+          },
+          {
+            content: `A large piece of compressed ice, or a glacier, appears blue, as large quantities of water appear blue. This is because water molecules absorb other colors more efficiently than blue. The other reason for the blue color of glaciers is the lack of air bubbles. Air bubbles, which give a white color to ice, are squeezed out by pressure increasing the created ice's density.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `Glaciers form where the accumulation of snow and ice exceeds ablation. A glacier usually originates from a cirque landform (alternatively known as a corrie or as a cwm) – a typically armchair-shaped geological feature (such as a depression between mountains enclosed by arêtes) – which collects and compresses through gravity the snow that falls into it. This snow accumulates and the weight of the snow falling above compacts it, forming névé (granular snow). Further crushing of the individual snowflakes and squeezing the air from the snow turns it into "glacial ice". This glacial ice will fill the cirque until it "overflows" through a geological weakness or vacancy, such as a gap between two mountains. When the mass of snow and ice reaches sufficient thickness, it begins to move by a combination of surface slope, gravity, and pressure. On steeper slopes, this can occur with as little as 15 m (49 ft) of snow-ice.`,
+          },
+          {
+            content: `In temperate glaciers, snow repeatedly freezes and thaws, changing into granular ice called firn. Under the pressure of the layers of ice and snow above it, this granular ice fuses into denser firn. Over a period of years, layers of firn undergo further compaction and become glacial ice.[21] Glacier ice is slightly more dense than ice formed from frozen water because glacier ice contains fewer trapped air bubbles.`,
+          },
+          {
+            content: `Glacial ice has a distinctive blue tint because it absorbs some red light due to an overtone of the infrared OH stretching mode of the water molecule. (Liquid water appears blue for the same reason. The blue of glacier ice is sometimes misattributed to Rayleigh scattering of bubbles in the ice.)`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `Glaciers are present on every continent and in approximately fifty countries, excluding those (Australia, South Africa) that have glaciers only on distant subantarctic island territories. Extensive glaciers are found in Antarctica, Argentina, Chile, Canada, Alaska, Greenland and Iceland. Mountain glaciers are widespread, especially in the Andes, the Himalayas, the Rocky Mountains, the Caucasus, Scandinavian mountains, and the Alps. Snezhnika glacier in Pirin Mountain, Bulgaria with a latitude of 41°46′09″ N is the southernmost glacial mass in Europe.[40] Mainland Australia currently contains no glaciers, although a small glacier on Mount Kosciuszko was present in the last glacial period.[41] In New Guinea, small, rapidly diminishing, glaciers are located on Puncak Jaya.[42] Africa has glaciers on Mount Kilimanjaro in Tanzania, on Mount Kenya, and in the Rwenzori Mountains. Oceanic islands with glaciers include Iceland, several of the islands off the coast of Norway including Svalbard and Jan Mayen to the far north, New Zealand and the subantarctic islands of Marion, Heard, Grande Terre (Kerguelen) and Bouvet. During glacial periods of the Quaternary, Taiwan, Hawaii on Mauna Kea[43] and Tenerife also had large alpine glaciers, while the Faroe and Crozet Islands[44] were completely glaciated.`,
+          },
+          {
+            content: `The permanent snow cover necessary for glacier formation is affected by factors such as the degree of slope on the land, amount of snowfall and the winds. Glaciers can be found in all latitudes except from 20° to 27° north and south of the equator where the presence of the descending limb of the Hadley circulation lowers precipitation so much that with high insolation snow lines reach above 6,500 m (21,330 ft). Between 19˚N and 19˚S, however, precipitation is higher, and the mountains above 5,000 m (16,400 ft) usually have permanent snow.`,
+          },
+          {
+            content: `Even at high latitudes, glacier formation is not inevitable. Areas of the Arctic, such as Banks Island, and the McMurdo Dry Valleys in Antarctica are considered polar deserts where glaciers cannot form because they receive little snowfall despite the bitter cold. Cold air, unlike warm air, is unable to transport much water vapor. Even during glacial periods of the Quaternary, Manchuria, lowland Siberia,[45] and central and northern Alaska,[46] though extraordinarily cold, had such light snowfall that glaciers could not form.`,
+          },
+          {
+            content: `In addition to the dry, unglaciated polar regions, some mountains and volcanoes in Bolivia, Chile and Argentina are high (4,500 to 6,900 m or 14,800 to 22,600 ft) and cold, but the relative lack of precipitation prevents snow from accumulating into glaciers. This is because these peaks are located near or in the hyperarid Atacama Desert.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `Glaciers move, or flow, downhill by the force of gravity and the internal deformation of ice.[27] Ice behaves like a brittle solid until its thickness exceeds about 50 m (160 ft). The pressure on ice deeper than 50 m causes plastic flow. At the molecular level, ice consists of stacked layers of molecules with relatively weak bonds between layers. When the stress on the layer above exceeds the inter-layer binding strength, it moves faster than the layer below.`,
+          },
+          {
+            content: `Glaciers also move through basal sliding. In this process, a glacier slides over the terrain on which it sits, lubricated by the presence of liquid water. The water is created from ice that melts under high pressure from frictional heating. Basal sliding is dominant in temperate or warm-based glaciers.`,
+          },
+          {
+            content: `Although evidence in favor of glacial flow was known by the early 19th century, other theories of glacial motion were advanced, such as the idea that meltwater, refreezing inside glaciers, caused the glacier to dilate and extend its length. As it became clear that glaciers behaved to some degree as if the ice were a viscous fluid, it was argued that "regelation", or the melting and refreezing of ice at a temperature lowered by the pressure on the ice inside the glacier, was what allowed the ice to deform and flow. James Forbes came up with the essentially correct explanation in the 1840s, although it was several decades before it was fully accepted.`,
+          },
+          {
+            content: `The top 50 m (160 ft) of a glacier are rigid because they are under low pressure. This upper section is known as the fracture zone and moves mostly as a single unit over the plastic-flowing lower section. When a glacier moves through irregular terrain, cracks called crevasses develop in the fracture zone. Crevasses form because of differences in glacier velocity. If two rigid sections of a glacier move at different speeds or directions, shear forces cause them to break apart, opening a crevasse. Crevasses are seldom more than 46 m (150 ft) deep but, in some cases, can be at least 300 m (1,000 ft) deep. Beneath this point, the plasticity of the ice prevents the formation of cracks. Intersecting crevasses can create isolated peaks in the ice, called seracs.`,
+          },
+          {
+            content: `Crevasses can form in several different ways. Transverse crevasses are transverse to flow and form where steeper slopes cause a glacier to accelerate. Longitudinal crevasses form semi-parallel to flow where a glacier expands laterally. Marginal crevasses form near the edge of the glacier, caused by the reduction in speed caused by friction of the valley walls. Marginal crevasses are largely transverse to flow. Moving glacier ice can sometimes separate from the stagnant ice above, forming a bergschrund. Bergschrunds resemble crevasses but are singular features at a glacier's margins. Crevasses make travel over glaciers hazardous, especially when they are hidden by fragile snow bridges.`,
+          },
+          {
+            content: `Below the equilibrium line, glacial meltwater is concentrated in stream channels. Meltwater can pool in proglacial lakes on top of a glacier or descend into the depths of a glacier via moulins. Streams within or beneath a glacier flow in englacial or sub-glacial tunnels. These tunnels sometimes reemerge at the glacier's surface.`,
+          },
+          {
+            content: `The speed of glacial displacement is partly determined by friction. Friction makes the ice at the bottom of the glacier move more slowly than ice at the top. In alpine glaciers, friction is also generated at the valley's sidewalls, which slows the edges relative to the center.`,
+          },
+          {
+            content: `Mean glacial speed varies greatly but is typically around 1 m (3 ft) per day.[31] There may be no motion in stagnant areas; for example, in parts of Alaska, trees can establish themselves on surface sediment deposits. In other cases, glaciers can move as fast as 20–30 m (70–100 ft) per day, such as in Greenland's Jakobshavn Isbræ. Glacial speed is affected by factors such as slope, ice thickness, snowfall, longitudinal confinement, basal temperature, meltwater production, and bed hardness.`,
+          },
+          {
+            content: `A few glaciers have periods of very rapid advancement called surges. These glaciers exhibit normal movement until suddenly they accelerate, then return to their previous movement state.[32] These surges may be caused by the failure of the underlying bedrock, the pooling of meltwater at the base of the glacier[33] — perhaps delivered from a supraglacial lake — or the simple accumulation of mass beyond a critical "tipping point".[34] Temporary rates up to 90 m (300 ft) per day have occurred when increased temperature or overlying pressure caused bottom ice to melt and water to accumulate beneath a glacier.`,
+          },
+          {
+            content: `In glaciated areas where the glacier moves faster than one km per year, glacial earthquakes occur. These are large scale earthquakes that have seismic magnitudes as high as 6.1.[35][36] The number of glacial earthquakes in Greenland peaks every year in July, August, and September and increased rapidly in the 1990s and 2000s. In a study using data from January 1993 through October 2005, more events were detected every year since 2002, and twice as many events were recorded in 2005 as there were in any other year.`,
+          },
+          {
+            content: `Ogives or Forbes bands[37] are alternating wave crests and valleys that appear as dark and light bands of ice on glacier surfaces. They are linked to seasonal motion of glaciers; the width of one dark and one light band generally equals the annual movement of the glacier. Ogives are formed when ice from an icefall is severely broken up, increasing ablation surface area during summer. This creates a swale and space for snow accumulation in the winter, which in turn creates a ridge.[38] Sometimes ogives consist only of undulations or color bands and are described as wave ogives or band ogives.`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content:
+              "Glaciers erode terrain through two principal processes: plucking and abrasion.",
+          },
+          {
+            content: `As glaciers flow over bedrock, they soften and lift blocks of rock into the ice. This process, called plucking, is caused by subglacial water that penetrates fractures in the bedrock and subsequently freezes and expands.[50] This expansion causes the ice to act as a lever that loosens the rock by lifting it. Thus, sediments of all sizes become part of the glacier's load. If a retreating glacier gains enough debris, it may become a rock glacier, like the Timpanogos Glacier in Utah.`,
+          },
+          {
+            content: `Abrasion occurs when the ice and its load of rock fragments slide over bedrock[50] and function as sandpaper, smoothing and polishing the bedrock below. The pulverized rock this process produces is called rock flour and is made up of rock grains between 0.002 and 0.00625 mm in size. Abrasion leads to steeper valley walls and mountain slopes in alpine settings, which can cause avalanches and rock slides, which add even more material to the glacier. Glacial abrasion is commonly characterized by glacial striations. Glaciers produce these when they contain large boulders that carve long scratches in the bedrock. By mapping the direction of the striations, researchers can determine the direction of the glacier's movement. Similar to striations are chatter marks, lines of crescent-shape depressions in the rock underlying a glacier. They are formed by abrasion when boulders in the glacier are repeatedly caught and released as they are dragged along the bedrock.`,
+          },
+          {
+            content: `The rate of glacier erosion varies. Six factors control erosion rate:`,
+          },
+          {
+            content: "Velocity of glacial movement",
+          },
+          {
+            content: "Thickness of the ice",
+          },
+          {
+            content:
+              "Shape, abundance and hardness of rock fragments contained in the ice at the bottom of the glacier",
+          },
+          {
+            content:
+              "Relative ease of erosion of the surface under the glacier",
+          },
+          {
+            content: "Thermal conditions at the glacier base",
+          },
+          {
+            content: "Permeability and water pressure at the glacier base",
+          },
+          {
+            content:
+              "When the bedrock has frequent fractures on the surface, glacial erosion rates tend to increase as plucking is the main erosive force on the surface; when the bedrock has wide gaps between sporadic fractures, however, abrasion tends to be the dominant erosive form and glacial erosion rates become slow.[51] Glaciers in lower latitudes tend to be much more erosive than glaciers in higher latitudes, because they have more meltwater reaching the glacial base and facilitate sediment production and transport under the same moving speed and amount of ice.",
+          },
+          {
+            content:
+              "Material that becomes incorporated in a glacier is typically carried as far as the zone of ablation before being deposited. Glacial deposits are of two distinct types:",
+          },
+          {
+            content:
+              "Glacial till: material directly deposited from glacial ice. Till includes a mixture of undifferentiated material ranging from clay size to boulders, the usual composition of a moraine.",
+          },
+          {
+            content:
+              "Fluvial and outwash sediments: sediments deposited by water. These deposits are stratified by size.",
+          },
+          {
+            content: `Larger pieces of rock that are encrusted in till or deposited on the surface are called "glacial erratics". They range in size from pebbles to boulders, but as they are often moved great distances, they may be drastically different from the material upon which they are found. Patterns of glacial erratics hint at past glacial motions.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "Aletsch Glacier, the largest glacier in the Swiss Alps",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "The Quelccaya ice cap is the area with the largest glacier coverage in the tropics, in Peru",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //13 Himalaya
+  {
+    id: "33",
+    title: "Himalaya",
+    shortDesc: [" Hy Mã Lạp Sơn"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg/384px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg",
+        title:
+          "The arc of the Himalayas (also Hindu Kush and Karakorams) showing the eight-thousanders (in red); Indo-Gangetic Plain; Tibetan plateau; rivers Indus, Ganges, and Yarlung Tsangpo-Brahmaputra; and the two anchors of the range (in yellow)",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#geography",
+        title: "Geography",
+      },
+      {
+        key: "3",
+        href: "#Geological",
+        title: "Geology",
+      },
+      {
+        key: "4",
+        href: "#Hydrology",
+        title: "Hydrology",
+      },
+      {
+        key: "5",
+        href: "#climate",
+        title: "Climate",
+      },
+      {
+        key: "6",
+        href: "#Ecology",
+        title: "Ecology",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `The Himalayas, or Himalaya (/ˌhɪməˈleɪ.ə, hɪˈmɑːləjə/; Sanskrit: [ɦɪmaːlɐjɐ]; from Sanskrit himá 'snow, frost', and ā-laya 'dwelling, abode'),[3] is a mountain range in Asia, separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has some of the Earth's highest peaks, including the highest, Mount Everest; more than 100 peaks exceeding elevations of 7,200 m (23,600 ft) above sea level lie in the Himalayas.`,
+          },
+          {
+            content: `The Himalayas abut or cross five countries: Nepal, China, Pakistan, Bhutan and India. The sovereignty of the range in the Kashmir region is disputed among India, Pakistan, and China.[4] The Himalayan range is bordered on the northwest by the Karakoram and Hindu Kush ranges, on the north by the Tibetan Plateau, and on the south by the Indo-Gangetic Plain. Some of the world's major rivers, the Indus, the Ganges, and the Tsangpo–Brahmaputra, rise in the vicinity of the Himalayas, and their combined drainage basin is home to some 600 million people; 53 million people live in the Himalayas.[5] The Himalayas have profoundly shaped the cultures of South Asia and Tibet. Many Himalayan peaks are sacred in Hinduism and Buddhism. The summits of several—Kangchenjunga (from the Indian side), Gangkhar Puensum, Machapuchare, Nanda Devi, and Kailas in the Tibetan Transhimalaya—are off-limits to climbers.`,
+          },
+          {
+            content: `Lifted by the subduction of the Indian tectonic plate under the Eurasian Plate, the Himalayan mountain range runs west-northwest to east-southeast in an arc 2,400 km (1,500 mi) long.[6] Its western anchor, Nanga Parbat, lies just south of the northernmost bend of the Indus river. Its eastern anchor, Namcha Barwa, lies immediately west of the great bend of the Yarlung Tsangpo River. The range varies in width from 350 km (220 mi) in the west to 150 km (93 mi) in the east.`,
+          },
+          {
+            content: `The name of the range hails from the Sanskrit Himālaya (हिमालय 'abode of the snow'[8]), from himá (हिम 'snow'[9]) and ā-laya (आलय 'home, dwelling'[10]).[11][12] They are now known as "the Himalaya Mountains", usually shortened to "the Himalayas".`,
+          },
+          {
+            content: `The mountains are known as the Himālaya in Nepali and Hindi (both written हिमालय), Himāl (हिमाल) in Kumaoni, the Himalaya (ཧི་མ་ལ་ཡ་) or 'The Land of Snow' (གངས་ཅན་ལྗོངས་) in Tibetan, also known as Himālaya in Sinhala (written as හිමාලය), the Himāliya Mountain Range (سلسلہ کوہ ہمالیہ) in Urdu, the Himaloy Parvatmala (হিমালয় পর্বতমালা) in Bengali, and the Ximalaya Mountain Range (simplified Chinese: 喜马拉雅山脉; traditional Chinese: 喜馬拉雅山脉; pinyin: Xǐmǎlāyǎ Shānmài) in Chinese.`,
+          },
+          {
+            content: `The name of the range is sometimes also given as Himavan in older writings, including the Sanskrit epic Mahabharata.[13] Himavat (Sanskrit: हिमवत्) or Himavan Himavān (Sanskrit: हिमवान्) is a Hindu deity who is the personification of the Himalayan Mountain Range. Other epithets include Himaraja (Sanskrit: हिमराज, lit. 'king of snow') or Parvateshwara (Sanskrit: पर्वतेश्वर, lit. 'lord of mountains').
+
+              In western literature, some writers refer to it as the Himalaya. This was also previously transcribed as Himmaleh, as in Emily Dickinson's poetry[14] and Henry David Thoreau's essays.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `The Himalayas consist of parallel mountain ranges: the Sivalik Hills on the south; the Lower Himalayan Range; the Great Himalayas, which is the highest and central range; and the Tibetan Himalayas on the north.[16] The Karakoram are generally considered separate from the Himalayas.`,
+          },
+          {
+            content: `In the middle of the great curve of the Himalayan mountains lie the 8,000 m (26,000 ft) peaks of Dhaulagiri and Annapurna in Nepal, separated by the Kali Gandaki Gorge. The gorge splits the Himalayas into Western and Eastern sections, both ecologically and orographically – the pass at the head of the Kali Gandaki, the Kora La, is the lowest point on the ridgeline between Everest and K2 (the highest peak of the Karakoram range). To the east of Annapurna are the 8,000 m (5.0 mi) peaks of Manaslu and across the border in Tibet, Shishapangma. To the south of these lies Kathmandu, the capital of Nepal and the largest city in the Himalayas. East of the Kathmandu Valley lies the valley of the Bhote/Sun Kosi river which rises in Tibet and provides the main overland route between Nepal and China – the Araniko Highway/China National Highway 318. Further east is the Mahalangur Himal with four of the world's six highest mountains, including the highest: Cho Oyu, Everest, Lhotse, and Makalu. The Khumbu region, popular for trekking, is found here on the south-western approaches to Everest. The Arun river drains the northern slopes of these mountains, before turning south and flowing to the range to the east of Makalu.`,
+          },
+          {
+            content: `In the far east of Nepal, the Himalayas rise to the Kangchenjunga massif on the border with India, the third-highest mountain in the world, the most easterly 8,000 m (26,000 ft) summit and the highest point of India. The eastern side of Kangchenjunga is in the Indian state of Sikkim. Formerly an independent Kingdom, it lies on the main route from India to Lhasa, Tibet, which passes over the Nathu La pass into Tibet. East of Sikkim lies the ancient Buddhist Kingdom of Bhutan. The highest mountain in Bhutan is Gangkhar Puensum, which is also a strong candidate for the highest unclimbed mountain in the world. The Himalayas here are becoming increasingly rugged, with heavily forested steep valleys. The Himalayas continue, turning slightly northeast, through the Indian State of Arunachal Pradesh as well as Tibet, before reaching their easterly conclusion in the peak of Namche Barwa, situated in Tibet, inside the great bend of the Yarlang Tsangpo river. On the other side of the Tsangpo, to the east, are the Kangri Garpo mountains. The high mountains to the north of the Tsangpo, including Gyala Peri, however, are also sometimes included in the Himalayas.`,
+          },
+          {
+            content: `Going west from Dhaulagiri, Western Nepal is somewhat remote and lacks major high mountains, but is home to Rara Lake, the largest lake in Nepal. The Karnali River rises in Tibet but cuts through the centre of the region. Further west, the border with India follows the Sarda River and provides a trade route into China, where on the Tibetan plateau lies the high peak of Gurla Mandhata. Just across Lake Manasarovar from this lies the sacred Mount Kailash in the Kailash Ranges, which stands close to the source of the four main rivers of Himalayas and is revered in Hinduism, Jainism, Buddhism, Sufism and Bonpo. In Uttarakhand, the Himalayas are regionally divided into the Kumaon and Garhwal Himalayas with the high peaks of Nanda Devi and Kamet.[17] The state is also home to the important pilgrimage destinations of Chaar Dhaam, with Gangotri, the source of the holy river Ganges, Yamunotri, the source of the river Yamuna, and the temples at Badrinath and Kedarnath.`,
+          },
+          {
+            content: `The next Himalayan Indian state, Himachal Pradesh, is noted for its hill stations, particularly Shimla, the summer capital of the British Raj, and Dharamsala, the centre of the Tibetan community and government in exile in India. This area marks the start of the Punjab Himalaya and the Sutlej river, the most easterly of the five tributaries of the Indus, cuts through the range here. Further west, the Himalayas form much of the disputed Indian-administered union territory of Jammu and Kashmir where lie the mountainous Jammu region and the renowned Kashmir Valley with the town and lakes of Srinagar. The Himalayas form most of the south-west portion of the disputed Indian-administered union territory of Ladakh. The twin peaks of Nun Kun are the only mountains over 7,000 m (4.3 mi) in this part of the Himalayas. Finally, the Himalayas reach their western end in the dramatic 8000 m peak of Nanga Parbat, which rises over 8,000 m (26,000 ft) above the Indus valley and is the most westerly of the 8000 m summits. The western end terminates at a magnificent point near Nanga Parbat where the Himalayas intersect with the Karakoram and Hindu Kush ranges, in the disputed Pakistani-administered territory of Gilgit-Baltistan. Some portion of the Himalayas, such as the Kaghan Valley, Margalla Hills, and Galyat tract, extend into the Pakistani provinces of Khyber Pakhtunkhwa and Punjab.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `The Himalayan range is one of the youngest mountain ranges on the planet and consists mostly of uplifted sedimentary and metamorphic rock. According to the modern theory of plate tectonics, its formation is a result of a continental collision or orogeny along the convergent boundary (Main Himalayan Thrust) between the Indo-Australian Plate and the Eurasian Plate. The Arakan Yoma highlands in Myanmar and the Andaman and Nicobar Islands in the Bay of Bengal were also formed as a result of this collision.`,
+          },
+          {
+            content: `During the Upper Cretaceous, about 70 million years ago, the north-moving Indo-Australian Plate (which has subsequently broken into the Indian Plate and the Australian Plate[19]) was moving at about 15 cm (5.9 in) per year. About 50 million years ago this fast-moving Indo-Australian Plate had completely closed the Tethys Ocean, the existence of which has been determined by sedimentary rocks settled on the ocean floor and the volcanoes that fringed its edges. Since both plates were composed of low density continental crust, they were thrust faulted and folded into mountain ranges rather than subducting into the mantle along an oceanic trench.[18] An often-cited fact used to illustrate this process is that the summit of Mount Everest is made of unmetamorphosed marine Ordovician limestone with fossil trilobites, crinoids, and ostracods from this ancient ocean.`,
+          },
+          {
+            content: `Today, the Indian plate continues to be driven horizontally at the Tibetan Plateau, which forces the plateau to continue to move upwards.[21] The Indian plate is still moving at 67 mm per year, and over the next 10 million years, it will travel about 1,500 km (930 mi) into Asia. About 20 mm per year of the India-Asia convergence is absorbed by thrusting along the Himalaya southern front. This leads to the Himalayas rising by about 5 mm per year, making them geologically active. The movement of the Indian plate into the Asian plate also makes this region seismically active, leading to earthquakes from time to time.`,
+          },
+          {
+            content: `During the last ice age, there was a connected ice stream of glaciers between Kangchenjunga in the east and Nanga Parbat in the west. In the west, the glaciers joined with the ice stream network in the Karakoram, and in the north, they joined with the former Tibetan inland ice. To the south, outflow glaciers came to an end below an elevation of 1,000–2,000 m (3,300–6,600 ft).[22][24] While the current valley glaciers of the Himalaya reach at most 20 to 32 km (12 to 20 mi) in length, several of the main valley glaciers were 60 to 112 km (37 to 70 mi) long during the ice age.[22] The glacier snowline (the altitude where accumulation and ablation of a glacier are balanced) was about 1,400–1,660 m (4,590–5,450 ft) lower than it is today. Thus, the climate was at least 7.0 to 8.3 °C (12.6 to 14.9 °F) colder than it is today.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `Despite their scale, the Himalayas do not form a major watershed, and a number of rivers cut through the range, particularly in the eastern part of the range. As a result, the main ridge of the Himalayas is not clearly defined, and mountain passes are not as significant for traversing the range as with other mountain ranges. The rivers of the Himalayas drain into two large river systems:`,
+          },
+          {
+            content: `The western rivers combine into the Indus Basin. The Indus itself forms the northern and western boundaries of the Himalayas. It begins in Tibet, at the confluence of Sengge and Gar rivers, and flows north-west through India into Pakistan before turning south-west to the Arabian Sea. It is fed by several major tributaries draining the southern slopes of the Himalayas, including the Jhelum, Chenab, Ravi, Beas, and Sutlej rivers, the five rivers of the Punjab.`,
+          },
+          {
+            content: `The other Himalayan rivers drain the Ganges-Brahmaputra Basin. Its main rivers are the Ganges, the Brahmaputra, and the Yamuna, as well as other tributaries. The Brahmaputra originates as the Yarlung Tsangpo River in western Tibet, and flows east through Tibet and west through the plains of Assam. The Ganges and the Brahmaputra meet in Bangladesh and drain into the Bay of Bengal through the world's largest river delta, the Sunderbans.`,
+          },
+          {
+            content: `The northern slopes of Gyala Peri and the peaks beyond the Tsangpo, sometimes included in the Himalayas, drain into the Irrawaddy River, which originates in eastern Tibet and flows south through Myanmar to drain into the Andaman Sea. The Salween, Mekong, Yangtze, and Yellow River all originate from parts of the Tibetan Plateau that are geologically distinct from the Himalaya mountains and are therefore not considered true Himalayan rivers. Some geologists refer to all the rivers collectively as the circum-Himalayan rivers.`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content: `The physical factors determining the climate in any location in the Himalayas include latitude, altitude, and the relative motion of the Southwest monsoon.[43] From north to south, the mountains cover more than eight degrees of latitude, spanning temperate to subtropical zones.[43] The colder air of Central Asia is prevented from blowing down into South Asia by the physical configuration of the Himalayas.[43] This causes the tropical zone to extend farther north in South Asia than anywhere else in the world.[43] The evidence is unmistakable in the Brahmaputra valley as the warm air from the Bay of Bengal bottlenecks and rushes up past Namcha Barwa, the eastern anchor of the Himalayas, and into southeastern Tibet.[43] Temperatures in the Himalayas cool by 2.0 degrees C (3.6 degrees F) for every 300 metres (980 ft) increase of altitude.`,
+          },
+          {
+            content: `As the physical features of mountains are irregular, with broken jagged contours, there can be wide variations in temperature over short distances.[44] Temperature at a location on a mountain depends on the season of the year, the bearing of the sun with respect to the face on which the location lies, and the mass of the mountain, i.e. the amount of matter in the mountain.[44] As the temperature is directly proportional to received radiation from the sun, the faces that receive more direct sunlight also have a greater heat buildup.[44] In narrow valleys—lying between steep mountain faces—there can be dramatically different weather along their two margins.[44] The side to the north with a mountain above facing south can have an extra month of the growing season.[44] The mass of the mountain also influences the temperature, as it acts as a heat island, in which more heat is absorbed and retained than the surroundings, and therefore influences the heat budget or the amount of heat needed to raise the temperature from the winter minimum to the summer maximum.[44] The immense scale of the Himalayas means that many summits can create their own weather, the temperature fluctuating from one summit to another, from one face to another, and all may be quite different from the weather in nearby plateaus or valleys.`,
+          },
+          {
+            content: `A critical influence on the Himalayan climate is the Southwest Monsoon. This is not so much the rain of the summer months as the wind that carries the rain.[44] Different rates of heating and cooling between the Central Asian continent and the Indian Ocean create large differences in the atmospheric pressure prevailing above each.[44] In the winter, a high-pressure system forms and remains suspended above Central Asia, forcing air to flow in the southerly direction over the Himalayas.[44] But in Central Asia, as there is no substantial source for water to be diffused as vapour, the winter winds blowing across South Asia are dry.[44] In the summer months, the Central Asian plateau heats up more than the ocean waters to its south. As a result, the air above it rises higher and higher, creating a zone of low pressure.[44] Off-shore high-pressure systems in the Indian Ocean push the moist summer air inland toward the low-pressure system. When the moist air meets mountains, it rises and upon subsequent cooling, its moisture condenses and is released as rain, typically heavy rain.[44] The wet summer monsoon winds cause precipitation in India and all along the layered southern slopes of the Himalayas. This forced lifting of air is called the orographic effect.`,
+          },
+          {
+            content: `The vast size, huge altitude range, and complex topography of the Himalayas mean they experience a wide range of climates, from humid subtropical in the foothills, to cold and dry desert conditions on the Tibetan side of the range. For much of the Himalayas—in the areas to the south of the high mountains, the monsoon is the most characteristic feature of the climate and causes most of the precipitation, while the western disturbance brings winter precipitation, especially in the west. Heavy rain arrives on the southwest monsoon in June and persists until September. The monsoon can seriously impact transport and cause major landslides. It restricts tourism – the trekking and mountaineering season is limited to either before the monsoon in April/May or after the monsoon in October/November (autumn). In Nepal and Sikkim, there are often considered to be five seasons: summer, monsoon, autumn, (or post-monsoon), winter, and spring.`,
+          },
+          {
+            content: `Using the Köppen climate classification, the lower elevations of the Himalayas, reaching in mid-elevations in central Nepal (including the Kathmandu valley), are classified as Cwa, Humid subtropical climate with dry winters. Higher up, most of the Himalayas have a subtropical highland climate (Cwb).`,
+          },
+          {
+            content: `The intensity of the southwest monsoon diminishes as it moves westward along the range, with as much as 2,030 mm (80 in) of rainfall in the monsoon season in Darjeeling in the east, compared to only 975 mm (38.4 in) during the same period in Shimla in the west.`,
+          },
+          {
+            content: `The northern side of the Himalayas, also known as the Tibetan Himalaya, is dry, cold, and generally windswept, particularly in the west where it has a cold desert climate. The vegetation is sparse and stunted and the winters are severely cold. Most of the precipitation in the region is in the form of snow during the late winter and spring months.`,
+          },
+          {
+            content: `Local impacts on climate are significant throughout the Himalayas. Temperatures fall by 0.2 to 1.2 °C for every 100 m (330 ft) rise in altitude.[47] This gives rise to a variety of climates, from a nearly tropical climate in the foothills, to tundra and permanent snow and ice at higher elevations. Local climate is also affected by the topography: The leeward side of the mountains receive less rain while the well-exposed slopes get heavy rainfall and the rain shadow of large mountains can be significant, for example, leading to near desert conditions in the Upper Mustang, which is sheltered from the monsoon rains by the Annapurna and Dhaulagiri massifs and has annual precipitation of around 300 mm (12 in), while Pokhara on the southern side of the massifs has substantial rainfall (3,900 mm or 150 in a year). Thus, although annual precipitation is generally higher in the east than in the west, local variations are often more important.`,
+          },
+          {
+            content: `The Himalayas have a profound effect on the climate of the Indian subcontinent and the Tibetan Plateau. They prevent frigid, dry winds from blowing south into the subcontinent, which keeps South Asia much warmer than corresponding temperate regions in the other continents. It also forms a barrier for the monsoon winds, keeping them from traveling northwards, and causing heavy rainfall in the Terai region. The Himalayas are also believed to play an important part in the formation of Central Asian deserts, such as the Taklamakan and Gobi.`,
+          },
+        ],
+      },
+      {
+        id: 6,
+        segment: [
+          {
+            content: `The flora and fauna of the Himalayas vary with climate, rainfall, altitude, and soils. The climate ranges from tropical at the base of the mountains to permanent ice and snow at the highest elevations. The amount of yearly rainfall increases from west to east along the southern front of the range. This diversity of altitude, rainfall, and soil conditions, combined with the very high snow line, supports a variety of distinct plant and animal communities.[38] The extremes of high altitude (low atmospheric pressure), combined with extreme cold, favor extremophile organisms.`,
+          },
+          {
+            content: `At high altitudes, the elusive and previously endangered snow leopard is the main predator. Its prey includes members of the goat family grazing on the alpine pastures and living on the rocky terrain, notably the endemic bharal or Himalayan blue sheep. The Himalayan musk deer is also found at high altitudes. Hunted for its musk, it is now rare and endangered. Other endemic or near-endemic herbivores include the Himalayan tahr, the takin, the Himalayan serow, and the Himalayan goral. The critically endangered Himalayan subspecies of the brown bear is found sporadically across the range, as is the Asian black bear. In the mountainous mixed deciduous and conifer forests of the eastern Himalayas, Red panda feed in the dense understories of bamboo. Lower down, the forests of the foothills are inhabited by several different primates, including the endangered Gee's golden langur and the Kashmir gray langur, with highly restricted ranges in the east and west of the Himalayas, respectively.`,
+          },
+          {
+            content: `The unique floral and faunal wealth of the Himalayas is undergoing structural and compositional changes due to climate change. Hydrangea hirta is an example of floral species that can be found in this area. The increase in temperature is shifting various species to higher elevations. The oak forest is being invaded by pine forests in the Garhwal Himalayan region. There are reports of early flowering and fruiting in some tree species, especially rhododendron, apple, and box myrtle. The highest known tree species in the Himalayas is Juniperus tibetica, located at 4,900 m (16,080 ft) in Southeastern Tibet.`,
+          },
+          {
+            content: `The mountainous areas of Hindu Kush range are mostly barren or at the most sparsely sprinkled with trees and stunted bushes. From about 1,300 to 2,300 m (4,300 to 7,500 ft), states Yarshater, "sclerophyllous forests are predominant with Quercus and Olea (wild olive); above that, up to a height of about 3,300 m (10,800 ft) one finds coniferous forests with Cedrus, Picea, Abies, Pinus, and junipers". The inner valleys of the Hindu Kush see little rain and have desert vegetation.[56] On the other hand, Eastern Himalaya is home to multiple biodiversity hotspots, and 353 new species (242 plants, 16 amphibians, 16 reptiles, 14 fish, two birds, two mammals and 61+ invertebrates) have been discovered there in between 1998 and 2008, with an average of 35 new species finds every year. With Eastern Himalaya included, the entire Hindu Kush Himalaya region is home to an estimated 35,000+ species of plants and 200+ species of animals.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Countries",
+          children: [
+            {
+              name: "	 Bhutan China India   Nepal Pakistan",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Peak",
+          children: [
+            {
+              name: "Mount Everest,    Nepal and  China",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //14 Bien doi khi hau
+  {
+    id: "34",
+    title: "Climate variability and change",
+    shortDesc: ["Atmospheric sciences"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/ShipTracks_MODIS_2005may11.jpg/270px-ShipTracks_MODIS_2005may11.jpg",
+        title: "",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#Terminology",
+        title: "Terminology",
+      },
+      {
+        key: "3",
+        href: "#Causes",
+        title: "Causes",
+      },
+      {
+        key: "4",
+        href: "#Climate history",
+        title: "Climate history",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Climate variability includes all the variations in the climate that last longer than individual weather events, whereas the term climate change only refers to those variations that persist for a longer period of time, typically decades or more. Climate change may refer to any time in Earth's history, but the term is now commonly used to describe contemporary climate change, often popularly referred to as global warming. Since the Industrial Revolution, the climate has increasingly been affected by human activities.`,
+          },
+          {
+            content: `The climate system receives nearly all of its energy from the sun and radiates energy to outer space. The balance of incoming and outgoing energy and the passage of the energy through the climate system is Earth's energy budget. When the incoming energy is greater than the outgoing energy, Earth's energy budget is positive and the climate system is warming. If more energy goes out, the energy budget is negative and Earth experiences cooling.`,
+          },
+          {
+            content: `The energy moving through Earth's climate system finds expression in weather, varying on geographic scales and time. Long-term averages and variability of weather in a region constitute the region's climate. Such changes can be the result of "internal variability", when natural processes inherent to the various parts of the climate system alter the distribution of energy. Examples include variability in ocean basins such as the Pacific decadal oscillation and Atlantic multidecadal oscillation. Climate variability can also result from external forcing, when events outside of the climate system's components produce changes within the system. Examples include changes in solar output and volcanism.`,
+          },
+          {
+            content: `Climate variability has consequences for sea level changes, plant life, and mass extinctions; it also affects human societies.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `Climate variability is the term to describe variations in the mean state and other characteristics of climate (such as chances or possibility of extreme weather, etc.) "on all spatial and temporal scales beyond that of individual weather events." Some of the variability does not appear to be caused by known systems and occurs at seemingly random times. Such variability is called random variability or noise. On the other hand, periodic variability occurs relatively regularly and in distinct modes of variability or climate patterns.`,
+          },
+          {
+            content: `The term climate change is often used to refer specifically to anthropogenic climate change. Anthropogenic climate change is caused by human activity, as opposed to changes in climate that may have resulted as part of Earth's natural processes.[3] Global warming became the dominant popular term in 1988, but within scientific journals global warming refers to surface temperature increases while climate change includes global warming and everything else that increasing greenhouse gas levels affect.`,
+          },
+          {
+            content: `A related term, climatic change, was proposed by the World Meteorological Organization (WMO) in 1966 to encompass all forms of climatic variability on time-scales longer than 10 years, but regardless of cause. During the 1970s, the term climate change replaced climatic change to focus on anthropogenic causes, as it became clear that human activities had a potential to drastically alter the climate.[5] Climate change was incorporated in the title of the Intergovernmental Panel on Climate Change (IPCC) and the UN Framework Convention on Climate Change (UNFCCC). Climate change is now used as both a technical description of the process, as well as a noun used to describe the problem.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `On the broadest scale, the rate at which energy is received from the Sun and the rate at which it is lost to space determine the equilibrium temperature and climate of Earth. This energy is distributed around the globe by winds, ocean currents, and other mechanisms to affect the climates of different regions.`,
+          },
+          {
+            content: `Factors that can shape climate are called climate forcings or "forcing mechanisms".[9] These include processes such as variations in solar radiation, variations in the Earth's orbit, variations in the albedo or reflectivity of the continents, atmosphere, and oceans, mountain-building and continental drift and changes in greenhouse gas concentrations. External forcing can be either anthropogenic (e.g. increased emissions of greenhouse gases and dust) or natural (e.g., changes in solar output, the Earth's orbit, volcano eruptions).[10] There are a variety of climate change feedbacks that can either amplify or diminish the initial forcing. There are also key thresholds which when exceeded can produce rapid or irreversible change.`,
+          },
+          {
+            content: `Some parts of the climate system, such as the oceans and ice caps, respond more slowly in reaction to climate forcings, while others respond more quickly. An example of fast change is the atmospheric cooling after a volcanic eruption, when volcanic ash reflects sunlight. Thermal expansion of ocean water after atmospheric warming is slow, and can take thousands of years. A combination is also possible, e.g., sudden loss of albedo in the Arctic Ocean as sea ice melts, followed by more gradual thermal expansion of the water.`,
+          },
+          {
+            content: `Climate variability can also occur due to internal processes. Internal unforced processes often involve changes in the distribution of energy in the ocean and atmosphere, for instance, changes in the thermohaline circulation.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `Various climate forcings are typically in flux throughout geologic time, and some processes of the Earth's temperature may be self-regulating. For example, during the Snowball Earth period, large glacial ice sheets spanned to Earth's equator, covering nearly its entire surface, and very high albedo created extremely low temperatures, while the accumulation of snow and ice likely removed carbon dioxide through atmospheric deposition. However, the absence of plant cover to absorb atmospheric CO2 emitted by volcanoes meant that the greenhouse gas could accumulate in the atmosphere. There was also an absence of exposed silicate rocks, which use CO2 when they undergo weathering. This created a warming that later melted the ice and brought Earth's temperature back up.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "Atmospheric physics",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "Atmospheric dynamics (category)",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "",
+          children: [
+            {
+              name: "Atmospheric chemistry (category)",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //15Bac ma lon
+  {
+    id: "35",
+    title: "Great tit",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Great_tit_side-on.jpg/420px-Great_tit_side-on.jpg",
+        title: "Female in Lancashire, UK",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#Taxonomy",
+        title: "Taxonomy",
+      },
+      {
+        key: "3",
+        href: "#Description",
+        title: "Description",
+      },
+      {
+        key: "4",
+        href: "#Ecology",
+        title: "Ecology",
+      },
+      {
+        key: "5",
+        href: "#relationship",
+        title: "Relationship with humans",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `The great tit (Parus major) is a passerine bird in the tit family Paridae. It is a widespread and common species throughout Europe, the Middle East, Central Asia and east across the Palearctic to the Amur River, south to parts of North Africa where it is generally resident in any sort of woodland; most great tits do not migrate except in extremely harsh winters. Until 2005 this species was lumped with numerous other subspecies. DNA studies have shown these other subspecies to be distinct from the great tit and these have now been separated as two distinct species, the cinereous tit (Parus cinereus) of southern Asia, and the Japanese tit (Parus minor) of East Asia. The great tit remains the most widespread species in the genus Parus.`,
+          },
+          {
+            content: `The great tit is a distinctive bird with a black head and neck, prominent white cheeks, olive upperparts and yellow underparts, with some variation amongst the numerous subspecies. It is predominantly insectivorous in the summer, but will consume a wider range of food items in the winter months, including small hibernating bats.[2] Like all tits it is a cavity nester, usually nesting in a hole in a tree. The female lays around 12 eggs and incubates them alone, although both parents raise the chicks. In most years the pair will raise two broods. The nests may be raided by woodpeckers, squirrels and weasels and infested with fleas, and adults may be hunted by sparrowhawks. The great tit has adapted well to human changes in the environment and is a common and familiar bird in urban parks and gardens. The great tit is also an important study species in ornithology.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `The great tit was described under its current binomial name by Carl Linnaeus in his 1758 10th edition of Systema Naturae.[3] Its scientific name is derived from the Latin parus "tit" and maior "larger".[4] Francis Willughby had used the name in the 17th century.`,
+          },
+          {
+            content: `The great tit was formerly treated as ranging from Britain to Japan and south to the islands of Indonesia, with 36 described subspecies ascribed to four main species groups. The major group had 13 subspecies across Europe, temperate Asia and north Africa, the minor group's nine subspecies occurred from southeast Russia and Japan into northern southeast Asia and the 11 subspecies in the cinereus group were found from Iran across south Asia to Indonesia. The three bokharensis subspecies were often treated as a separate species, Parus bokharensis, the Turkestan tit. This form was once thought to form a ring species around the Tibetan Plateau, with gene flow throughout the subspecies, but this theory was abandoned when sequences of mitochondrial DNA were examined, finding that the four groups were distinct (monophyletic) and that the hybridisation zones between the groups were the result of secondary contact after a temporary period of isolation.`,
+          },
+          {
+            content: `A study published in 2005 confirmed that the major group was distinct from the cinereus and minor groups and that along with P. m. bokharensis it diverged from these two groups around 1.5 million years ago. The divergence between the bokharensis and major groups was estimated to have been about half a million years ago. The study also examined hybrids between representatives of the major and minor groups in the Amur Valley where the two meet. Hybrids were rare, suggesting that there were some reproductive barriers between the two groups. The study recommended that the two eastern groups be split out as new species, the cinereous tit (Parus cinereus), and the Japanese tit (Parus minor), but that the Turkestan tit be lumped in with the great tit.[8] This taxonomy has been followed by some authorities, for example the IOC World Bird List.[9] The Handbook of the Birds of the World volume treating the Parus species went for the more traditional classification, treating the Turkestan tit as a separate species but retaining the Japanese and cinereous tits with the great tit,[10] a move that has not been without criticism.`,
+          },
+          {
+            content: `The nominate subspecies of the great tit is the most widespread, its range stretching from the Iberian Peninsula to the Amur Valley and from Scandinavia to the Middle East. The other subspecies have much more restricted distributions, four being restricted to islands and the remainder of the P. m. major subspecies representing former glacial refuge populations. The dominance of a single, morphologically uniform subspecies over such a large area suggests that the nominate race rapidly recolonised a large area after the last glacial epoch. This hypothesis is supported by genetic studies which suggest a geologically recent genetic bottleneck followed by a rapid population expansion.`,
+          },
+          {
+            content: `The genus Parus once held most of the species of tit in the family Paridae, but morphological and genetic studies led to the splitting of that large genus in 1998. The great tit was retained in Parus, which along with Cyanistes comprises a lineage of tits known as the "non-hoarders", with reference to the hoarding behaviour of members of the other clade. The genus Parus is still the largest in the family, but may be split again.[10] Other than those species formerly considered to be subspecies, the great tit's closest relatives are the white-naped and green-backed tits of southern Asia. Hybrids with tits outside the genus Parus are very rare, but have been recorded with blue tit, coal tit, and probably marsh tit.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "The great tit is large for a tit at 12.5 to 14.0 cm (4.9–5.5 in) in length, and has a distinctive appearance that makes it easy to recognise. The nominate race P. major major has a bluish-black crown, black neck, throat, bib and head, and white cheeks and ear coverts. The breast is bright lemon-yellow and there is a broad black mid-line stripe running from the bib to vent. There is a dull white spot on the neck turning to greenish yellow on the upper nape. The rest of the nape and back are green tinged with olive. The wing-coverts are green, the rest of the wing is bluish-grey with a white wing-bar. The tail is bluish grey with white outer tips. The plumage of the female is similar to that of the male except that the colours are overall duller; the bib is less intensely black,[10] as is the line running down the belly, which is also narrower and sometimes broken.[15] Young birds are like the female, except that they have dull olive-brown napes and necks, greyish rumps, and greyer tails, with less defined white tips.",
+          },
+          {
+            content: `There is some variation in the subspecies. P. m. newtoni is like the nominate race but has a slightly longer bill, the mantle is slightly deeper green, there is less white on the tail tips, and the ventral mid-line stripe is broader on the belly. P. m. corsus also resembles the nominate form but has duller upperparts, less white in the tail and less yellow in the nape. P. m. mallorcae is like the nominate subspecies, but has a larger bill, greyer-blue upperparts and slightly paler underparts. P. m. ecki is like P. m. mallorcae except with bluer upperparts and paler underparts. P. m. excelsus is similar to the nominate race but has much brighter green upperparts, bright yellow underparts and no (or very little) white on the tail. P. m. aphrodite has darker, more olive-grey upperparts, and the underparts are more yellow to pale cream. P. m. niethammeri is similar to P. m. aphrodite but the upperparts are duller and less green, and the underparts are pale yellow. P. m. terrasanctae resembles the previous two subspecies but has slightly paler upperparts. P. m. blandfordi is like the nominate but with a greyer mantle and scapulars and pale yellow underparts, and P. m. karelini is intermediate between the nominate and P. m. blandfordi, and lacks white on the tail. The plumage of P. m. bokharensis is much greyer, pale creamy white to washed out grey underparts, a larger white cheep patch, a grey tail, wings, back and nape. It is also slightly smaller, with a smaller bill but longer tail. The situation is similar for the two related subspecies in the Turkestan tit group. P. m. turkestanicus is like P. m. bokharensis but with a larger bill and darker upperparts. P. m. ferghanensis is like P. m. bokharensis but with a smaller bill, darker grey on the flanks and a more yellow wash on the juvenile birds.`,
+          },
+          {
+            content: `The colour of the male bird's breast has been shown to correlate with stronger sperm, and is one way that the male demonstrates his reproductive superiority to females. Higher levels of carotenoid increase the intensity of the yellow of the breast its colour, and also enable the sperm to better withstand the onslaught of free radicals.[16] Carotenoids cannot be synthesized by the bird and have to be obtained from food, so a bright colour in a male demonstrates his ability to obtain good nutrition.[17] However, the saturation of the yellow colour is also influenced by environmental factors, such as weather conditions.[18] The width of the male's ventral stripe, which varies with individual, is selected for by females, with higher quality females apparently selecting males with wider stripes.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `The Eurasian sparrowhawk is a predator of great tits, with the young from second broods being at higher risk partly because of the hawk's greater need for food for its own developing young.[45][46] The nests of great tits are raided by great spotted woodpeckers, particularly when nesting in certain types of nest boxes.[47] Other nest predators include introduced grey squirrels (in Britain) and least weasels, which are able to take nesting adults as well.[48] A species of biting louse (Mallophaga) described as Rostrinirmus hudeci was isolated and described in 1981 from great tits in central Europe.[49] The hen flea Ceratophyllus gallinae is exceedingly common in the nests of blue and great tits. It was originally a specialist tit flea, but the dry, crowded conditions of chicken runs enabled it to flourish with its new host.[50] This flea is preferentially predated by the clown beetle Gnathoncus punctulatus,[50] The rove beetle Microglotta pulla also feeds on fleas and their larvae. Although these beetles often remain in deserted nests, they can only breed in the elevated temperatures produced by brooding birds, tits being the preferred hosts.[50] Great tits compete with the pied flycatcher for nesting boxes, and can kill prospecting flycatcher males. Incidences of fatal competition are more frequent when nesting times overlap, and climate change has led to greater synchrony of nesting between the two species and flycatcher deaths. Having killed the flycatchers, the great tits may consume their brains.`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content: `The great tit is a popular garden bird due to its acrobatic performances when feeding on nuts or seed. Its willingness to move into nest boxes has made it a valuable study subject in ornithology; it has been particularly useful as a model for the study of the evolution of various life-history traits, particularly clutch size.[54] A study of a literature database search found 1,349 articles relating to Parus major for the period between 1969 and 2002.`,
+          },
+          {
+            content: `The great tit has generally adjusted to human modifications of the environment. It is more common and has better breeding success in areas with undisturbed forest cover, but it has adapted well to human-modified habitats, and can be very common in urban areas.[10] For example, the breeding population in the city of Sheffield (a city of half a million people) has been estimated at some 17,000 individuals.[55] In adapting to human environments its song has been observed to change in noise-polluted urban environments. In areas with low frequency background noise pollution, the song has a higher frequency than in quieter areas.[56] This tit has expanded its range, moving northwards into Scandinavia and Scotland, and south into Israel and Egypt.[10] The total population is estimated at between 300–1,100 million birds in a range of 32.4 million km2 (12.5 million sq mi). While there have been some localised declines in population in areas with poorer quality habitats, its large range and high numbers mean that the great tit is not considered to be threatened, and it is classed as least concern on the IUCN Red List.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Giới:",
+          children: [
+            {
+              name: "	Animalia",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Ngành:",
+          children: [
+            {
+              name: "Chordata",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Lớp:",
+          children: [
+            {
+              name: "Aves",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //16 O nhiem tieng on
+  {
+    id: "36",
+    title: "Noise pollution",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Traffic_jam_Sao_Paulo_09_2006_30a.jpg/450px-Traffic_jam_Sao_Paulo_09_2006_30a.jpg",
+        title:
+          "Traffic is the main source of noise pollution in cities like São Paulo, shown here.",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#Impacts",
+        title: "Impacts",
+      },
+      {
+        key: "3",
+        href: "#healthy",
+        title: "Impact on health",
+      },
+      {
+        key: "4",
+        href: "#Minimize noise",
+        title: "Minimize noise",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Noise pollution, or sound pollution, is the propagation of noise or sound with ranging impacts on the activity of human or animal life, most of which are harmful to a degree. The source of outdoor noise worldwide is mainly caused by machines, transport and propagation systems.[1][2][3] Poor urban planning may give rise to noise disintegration or pollution, side-by-side industrial and residential buildings can result in noise pollution in the residential areas. Some of the main sources of noise in residential areas include loud music, transportation (traffic, rail, airplanes, etc.), lawn care maintenance, construction, electrical generators, wind turbines, explosions and people.`,
+          },
+          {
+            content:
+              "Documented problems associated with noise in urban environments go back as far as ancient Rome.[4] Research suggests that noise pollution in the United States is the highest in low-income and racial minority neighborhoods,[5] and noise pollution associated with household electricity generators is an emerging environmental degradation in many developing nations.",
+          },
+          {
+            content:
+              "High noise levels can contribute to cardiovascular effects in humans and an increased incidence of coronary artery disease.[7][8] In animals, noise can increase the risk of death by altering predator or prey detection and avoidance, interfere with reproduction and navigation, and contribute to permanent hearing loss.[9] A substantial amount of the noise that humans produce occurs in the ocean. Up until recently, most research on noise impacts has been focused on marine mammals, and to a lesser degree, fish.[10][11] In the past few years, scientists have shifted to conducting studies on invertebrates and their responses to anthropogenic sounds in the marine environment. This research is essential, especially considering that invertebrates make up 75% of marine species, and thus compose a large percentage of ocean food webs.[11] Of the studies that have been conducted, a sizable variety in families of invertebrates have been represented in the research. A variation in the complexity of their sensory systems exists, which allows scientists to study a range of characteristics and develop a better understanding of anthropogenic noise impacts on living organisms. ",
+          },
+          {
+            content:
+              "Because the local civic noise environment can impact the perceived value of real estate, often the largest equity held by a home owner, personal stakes in the noise environment and the civic politics surrounding the noise environment can run extremely high.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: "Noise pollution is mainly due to two basic causes.",
+          },
+          {
+            content: "Due to natural origin",
+          },
+          {
+            content:
+              "Due to volcanic activity and earthquakes. However, this is only a secondary cause, only when there are volcanoes and earthquakes is there noise pollution and only really affects households. People living near volcanic or earthquake areas. On the other hand, this is not a cyclical cause but it happens randomly.",
+          },
+          {
+            content: "Due to artificial origin",
+          },
+          {
+            content: `This is considered the main cause of noise pollution.
+
+              Currently, traffic is increasing at a dizzying rate, the density of vehicles on the streets is increasing, causing noise pollution due to the sound of engines, horns as well as the sound of brakes. In Vietnam, the number of low-quality vehicles circulating on the streets is quite large, creating significant noise pollution.`,
+          },
+          {
+            content:
+              "Airplanes are also a source of pollution that cannot be ignored. When a plane takes off or lands, households living near the airport have to endure a large amount of sound frequency. There should be measures to move the airport away from densely populated areas to minimize noise.",
+          },
+          {
+            content:
+              "Furthermore, the use of machinery in construction is quite common. This is a significant source of noise pollution.",
+          },
+          {
+            content:
+              "In industrial and production activities, the use of machinery is considered indispensable. However, due to the awareness of production facilities and some industrial zones, the level of noise pollution is increasing.",
+          },
+          {
+            content: `In everyday life, turning on music players too loudly also has a significant impact on the hearing of people around you, especially in discotheques or bars. This is the source of pollution that is considered the most difficult to handle and relies mainly on people's awareness.`,
+          },
+          {
+            content:
+              "Some other sources of noise pollution include: Protests, public events, sporting events (shooting ranges, karting...). Sources from animals such as barking dogs, pigs, and ducks quacking from livestock households. Noise from neighbors, such as loud music, shouting, circuit breaker noise, accidental alarms, fireworks. Especially the sound of mobile phones in public places, including classrooms and conferences, is also a source of noise pollution.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "Human",
+          },
+          {
+            content: `Noise pollution affects both human health and behavior. Unwanted sound (noise) has a negative impact on psychological and mental health. Noise pollution can cause high blood pressure, stress, tinnitus, hearing loss, sleep disorders and other harmful effects.`,
+          },
+          {
+            content: `Sound becomes undesirable when it interferes with normal human activities such as talking and resting, causing disruption, disturbance and reduced quality of life.`,
+          },
+          {
+            content: `Prolonged exposure to noise can cause hearing loss. Older men with greater exposure to performance occupational noise showed greater reductions in hearing sensitivity than others, although the difference in hearing loss over time between these two groups was not significant. age 79.[11] A study by Rosen compared the Maaban tribe (a remote population in Ghana) - who have limited exposure to traffic or industrial noise - with a typical population in United States, have shown that long-term, moderate exposure to high levels of environmental noise contributes to hearing loss (but not aging).`,
+          },
+          {
+            content: `High noise levels affect the heart, exposure to noise for a period of eight hours, can cause an increase in blood pressure of 5-10 degrees[6]. In addition, noise increases stress, causes vasoconstriction leading to the increase in blood pressure mentioned above, and also increases the incidence of coronary artery disease.`,
+          },
+          {
+            content: "Wild animals",
+          },
+          {
+            content: `Noise can have a detrimental effect on wildlife increasing the risk of mortality by altering biological balance. In some carnivores, finding food has become more difficult and hunting is no longer effective as noise pollution increases due to human activities.`,
+          },
+          {
+            content: `Zebra finches become less loyal to their mates when exposed to traffic noise. This can change the evolutionary rules of an animal species, leading to serious genetic and evolutionary consequences.`,
+          },
+          {
+            content: `Increasing noise pollution in the oceans is threatening the existence of whales and dolphins... While marine animals use sound waves to communicate with others and find food. . However, the sounds they emit are overwhelmed by noises from ships, military sonar and climate change. As a result, marine animals become disoriented, cannot find mates, and exhibit unusual behavior. According to a report by the International Fund for Animal Welfare, the distance at which blue whales can communicate with each other using sound waves has decreased by up to 90% due to increasing noise pollution levels over 40 years. via.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `Traffic noise can be reduced by using noise barriers, limiting vehicle traffic on streets, changing road surface textures, limiting heavy vehicles, and using technology to Traffic control: use slippery vehicles to reduce braking, tire design, especially horn sounds should be used sparingly. An important element in applying this strategy is a computer model of road noise warnings, capable of solving at specific times, indicating road conditions, weather, as well as traffic activity. communication, in order to reduce and reduce costs for the state. Reducing traffic construction activities is very limited, so we should find solutions and have a scientific urban planning plan to avoid generating noise.`,
+          },
+          {
+            content: `Aircraft noise can be reduced by using silent jet engines. Changing flight routes and runway times is also an important solution, the first beneficiaries are residents near airports.`,
+          },
+          {
+            content:
+              "Industrial noise has been addressed since the 1930s through the redesign of industrial equipment, by physical barriers in the workplace. In recent years, there have been many programs and initiatives in an effort to combat occupational noise exposure. These programs promote the purchase of quiet tools and equipment, encouraging manufacturers to redesign thermal equipment to minimize noise most effectively .",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //17 WHO
+  {
+    id: "37",
+    title: "World Health Organization",
+    shortDesc: ["WHO"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_WHO.svg/360px-Flag_of_WHO.svg.png",
+        title: "Flag",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#member",
+        title: "Membership",
+      },
+      {
+        key: "3",
+        href: "#mission",
+        title: "Policies and objectives",
+      },
+      {
+        key: "4",
+        href: "#Governance",
+        title: "Governance",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health.[2] It is headquartered in Geneva, Switzerland, and has six regional offices and 150 field offices worldwide.`,
+          },
+          {
+            content: `The WHO was established on 7 April 1948 and convened its first meeting on 24 July of that year.[4][5] It incorporated the assets, personnel, and duties of the League of Nations' Health Organization and the Paris-based Office International d'Hygiène Publique, including the International Classification of Diseases (ICD).[6] The agency's work began in earnest in 1951 after a significant infusion of financial and technical resources.`,
+          },
+          {
+            content: `The WHO's official mandate is to promote health and safety while helping the vulnerable worldwide. It provides technical assistance to countries, sets international health standards, collects data on global health issues, and serves as a forum for scientific or policy discussions related to health.[2] Its official publication, the World Health Report, provides assessments of worldwide health topics.`,
+          },
+          {
+            content: `The WHO has played a leading role in several public health achievements, most notably the eradication of smallpox, the near-eradication of polio, and the development of an Ebola vaccine. Its current priorities include communicable diseases, particularly HIV/AIDS, Ebola, COVID-19, malaria and tuberculosis; non-communicable diseases such as heart disease and cancer; healthy diet, nutrition, and food security; occupational health; and substance abuse. The agency advocates for universal health care coverage, engagement with the monitoring of public health risks, coordinating responses to health emergencies, and promoting health and well-being generally.`,
+          },
+          {
+            content: `The WHO is governed by the World Health Assembly (WHA), which is composed of its 194 member states. The WHA elects and advises an executive board made up of 34 health specialists; selects the WHO's chief administrator, the director-general (currently Tedros Adhanom Ghebreyesus of Ethiopia);[10] sets goals and priorities; and approves the budget and activities. The WHO is funded primarily by contributions from member states (both assessed and voluntary), followed by private donors. Its total approved budget for 2020–2021 is over $7.2 billion.[2][11], while the approved budget for 2022–2023 is over $6.2 billion.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: "In 2015, WHO had 194 member countries or territories.",
+          },
+          {
+            content: `The General Assembly is the supreme decision-making body of WHO, meeting annually in Geneva, Switzerland in May with the participation of all member countries. The General Assembly nominates the Director-General and approves WHO's financial policy and program budget.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `WHO's goal is to help people achieve the best health. Since 1977, the World Health Assembly has proposed the slogan "Health for all by the year 2000" and considered it the highest priority of WHO. To achieve these goals, WHO has proposed four strategic directions that interact with each other:`,
+          },
+          {
+            content: `Reduce excessive mortality, morbidity and disability, especially among poor and disadvantaged populations;`,
+          },
+          {
+            content: `Promote healthy lifestyles and reduce human health risk factors caused by environmental, economic, social and behavioral causes;`,
+          },
+          {
+            content: `Building health systems that equitably improve health outcomes, meet people's legitimate needs, and are financially equitable;`,
+          },
+          {
+            content:
+              "Build a favorable institutional and policy environment in the health sector, effectively promoting the position of health in development, environmental, economic and social policies.",
+          },
+          {
+            content: `In addition to these strategic directions, WHO also identifies specific priorities such as preventing malaria, tuberculosis, mental health, tobacco, non-communicable diseases (cancer, cardiovascular disease... ), safer pregnancy and child health, HIV/AIDS, health and environment, food safety, safe blood transfusion, health systems.`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `Director General: The head of WHO is the Director General, elected by the General Assembly. Assisting the General Director are the Deputy General Directors and the Secretariat.`,
+          },
+          {
+            content: `WHO Executive Council: includes 32 members, term of 3 years. The mission of the Executive Council is to implement the decisions and policies of the General Assembly, provide comments and promote the activities of the General Assembly. Vietnam was a member of the WHO Executive Council from May 2003 to May 2005.`,
+          },
+          {
+            content: `Regional Offices: WHO has 6 Regional Offices around the world and Representative Offices in member countries.`,
+          },
+          {
+            content:
+              "The WHO Office in Hanoi is headed by a WHO Representative.",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Type",
+          children: [
+            {
+              name: "United Nations specialized agency",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Head",
+          children: [
+            {
+              name: "Tedros Adhanom",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Formation",
+          children: [
+            {
+              name: "7 April 1948; 75 years ago",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "Headquarters",
+          children: [
+            {
+              name: "Geneva, Switzerland",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //18 Jeff Bezos
+  {
+    id: "38",
+    title: "Jeffrey Preston Bezos",
+    shortDesc: ["Jeff Bezos"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Jeff_Bezos_visits_LAAFB_SMC_%283908618%29_%28cropped%29.jpeg/330px-Jeff_Bezos_visits_LAAFB_SMC_%283908618%29_%28cropped%29.jpeg",
+        title: "Bezos at the LAAFB SMC in 2017",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#story",
+        title: "Early life and education",
+      },
+      {
+        key: "3",
+        href: "#career",
+        title: "Business career",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Jeffrey Preston Bezos (/ˈbeɪzoʊs/ BAY-zohss;[2] né Jorgensen; born January 12, 1964) is an American entrepreneur, media proprietor and investor. He is the founder, executive chairman, and former president and CEO of Amazon, the world's largest e-commerce and cloud computing company. With a net worth of US$162 billion as of November 2023, Bezos is the third-wealthiest person in the world and was the wealthiest from 2017 to 2021, according to both the Bloomberg Billionaires Index and Forbes.`,
+          },
+          {
+            content: `Born in Albuquerque and raised in Houston and Miami, Bezos graduated from Princeton University in 1986 with degrees in electrical engineering and computer science. He worked on Wall Street in a variety of related fields from 1986 to early 1994. Bezos founded Amazon in mid 1994 on a road trip from New York City to Seattle. The company began as an online bookstore and has since expanded to a variety of other e-commerce products and services, including video and audio streaming, cloud computing, and artificial intelligence. It is the world's largest online sales company, the largest Internet company by revenue, and the largest provider of virtual assistants and cloud infrastructure services through its Amazon Web Services branch.`,
+          },
+          {
+            content: `Bezos founded the aerospace manufacturer and sub-orbital spaceflight services company Blue Origin in 2000. Blue Origin's New Shepard vehicle reached space in 2015 and afterwards successfully landed back on Earth; he flew into space on Blue Origin NS-16 in 2021. He also purchased the major American newspaper The Washington Post in 2013 for $250 million and manages many other investments through his venture capital firm, Bezos Expeditions. In September 2021, Bezos co-founded the biotechnology company Altos Labs with Mail.ru founder Yuri Milner.[5]`,
+          },
+          {
+            content: `The first centibillionaire on the Forbes Real Time Billionaires Index and the second ever to have eclipsed the feat since Bill Gates in 1999,[6] Bezos was named the "richest man in modern history" after his net worth increased to $150 billion in July 2018.[7] In August 2020, according to Forbes, he had a net worth exceeding $200 billion.[8] In 2020 during the COVID-19 pandemic, his wealth grew by approximately $24 billion.[9] On July 5, 2021, Bezos stepped down as the CEO and president of Amazon and took over the role of executive chairman. AWS CEO Andy Jassy succeeded Bezos as the CEO and president of Amazon. In September 2022, he was ranked second on the Forbes 400 list of wealthiest Americans, with a net worth of $151 billion.`,
+          },
+          {
+            content:
+              "Công ty bắt đầu như một cửa hàng sách trực tuyến và từ đó đã mở rộng ra nhiều loại sản phẩm và dịch vụ thương mại điện tử khác, bao gồm truyền phát video và âm thanh, điện toán đám mây và AI. Đây hiện là công ty bán hàng trực tuyến lớn nhất thế giới, công ty Internet lớn nhất theo doanh thu và là nhà cung cấp trợ lý ảo[4] và dịch vụ cơ sở hạ tầng đám mây lớn nhất thế giới thông qua chi nhánh Dịch vụ web Amazon (Amazon Web Services).",
+          },
+          {
+            content:
+              "Jeff Bezos thành lập công ty sản xuất trong lĩnh vực hàng không vũ trụ và du hành không gian tiểu quỹ đạo Blue Origin năm 2000. Một chuyến bay thử nghiệm Blue Origin lần đầu tiên đạt được thành công vào không gian vào năm 2015 và công ty đã có kế hoạch sắp tới để bắt đầ đưa con người lên các chuyến bay thương mại lên vũ trụ.",
+          },
+          {
+            content:
+              "Bezos cũng đã mua lại tờ The Washington Post của Mỹ vào năm 2013 với giá $250 triệu đô la, và quản lý nhiều khoản đầu tư khác thông qua công ty đầu tư mạo hiểm Bezos Expeditions của mình.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `Bezos was born "Jeffrey Preston Jorgensen" on January 12, 1964, in Albuquerque, New Mexico,[10] as the son of Jacklyn (née Gise) and Ted Jorgensen.[11] At the time of Jeff's birth, his mother was a 17-year-old high-school student and his father was 19 years old.[12] Jorgensen was a Danish American unicyclist[13] born in Chicago to a family of Baptists.[14] After completing high school despite challenging conditions, Jacklyn attended night school, bringing her baby with her.[15] Jeff attended a Montessori school in Albuquerque when he was two years old.`,
+          },
+          {
+            content: `Ted Jorgensen drank and struggled financially.[17] Jacklyn left her husband to live with her parents, filing for divorce in June 1965 when Jeff was seventeen months old.`,
+          },
+          {
+            content: `After his parents divorced, his mother married Cuban immigrant Miguel "Mike" Bezos in April 1968.[19] Shortly after the wedding, Mike adopted four-year-old Jeff, whose surname was then legally changed from Jorgensen to Bezos.[20] Gise, her husband and her son left the area and asked Jorgensen to discontinue contact, to which he agreed.`,
+          },
+          {
+            content: `After Mike had received his degree from the University of New Mexico, the family moved to Houston, Texas, so that he could begin working as an engineer for Exxon.[22] Jeff attended River Oaks Elementary School in Houston from fourth to sixth grade.[23] Jeff's maternal grandfather was Lawrence Preston Gise, a regional director of the U.S. Atomic Energy Commission (AEC) in Albuquerque.[24] Lawrence retired early to his family's ranch near Cotulla, Texas, where Jeff would spend many summers in his youth.[25] Jeff would later purchase this ranch and expand it from 25,000 acres (10,117 ha) to 300,000 acres (121,406 ha).[26][27] Jeff displayed scientific interests and technological proficiency and once rigged an electric alarm to keep his younger siblings out of his room.[28][29] The family moved to Miami, Florida, where Jeff attended Miami Palmetto High School.[30][31] While Jeff was in high school, he worked at McDonald's as a short-order line cook during the breakfast shift.`,
+          },
+          {
+            content: `Bezos attended the Student Science Training Program at the University of Florida. He was high school valedictorian, a National Merit Scholar,[33][34] and a Silver Knight Award winner in 1982.[33] In his graduation speech, Bezos told the audience he dreamed of the day when mankind would colonize space. A local newspaper quoted his intention "to get all people off the earth and see it turned into a huge national park".`,
+          },
+          {
+            content: `After graduating from high school in 1982, Bezos attended Princeton University. He initially majored in physics but later switched to electrical engineering and computer science.[36] Bezos was a member of the Quadrangle Club, one of Princeton's 11 eating clubs.[37] In addition, he was the president of the Princeton chapter of the Students for the Exploration and Development of Space (SEDS).[38][39] He had a 4.2 GPA and was elected to Phi Beta Kappa and Tau Beta Pi. Bezos graduated from Princeton in 1986 with a Bachelor of Science in Engineering (BSE), summa cum laude.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "Early career",
+          },
+          {
+            content: `After Bezos graduated from college in 1986, he was offered jobs at Intel, Bell Labs, and Andersen Consulting, among others.[41] He first worked at Fitel, a fintech telecommunications start-up, where he was tasked with building a network for international trade.[42] Bezos was promoted to head of development and director of customer service thereafter. He transitioned into the banking industry when he became a product manager at Bankers Trust from 1988 to 1990. He then joined D. E. Shaw & Co, a newly created hedge fund with a strong emphasis on mathematical modelling from 1990 until 1994. Bezos became D. E. Shaw's fourth senior vice-president by age 30.`,
+          },
+          {
+            content: `Amazon`,
+          },
+          {
+            content: `In spring 1994, Bezos read that web usage was growing at a rate of 2300% a year and eventually decided to establish an online bookstore.[44] He and his then-wife, MacKenzie Scott, left their jobs at D. E. Shaw and founded Amazon in a rented garage in Bellevue, Washington on July 5, 1994, after writing its business plan on a cross-country drive from New York City to Seattle.[45][46] With Bezos at the helm and Scott taking an integral role in its operation—writing checks, keeping track of the books, and negotiating the company's first freight contracts—the foundation was laid for this garage-run operation to grow exponentially.[47] Prior to settling in Seattle, Bezos had investigated setting up his company at an Indian reservation near San Francisco in order to avoid paying taxes.[48] Bezos initially named his new company Cadabra but later changed the name to Amazon after the Amazon River in South America, in part because the name begins with the letter A, which is at the beginning of the alphabet.[49] At the time, website listings were alphabetized, so a name starting with "A" would appear sooner when customers conducted online searches.[50] In addition, he regarded "Amazon," the name of the world's largest river as fitting for what he hoped would become the world's largest online bookstore.[50] He accepted an estimated $300,000 from his parents as an investment in Amazon.[46][51][52] He warned many early investors that there was a 70% chance that Amazon would fail or go bankrupt.[53] Although Amazon was originally an online bookstore, Bezos had always planned to expand to other products.[43][49] Three years after Bezos founded Amazon, he took it public with an initial public offering (IPO).[54] In response to critical reports from Fortune and Barron's, Bezos maintained that the growth of the Internet would overtake competition from larger book retailers such as Borders and Barnes & Noble.`,
+          },
+          {
+            content: `In 1998, Bezos diversified into the online sale of music and video, and by the end of the year he had expanded the company's products to include a variety of other consumer goods.[49] Bezos used the $54 million raised during the company's 1997 equity offering to finance the aggressive acquisition of smaller competitors.[49] In 2000, Bezos borrowed $2 billion from banks, as its cash balances dipped to only $350 million.[55] In 2002, Bezos led Amazon to launch Amazon Web Services, which compiled data from weather channels and website traffic.[49] In late 2002, rapid spending from Amazon caused it financial distress when revenues stagnated.[56] After the company nearly went bankrupt, he closed distribution centers and laid off 14% of the Amazon workforce.[55] In 2003, Amazon rebounded from financial instability and turned a profit of $400 million.[57][failed verification] In November 2007, Bezos launched the Amazon Kindle.[58] According to a 2008 Time profile, Bezos wished to create a device that allowed a "flow state" in reading similar to the experience of video games.[59] In 2013, Bezos secured a $600-million contract with the Central Intelligence Agency (CIA) on behalf of Amazon Web Services.[60] In October of that year, Amazon was recognized as the largest online shopping retailer in the world.`,
+          },
+          {
+            content: `In May 2016, Bezos sold slightly more than one million shares of his holdings in the company for $671 million, the largest sum he had ever raised from selling some of his Amazon stock.[62] On August 4, 2016, Bezos sold another million of his shares for $756.7 million.[63] A year later, Bezos took on 130,000 new employees when he ramped up hiring at company distribution centers.[64] By January 19, 2018, his Amazon stock holdings had appreciated to slightly over $109 billion; months later he began to sell stock to raise cash for other enterprises, in particular, Blue Origin.[65] On January 29, 2018, he was featured in Amazon's Super Bowl commercial.[66] On February 1, 2018, Amazon reported its highest ever profit with quarterly earnings of $2 billion.[67] Due to the growth of Alibaba in China, Bezos has often expressed interest in expanding Amazon into India.[68] On July 27, 2017, Bezos momentarily became the world's wealthiest person over Microsoft co-founder Bill Gates when his estimated net worth increased to just over $90 billion. His wealth surpassed $100 billion for the first time on November 24, 2017, and he was formally designated the wealthiest person in the world by Forbes on March 6, 2018, with a net worth of $112 billion.`,
+          },
+          {
+            content: `In March 2018, Bezos dispatched Amit Agarwal, Amazon's global senior vice president, to India with $5.5 billion to localize operations throughout the company's supply chain routes.[71] Later in the month, U.S. President Donald Trump accused Amazon and Bezos, specifically of sales tax avoidance, misusing postal routes, and anti-competitive business practices.[72] Amazon's share price fell by 9% in response to the President's negative comments; this reduced Bezos's personal wealth by $10.7 billion.[73] Weeks later, Bezos recouped his losses when academic reports out of Stanford University indicated that Trump could do little to regulate Amazon in any meaningful way.[74] During July 2018, a number of members of the U.S. Congress called on Bezos to detail the applications of Amazon's face recognition software, Rekognition.`,
+          },
+          {
+            content: `Criticism of Amazon's business practices continued in September 2018 when Senator Bernie Sanders introduced the Stop Bad Employers by Zeroing Out Subsidies (Stop BEZOS) Act and accused Amazon of receiving corporate welfare.[77] This followed revelations by the non-profit group New Food Economy which found that one third of Amazon workers in Arizona, and one tenth of Amazon workers in Pennsylvania and Ohio, relied on food stamps.[78] While preparing to introduce the bill, Sanders opined: "Instead of attempting to explore Mars or go to the moon, how about Jeff Bezos pays his workers a living wage?"[79] He later said: "Bezos could play a profound role. If he said today, nobody who is employed at Amazon will receive less than a living wage, it would send a message to every corporation in America."[80] Sanders's efforts elicited a response from Amazon which pointed to the 130,000 jobs it created in 2017 and called the $28,446 figure for its median salary "misleading" as it included part-time workers.[81] However, Sanders countered that the companies targeted by his proposal have placed an increased focus on part-time workers to escape benefit obligations.[82] On October 2, 2018, Bezos announced a company-wide wage increase, which Sanders applauded.[83] The American workers who were being paid the minimum wage had this increased to $15 per hour, a decision that was interpreted as support for the Fight for $15 movement.`,
+          },
+          {
+            content: `In February 2021, Bezos announced that in the third quarter of 2021 he would step down from his role as CEO of Amazon to become the Executive Chairman of the Amazon Board. He was succeeded as CEO by Andy Jassy.[85][86][87] On February 2, 2021, Bezos sent an email[88] to all Amazon employees, telling them the transition would give him "the time and energy [he] need[s] to focus on the Day 1 Fund, the Bezos Earth Fund, Blue Origin, The Washington Post, and [his] other passions."`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Born",
+          children: [
+            {
+              name: `Jeffrey Preston Jorgensen
+              January 12, 1964 (age 59)
+              Albuquerque, New Mexico, U.S.`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Education",
+          children: [
+            {
+              name: "Princeton University (BSE)",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Occupations",
+          children: [
+            {
+              name: "Businessman-Media proprietor-Investor",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "Title",
+          children: [
+            {
+              name: "Founder and executive chairman of Amazon",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 19 Amazon
+  {
+    id: "39",
+    title: "Amazon.com, Inc.",
+    shortDesc: ["Amazon"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon_Tower_I_topped_out%2C_June_2015.jpg/330px-Amazon_Tower_I_topped_out%2C_June_2015.jpg",
+        title:
+          "The Doppler building, the company's headquarters in Seattle, Washington",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#product",
+        title: "Products and services",
+      },
+      {
+        key: "4",
+        href: "#Operations",
+        title: "Operations",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Amazon.com, Inc.[1] (/ˈæməzɒn/ AM-ə-zon, UK also /ˈæməzən/ AM-ə-zən) is an American multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence. It has been often referred to as "one of the most influential economic and cultural forces in the world",[5] and is often regarded as one of the world's most valuable brands.[6] It is considered to be one of the Big Five American technology companies, alongside Alphabet (parent company of Google), Apple, Meta and Microsoft.`,
+          },
+          {
+            content: `Amazon was founded by Jeff Bezos from his garage in Bellevue, Washington,[7] on July 5, 1994. Initially an online marketplace for books, it has expanded into a multitude of product categories, a strategy that has earned it the moniker The Everything Store.[8] It has multiple subsidiaries including Amazon Web Services (cloud computing), Zoox (autonomous vehicles), Kuiper Systems (satellite Internet), and Amazon Lab126 (computer hardware R&D). Its other subsidiaries include Ring, Twitch, IMDb, and Whole Foods Market. Its acquisition of Whole Foods in August 2017 for US$13.4 billion substantially increased its footprint as a physical retailer.`,
+          },
+          {
+            content: `Amazon has earned a reputation as a disruptor of well-established industries through technological innovation and "aggressive" reinvestment of profits into capital expenditures.[10][11][12][13] As of 2023, it is the world's largest online retailer and marketplace, smart speaker provider, cloud computing service through AWS,[14] live-streaming service through Twitch, and Internet company as measured by revenue and market share.[15] In 2021, it surpassed Walmart as the world's largest retailer outside of China, driven in large part by its paid subscription plan, Amazon Prime, which has over 200 million subscribers worldwide.[16][17] It is the second-largest private employer in the United States.`,
+          },
+          {
+            content: `Amazon also distributes a variety of downloadable and streaming content through its Amazon Prime Video, MGM+, Amazon Music, Twitch, and Audible units. It publishes books through its publishing arm, Amazon Publishing, film and television content through Amazon MGM Studios, including the Metro-Goldwyn-Mayer studio which acquired in March 2022. It also produces consumer electronics—most notably, Kindle e-readers, Echo devices, Fire tablets, and Fire TVs.
+
+              Amazon has been criticized for customer data collection practices,[19] a toxic work culture,[20] tax avoidance,[21][22] and anti-competitive behavior.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: "1994–2009: early years",
+          },
+          {
+            content: `Amazon was founded on July 5, 1994, by Jeff Bezos, who chose the Seattle area for its abundance of technical talent, as Microsoft was in the area.`,
+          },
+          {
+            content: `Amazon went public in May 1997. It began selling music and videos in 1998, and began international operations by acquiring online sellers of books in the United Kingdom and Germany. The following year, it began selling music, video games, consumer electronics, home improvement items, software, games, and toys.`,
+          },
+          {
+            content: `n 2002, it launched Amazon Web Services (AWS), which initially focused on providing APIs for web developers to build web applications on top of Amazon's ecommerce platform.[28][29] In 2004, AWS was expanded to provide website popularity statistics and web crawler data from the Alexa Web Information Service.[30] AWS later shifted toward providing enterprise services with Simple Storage Service (S3) in 2006,[31] and Elastic Compute Cloud (EC2) in 2008,[32] allowing companies to rent data storage and computing power from Amazon. In 2006, Amazon also launched the Fulfillment by Amazon program, which allowed individuals and small companies (called "third-party sellers") to sell products through Amazon's warehouses and fulfillment infrastructure.`,
+          },
+          {
+            content: "2010–present: growth",
+          },
+          {
+            content: `Amazon purchased the Whole Foods Market supermarket chain in 2017.[34] It is the leading e-retailer in the United States with approximately US$178 billion net sales in 2017. It has over 300 million active customer accounts globally.`,
+          },
+          {
+            content: `Amazon saw large growth during the COVID-19 pandemic, hiring more than 100,000 staff in the United States and Canada.[36] Some Amazon workers in the US, France, and Italy protested the company's decision to "run normal shifts" due to COVID-19's ease of spread in warehouses.[37][38] In Spain, the company faced legal complaints over its policies,[39] while a group of US Senators wrote an open letter to Bezos expressing concerns about workplace safety.`,
+          },
+          {
+            content: `On February 2, 2021, Bezos announced that he would step down as CEO to become executive chair of Amazon's board. The transition officially took place on July 5, 2021, with former CEO of AWS Andy Jassy replacing him as CEO.[41][42] In January 2023, Amazon cut over 18,000 jobs, primarily in consumer retail and its human resources division in an attempt to cut costs.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "Amazon.com ",
+          },
+          {
+            content: `Amazon.com is an e-commerce platform that sells many product lines, including media (books, movies, music, and software), apparel, baby products, consumer electronics, beauty products, gourmet food, groceries, health and personal care products, industrial & scientific supplies, kitchen items, jewelry, watches, lawn and garden items, musical instruments, sporting goods, tools, automotive items, toys and games, and farm supplies[45] and consulting services.[46] Amazon websites are country-specific (for example, amazon.com for the US and amazon.fr for France), though some offer international shipping.`,
+          },
+          {
+            content: `Visits to amazon.com grew from 615 million annual visitors in 2008,[48] to more than 2 billion per month in 2022.[49] The e-commerce platform is the 14th most visited website in the world.`,
+          },
+          {
+            content: `Results generated by Amazon's search engine are partly determined by promotional fees.[51] The company's localized storefronts, which differ in selection and prices, are differentiated by top-level domain and country code:`,
+          },
+          {
+            content: `In 2000, American toy retailer Toys "R" Us signed a 10-year deal with Amazon, worth $50 million per year plus a share of sales, under which Toys "R" Us would be the home exclusively offers toys and baby products on the service, and the chain's website will redirect to Amazon's Toys & Games category. In 2004, Toys "R" Us sued Amazon, alleging that due to a perceived lack of diversity in Toys "R" Us's inventory, Amazon knowingly allowed third-party sellers to sell products on services in categories in which Toys "R" Us has been granted exclusive rights. In 2006, a court ruled in favor of Toys "R" Us, allowing the company to break its contract with Amazon and establish its own independent e-commerce site. The company was later awarded US$51 million in damages.`,
+          },
+          {
+            content: `In 2001, Amazon signed a similar agreement with Borders Group under which Amazon would co-manage Borders.com as a co-branded service.[54] Borders withdrew from the deal in 2007, with plans to also launch its own online store.`,
+          },
+          {
+            content: `On October 18, 2011, Amazon.com announced a partnership with DC Comics for exclusive digital rights to many popular comic book series, including Superman, Batman, Green Lantern, The Sandman and Watchmen . This partnership has prompted popular bookstores such as Barnes & Noble to remove these titles from their shelves.`,
+          },
+          {
+            content:
+              "In November 2013, Amazon announced a partnership with the United States Postal Service to begin shipping orders on Sundays. This service, which is included in Amazon's standard shipping rates, launched in the Los Angeles and New York metropolitan areas due to high volume and inability to deliver on time, with plans to expand to Dallas, Houston, New Orleans, and Phoenix in 2014.",
+          },
+          {
+            content:
+              "In June 2017, Nike agreed to sell products through Amazon in exchange for better counterfeit control.[58][59] This was unsuccessful and Nike withdrew from the partnership in November 2019.[59][60] Companies including IKEA and Birkenstock also stopped selling through Amazon around the same time, citing similar frustrations over business practices and counterfeit goods.",
+          },
+          {
+            content: `In September 2017, Amazon entered into a joint venture with one of its sellers, Patni Group-owned JV Appario Retail, which recorded total revenue of US$104.44 million (₹759 crore) in fiscal year 2017–2018.[62] As of October 11, 2017, AmazonFresh sells a range of Booths-branded products for home delivery in select areas.[63] In November 2018, Amazon reached an agreement with Apple Inc. to sell certain products through this service, through the company and select Apple Authorized Resellers. As a result of this partnership, only Apple Authorized Resellers will be allowed to sell Apple products on Amazon as of January 4, 2019.`,
+          },
+          {
+            content: `Private-label products`,
+          },
+          {
+            content: `Amazon sells many products under its own brand names, including phone chargers, batteries, and diaper wipes. The AmazonBasics brand was introduced in 2009, and now features hundreds of product lines, including smartphone cases, computer mice, batteries, dumbbells, and dog crates. Amazon owned 34 private-label brands as of 2019. These brands account for 0.15% of Amazon's global sales, whereas the average for other large retailers is 18%.[75] Other Amazon retail brands include Presto!, Mama Bear, and Amazon Essentials.`,
+          },
+          {
+            content: `Third-party sellers`,
+          },
+          {
+            content: `Amazon derives many of its sales (around 40% in 2008) from third-party sellers who sell products on Amazon.[77] Some other large e-commerce sellers use Amazon to sell their products in addition to selling them through their websites. The sales are processed through Amazon.com and end up at individual sellers for processing and order fulfillment and Amazon leases space for these retailers. Small sellers of used and new goods go to Amazon Marketplace to offer goods at a fixed price.`,
+          },
+          {
+            content: `Affiliate program`,
+          },
+          {
+            content: `Publishers can signup as affiliates and receive a commission for referring customers to Amazon by placing links to Amazon on their websites if the referral results in a sale. Worldwide, Amazon has "over 900,000 members" in its affiliate programs.[79] In the middle of 2014, the Amazon Affiliate Program is used by 1.2% of all websites and it is the second most popular advertising network after Google Ads.[80] It is frequently used by websites and non-profits to provide a way for supporters to earn them a commission.`,
+          },
+          {
+            content: `Associates can access the Amazon catalog directly on their websites by using the Amazon Web Services (AWS) XML service. A new affiliate product, aStore, allows Associates to embed a subset of Amazon products within another website, or linked to another website. In June 2010, Amazon Seller Product Suggestions was launched to provide more transparency to sellers by recommending specific products to third-party sellers to sell on Amazon. Products suggested are based on customers' browsing history.`,
+          },
+          {
+            content: `Product reviews`,
+          },
+          {
+            content: `Amazon allows users to submit reviews to the web page of each product. Reviewers must rate the product on a rating scale from one to five stars. Amazon provides a badging option for reviewers which indicates the real name of the reviewer (based on confirmation of a credit card account) or which indicates that the reviewer is one of the top reviewers by popularity. As of December 16, 2020, Amazon removed the ability of sellers and customers to comment on product reviews and purged their websites of all posted product review comments. In an email to sellers Amazon gave its rationale for removing this feature: "... the comments feature on customer reviews was rarely used." The remaining review response options are to indicate whether the reader finds the review helpful or to report that it violates Amazon policies (abuse). If a review is given enough "helpful" hits, it appears on the front page of the product. In 2010, Amazon was reported as being the largest single source of Internet consumer reviews.`,
+          },
+          {
+            content: `Store`,
+          },
+          {
+            content: `When publishers asked Bezos why Amazon would publish negative reviews, he defended the practice by claiming that Amazon.com was "taking a different approach ... we want to make every book available—the good, the bad and the ugly ... to let truth loose".`,
+          },
+          {
+            content: `There have been cases of positive reviews being written and posted by public relations companies on behalf of their clients[85] and instances of writers using pseudonyms to leave negative reviews of their rivals' works.`,
+          },
+          {
+            content: `Amazon sales rank`,
+          },
+          {
+            content: `The Amazon sales rank (ASR) indicates the popularity of a product sold on any Amazon locale. It is a relative indicator of popularity that is updated hourly. Effectively, it is a "best sellers list" for the millions of products stocked by Amazon.[86] While the ASR has no direct effect on the sales of a product, it is used by Amazon to determine which products to include in its bestsellers lists.[86] Products that appear in these lists enjoy additional exposure on the Amazon website and this may lead to an increase in sales. In particular, products that experience large jumps (up or down) in their sales ranks may be included within Amazon's lists of "movers and shakers"; such a listing provides additional exposure that might lead to an increase in sales.[87] For competitive reasons, Amazon does not release actual sales figures to the public. However, Amazon has now begun to release point of sale data via the Nielsen BookScan service to verified authors.[88] While the ASR has been the source of much speculation by publishers, manufacturers, and marketers, Amazon itself does not release the details of its sales rank calculation algorithm. Some companies have analyzed Amazon sales data to generate sales estimates based on the ASR,[89] though Amazon states:`,
+          },
+          {
+            content: `Amazon Web Services`,
+          },
+          {
+            content: `Amazon Web Services (AWS) is a subsidiary of that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide distributed computing processing capacity and software tools via AWS server farms. As of 2021 Q4, AWS has 33% market share for cloud infrastructure while the next two competitors Microsoft Azure and Google Cloud have 21%, and 10% respectively, according to Synergy Group`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: "Logistics",
+          },
+          {
+            content:
+              "Amazon uses many different transportation services to deliver packages. Amazon-branded services include:",
+          },
+          {
+            content: `Amazon Air, a cargo airline for bulk transport, with last-mile delivery handled either by Amazon Flex, Amazon Logistics, or the US Postal Service.`,
+          },
+          {
+            content:
+              "Amazon Flex, a smartphone app that enables individuals to act as independent contractors, delivering packages to customers from personal vehicles without uniforms. Deliveries include one or two hours Prime Now, same or next day Amazon Fresh groceries, and standard Amazon.com orders, in addition to orders from local stores that contract with Amazon.",
+          },
+          {
+            content: `Amazon Logistics, in which Amazon contracts with small businesses (which it calls "Delivery Service Partners") to perform deliveries to customers. Each business has a fleet of approximately 20–40 Amazon-branded vans, and employees of the contractors wear Amazon uniforms. As of December 2020, it operates in the United States, Canada, Italy, Germany, Spain, and the United Kingdom.`,
+          },
+          {
+            content: `Amazon Prime Air is an experimental drone delivery service that delivers packages via drones to Amazon Prime subscribers in select cities.`,
+          },
+          {
+            content: `Amazon directly employs people to work at its warehouses, bulk distribution centers, staffed "Amazon Hub Locker+" locations, and delivery stations where drivers pick up packages. As of December 2020, it is not hiring delivery drivers as employees`,
+          },
+          {
+            content: `Rakuten Intelligence estimated that in 2020 in the United States, the proportion of last-mile deliveries was 56% by Amazon's directly contracted services (mostly in urban areas), 30% by the US Postal Service (mostly in rural areas), and 14% by UPS.[145] In April 2021, Amazon reported to investors it had increased its in-house delivery capacity by 50% in the last 12 months (which included the first year of the COVID-19 pandemic in the United States).`,
+          },
+          {
+            content: "Supply chain",
+          },
+          {
+            content:
+              "Amazon first launched its distribution network in 1997 with two fulfillment centers in Seattle and New Castle, Delaware. Amazon has several types of distribution facilities consisting of cross-dock centers, fulfillment centers, sortation centers, delivery stations, Prime now hubs, and Prime air hubs. There are 75 fulfillment centers and 25 sortation centers with over 125,000 employees.[147][148] Employees are responsible for five basic tasks: unpacking and inspecting incoming goods; placing goods in storage and recording their location; picking goods from their computer recorded locations to make up an individual shipment; sorting and packing orders; and shipping. A computer that records the location of goods and maps out routes for pickers plays a key role: employees carry hand-held computers which communicate with the central computer and monitor their rate of progress. Some warehouses are partially automated with systems built by Amazon Robotics.",
+          },
+          {
+            content:
+              "In September 2006, Amazon launched a program called FBA (Fulfillment By Amazon) whereby it could handle storage, packing and distribution of products and services for small sellers.",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Type",
+          children: [
+            {
+              name: "Public",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Traded as",
+          children: [
+            {
+              name: `NASDAQ: AMZN-
+              NASDAQ-100 Component-
+              S&P 100 Component-
+              S&P 500 Component`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Services",
+          children: [
+            {
+              name: `	
+              Amazon.com-
+              Amazon Alexa-
+              Amazon Appstore-
+              Amazon Luna-
+              Amazon Music-
+              Amazon Pay-
+              Amazon Prime-
+              Amazon Prime Video-
+              MGM+-
+              Twitch-
+              Ring-
+              Amazon Web Services-
+              Amazon Robotics`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "Founded",
+          children: [
+            {
+              name: "July 5, 1994; 29 years ago Bellevue, Washington, U.S.",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "5",
+          label: "Founder",
+          children: [
+            {
+              name: "Jeff Bezos",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "6",
+          label: "Area served",
+          children: [
+            {
+              name: "Worldwide",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //20 Dien toan dam may
+  {
+    id: "40",
+    title: "Cloud computing",
+    shortDesc: ["Computer system resources"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Cloud_applications.jpg/450px-Cloud_applications.jpg",
+        title: "Cloud applications",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "History",
+      },
+      {
+        key: "3",
+        href: "#characteristics",
+        title: "Summary of characteristics",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Cloud computing[1] is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user.[2] Large clouds often have functions distributed over multiple locations, each of which is a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `Cloud computing has a rich history that extends back to the 1960s, with the initial concepts of time-sharing becoming popularized via Remote Job Entry (RJE). The "data center" model, where users submitted jobs to operators to run on mainframes, was predominantly used during this era. This was a time of exploration and experimentation with ways to make large-scale computing power available to more users through time-sharing, optimizing the infrastructure, platform, and applications, and increasing efficiency for end users.`,
+          },
+          {
+            content: `The use of the "cloud" metaphor to denote virtualized services traces back to 1994, when it was used by General Magic to describe the universe of "places" that mobile agents in the Telescript environment could go. This metaphor is credited to David Hoffman, a General Magic communications employee, based on its long-standing use in networking and telecom.[6] The expression cloud computing became more widely known in 1996 when the Compaq Computer Corporation drew up a business plan for future computing and the Internet. The company's ambition was to supercharge sales with "cloud computing-enabled applications". The business plan foresaw that online consumer file storage would most likely be commercially successful. As a result, Compaq decided to sell server hardware to internet service providers.`,
+          },
+          {
+            content: `In the 2000s, the application of cloud computing began to take shape with the establishment of Amazon Web Services (AWS) in 2002, which allowed developers to build applications independently. In 2006 the beta version of Google Docs was released, Amazon Simple Storage Service, known as Amazon S3, and the Amazon Elastic Compute Cloud (EC2), in 2008 NASA's development of the first open-source software for deploying private and hybrid clouds.`,
+          },
+          {
+            content: `The following decade saw the launch of various cloud services. In 2010, Microsoft launched Microsoft Azure, and Rackspace Hosting and NASA initiated an open-source cloud-software project, OpenStack. IBM introduced the IBM SmartCloud framework in 2011, and Oracle announced the Oracle Cloud in 2012. In December 2019, Amazon launched AWS Outposts, a service that extends AWS infrastructure, services, APIs, and tools to customer data centers, co-location spaces, or on-premises facilities.`,
+          },
+          {
+            content: `Since the global pandemic of 2020, cloud technology has surged in popularity due to the level of data security it offers and the flexibility of working options it provides for all employees, notably remote workers.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "Compare",
+          },
+          {
+            content: `Virtual server computing is often confused with grid computing, ("a form of distributed computing in which there exists a 'virtual supercomputer', which is comprised of a network cluster of interconnected computers." software, working together to perform very large tasks"), utility computing ("a block of computing resources, such as processors and memory, as a service measurement similar to traditional technical infrastructure projects such as electricity or telephone networks")[1] and autonomous computing ("computer systems capable of self-management ").[2] Indeed, many cloud computing systems today are grid-equipped, have autonomous features, and are marketed as utilities, but cloud computing can be seen as a natural evolution. course continues from the grid-on-demand model.[3] Many successful cloud architectures have decentralized or less centralized infrastructure or marketing systems including peer-to-peer networks like BitTorrent and Skype and volunteer computing like SETI@home.`,
+          },
+
+          {
+            content: "Architecture",
+          },
+          {
+            content: `The majority of today's cloud computing infrastructure is a combination of reliable services delivered through data centers built on servers with different levels of service. different virtualization technologies. These services can be accessed from anywhere in the world, where the Cloud is a single access point for all computers with customer needs. Commercial services need to meet service quality requirements from customers and usually offer service level agreements.[5] Open standards and open source software also contribute to the development of virtual server computing.`,
+          },
+          {
+            content: `Characteristics`,
+          },
+          {
+            content: `Thus, in the past, to be able to deploy an application (for example, a Web site), you had to buy/rent one or more servers, then place the servers in data centers. ), now cloud computing allows you to simplify the buying/renting process. You just need to state your request, the system will automatically collect free resources to meet your request. Therefore, some basic benefits of cloud computing can be listed as follows:`,
+          },
+          {
+            content: `Using dynamic computing resources: Resources are allocated to the business exactly what the business wants immediately. Instead of businesses having to calculate whether to expand or not, or how many servers to invest, now businesses just need to ask "Hey, cloud, we need more resources equivalent to 1 3.0 GHz CPU , 128GB RAM..." and the cloud will automatically search for free resources to provide to you.`,
+          },
+          {
+            content: `Reduce costs: Businesses will be able to cut costs for purchasing, installing and maintaining resources. Obviously, instead of having to send an expert to buy a server, install the server, and maintain the server, now you don't need to do anything except determine the exact resources you need and require. Too convenient!.`,
+          },
+          {
+            content: `Reduce complexity in the business structure: Businesses that produce goods and have to have an IT expert to operate and maintain the server are too expensive. If this process can be outsourced, the business will only focus on producing its specialized goods and reduce structural complexity.`,
+          },
+          {
+            content: `Increase the ability to use computing resources: One of the headache questions when investing in resources (for example, a server) is how long it will take for it to depreciate, is it profitable for me to invest like that? Is it out of date in technology or not? When using cloud resources, you no longer have to worry about this.`,
+          },
+          {
+            content: `Service models`,
+          },
+          {
+            content: `Cloud computing service providers offer their services in three basic models:`,
+          },
+          {
+            content: "IaaS - Infrastructure as a Service",
+          },
+          {
+            content: "PaaS - Platform as a Service",
+          },
+          {
+            content: "SaaS - Software as a Service",
+          },
+          {
+            content: `Where IaaS is the most basic and each higher model abstracts from the details of the lower models. In 2012, Network as a Service (NaaS) and Communications as a Service (CaaS) were officially added by the International Telecommunication Union. as part of the underlying cloud computing models, recognized service types of the telecommunications cloud ecosystem.`,
+          },
+          {
+            content: `Along with technological development as well as user needs, a number of new types of cloud computing services are provided such as Artificial Intelligence as a Service (AIaaS),[7] Desktop as a Service (DaaS). ),[8] IT as a service (ITaaS)[9] or Ransomware as a service (RaaS)[10] to provide cloud computing services for specific applications.`,
+          },
+          {
+            content: `Deployment models`,
+          },
+          {
+            content: "Private cloud",
+          },
+          {
+            content: "Public cloud",
+          },
+          {
+            content: "Hybrid cloud",
+          },
+          {
+            content: "Companies",
+          },
+          {
+            content: `Cloud computing is being developed and offered by many vendors, including Amazon, Google, EXA, and Salesforce as well as traditional vendors such as Sun Microsystems, HP, IBM, Intel, Cisco, and Microsoft. [11] It is being adopted and used by many individual users to large companies such as General Electric, L'Oréal, Procter & Gamble and Valeo.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  /////////////////////////////// JP ////////////////////////////////////
+  // 20 Dien toan dam may
+  {
+    id: "60",
+    title: "クラウドコンピューティング",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cloud_computing.svg/600px-Cloud_computing.svg.png",
+        title:
+          "イメージ図。ユーザーから見てクラウド（雲、ネットワーク）の中にプロバイダが提供する各種サービスがある。",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "歴史",
+      },
+      {
+        key: "3",
+        href: "#characteristics",
+        title: "特徴のまとめ",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `クラウドコンピューティング（クラウド計算、英: cloud computing）は、インターネットなどのコンピュータネットワークを経由して、コンピュータ資源をサービスの形で提供する利用形態である[1]。略してクラウドと呼ばれることも多く、cloud とは英語で「雲」を意味する。クラウドの世界的な普及でオンラインであれば必要な時に必要なサービスを受けられるようになり、あらゆる業務が効率化され、社会の創造性を高めることに成功した。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `クラウド コンピューティングには 1960 年代にまで遡る豊かな歴史があり、タイムシェアリングの初期の概念はリモート ジョブ エントリ (RJE) を通じて普及しました。 この時代には、ユーザーがオペレーターにジョブを送信してメインフレーム上で実行する「データセンター」モデルが主に使用されていました。 これは、タイムシェアリング、インフラストラクチャ、プラットフォーム、アプリケーションの最適化、エンド ユーザーの効率向上を通じて、大規模なコンピューティング能力をより多くのユーザーが利用できるようにする方法を模索し実験する時期でした。`,
+          },
+          {
+            content: `仮想化サービスを表すために「クラウド」というメタファーが使用されたのは 1994 年に遡ります。当時、ゼネラル マジックは、テレスクリプト環境のモバイル エージェントが移動できる「場所」の世界を説明するためにこのメタファーを使用しました。 この比喩は、ネットワークと通信における長年の使用に基づいて、ゼネラル マジックの通信社員であるデイビッド ホフマンによるものであると考えられています[6]。 クラウド コンピューティングという表現は、コンパック コンピュータ コーポレーションが将来のコンピューティングとインターネットに関する事業計画を策定した 1996 年に、より広く知られるようになりました。 同社の目標は、「クラウド コンピューティング対応アプリケーション」で売上を大幅に伸ばすことでした。 この事業計画では、消費者向けオンライン ファイル ストレージが商業的に成功する可能性が最も高いと予測していました。 その結果、コンパックはサーバー ハードウェアをインターネット サービス プロバイダーに販売することにしました。`,
+          },
+          {
+            content: `2000 年代には、2002 年にアマゾン ウェブ サービス (AWS) が設立され、開発者が独自にアプリケーションを構築できるようになり、クラウド コンピューティングのアプリケーションが具体化し始めました。 2006 年には Google ドキュメントのベータ版がリリースされ、Amazon S3 として知られる Amazon Simple Storage Service がリリースされ、2008 年には NASA がプライベート クラウドとハイブリッド クラウドを展開するための初のオープンソース ソフトウェアを開発した Amazon Elastic Compute Cloud (EC2) がリリースされました。`,
+          },
+          {
+            content: `次の 10 年には、さまざまなクラウド サービスが開始されました。 2010 年に、Microsoft は Microsoft Azure を立ち上げ、Rackspace Hosting と NASA はオープンソースのクラウド ソフトウェア プロジェクトである OpenStack を開始しました。 IBMは2011年にIBM SmarterCloudフレームワークを導入し、オラクルは2012年にOracle Cloudを発表しました。2019年12月、AmazonはAWSインフラストラクチャ、サービス、API、ツールを顧客のデータセンター、コロケーションスペース、 またはオンプレミスの施設。`,
+          },
+          {
+            content: `2020 年の世界的パンデミック以来、クラウド テクノロジーの人気は、それが提供するデータ セキュリティのレベルと、すべての従業員、特にリモート ワーカーに提供される柔軟な働き方の選択肢により、急速に高まっています。`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "比較する",
+          },
+          {
+            content: `仮想サーバー コンピューティングは、グリッド コンピューティング (「相互接続されたコンピューターのネットワーク クラスターで構成される『仮想スーパーコンピューター』が存在する分散コンピューティングの形式。連携して非常に大規模なタスクを実行するソフトウェア」) とよく混同されます。 、ユーティリティ コンピューティング (「電気や電話ネットワークなどの従来の技術インフラストラクチャ プロジェクトと同様のサービス測定としての、プロセッサやメモリなどのコンピューティング リソースのブロック」)[1]、および自律コンピューティング (「自己管理が可能なコンピュータ システム」) [2] 実際、今日の多くのクラウド コンピューティング システムはグリッドを備え、自律機能を備え、ユーティリティとして販売されていますが、クラウド コンピューティングは自然な進化と見ることができます。コースはグリッド オン デマンド モデルから継続しています。 [3] 成功しているクラウド アーキテクチャの多くは、BitTorrent や Skype などのピアツーピア ネットワークや SETI@home などのボランティア コンピューティングを含む、分散型またはそれほど集中化されていないインフラストラクチャやマーケティング システムを備えています。`,
+          },
+
+          {
+            content: "建築",
+          },
+          {
+            content: `今日のクラウド コンピューティング インフラストラクチャの大部分は、さまざまなレベルのサービスを備えたサーバー上に構築されたデータ センターを通じて提供される信頼性の高いサービスの組み合わせです。 さまざまな仮想化テクノロジー。 これらのサービスは世界中のどこからでもアクセスでき、クラウドは顧客のニーズを満たすすべてのコンピューターへの単一のアクセス ポイントです。 商用サービスは顧客からのサービス品質要件を満たす必要があり、通常はサービス レベル アグリーメントを提供します。[5] オープン スタンダードとオープン ソース ソフトウェアも、仮想サーバー コンピューティングの発展に貢献します。`,
+          },
+          {
+            content: `特徴`,
+          },
+          {
+            content: `したがって、これまでは、アプリケーション (Web サイトなど) を展開するには、1 つ以上のサーバーを購入またはレンタルし、それらのサーバーをデータ センターに配置する必要がありました。 ）、クラウド コンピューティングにより、購入/レンタルのプロセスを簡素化できるようになりました。 リクエストを伝えるだけで、システムがリクエストに応じて無料のリソースを自動的に収集します。 したがって、クラウド コンピューティングの基本的な利点は次のとおりです。`,
+          },
+          {
+            content: `動的なコンピューティング リソースの使用: リソースは、ビジネスが即座に必要とするものに正確に割り当てられます。 企業は、拡張するかどうかや、投資するサーバーの数を計算する必要がなく、「ねえ、クラウド、1 3.0 GHz CPU、128GB RAM に相当するリソースがさらに必要です...」と尋ねるだけで済み、クラウドが必要になります。 提供する無料のリソースを自動的に検索します。`,
+          },
+          {
+            content: `コストの削減: 企業はリソースの購入、設置、保守にかかるコストを削減できます。 明らかに、サーバーの購入、サーバーの設置、サーバーの保守のために専門家を派遣する必要はなく、必要なリソースを正確に判断すること以外は何もする必要がなくなりました。 便利すぎる！。`,
+          },
+          {
+            content: `ビジネス構造の複雑さを軽減する: 商品を生産し、サーバーの運用と保守を IT 専門家に依頼する必要がある企業は、コストが高すぎます。 このプロセスをアウトソーシングできれば、企業は特殊な製品の生産のみに集中し、構造の複雑さが軽減されます。`,
+          },
+          {
+            content: `コンピューティング リソースの使用能力を高める: リソース (サーバーなど) に投資するときに頭を悩ませる問題の 1 つは、リソースの減価償却が完了するまでにどれくらいの時間がかかるかということです。そのような投資をするのは有益でしょうか? 技術的には時代遅れなのでしょうか？ クラウド リソースを使用する場合、これを心配する必要はもうありません。`,
+          },
+          {
+            content: `サービスモデル`,
+          },
+          {
+            content: `クラウド コンピューティング サービス プロバイダーは、次の 3 つの基本モデルでサービスを提供します: `,
+          },
+          {
+            content: "IaaS - サービスとしてのインフラストラクチャ",
+          },
+          {
+            content: "PaaS - サービスとしてのプラットフォーム",
+          },
+          {
+            content: "SaaS - サービスとしてのソフトウェア",
+          },
+          {
+            content: `ここで、IaaS は最も基本的なものであり、各上位モデルは下位モデルの詳細を抽象化します。 2012 年に、Network as a Service (NaaS) と Communications as a Service (CaaS) が国際電気通信連合によって正式に追加されました。 基盤となるクラウド コンピューティング モデルの一部として、通信クラウド エコシステムのサービス タイプが認識されています。`,
+          },
+          {
+            content: `技術開発やユーザーのニーズに伴い、サービスとしての人工知能 (AIaaS) [7] やサービスとしてのデスクトップ (DaaS) など、多くの新しいタイプのクラウド コンピューティング サービスが提供されています。 )、[8] IT as a Service (ITaaS)[9] または Ransomware as a Service (RaaS)[10] を使用して、特定のアプリケーションにクラウド コンピューティング サービスを提供します。`,
+          },
+          {
+            content: `導入モデル`,
+          },
+          {
+            content: "プライベートクラウド",
+          },
+          {
+            content: "パブリッククラウド",
+          },
+          {
+            content: "ハイブリッドクラウド",
+          },
+          {
+            content: "企業",
+          },
+          {
+            content: `クラウド コンピューティングは、Sun Microsystems、HP、IBM、Intel、Cisco、Microsoft などの従来のベンダーに加え、Amazon、Google、EXA、Salesforce などの多くのベンダーによって開発および提供されています。 [11] 多くの個人ユーザーからゼネラル・エレクトリック、ロレアル、プロクター・アンド・ギャンブル、ヴァレオなどの大企業まで採用され、使用されています。`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 19 Amazon
+  {
+    id: "59",
+    title: "Amazon.com, Inc.",
+    shortDesc: ["Amazon"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon_Tower_I_topped_out%2C_June_2015.jpg/330px-Amazon_Tower_I_topped_out%2C_June_2015.jpg",
+        title: "シアトルの本社、ドップラービル",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#history",
+        title: "歴史",
+      },
+      {
+        key: "3",
+        href: "#product",
+        title: "製品とサービス",
+      },
+      {
+        key: "4",
+        href: "#Operations",
+        title: "オペレーション",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `Amazon.com, Inc.（アマゾン・ドット・コム・インク、IPA: [/æməzɒn/]）は、アメリカ合衆国のワシントン州シアトルに本拠地を置く企業である。主軸はインターネット経由の小売であるが、その他にもクラウドコンピューティングなどを手掛けている。`,
+          },
+          {
+            content: `同社は「世界で最も影響力のある経済的・文化的勢力の一つ」と呼ばれ、世界で最も価値のあるブランドとされている[5]。またビッグテックの一つである.`,
+          },
+          {
+            content: `2022年現在、Amazon がアメリカ国外でサイトを運営している国はイギリス[7]、フランス[8]、ドイツ[9]、カナダ[10]、日本[11]、中国[12]、イタリア[13]、スペイン[14]、ブラジル[15]、インド[16]、メキシコ[17]、オーストラリア[18]、オランダ[19]、トルコ[20]、アラブ首長国連邦[21]、シンガポール[22]、サウジアラビア[23]、スウェーデン[24]、ベルギー[25]、ポーランド[26]、エジプト[27]の21か国である。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: "1994 ～ 2009 年: 初期の頃",
+          },
+          {
+            content: `Amazon は 1994 年 7 月 5 日にジェフ ベゾスによって設立されました。ベゾスはマイクロソフトがこの地域にあったため、技術的人材が豊富であるシアトル地域を選びました。`,
+          },
+          {
+            content: `Amazon は 1997 年 5 月に株式を公開しました。1998 年に音楽とビデオの販売を開始し、英国とドイツの書籍のオンライン販売者を買収して国際的な事業を開始しました。 翌年、音楽、ビデオゲーム、家庭用電化製品、ホームセンター用品、ソフトウェア、ゲーム、おもちゃの販売を開始しました。`,
+          },
+          {
+            content: `2002 年にアマゾン ウェブ サービス (AWS) を立ち上げ、当初はウェブ開発者が Amazon の e コマース プラットフォーム上にウェブ アプリケーションを構築するための API を提供することに重点を置いていました。[28][29] 2004 年に、AWS は、Alexa Web Information Service からの Web サイトの人気統計と Web クローラー データを提供するように拡張されました [30]。 AWS はその後、2006 年に Simple Storage Service (S3) [31]、2008 年に Elastic Compute Cloud (EC2) [32] によるエンタープライズ サービスの提供に移行し、企業が Amazon からデータ ストレージとコンピューティング パワーをレンタルできるようになりました。 2006 年、Amazon はまた、個人および小規模企業 (「サードパーティ販売者」と呼ばれる) が Amazon の倉庫およびフルフィルメント インフラストラクチャを通じて製品を販売できるようにするフルフィルメント by Amazon プログラムを開始しました。`,
+          },
+          {
+            content: "2010 年～現在: 成長",
+          },
+          {
+            content: `アマゾンは2017年にスーパーマーケットチェーンのホールフーズ・マーケットを買収した[34]。 同社は、2017 年の純売上高が約 1,780 億米ドルである米国の大手電子小売業者です。世界中で 3 億を超えるアクティブな顧客アカウントを持っています。`,
+          },
+          {
+            content: `アマゾンは新型コロナウイルス感染症のパンデミック中に大きな成長を遂げ、米国とカナダで10万人以上のスタッフを雇用した[36]。 米国、フランス、イタリアの一部のアマゾン従業員は、倉庫内で新型コロナウイルス感染症が広がりやすいことを理由に「通常通りのシフトを実施する」という同社の決定に抗議した[37][38]。 スペインでは、同社はその方針をめぐって法的苦情に直面し[39]、米国上院議員のグループは職場の安全についての懸念を表明する公開書簡をベゾス氏に送った。`,
+          },
+          {
+            content: `2021年2月2日、ベゾス氏はCEOを辞任し、Amazon取締役会の執行会長に就任すると発表した。 この移行は2021年7月5日に正式に行われ、AWSの前CEOであるAndy JassyがCEOに代わった[41][42]。 アマゾンはコスト削減を目的に、2023年1月に主に消費者向け小売業と人事部門で1万8000人以上の人員削減を行った。
+              2021-Nen 2 tsuki 2-nichi, be`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "Amazon.com ",
+          },
+          {
+            content: `Amazon.com は、メディア (本、映画、音楽、ソフトウェア)、アパレル、ベビー用品、家庭用電化製品、美容製品、グルメ食品、食料品、健康およびパーソナルケア製品を含む多くの製品ラインを販売する電子商取引プラットフォームです。 産業および科学用品、キッチン用品、宝飾品、時計、芝生および園芸用品、楽器、スポーツ用品、工具、自動車用品、おもちゃおよびゲーム、農場用品[45]およびコンサルティングサービス[46]。 Amazon の Web サイトは国ごとに異なります (たとえば、米国の場合は amazon.com、フランスの場合は amazon.fr) が、一部の Web サイトでは国際配送を提供しています。`,
+          },
+          {
+            content: `Amazon.com への訪問者数は、2008 年の年間 6 億 1,500 万人から [48]、2022 年には月間 20 億人以上に増加しました [49]。 この電子商取引プラットフォームは、世界で 14 番目にアクセス数の多い Web サイトです。`,
+          },
+          {
+            content: `Amazon の検索エンジンによって生成される結果は、プロモーション料金によって部分的に決定されます。[51] 同社のローカライズされた店舗は、品揃えと価格が異なり、トップレベル ドメインと国コードによって区別されます:`,
+          },
+          {
+            content: `2000年、アメリカの玩具小売業者トイザらスは、年間5,000万ドルに売上の一部を加えた価値の10年契約をアマゾンと締結し、トイザらスがおもちゃとベビー用品を独占的に提供することになった。 サービスを開始すると、チェーンのウェブサイトは Amazon のおもちゃ＆ゲーム カテゴリにリダイレクトされます。 2004年、トイザらスは、トイザらスの在庫に多様性がないとみなされたため、アマゾンが故意にサードパーティの販売者にトイザらスが扱っているカテゴリーのサービスで製品を販売することを許可したとして、アマゾンを訴えた。 独占的な権利が与えられています。 2006年、裁判所はトイザらスに有利な判決を下し、同社がアマゾンとの契約を破棄し、独自の独立した電子商取引サイトを設立することを認めた。 同社は後に5,100万米ドルの損害賠償を命じられた。`,
+          },
+          {
+            content: `2001年、アマゾンはボーダーズ・グループと同様の契約を結び、共同ブランドサービスとしてボーダーズ・ドット・コムを共同管理することになった[54]。 ボーダーズは2007年に提携から撤退し、独自のオンラインストアも立ち上げる計画だった。`,
+          },
+          {
+            content: `2011 年 10 月 18 日、Amazon.com は、スーパーマン、バットマン、グリーン ランタン、サンドマン、ウォッチメンを含む多くの人気コミック シリーズの独占デジタル権利について DC コミックスとの提携を発表しました。 この提携により、Barnes & Noble などの人気書店はこれらの書籍を棚から削除するようになりました。`,
+          },
+          {
+            content:
+              "2013 年 11 月、Amazon は米国郵便公社と提携し、日曜日に注文の発送を開始すると発表しました。 このサービスはアマゾンの標準配送料に含まれており、量が多く時間通りに配送できないことからロサンゼルスとニューヨークの大都市圏で開始され、2014年にはダラス、ヒューストン、ニューオーリンズ、フェニックスにも拡大する予定だ。",
+          },
+          {
+            content:
+              "2017年6月、ナイキは偽造品管理の強化と引き換えにアマゾンを通じて商品を販売することに同意した[58][59]。 これは失敗に終わり、ナイキは2019年11月に提携から撤退した[59][60]。 IKEAやビルケンシュトックなどの企業も、商習慣や偽造品に対する同様の不満を理由に、同時期にAmazonでの販売を中止した。",
+          },
+          {
+            content: `2017年9月、Amazonは販売者の1つであるPatni Group所有の合弁会社Appario Retailと合弁事業を締結し、2017年から2018年度の総収益は1億444万米ドル（7億5,900万ルピー）を記録した[62]。 2017 年 10 月 11 日の時点で、AmazonFresh は、選択された地域で宅配用にさまざまな Booths ブランドの製品を販売しています [63]。 2018 年 11 月に、Amazon は Apple Inc. と、同社および一部の Apple 認定再販業者を通じてこのサービスを通じて特定の製品を販売することに合意しました。 この提携の結果、2019 年 1 月 4 日以降、Apple 正規販売代理店のみが Amazon で Apple 製品を販売できるようになります。`,
+          },
+          {
+            content: `プライベートブランド商品`,
+          },
+          {
+            content: `Amazon は、携帯電話の充電器、バッテリー、おむつおしりふきなど、多くの製品を自社ブランド名で販売しています。 AmazonBasics ブランドは 2009 年に導入され、現在ではスマートフォン ケース、コンピュータ マウス、バッテリー、ダンベル、犬用クレートなど数百もの製品ラインを展開しています。 アマゾンは2019年の時点で34のプライベートブランドブランドを所有していた。これらのブランドはアマゾンの世界売上高の0.15％を占めているのに対し、他の大手小売店の平均は18％である[75]。 他の Amazon 小売ブランドには、Presto!、Mama Bear、Amazon Essentials などがあります。`,
+          },
+          {
+            content: `サードパーティ販売者`,
+          },
+          {
+            content: `Amazon は、売上の多く (2008 年で約 40%) を、Amazon で製品を販売するサードパーティの販売者から得ています。[77] 他の大手電子商取引販売者の中には、自社の Web サイトでの販売に加えて、Amazon を使用して製品を販売しているところもあります。 売上は Amazon.com を通じて処理され、最終的には個々の販売者に届き、処理と注文の履行が行われ、Amazon はこれらの小売業者にスペースをリースします。 中古品および新品の小規模販売者が Amazon マーケットプレイスにアクセスして、固定価格で商品を提供します。`,
+          },
+          {
+            content: `アフィリエイトプログラム`,
+          },
+          {
+            content: `パブリッシャーはアフィリエイトとしてサインアップし、顧客を Amazon に紹介することで販売につながった場合、Web サイトに Amazon へのリンクを配置することで手数料を受け取ることができます。 アマゾンは世界中でアフィリエイトプログラムに「90万人以上の会員」を抱えている[79]。 2014 年半ばの時点で、Amazon アフィリエイト プログラムは全 Web サイトの 1.2% で使用されており、Google 広告に次いで 2 番目に人気のある広告ネットワークです。[80] これは、サポーターがコミッションを獲得する方法を提供するために、ウェブサイトや非営利団体によって頻繁に使用されます。`,
+          },
+          {
+            content: `アソシエイトは、アマゾン ウェブ サービス (AWS) XML サービスを使用して、Web サイト上の Amazon カタログに直接アクセスできます。 新しいアフィリエイト製品である aStore を使用すると、アソシエイトは Amazon 製品のサブセットを別の Web サイト内に埋め込んだり、別の Web サイトにリンクしたりすることができます。 2010 年 6 月、Amazon Seller Product Suggestions が開始され、サードパーティの販売者に Amazon で販売する特定の商品を推奨することで、販売者の透明性を高めました。 お客様の閲覧履歴に基づいて商品をご提案させていただきます。`,
+          },
+          {
+            content: `商品レビュー`,
+          },
+          {
+            content: `Amazon では、ユーザーが各製品の Web ページにレビューを投稿できます。 レビュー担当者は、1 つ星から 5 つ星の評価スケールで製品を評価する必要があります。 Amazon は、(クレジット カード アカウントの確認に基づいて) レビューアーの実名を示す、またはレビューアーが人気のトップレビューアーの 1 人であることを示す、レビューアー向けのバッジ オプションを提供しています。 2020 年 12 月 16 日の時点で、Amazon は販売者と顧客が製品レビューにコメントする機能を削除し、投稿されたすべての製品レビュー コメントを Web サイトから削除しました。 Amazonは販売者に宛てた電子メールの中で、この機能を削除する理由を「顧客レビューのコメント機能はほとんど使用されていなかった」と述べた。 残りのレビュー応答オプションは、読者がレビューが役に立ったと感じるかどうかを示すか、レビューが Amazon のポリシーに違反している (不正行為) と報告することです。 レビューに十分な「役立つ」ヒットが与えられた場合、そのレビューは製品のトップページに表示されます。 2010 年、Amazon はインターネット消費者レビューの最大の単一情報源であると報告されました。`,
+          },
+          {
+            content: `店`,
+          },
+          {
+            content: `出版社がベゾス氏になぜAmazonが否定的なレビューを掲載するのかと尋ねたとき、彼はAmazon.comが「異なるアプローチをとっている...私たちは良い本も悪い本も醜い本も含め、あらゆる本を利用できるようにしたいと考えている...」と主張して慣行を擁護した。真実を解き放ってください。」`,
+          },
+          {
+            content: `クライアントに代わって広報会社が肯定的なレビューを書いて投稿するケースや[85]、作家が偽名を使ってライバルの作品に否定的なレビューを残す例もある。`,
+          },
+          {
+            content: `アマゾン売上ランキング`,
+          },
+          {
+            content: `Amazon 販売ランク (ASR) は、Amazon のあらゆるロケールで販売されている商品の人気を示します。 これは人気の相対的な指標であり、1 時間ごとに更新されます。 事実上、これは Amazon が在庫する何百万もの製品の「ベストセラー リスト」です。 [86] ASR は商品の売上に直接影響しませんが、アマゾンはベストセラー リストにどの商品を含めるかを決定するために使用されます。[86] これらのリストに掲載されている製品は、Amazon のウェブサイトでさらに露出されるため、売上の増加につながる可能性があります。 特に、売上ランキングが大きく上昇または下降した製品は、Amazon の「変動者および変動者」のリストに含まれる可能性があります。 このようなリストは、売上げの増加につながる可能性のある追加の露出を提供します。[87] 競争上の理由から、アマゾンは実際の売上高を一般に公開していません。 しかし、Amazon は現在、Nielsen BookScan サービスを介して検証済みの著者に POS データを公開し始めています。[88] ASR は出版社、メーカー、マーケティング担当者による多くの憶測の源となっていますが、Amazon 自体は売上順位の計算アルゴリズムの詳細を公開していません。 一部の企業は、Amazon の売上データを分析して ASR に基づいて売上予測を作成しています[89]が、Amazon は次のように述べています: `,
+          },
+          {
+            content: `アマゾン ウェブ サービス`,
+          },
+          {
+            content: `アマゾン ウェブ サービス (AWS) は、個人、企業、政府にオンデマンドのクラウド コンピューティング プラットフォームと API を従量課金制で提供する の子会社です。 これらのクラウド コンピューティング Web サービスは、AWS サーバー ファームを介して分散コンピューティング処理能力とソフトウェア ツールを提供します。 Synergy Group によると、2021 年第 4 四半期の時点で、AWS はクラウド インフラストラクチャの市場シェア 33% を占め、次の 2 つの競合他社である Microsoft Azure と Google Cloud はそれぞれ 21% と 10% を占めています。`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: "ロジスティクス",
+          },
+          {
+            content:
+              "Amazon は、荷物の配達にさまざまな輸送サービスを利用しています。 Amazon ブランドのサービスには次のものが含まれます。",
+          },
+          {
+            content: `Amazon Air は大量輸送を行う貨物航空会社で、ラストマイル配送は Amazon Flex、Amazon Logistics、または US Postal Service のいずれかが担当します。`,
+          },
+          {
+            content:
+              "Amazon Flex は、個人が独立した請負業者として行動できるようにするスマートフォン アプリで、制服を着ずに自家用車から顧客に荷物を配達します。 配達には、Amazon と契約している地元の店舗からの注文に加え、1 ～ 2 時間の Prime Now、同日または翌日の Amazon フレッシュ食料品、Amazon.com の通常の注文が含まれます。",
+          },
+          {
+            content: `Amazon ロジスティクスでは、Amazon が顧客への配送を行うために中小企業 (同社は「配送サービス パートナー」と呼ぶ) と契約を結んでいます。 各企業は約 20 ～ 40 台の Amazon ブランドのバンを保有しており、請負業者の従業員は Amazon の制服を着用しています。 2020年12月現在、米国、カナダ、イタリア、ドイツ、スペイン、英国で事業を展開しています。`,
+          },
+          {
+            content: `Amazon Prime Air は、一部の都市の Amazon プライム加入者にドローンで荷物を届ける実験的なドローン配送サービスです。`,
+          },
+          {
+            content: `Amazonは、倉庫、大量配送センター、有人スタッフが常駐する「Amazon Hub Locker+」の場所、ドライバーが荷物を受け取る配送ステーションで働く人々を直接雇用している。 2020年12月現在、配送ドライバーの社員採用は行っておりません。`,
+          },
+          {
+            content: `楽天インテリジェンスは、2020 年の米国におけるラストワンマイル配達の割合は、Amazon の直接契約サービスによるもの (主に都市部) が 56%、米国郵便公社によるもの (主に農村部) が 30%、そして 14% であると推定しています。 UPSによる。[145] 2021年4月、Amazonは投資家に対し、過去12か月（米国での新型コロナウイルス感染症パンデミックの最初の年を含む）で自社の配送能力が50％増加したと報告した。`,
+          },
+          {
+            content: "サプライチェーン",
+          },
+          {
+            content:
+              "Amazon は 1997 年に初めて流通ネットワークを開始し、シアトルとデラウェア州ニューキャッスルに 2 つのフルフィルメント センターを設置しました。 Amazon には、クロスドック センター、フルフィルメント センター、仕分けセンター、配送ステーション、Prime Now ハブ、Prime Air ハブで構成される数種類の配送施設があります。 75の配送センターと25の仕分けセンターがあり、125,000人以上の従業員が働いています[147][148]。 従業員は 5 つの基本的な業務を担当します。入荷した商品の開梱と検査です。 商品を保管場所に置き、その位置を記録する。 コンピュータに記録された場所から商品をピッキングして個別の発送を行う。 注文の仕分けと梱包。 そして発送。 商品の位置を記録し、ピッカーのルートを計画するコンピューターが重要な役割を果たします。従業員はハンドヘルドコンピューターを持ち歩き、中央コンピューターと通信して進捗率を監視します。 一部の倉庫は、Amazon Robotics によって構築されたシステムによって部分的に自動化されています。",
+          },
+          {
+            content:
+              "2006 年 9 月、Amazon は FBA (Fulfillment By Amazon) と呼ばれるプログラムを開始し、小規模販売者向けに製品やサービスの保管、梱包、流通を処理できるようにしました。",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "種類",
+          children: [
+            {
+              name: "公開会社",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "市場情報",
+          children: [
+            {
+              name: `NASDAQ: AMZN-
+              ナスダック100指数構成-
+              S&P 100構成-
+              S&P 500構成.`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "サービス",
+          children: [
+            {
+              name: `	
+              Amazon.com-
+              Amazon Alexa-
+              Amazon Appstore-
+              Amazon Luna-
+              Amazon Music-
+              Amazon Pay-
+              Amazon Prime-
+              Amazon Prime Video-
+              MGM+-
+              Twitch-
+              Ring-
+              Amazon Web Services-
+              Amazon Robotics`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "設立",
+          children: [
+            {
+              name: "1994年7月5日 (29年前)ワシントン州ベルビュー",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "5",
+          label: "創業者",
+          children: [
+            {
+              name: "ジェフ・ベゾス",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "6",
+          label: "事業地域",
+          children: [
+            {
+              name: "Worldwide",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 18 Jeff Bezos
+  {
+    id: "58",
+    title: "ジェフ・ベゾス",
+    shortDesc: ["Jeff Bezos"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Jeff_Bezos%27_iconic_laugh.jpg/330px-Jeff_Bezos%27_iconic_laugh.jpg",
+        title: "2010年",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#story",
+        title: "初期の人生と教育",
+      },
+      {
+        key: "3",
+        href: "#career",
+        title: "ビジネスキャリア",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `ジェフ・ベゾス（Jeff Bezos）ことジェフリー・プレストン・ベゾス（Jeffrey Preston Bezos、1964年1月12日 - ）は、アメリカ合衆国の実業家、投資家、フィランソロピスト。Amazon.comの共同創設者、取締役会長。`,
+          },
+          {
+            content: `ジェフ・ベイゾスとも[6][7]。出生名はジェフリー・プレストン・ジョーゲンセン（Jeffrey Preston Jorgensen）。`,
+          },
+          {
+            content: `世界最大級の資産家の1人であり、フォーブスの長者番付によると2020年時点で2046億ドルの資産を有する。世界で初めて資産が2000億ドルを超えた人物。2013年に米有力新聞ワシントン・ポストを買収しオーナーとなった。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `ジェフ・ベゾスことジェフリー・プレストン・ベゾス（出生名：ジェフリー・プレストン・ジョーゲンセン）は、1964年1月12日にニューメキシコ州アルバカーキに生まれた。`,
+          },
+          {
+            content: `父はシカゴ出身のテッド・ジョーゲンセン(Ted Jorgensen)、母はジャックリン・ギーゼ・ジョーゲンセン (Jacklyn Gise Jorgensen) という名である[8]。Jorgensenの家系はデンマーク系であり、テッドの祖父はデンマークのホルベックからの移民であった[9]。ジェフが生まれたとき、母親は17歳の高校生であり、父のテッドはバイクショップのオーナーだった[10]。`,
+          },
+          {
+            content: `ベゾスの母方の祖父はアルバカーキでアメリカ原子力委員会の地方局長 (regional director) をしていたローレンス・プレストン・ギーゼである[11]。ギーゼは早くにその職を辞し、テキサス州コトゥーラ近郊にある家族で経営する牧場の仕事を始めたが、ベゾスは若い頃よくここで夏を過ごした[12]。彼は後にこの牧場を買い取り、25,000エーカーあった土地を300,000エーカーにまで広げている[13][14]。母方の祖母はマッティ・ルイズ・ギーゼ（旧姓はストレイト）という名で、家系をたどると、ベゾスはカントリー歌手のジョージ・ストレイトといとこの関係にあたる[15]。`,
+          },
+          {
+            content: `ほどなく母はテッドと離婚し、1968年4月にキューバ移民のミゲル・「マイク」・ベゾスと再婚する[16]。マイクは4歳だったジョーゲンセンの息子を養子にとり、そのときに姓もベゾスと改めた[17]。一家はテキサス州ヒューストンに引っ越し、義父のマイクはニューメキシコ大学を卒業後にエクソンでエンジニアとして働き始めた[12]。`,
+          },
+          {
+            content: `ベゾスは小学4年から6年までヒューストンのリバー・オークス小学校に通った[18]。ベゾスは科学に関心を持っており、工作の才能もあった。ある時は電動のアラームを仕掛けて、弟たちを部屋に入れないようにしていたほどである[19][20]。`,
+          },
+          {
+            content: `一家はフロリダ州マイアミに移り、ベゾスはマイアミ・パルメット高校に通った[21][22]。彼は高校在学中からマクドナルドで働き、朝のシフトで簡単な調理を担当していた[23]。フロリダ大学で開催された科学の生徒研修プログラムにも参加している。1982年に彼はいわゆる卒業生総代を務め、ナショナル・メリット・スカラーシップ[24][25]、シルバー・ナイト賞を獲得している[24]（どちらも優秀な生徒に贈られる奨学金または表彰制度）。`,
+          },
+          {
+            content: `1986年に、GPA4.2でプリンストン大学を卒業し、電気工学と計算機科学で学位を取得した。当初は物理学者となることを目指していたが、量子力学の偏微分方程式の問題を理解できず、クラスメイトに代わりに解いてもらったときにその夢をあきらめた(そのクラスメイトは3ページ分の代数の問題を暗算することができたとベゾスは述懐している)。ベゾスは直ちに電気工学とコンピュータサイエンスに専攻を変えたという。`,
+          },
+          {
+            content: `彼はまた全米最古の学生クラブであるファイ・ベータ・カッパのメンバーでもあった[26][27]。大学時代には、優秀な工学徒としてタウ・ベータ・パイ（英語版）にも選出され、宇宙探査・開発のための学生組織のプリンストン支部長にもなっている[28][29]。`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "キャリアアップ時代",
+          },
+          {
+            content: `1986年にプリンストン大学を卒業したベゾスはインテル、ベル研究所、アーサー・アンダーセンなどからオファーを受けた[30]。彼が最初に就職したのは金融決済システムを手がけるスタートアップ企業のFitelで、貿易情報のネットワーク構築に従事した[31]。ベゾスは、その後開発部門と顧客サービスの責任者に昇進している[32]。`,
+          },
+          {
+            content: `その後に大手金融サービス会社バンカース・トラストでプロダクト・マネージャーとなり、銀行業界に籍を移して1988年から1990年まで働いた[32]。`,
+          },
+          {
+            content: `さらにその後、1990年から1994年まで新興のヘッジファンドであるD.E.ショーで仕事をし、30歳のときには同社で4人目のシニア・バイス・プレジデント(副社長)になった[30][32]。D.E.ショーで、当時話題になっていたインターネットについて調査を任されたことで、インターネットが急速に普及しつつあることを知り、ベゾスはインターネットによる物販の可能性を確信する。`,
+          },
+          {
+            content: `Amazon起業`,
+          },
+          {
+            content: `1993年になり、ベゾスはオンライン書店を始めることを決める[33]。ヘッジファンド出身でプログラミングの知識が無かったため、自らはコードを書かなかった[34]。1993年7月5日、ベゾスはCadabra, Inc.という名の会社をワシントン州の法人として登記した[35]。1994年1月、ある弁護士が「Cadabra」を「cadaver（死体）」と聞き間違えた出来事を受けて、ベゾスは社名を変更することになった[36]。`,
+          },
+          {
+            content: `その後、彼はD.E.ショーを退職して、ニューヨークからシアトルへの移動中に事業計画を書き上げ、自宅のガレージでAmazonを起業した。1994年1月のことだった[37][38]。新しい会社の名前は南アメリカのアマゾン川にちなんだもので、アルファベットの最初の文字であるAから始まるという意味合いも一部にはあった[39]。`,
+          },
+          {
+            content: `両親が30万ドルともいわれる金額を都合してくれたため、彼はそれをアマゾンに投資した[38]。彼は初期の投資家の多くに、アマゾンが潰れたり自分が破産する可能性は70パーセントあると告げていた[40]。Amazonはもともとオンライン書店であったが、ベゾスは常にその業務を拡大する計画を温めていた[32][39]。`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "生誕",
+          children: [
+            {
+              name: `ジェフリー・プレストン・ジョーゲンセン
+              1964年1月12日（59歳）
+              アメリカ合衆国の旗 アメリカ合衆国
+               ニューメキシコ州アルバカーキ`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "出身校",
+          children: [
+            {
+              name: "プリンストン大学卒業",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "任期",
+          children: [
+            {
+              name: `会長：1993年7月-
+              CEO：1996年5月-2021年7月
+              社長：1993年7月-1996年6月、2000年10月-2021年7月`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "肩書き",
+          children: [
+            {
+              name: "Amazon.com 共同創業者兼会長",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //17 WHO
+  {
+    id: "57",
+    title: "世界保健機関",
+    shortDesc: ["WHO"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_WHO.svg/360px-Flag_of_WHO.svg.png",
+        title: "世界保健機関旗",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#member",
+        title: "メンバーシップ",
+      },
+      {
+        key: "3",
+        href: "#mission",
+        title: "方針と目標",
+      },
+      {
+        key: "4",
+        href: "#Governance",
+        title: "ガバナンス",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `世界保健機関（せかいほけんきかん、英: World Health Organization、仏: Organisation mondiale de la santé、略称: WHO・OMS）は、国際連合の専門機関（国際連合機関）の一つであり、人間の健康を基本的人権の一つと捉え、その達成を目的として設立された機関。`,
+          },
+          {
+            content: `1948年設立。本部はスイス・ジュネーヴ。設立日である4月7日は、世界保健デーになっている[1]。シンボルマークは、世界地図をオリーブの葉が取り巻く国際連合旗の中心に、医療の象徴であるアスクレピオスの杖（蛇の巻き付いた杖）をあしらったものである。`,
+          },
+          {
+            content: `WHOでは「健康」を「身体的、精神的、社会的に完全な良好な状態であり、たんに病気あるいは虚弱でないことではない」（WHO憲章前文）と定義しており、非常に広範な目標を掲げている。そのために、病気の撲滅のための研究、適正な医療・医薬品の普及だけでなく、基本的人間要請（basic human needs、BHN）の達成や健康的なライフスタイルの推進にも力を入れている。`,
+          },
+          {
+            content: `略称は英語式（WHO）と仏語式、スペイン語式、ポルトガル語式（OMS）で異なる。日本をはじめ多くの国では英語略称のWHO（ダブリュー・エイチ・オー）が多用される[注 1]（以下「WHO」と表記する）。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: "2015 年、WHO には 194 の国または地域が加盟していました。",
+          },
+          {
+            content: `総会はWHOの最高意思決定機関であり、毎年5月にスイスのジュネーブですべての加盟国の参加のもとに開催されます。 総会は事務局長を指名し、WHOの財政政策と計画予算を承認します。`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `WHO の目標は、人々が最高の健康状態を達成できるよう支援することです。 1977年以来、世界保健総会は「2000年までにすべての人に健康を」というスローガンを提案し、それがWHOの最優先事項であるとみなしている。 これらの目標を達成するために、WHO は相互に影響し合う 4 つの戦略的方向性を提案しました。`,
+          },
+          {
+            content: `特に貧しい人々や恵まれない人々の間で、過剰な死亡率、罹患率、障害を減らす。`,
+          },
+          {
+            content: `健康的なライフスタイルを促進し、環境、経済、社会、行動の原因によって引き起こされる人間の健康リスク要因を軽減します。`,
+          },
+          {
+            content: `健康成果を公平に改善し、人々の正当なニーズを満たし、財政的に公平な医療システムを構築する。`,
+          },
+          {
+            content:
+              "保健分野における好ましい制度的・政策的環境を構築し、開発、環境、経済、社会政策における保健の位置づけを効果的に促進する。",
+          },
+          {
+            content: `これらの戦略的方向性に加えて、WHO はマラリア、結核、精神的健康、タバコ、非感染性疾患 (がん、心血管疾患など) の予防、より安全な妊娠と子供の健康、HIV/エイズ、健康、健康などの特定の優先事項も特定しています。 環境、食品の安全、安全な輸血、医療システム。`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `事務局長: WHOの長は総会によって選出された事務局長です。 総局長を補佐するのが副総局長と事務局です。`,
+          },
+          {
+            content: `WHO 執行評議会: 32 人のメンバーで構成され、任期は 3 年です。 執行評議会の使命は、総会の決定と方針を実施し、コメントを提供し、総会の活動を促進することです。 ベトナムは、2003 年 5 月から 2005 年 5 月まで WHO 執行理事会のメンバーでした。`,
+          },
+          {
+            content: `地方事務所: WHO には世界中に 6 つの地方事務所があり、加盟国に代表事務所があります。`,
+          },
+          {
+            content: "ハノイのWHO事務所はWHO代表が所長を務めています。",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "概要",
+          children: [
+            {
+              name: "専門機関",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "代表",
+          children: [
+            {
+              name: "テドロス・アダノム",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "活動開始",
+          children: [
+            {
+              name: "1948年",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "4",
+          label: "公式サイト",
+          children: [
+            {
+              name: "World Health Organization（日本語） - World Health Organization（英語）",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //16 O nhiem tieng on
+  {
+    id: "56",
+    title: "騒音",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Eddystone%2C_Pennsylvania_-_Railroad_parts._Baldwin_Locomotive_Works._Boilermaker_tapping_for_stay-bolts_in_boiler_of_a..._-_NARA_-_518714.jpg/375px-Eddystone%2C_Pennsylvania_-_Railroad_parts._Baldwin_Locomotive_Works._Boilermaker_tapping_for_stay-bolts_in_boiler_of_a..._-_NARA_-_518714.jpg",
+        title:
+          "労働安全衛生規則第13条より「ボイラー製造等強烈な騒音を発する場所における業務」",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#Impacts",
+        title: "影響",
+      },
+      {
+        key: "3",
+        href: "#healthy",
+        title: "健康への影響",
+      },
+      {
+        key: "4",
+        href: "#Minimize noise",
+        title: "騒音を最小限に抑える",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `騒音（そうおん、英語: noise pollution）とは、人の耳に聴こえてくる不快な音（音波）を指す。 健康及び生活環境に影響を及ぼし、典型七公害の一つとされ、事件・裁判となる場合がある。`,
+          },
+          {
+            content:
+              "騒音は、不快で好ましくない音であり、音量のような物理量で計測することができるが、感覚に基づくものでもある[1]。例えばオックスフォード英語辞典では、騒音の定義について「望ましくない音」と説明している。また、騒音問題を国際的に扱う際には「騒音」の語義が持つニュアンスが、諸言語において僅かずつ異なることが問題となる[2]。",
+          },
+          {
+            content:
+              "騒音規制の法律には、公衆を擾乱する特定の音を発する行為を規制するタイプと、音の物理的な特性に基づいて騒音評価方法とその基準値を定めて規制するタイプがある。前者は騒音の量的測定が可能になる以前から存在する、伝統的な騒音問題への対処方法であり、おおまかな世論を含んだ質的な規制といえる[2]。後者は「一定以上の大きい音=騒音」という量的な評価に基づくが[2]、日本の国立環境研究所の調査では、音量に関わりなく、望ましくない音は『騒音』として苦情の対象となりえる[3]。 ",
+          },
+          {
+            content:
+              "激しい騒音は人体、特に聴力に対し物理的な損傷を与える。労働安全衛生の場では医学的見地から、20世紀後半より世界各地で騒音に対する量的基準が制定されている[2]。また、交通騒音などの環境騒音についても、環境性睡眠障害や心疾患等の罹患率・有病率の上昇が認められることから、世界保健機関[4]およびWHO欧州事務局[5]がガイドラインを定めている。",
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: "騒音公害は主に 2 つの基本的な原因によって発生します。",
+          },
+          {
+            content: "天然由来のため",
+          },
+          {
+            content:
+              "火山活動や地震の影響で。 しかし、これは二次的な原因にすぎず、騒音公害が発生するのは火山や地震が発生した場合のみであり、実際に家庭に影響を与えるだけです。 火山地域または地震地域の近くに住んでいる人々。 一方、これは周期的な原因ではなく、ランダムに発生します。",
+          },
+          {
+            content: "人工起源のため",
+          },
+          {
+            content: `これが騒音公害の主な原因と考えられています。 現在、交通量はめまぐるしく増加しており、道路上の車両密度は増加しており、エンジン音やクラクション、ブレーキ音などによる騒音公害が発生しています。 ベトナムでは、路上を流通する低品質の車両が非常に多く、重大な騒音公害を引き起こしています。`,
+          },
+          {
+            content:
+              "飛行機も無視できない汚染源です。 飛行機が離陸または着陸するとき、空港近くに住む世帯は大量の音響周波数に耐えなければなりません。 騒音を最小限に抑えるために空港を人口密集地域から遠ざける措置が必要です。",
+          },
+          {
+            content:
+              "さらに、建設現場では機械を使用することが非常に一般的です。 これは騒音公害の重大な原因です。",
+          },
+          {
+            content:
+              "産業活動や生産活動においては、機械の使用が欠かせないものと考えられています。 しかし、生産施設や一部の工業地帯への意識の高まりにより、騒音公害のレベルは増加しています。",
+          },
+          {
+            content: `日常生活において、特にディスコやバーなどで音楽プレーヤーの電源を大きすぎると周囲の人の聴覚に重大な影響を与えます。 これは最も対処が難しいと考えられている汚染源であり、主に人々の意識に依存しています。`,
+          },
+          {
+            content:
+              "その他の騒音公害の原因には、抗議活動、公共のイベント、スポーツ イベント (射撃場、カートなど) が含まれます。 家畜小屋から鳴く犬、豚、アヒルなどの動物からの情報源。 大音量の音楽、叫び声、ブレーカーの騒音、誤報、花火など、近隣からの騒音。 特に、教室や会議などの公共の場所での携帯電話の音も騒音公害の原因となります。",
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: "人間",
+          },
+          {
+            content: `騒音公害は人間の健康と行動の両方に影響を与えます。 不要な音（騒音）は心理的・精神的健康に悪影響を及ぼします。 騒音公害は、高血圧、ストレス、耳鳴り、難聴、睡眠障害、その他の有害な影響を引き起こす可能性があります。`,
+          },
+          {
+            content: `音は、会話や休憩などの人間の通常の活動を妨げ、混乱や妨害、生活の質の低下を引き起こす場合、望ましくないものになります。`,
+          },
+          {
+            content: `騒音に長時間さらされると難聴を引き起こす可能性があります。 業務上の騒音にさらされている高齢の男性は、他のグループに比べて聴覚感度の大幅な低下を示しましたが、これら 2 つのグループ間の経時的な難聴の差は有意ではありませんでした。 79歳。[11] ローゼンによる研究では、交通騒音や産業騒音への曝露が限られているマーバン族（ガーナの辺境の集団）と米国の典型的な住民とを比較し、高レベルの環境騒音への長期的かつ中程度の曝露が影響を与えることが示されています。 難聴になります（ただし老化ではありません）。`,
+          },
+          {
+            content: `高い騒音レベルは心臓に影響を及ぼし、騒音に 8 時間さらされると、血圧が 5 ～ 10 度上昇する可能性があります[6]。 さらに、騒音はストレスを増加させ、前述の血圧上昇につながる血管収縮を引き起こし、冠動脈疾患の発生率も高めます。`,
+          },
+          {
+            content: "野生動物",
+          },
+          {
+            content: `騒音は野生生物に悪影響を及ぼし、生物学的バランスを変化させて死亡リスクを高める可能性があります。 人間の活動による騒音公害の増加により、一部の肉食動物では食べ物を見つけることがより困難になり、狩猟が効果的ではなくなりました。`,
+          },
+          {
+            content: `キンカチョウは交通騒音にさらされると、仲間に対する忠誠心が低下します。 これは動物種の進化の法則を変え、遺伝的および進化的重大な影響をもたらす可能性があります。`,
+          },
+          {
+            content: `海洋における騒音公害の増加により、クジラやイルカの存在が脅かされています...一方、海洋動物は音波を使用して他の動物とコミュニケーションし、食べ物を見つけます。 。 しかし、彼らが発する音は、船舶、軍用ソナー、気候変動からの騒音に圧倒されてしまいます。 その結果、海洋動物は方向感覚を失い、配偶者を見つけることができなくなり、異常な行動を示します。 国際動物福祉基金の報告書によると、シロナガスクジラが音波を使って互いに通信できる距離は、騒音公害レベルの増加により40年間で最大90％減少したという。 経由。`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `交通騒音は、防音壁の使用、道路上の車両交通の制限、路面の質感の変更、大型車両の制限、および交通制御にテクノロジーを使用することによって軽減できます。滑りやすい車両を使用してブレーキを軽減し、タイヤの設計、特にホーンの音は控えめに使用する必要があります。 この戦略を適用する際の重要な要素は、道路状況、天候、交通活動を示し、特定の時間に解決できる道路騒音警告のコンピューター モデルです。 国家のコストを削減し、削減するために、コミュニケーション。 交通建設活動を減らすことは非常に限られているので、解決策を見つけ、騒音の発生を避けるための科学的な都市計画計画を立てる必要があります。`,
+          },
+          {
+            content: `航空機の騒音は、静音ジェットエンジンを使用することで低減できます。 飛行ルートと滑走路時間を変更することも重要な解決策であり、最初の受益者は空港近くの住民です。`,
+          },
+          {
+            content:
+              "産業騒音は、1930 年代以来、職場の物理的障壁による産業機器の再設計を通じて対処されてきました。 近年、職業上の騒音暴露と闘うために多くのプログラムや取り組みが行われています。 これらのプログラムは静かなツールや機器の購入を促進し、騒音を最も効果的に最小限に抑えるためにメーカーが熱機器を再設計することを奨励します。",
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  //15 Bac ma lon
+  {
+    id: "55",
+    title: "ヨーロッパシジュウカラ",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Great_Tit_%28Parus_major%29_1.jpg/375px-Great_Tit_%28Parus_major%29_1.jpg",
+        title: "ヨーロッパシジュウカラ Parus major",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#Taxonomy",
+        title: "分類学",
+      },
+      {
+        key: "3",
+        href: "#Description",
+        title: "説明",
+      },
+      {
+        key: "4",
+        href: "#Ecology",
+        title: "エコロジー",
+      },
+      {
+        key: "5",
+        href: "#relationship",
+        title: "人間との関係",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `ヨーロッパシジュウカラ (Parus major) は、ヨーロッパから中国のアムール川まで東西に広く分布するスズメ目シジュウカラ科シジュウカラ属に分類される鳥類の俗称。2005年の種分割がなされて以降、日本鳥学会はParus major種の標準和名を日本鳥類目録に記載していないが[注釈 2]、輸入販売を行うペットショップ等でこの表記が使われるなど[3]「ヨーロッパシジュウカラ」が通俗的な和名として定着している[4]。`,
+          },
+          {
+            content: `ヨーロッパ全域と中東と中央アジアで普遍的な種であり、東はアムール川までの旧北区、南は北アフリカの一部にも分布しており、一般的にはあらゆる種類の森林地帯に生息している。大半のヨーロッパシジュウカラは、厳冬期を除いて渡りをしない。この種は2005年まで他の様々な亜種と一括りにされていた。DNA研究でそれら亜種がヨーロッパシジュウカラ(Parus major)とは異なることが示され、現在は南アジアのクロシジュウカラ(Parus cinereus)[5]および東アジアのシジュウカラ(Parus minor)の2種とは異なる種として分割されている。ヨーロッパシジュウカラは、シジュウカラ属の中で最も広範囲な種である。`,
+          },
+          {
+            content: `ヨーロッパシジュウカラは、黒い頭と首、目立つ白い頬、オリーブ色の背面と黄色の腹部が特徴的な鳥で、多くの亜種間で若干の差異がある。夏は主に昆虫食であるが、冬になると冬眠中のコウモリを含む広範な食餌をする[6]。全てのシジュウカラ科がするように、通常は樹洞に営巣する。メスは約12個の卵を産み、メスだけが抱卵するが、雛を育てるのはオスとメス双方の親鳥が行う。例年であればつがいで2羽の雛を育てる。巣はキツツキやリスやイタチに襲撃されたり、ノミが繁殖してしまう場合があり、成鳥はハイタカに狩られる可能性がある。ヨーロッパシジュウカラは人間の変化する環境によく適応しており、都市公園や庭園で一般的かつ身近な鳥である。このシジュウカラはまた鳥類学の重要な研究種である。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `このシジュウカラは、1758年にカール・リンネによって著書『自然の体系』10版の中で現在の二名法による種名で記載された[7]。学名Parus majorはラテン語の「シジュウカラ属(Parus)」と「大きい(maior)」に由来する[8]。17世紀にフランシス・ウィラビイが既にこの名称を使っていた[9]。`,
+          },
+          {
+            content: `以前のシジュウカラは、イギリスから日本までの東西範囲、南はインドネシアの島々に至る範囲に及ぶ鳥として扱われており、36の亜種が4つの主な種群に帰属すると説明されていた。major（ヨーロッパのシジュウカラ）群はヨーロッパ全土およびアジアと北アフリカの温帯にかけて13亜種がおり、minor（日本のシジュウカラ）[注釈 3]群はロシア南東部および日本から東南アジア北部にかけて9亜種がおり、cinereus（南アジアのシジュウカラ）群はイランからインドネシアまでの南アジア全域で11亜種が発見された。3つのbokharensis亜種は多くの場合、別種のボハラシジュウカラ(Parus bokharensis)として扱われていた。この形態はかつて亜種全体に遺伝子流動を伴うチベット高原周辺の輪状種を形成すると考えられていたが、ミトコンドリアDNAの配列を調べたところ、4群が別々（単系統群）であることが判明した[10][11]。`,
+          },
+          {
+            content: `2005年に発表された研究では、major群がcinereus群やminor群とは異なり、P. m. bokharensisと共に約150万年前にこれら2群から枝分かれしたことが確認された。bokharensisとmajor群との枝分かれは約50万年前だと推定された。他にもこの研究はmajor群とminor群が出会うアムール渓谷で両者の代表種による交雑種を調べた。交雑種は稀で、両群には幾つかの生殖障壁があったことが示唆された。同研究は、東方にいる2群をクロシジュウカラ(Parus cinereus)と日本のシジュウカラ(Parus minor)という新種に分割することを勧告し、ボハラシジュウカラはmajor群に一括りすることを勧告した[12]。`,
+          },
+          {
+            content: `この分類には、例えば国際鳥類学会議の世界鳥類リスト (IOC World Bird List) など一部の権威が従っている[13]。より伝統的な分類に従ってシジュウカラ属を扱う書籍 (Handbook of the Birds of the World) もあり、こちらはボハラシジュウカラを別種として扱いながらも、日本のシジュウカラと南アジアのクロシジュウカラをヨーロッパシジュウカラに含めており[14]、この動向に批判は出ていない[15]。`,
+          },
+          {
+            content: `ヨーロッパシジュウカラの指名亜種は、イベリア半島からアムール渓谷まで、そしてスカンジナビアから中東までにわたって最も広く分布している。他の亜種はより限定的な分布で、4種は島々に限定されており、他はかつての氷河期を生き延びた局所群（レフュジア）に代表されるP. m. major亜種である。こうした広い領域にわたる形態的に均質な1亜種の優位性は、指名亜種が直近の氷河期の後に急速に広い領域を再び生息域にしたことを示唆している。この仮説は、遺伝的ボトルネック効果とそれに続く個体群の急拡大を示唆する遺伝学的研究によって支持されている[14]。`,
+          },
+          {
+            content: `シジュウカラ科においてシジュウカラ属はかつてシジュウカラ種の大部分を占めていたが、形態学的研究と遺伝学的研究が1998年にその大きな属の分裂をもたらした。ヨーロッパシジュウカラはシジュウカラ属に留め置かれ、これはルリガラ属と共にシジュウカラ系統で「貯食しない鳥」として知られる（他の分岐群は貯食行動する）。シジュウカラ属は現在も同科で最も大きいが、再び分割される可能性がある[14]。以前は亜種だと見なされていた、ヨーロッパシジュウカラに最も近しい（種外の）親種は、南アジアのハジロシジュウカラ (Machlolophus nuchalis) とキバラシジュウカラ (Parus monticolus) である。シジュウカラ属外部との交雑種は極めて稀だが、アオガラやヒガラほか恐らくハシブトガラで記録されている[16]。`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "ヨーロッパシジュウカラは全長が12.5-14.0 cmで、認識しやすい独特の外観である。指名種(P. major major)は頭上が青みがかった黒で、首と喉と胸部と頭部は黒く、頬と耳羽が白い。胸は明るいレモン色で、胸から肛門にかけて広い中央の縦縞が黒く走っている。首のうなじ上部に黄緑色へと変わる白い斑紋がある。それ以外のうなじ箇所と背中は、オリーブがかった緑色である。雨覆は緑色で、それ以外の翼は青みがかった灰色で翼帯が白い。尾は青みがかった灰色で先端が白い。メスの羽毛は全体的に色がぼやけている以外はオスと似ており、具体的な相違は胸部の黒が際立っておらず[14]腹部を下に走っている線も同様で、こちらは狭くてたまに途切れていたりする[19]。幼鳥はメスに似ているが、うなじと首が鈍いオリーブ系の茶色で、腰は灰色がかっており、尾はより灰色が強くて先端の白は不明瞭である[14]。",
+          },
+          {
+            content: `亜種には幾つかの差異がある。P. m. newtoniは指名種に似ているが、クチバシが僅かに長く、背面上部は僅かに深緑で、尾の先端は白でなく、腹の中央縦縞は腹部で広い。P. m. corsus も指名種の形態に似ているが、上部の色がくすんでおり、尾の白が少なく、うなじの黄色が少ない。P. m. mallorcaeは指名亜種に似ているが、クチバシがより大きく、上部が灰青色、下部は僅かに青白い。P. m. eckiは、青い上部と青白い下部を除けばP. m. mallorcaeに似ている。P. m. excelsusは指名種に似ているが、上部がはるかに明るい緑色、下部が明るい黄色、尾の白が無い(または極少）。P. m. aphroditeはより暗く、上部はよりオリーブがかった灰色で、下部は下部はより黄色から淡いクリーム色。P. m. niethammeriはP. m. aphroditeに似ているが、上部は鈍く緑色が少なく、下側は淡い黄色。P. m. turkestanicusはの2つの亜種に似ているが、上部が僅かに青白い。P. m. blandfordiは指名種に似ているが、背面上部と肩甲骨が灰色で下部は淡い黄色。P. m. kareliniは指名種とP.m.blandfordiの中間体で、尾に白がない。P. m. bokharensisの羽毛は、より灰色の、淡いクリーミーな白から洗い落した灰色の下部、より大きな白いチープパッチ、灰色の尾、翼、背中とうなじ。また僅かに小さく嘴も小さいが尾は長い。この状況はトルキスタンシジュウカラ群の2つの関連亜種に似ている。P. m. turkestanicusはP. m. bokharensisに似ているが、嘴がより大きく上部が暗い。P. m. ferghanensisはP. m. bokharensisに似ているが、小さな嘴と側面に暗い灰色で、幼鳥ではより洗ったような黄色[14]。`,
+          },
+          {
+            content: `オスの胸の色は、強精と相関することが示されており、オスがメスに生殖優位性を顕示する一つの方法である。高濃度のカロテノイドがその胸の黄色を鮮やかにさせ、また大量の遊離基反応に精子が耐えられるようにする[20]。カロテノイドは、この鳥からは生み出せず食物から摂取する必要があるため、オスの鮮やかな色は良い栄養を摂取している能力を表すものである[21]。ただし、黄色の彩度は気象条件などの環境要因による影響も受ける[22]。オスの腹にある縦縞の幅には個体差があり、メスが相手を選ぶ際の対象で、優れたメスは外見で広い縞を持つオスを選択する[19]。`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `ハイタカはヨーロッパシジュウカラの捕食者で、タカは若年で発達しようと多くの餌を求めるため、二番雛以降の若鳥はより高いリスクに晒される[48][49]。ヨーロッパシジュウカラの巣は、特に巣箱に営巣している時にアカゲラに襲撃される[50]。他にも巣の捕食者としては外来のトウブハイイロリス(英国)とイイズナがいて、これは巣にいる成鳥を捕まえてしまう[51]。ニワトリノミ(Ceratophyllus gallinae)は、アオガラ とヨーロッパシジュウカラの巣でごく一般的である。元々はシジュウカラ専門のノミであったが、鶏舎の乾燥した混雑した条件がノミに新たな宿主での繁殖を可能にした[52]。このノミを捕食するエンマムシ科やハネカクシも集まって来て、しばしば荒廃した巣に居座っているが、彼らは雛鳥によって生成される高温でのみ繁殖可能であり、シジュウカラ科が望ましい宿主である[52]。ヨーロッパシジュウカラは巣箱を巡ってマダラヒタキと競合し、巣を探しているオスのヒタキを殺すことがある。巣に入る時間が重なると命がけの競争が起こる可能性がより顕著で、気候変動がこの2種間で入巣時期を重ねてしまい、ヒタキの死亡増加につながっている。ヒタキを殺した後、ヨーロッパシジュウカラはその脳を食べてしまう場合がある[53]。`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content: `ヨーロッパシジュウカラは、ナッツや種子を食べる際の躍動的な仕草が人気の、庭先にいる鳥である。巣箱に移動しようとする習性が、ヨーロッパシジュウカラを鳥類学における貴重な研究対象にしている。特に一巣卵数など、様々な生命史進化の研究モデルとして特に有用である[56]。文献データベース (Biological Abstracts) 検索の研究では、1969年から2002年にかけてParus Majorに関する記事が1349件見つかった[10]。`,
+          },
+          {
+            content: `概してヨーロッパシジュウカラは人間による環境改変に適応している。それはより普遍的で、森林被覆の乱されていない地域で繁殖はより成功するが、人間によって改変された生息地にも適応している。それは都市部で非常に普遍的となっている[14]。例えば、人口50万人の英シェフィールド市の繁殖個体数は約17,000羽と推定されている[57]。人間の環境に適応する際、その鳴き声は騒音汚染の都市環境で変化が見られた。低周波の背景騒音がある地域では、鳴き声がのどかな地域よりも高い周波数になる[58]。このシジュウカラはその範囲を拡大し、スカンジナビアとスコットランドに北方移動し、イスラエルとエジプトに南方移動した[14]。総個体数は3240万km2の範囲に3億-11億羽いると推定されている。質の悪い生息地がある地域では局所的な個体数減少が見られるも、生息範囲が広範で数も多いためヨーロッパシジュウカラに絶滅の恐れがあるとは考えられておらず、IUCNレッドリストでは低危険種に分類されている[1]。`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "界",
+          children: [
+            {
+              name: "動物界 Animalia",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "門",
+          children: [
+            {
+              name: "脊索動物門 Chordata",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "綱:",
+          children: [
+            {
+              name: "鳥綱 Aves",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //14 Bien doi khi hau
+  {
+    id: "54",
+    title: "気候変動",
+    shortDesc: ["Atmospheric sciences"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Vostok-ice-core-petit.png/450px-Vostok-ice-core-petit.png",
+        title:
+          "南極ボストーク湖の氷床コアに記録された過去40万年間の気温、二酸化炭素濃度、ダスト量の変化",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#Terminology",
+        title: "用語",
+      },
+      {
+        key: "3",
+        href: "#Causes",
+        title: "気候を変化させる要因",
+      },
+      {
+        key: "4",
+        href: "#Climate history",
+        title: "気候の歴史",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `気候変動（きこうへんどう、英語: climatic variation）は、様々な時間スケールにおける、気温、降水量、雲などの変化を指し示す用語として、広く用いられている。特に環境問題の文脈では、地球の表面温度が長期的に上昇する現象、すなわち地球温暖化とその影響を、包括的に気候変動とよぶことが多い[1]。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `気象学の用語としては本来、平年の平均的な気候が長期的な時間スケールで変化する現象は「気候変化（climate change）」と呼ばれる。「気候変動（climatic variation）」は、平年の平均的な気候からの偏差という意味で用いられ、気候変化とは区別される[2][3]。`,
+          },
+          {
+            content: `しかし、近年では2つの用語を混ぜて利用したり、独自の定義に基づいて用語を使い分けたりする場合もある。例えば、国連のUNFCCC（気候変動枠組条約）ではclimate changeという用語が人為的な変化、climate variabilityが非人為的な変化にあてられている[4]また、IPCCにおいては同じclimate changeという用語が人為的・非人為的変化の両方をまとめて表記するために用いられ、日本語訳においては（「気候変動」を内包する言葉として）気候変化と表記されている[4]（IPCC第4次評価報告書#使われている表記も参照）。`,
+          },
+          {
+            content: `地球温暖化のリスクの深刻さを鑑みて、気候変動ではなく、気候危機という言葉を使う動きもある[5]。`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `地球規模の気候を決める要因には、気候システムに内在するものと、システム外からの影響による外部強制力がある。気候システム内では、大気や海洋が物理法則にしたがって相互作用している。例えば大気海洋相互作用によって起こるエルニーニョ・南方振動は、気候システムに内在した変動である。一方、太陽活動の変動、地球の公転軌道の変化、火山噴火によるエアロゾルの増加、海塩粒子、土壌性エアロゾル（ダスト）の発生などは、自然の要因による外部強制力である。温室効果ガスや大気汚染物質の排出、森林の伐採や土地利用の変化など、人間活動に由来する外部強制力もある。`,
+          },
+          {
+            content: `気候変化とその要因としては、以下のような例がある。`,
+          },
+          {
+            content: `氷期と間氷期の10万年周期の変化、および亜氷期と亜間氷期の間の4万年や2万年周期の変化は、地球の軌道要素の変化によって発生する（外部強制力）。`,
+          },
+          {
+            content: `氷床コアや海底の堆積物の調査結果から、1万年以下の周期で温度が急激に変化した事が明らかになっている。これはボンドサイクルのような氷床の形成と崩壊を反映していると考えられている（気候システムに内在する要因）。`,
+          },
+          {
+            content: `小氷期は太陽放射か火山活動の変化、もしくは両方の複合によって起こったと考えられている（外部強制力）。`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `さまざまな気候強制力は通常、地質時代を通じて流動しており、地球の温度の一部のプロセスは自己調節している可能性があります。 たとえば、スノーボールアースの時代には、大きな氷河の氷床が地球の赤道まで広がり、ほぼ地球の表面全体を覆い、非常に高いアルベドが極度の低温を生み出した一方、雪と氷の蓄積により大気の堆積を通じて二酸化炭素が除去されたと考えられます。 しかし、火山によって放出される大気中の CO2 を吸収する植物の覆いがないため、温室効果ガスが大気中に蓄積する可能性があります。 また、風化の際に二酸化炭素を消費する露出したケイ酸塩岩も存在しなかった。 これにより温暖化が起こり、後に氷が溶けて地球の温度が元に戻りました。`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //13 Himalaya
+  {
+    id: "53",
+    title: "ヒマラヤ山脈",
+    shortDesc: ["Himalayan Range"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg/384px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg",
+        title: "ネパール側のカラパタール（英語版）から見たエベレスト",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#geography",
+        title: "地理",
+      },
+      {
+        key: "3",
+        href: "#Geological",
+        title: "プレートテクトニクス",
+      },
+      {
+        key: "4",
+        href: "#Hydrology",
+        title: "氷河と河川",
+      },
+      {
+        key: "5",
+        href: "#climate",
+        title: "気候への影響",
+      },
+      {
+        key: "6",
+        href: "#Ecology",
+        title: "エコロジー",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `ヒマラヤ山脈（ヒマラヤさんみゃく、英: Himalayan Range）は、アジアの山脈で、地球上でもっとも標高の高い地域である。単にヒマラヤということもある。`,
+          },
+          {
+            content: `ヒマラヤは、インド亜大陸とチベット高原を隔てている無数の山脈から構成される巨大な山脈である。西はパキスタン北部インダス川上流域から、東はブラマプトラ川大屈曲部まで続き、ブータン、中国、インド、ネパール、パキスタンの、東アジアおよび南アジアの5つの国にまたがる。いずれも最大級の大河であるインダス川、ガンジス川、ブラマプトラ川、黄河、長江の水源となって数々の古代文明を育み、このヒマラヤ水系には約7億5,000万人の人々が生活している（これにはバングラデシュの全人口が含まれる）。ヒマラヤは、広義の意味ではユーラシアプレートとインド・オーストラリアプレートの衝突によって形成された周辺の山脈である、カラコルム山脈、ヒンドゥークシュ山脈、天山山脈、崑崙山脈などを含む。`,
+          },
+          {
+            content: `広義のヒマラヤには、最高峰エベレストを含む、地球上でもっとも高い14の8,000メートル級ピークがあり、7,200メートル以上の山が100峰以上存在する。一方で、アジアのこの地域以外には7,000メートル以上の山は存在せず、アンデス山脈アコンカグアの6,961メートルが最高標高である。`,
+          },
+          {
+            content: `以下では狭義のヒマラヤについて解説する。`,
+          },
+          {
+            content: `ヒマラヤ山脈（英語: Himalayan Range、中国語: 喜马拉雅山脉、チベット語: ཧི་མ་ལ་ཡ）は、アジアの山脈であり、パキスタン・インド・チベット（中華人民共和国領）・ネパール・ブータンの国境付近に位置する。西端はアフガニスタンのヒンドゥークシュ山脈へとつながる。ヒマーラヤ（हिमालय、himālaya）は、サンスクリット語で、hima（ヒマ「雪」）+ ālaya（ア－ラヤ「すみか」）から「雪の住みか」の意[1]。`,
+          },
+          {
+            content: `エベレスト（8,848メートル）、カンチェンジュンガ（8,586メートル）、ナンガ・パルバット（8,125メートル）をはじめ、世界でも有数の標高の高い山が数多く属している。`,
+          },
+          {
+            content: `プレートテクトニクスによると、ヒマラヤ山脈は、インド亜大陸のユーラシア大陸への衝突により形成された。インド亜大陸の北上は続いており、ヒマラヤ山脈の成長も続いている。`,
+          },
+          {
+            content: `各山々の標高には数説あり、エベレストは、ネパールと中国が共同発表した8,848.86メートルが最新データである。測量技術の向上と地殻変動による推移が関係している。注として、上記のデータには山頂の積雪3.5メートルは含まれない。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `ヒマラヤ山脈の全長は西のナンガ・パルバット（パキスタン）から、東のナムチャバルワまで実に2,400キロに及ぶ。地理学的には、ヒマラヤ山脈は標高と地質によって平行に走る3つの山脈に分類される。3つのうちでもっとも後に形成された山脈は外ヒマラヤ（シワリク山地）と呼ばれ、およそ1,200メートルほどの高さの山で構成されている。この山脈はヒマラヤ山脈の成長にともなって発生した土砂の流出物によって形成されたと考えられている。`,
+          },
+          {
+            content: `この山脈の北隣に平行に走る形で、小ヒマラヤがある。小ヒマラヤは2,000メートルから5,000メートルの標高の山々で形成され、マハーバーラト山脈とも呼ばれる。小ヒマラヤと大ヒマラヤの間にはカシミール盆地およびカトマンズ盆地という2つの肥沃な盆地があり、ここでは古くから高い文明が栄えていた。もっとも北にあるのが大ヒマラヤで、3つの山脈の中でもっとも古い山脈である。6,000メートル以上のピークを多数有し、世界でもっとも高いエベレスト、3番目に高いカンチェンジュンガがこの山脈に属している。`,
+          },
+          {
+            content: `ヒマラヤは、東西にはおよそ5つに区分される。もっとも西寄りに位置するのがパンジャーブ・ヒマラヤであり、インダス川からサトレジ川までのインダス水系に属する山々である。行政的にはインドのジャンム・カシミール州やヒマーチャル・プラデーシュ州、パキスタンのギルギット・バルティスタン州となる。次いでその東に位置するのがガルワール・ヒマラヤ（クマオン・ヒマラヤ）である。インドのウッタラーカンド州に属する区域で、ガンジス川本流の源流域にあたる。ガンジス本流の源流とされるガンゴートリー氷河もここに属する。その東には、ネパール・ヒマラヤが広がる。行政的にはネパールに属する区域で、エベレストやダウラギリ、マナスルなど、ヒマラヤでもっとも高い山々がそびえる区域である。その東はシッキム・ブータン・ヒマラヤで、行政的にはインドのシッキム州とブータン王国の区域となる。もっとも東に位置するのがアッサム・ヒマラヤであり、行政的にはインドのアルナーチャル・プラデーシュ州となる。なお、この行政区域はすべてヒマラヤ南麓のものであり、ヒマラヤ北麓はすべて行政的には中国のチベット自治区に属する[2]。`,
+          },
+          {
+            content: `ネパールとブータンの国土のほとんどがヒマラヤ山脈である。パキスタンのバルティスターン、インドのジャンムー・カシミール州などの北部の地域がヒマラヤ山脈の中にある。チベット高原の南東部もヒマラヤ山脈に接しているが、チベット高原そのものは地理学的にはヒマラヤ山脈とは別の山系に分類される。`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `ヒマラヤ山脈は地球上で最も若い山脈の一つである。現代のプレートテクトニクス理論によると、ヒマラヤ山脈はインド・オーストラリアプレートとユーラシアプレートの間の沈み込みで起きた大陸同士の衝突による造山運動から生じた。`,
+          },
+          {
+            content: `衝突はおよそ7,000万年前後期白亜紀に始まった。そのころ、インド・オーストラリアプレートは年間15センチの速度で北上し、ユーラシアプレートと衝突した。`,
+          },
+          {
+            content: `約5,000万年前、このインド・オーストラリアプレートの速い動きによって海底の堆積層が隆起し、周縁部には火山が発生してインド亜大陸とユーラシア大陸の間にあったテチス海を完全に閉ざした。これらの堆積岩は軽かったため、プレートの下には沈まずにヒマラヤ山脈を形成した。今もインド・オーストラリアプレートはチベット高地の下で水平に動いており、その動きは高地にさらに押し上げている。ミャンマーのアラカン山脈とベンガル湾のアンダマン・ニコバル諸島もこの衝突の結果として形成された。かつて海だった証拠として、高山地帯で貝などの化石が発見される。`,
+          },
+          {
+            content: `今もインド・オーストラリアプレートは年間67ミリの速度で北上しており、今後1,000万年の間でアジア大陸に向かって1,500キロ移動するだろうと考えられている。この動きのうち約20ミリは、ヒマラヤの南の正面を圧縮することによって吸収される。結果として年に約5ミリの造山運動が発生し、ヒマラヤ山脈を地質学的に活発にしている。このインド亜大陸の動きにより、この地域は地震の多発地帯となっている。`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `ヒマラヤ山脈には非常に多くの氷河が存在し、面積は極地を除く地球上では最大である。ほかにおもな氷河としては、ガンゴートリー山系（英語版）のガンゴートリー氷河、ヤムノートリー（英語版）氷河、カンチェンジュンガ山系のゼム氷河（英語版）、エベレスト山系のクーンブ氷河（英語版）などがある。またカラコルム山脈にはシアチェン氷河、ビアフォ氷河、バルトロ氷河などがある。`,
+          },
+          {
+            content: `ヒマラヤ山脈の麓は熱帯気候や亜熱帯気候に属するが、頂上部は万年雪に閉ざされている。これらの万年雪は巨大な2つの河川の水源となっている。西への流れはインダス盆地に流れ込み、インダス川はその西方水系の中でもっとも大きな河川である。インダス川はチベットでセンゲ川（英語版）とガル川（英語版）の合流地点から始まり、カーブル川、ジェルム川、シェナブ川、ビアス川、サトレジ川などの河川と合流したのち、パキスタンを南西方向に横切り、アラビア海に流れ込んでいる。`,
+          },
+          {
+            content: `インダス川方面以外のヒマラヤ山脈の水源の多くはガンジス・ブラマプトラ川流域に流れ、両河川に合流する。ガンジス川はヒマラヤ南麓にあるガンゴートリー氷河に流れを発するバーギーラティー川（英語版）を源流としている。氷河の下からバギーラティー川が流れ出す地点はゴームク（牛の口）と呼ばれ、標高3,892メートルである[3]。その後、下流でヒマラヤから流れ出したアラクナンダ川（英語版）と合流し、そこからガンジス川という名に変わる。アラクナンダ川のほうが長いが、ヒンドゥー教の文化や神話ではバーギーラティー川のほうが真のガンジスの源流であるとみなされている[4][5]。その後、リシケーシュで山脈から離れ、ヤムナー川と合流したあと、北インドのヒンドスタン平原を南東に横切る。`,
+          },
+          {
+            content: `ブラマプトラ川は、西チベットに発するヤルンツァンポ川が、チベットを東に流れ、アッサム平野を西に流れていく。ガンジス川とブラマプトラ川は、バングラデシュで合流し、世界最大のデルタ地形を形成して、ベンガル湾へ流れ出ている[6]。`,
+          },
+          {
+            content: `ヒマラヤ最東部の河川はエーヤワディー川を形成している。エーヤワディー川は東チベットから始まり、ミャンマーを南に縦断、アンダマン海に流れ込む。`,
+          },
+          {
+            content: `サルウィン川、メコン川、長江と黄河は、ヒマラヤ山脈とは地質学的に区別されるチベット高原から始まるため、本来はヒマラヤ山脈を水源とする河川ではないと考えられている。一部の地理学者は、ヒマラヤ外縁水系の川と分類している。`,
+          },
+          {
+            content: `近年、ヒマラヤ山脈の全域で顕著な氷河後退現象が観測されているが、世界的な気候変動の結果であると考えられている[7]。この現象の長期的な影響は未知であるが、乾季の生活を氷河を水源とする北インドの河川に頼る数億の人々に甚大な影響を与えると見られている[8]。`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content: `ヒマラヤ山脈はインド亜大陸とチベット高原の気候に重大な影響を及ぼしている。ヒマラヤ山脈は非常に冷たく乾燥した北極風がインド亜大陸に南に吹きつけるのを防ぎ、南アジアをほかの大陸の同じ緯度の地域より温暖にしている。`,
+          },
+          {
+            content: `ヒマラヤ山脈は北上するモンスーンを遮断し、テライ・ベルトで大量の降雨を発生させる原因となっている。この降雨はヒマラヤ南面のほとんどの地域にあり、雨季の大量の降雨はヒンドスタン平原に豊富な水をもたらしている。またこれによって中央アジアは降雨量が少なくなり、タクラマカン砂漠やゴビ砂漠を形成する原因となっている[10]。`,
+          },
+          {
+            content: `冬季になるとイランの方から激しい気流が発生するが、ヒマラヤ山脈はその気流を遮断、カシミール地方に降雪をパンジャブ州と北インドに降雨をもたらす。`,
+          },
+          {
+            content: `またその気流の一部は一部がブラマプトラ川流域に流れ込み、インド北東部とバングラデシュの温度を下げる。この風が原因となり、これらの地方に冬季の間、北東モンスーンが起きる。`,
+          },
+        ],
+      },
+      {
+        id: 6,
+        segment: [
+          {
+            content: `ヒマラヤの動植物は、気候、降水量、標高、土壌によって異なります。 気候は、山麓の熱帯気候から最高標高部の永久氷雪まで多岐にわたります。 年間降水量は、山脈の南前線に沿って西から東に向かって増加します。 この高度、降雨量、土壌条件の多様性が、非常に高い積雪線と組み合わされて、さまざまな動植物群落を支えています。 [38] 極端な高地（低気圧）と極端な寒さは、極限環境生物にとって有利です。`,
+          },
+          {
+            content: `高地では、とらえどころがなく、以前は絶滅の危機に瀕していたユキヒョウが主な捕食者です。 その獲物には、高山の牧草地で草を食べ、岩だらけの地形に住むヤギ科の動物、特に固有種のバラル羊またはヒマラヤブルーシープが含まれます。 ヒマラヤジャコウジカも高地で見られます。 ムスクを目的として狩猟されているため、現在では希少で絶滅の危機に瀕しています。 他の風土病または風土病に近い草食動物には、ヒマラヤ タール、ターキン、ヒマラヤ カモシカ、ヒマラヤ ゴーラルなどがあります。 ヒグマの絶滅危惧種であるヒマラヤ亜種は、ツキノワグマと同様に、この生息地全域で散発的に発見されています。 ヒマラヤ東部の山岳地帯の落葉樹と針葉樹の混合林では、レッサーパンダは竹の密集した下層で餌を食べます。 麓の丘陵地帯の森林には、絶滅危惧種のジーズゴールデンラングールやカシミールハイイロラングールなど、数種類の霊長類が生息しており、生息域はそれぞれヒマラヤ山脈の東と西に非常に限られています。`,
+          },
+          {
+            content: `ヒマラヤ山脈の独特な動植物の豊かさは、気候変動により構造的および組成的に変化を遂げています。 この地域で見られる花の種類としては、アジサイ ヒルタがあります。 気温の上昇により、さまざまな種がより高い標高に移動しています。 ヒマラヤのガルワール地域では、オークの森が松林に侵食されています。 一部の樹種、特にシャクナゲ、リンゴ、ハコギンバイカでは、開花と結実が早いとの報告があります。 ヒマラヤ山脈で最も高い既知の樹種は、チベット南東部の標高 4,900 m (16,080 フィート) に位置するビャクシン チベチカです。`,
+          },
+          {
+            content: `ヒンドゥークシュ山脈の山岳地帯はほとんどが不毛地帯か、せいぜい樹木や発育不全の低木がまばらに点在している程度です。 ヤルシャター氏は、「標高約1,300～2,300メートル（4,300～7,500フィート）では、コナラとオレア（野生のオリーブ）が優勢な硬葉樹林が見られる。それより上、高さ約3,300メートル（10,800フィート）までは、針葉樹林が見られる」と述べている。 スギ、アカマツ、トドマツ、マツ、ジュニパー」。 ヒンドゥークシュの内陸谷では雨がほとんど降らず、砂漠の植物が生い茂っています。 一方、ヒマラヤ東部には複数の生物多様性ホットスポットがあり、1998年から2008年の間に353種（植物242種、両生類16種、爬虫類16種、魚類14種、鳥類2種、哺乳類2種、無脊椎動物61種以上）の新種が発見された。 、毎年平均 35 種の新種が発見されています。 ヒマラヤ東部も含めると、ヒンドゥークシュ ヒマラヤ地域全体には推定 35,000 種以上の植物と 200 種以上の動物が生息しています。`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "所在地",
+          children: [
+            {
+              name: `ブータン-
+              中華人民共和国の旗 中国-
+              インドの旗 インド-
+              ネパールの旗 ネパール-
+              パキスタンの旗 パキスタン`,
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "位置",
+          children: [
+            {
+              name: "北緯30度00分00秒 東経80度00分00秒",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "最高峰",
+          children: [
+            {
+              name: "エベレスト（8,844m/8,848 m）",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  //12 Song bang
+  {
+    id: "52",
+    title: "氷河",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aletschgletscher.jpg/300px-Aletschgletscher.jpg",
+        title: "スイス・アルプスの氷河モレーン（黒い線）が氷上にみられる",
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#Formation",
+        title: "氷河の形成",
+      },
+      {
+        key: "3",
+        href: "#geography",
+        title: "地理",
+      },
+      {
+        key: "4",
+        href: "#Motion",
+        title: "モーション",
+      },
+      {
+        key: "5",
+        href: "#geographyrive",
+        title: "氷河地質",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `氷河（ひょうが、英: glacier）は、山地では重力、平坦な大陸では氷の重さによる圧力によって塑性流動する、巨大な氷の塊である。`,
+          },
+          {
+            content: `氷河は、山がちな、または傾斜した地形に、複数年にわたって氷や雪が堆積し、万年雪が圧縮されることでできる。下部には過去の氷期にできたものが融けずに残っている場合もある。氷河は侵食、堆積を活発に行い、独特な氷河地形を生む。`,
+          },
+          {
+            content: `地球の気温と氷河は密接な関係があり、海進、海退の原因となる。現在陸上に見られる氷河は、南極氷床、グリーンランド氷床を最大級として、総計1,633万 km2に及び、陸地面積の約11%を覆う。`,
+          },
+          {
+            content: `近年は地球温暖化の影響でその面積や厚さの減少が激しく、問題となっている（氷河融解を参照）。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `比較的温度の高い氷河は、融解と凍結を繰り返してざらざらしたネヴェ(névé)と呼ばれる雪を主成分とする。この雪はざらめ雪と呼ばれる。この氷河の氷は、氷と雪の層の下で圧力を受け融解し、フィルンという氷の粒に変化する。フィルンの層は一定の年月を経ると、さらに圧縮されて氷河の氷(glacial ice)となる。また、雪は温度変化のあるところにあると、数時間でそれぞれの表面に凹凸のある結晶に変性し始める（蒸気圧による現象とは異なる）。`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `氷河は、遠く離れた亜南極の島々の領土にのみ氷河がある国 (オーストラリア、南アフリカ) を除いて、すべての大陸と約 50 か国に存在します。 南極大陸、アルゼンチン、チリ、カナダ、アラスカ、グリーンランド、アイスランドには広大な氷河が存在します。 山岳氷河は、特にアンデス山脈、ヒマラヤ山脈、ロッキー山脈、コーカサス山脈、スカンジナビア山脈、アルプスに広く分布しています。 ブルガリアのピリン山にある北緯41度46分09秒のスネジニカ氷河は、ヨーロッパ最南端の氷河塊である[40]。 オーストラリア本土には現在氷河が存在しないが、最終氷期にはコジオスコ山の小さな氷河が存在した[41]。 ニューギニアでは、急速に減少している小さな氷河がプンチャック・ジャヤに位置している[42]。 アフリカには、タンザニアのキリマンジャロ山、ケニア山、ルウェンゾリ山脈に氷河があります。 氷河のある海洋島には、アイスランド、極北のスバールバル諸島やヤンマイエン島を含むノルウェー沖のいくつかの島、ニュージーランド、亜南極のマリオン島、ハード島、グランテール島（ケルゲレン島）、ブーベ島などがあります。 第四紀の氷河期には、台湾、ハワイのマウナケア[43]、テネリフェ島にも大きな高山氷河があったが、フェロー諸島とクロゼ諸島[44]は完全に氷河で覆われていた。`,
+          },
+          {
+            content: `氷河の形成に必要な恒久的な積雪量は、土地の傾斜度、降雪量、風などの要因に影響されます。 氷河は、赤道の南北 20 度から 27 度を除くすべての緯度で見られます。赤道の北と南では、ハドレー循環の下降肢の存在により降水量が大幅に低下し、日射量が多い場合には雪線が 6,500 m (21,330 フィート) 以上に達します。 ただし、北緯 19 度から南緯 19 度の間では降水量が多くなり、標高 5,000 メートル (16,400 フィート) を超える山には通常雪が降ります。`,
+          },
+          {
+            content: `高緯度であっても、氷河の形成は避けられないわけではありません。 バンクス島や南極のマクマードドライバレーなどの北極地域は、厳しい寒さにもかかわらず降雪が少ないため、氷河が形成されない極地の砂漠と考えられています。 冷たい空気は、暖かい空気とは異なり、多くの水蒸気を運ぶことができません。 第四紀の氷河期であっても、満州、シベリア低地[45]、アラスカ中部および北部[46]は異常に寒かったにもかかわらず、降雪量が非常に少なかったため、氷河が形成できなかった。`,
+          },
+          {
+            content: `乾燥した氷河のない極地に加えて、ボリビア、チリ、アルゼンチンの一部の山や火山は標高が高く (4,500 ～ 6,900 m、または 14,800 ～ 22,600 フィート)、寒いですが、降水量が比較的少ないため、雪が氷河に蓄積することができません。 これは、これらの峰が超乾燥地帯のアタカマ砂漠の近くまたはその中に位置しているためです。`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `氷河は、重力と氷の内部変形によって下向きに移動、または流れます [27]。 氷は、厚さが約 50 m (160 フィート) を超えるまでは脆い固体のように振る舞います。 50 m より深い氷には圧力がかかり、塑性流動が発生します。 分子レベルで見ると、氷は層間の結合が比較的弱い分子の層で構成されています。 上の層にかかる応力が層間の結合強度を超えると、下の層よりも速く移動します。`,
+          },
+          {
+            content: `氷河も基底滑りによって移動します。 このプロセスでは、氷河は液体の水の存在によって潤滑され、氷河が置かれている地形の上を滑ります。 水は、摩擦加熱による高圧下で溶ける氷から生成されます。 基底滑りは、温帯または温暖な氷河で支配的です。`,
+          },
+          {
+            content: `氷河の流れを支持する証拠は 19 世紀初頭までに知られていましたが、氷河内で再凍結する融解水が氷河を膨張させ、その長さを伸ばすという考えなど、氷河の動きに関する他の理論も進歩しました。 氷河がある程度、氷が粘稠な流体であるかのように挙動することが明らかになると、「再ゲル化」、つまり氷河内の氷にかかる圧力によって低下した温度での氷の融解と再凍結が原因であると主張された。 氷が変形して流れることを可能にしました。 ジェームズ・フォーブスは 1840 年代に本質的に正しい説明を思いつきましたが、それが完全に受け入れられるまでには数十年かかりました。`,
+          },
+          {
+            content: `氷河の上部 50 m (160 フィート) は低圧下にあるため硬くなっています。 この上部セクションは破砕ゾーンとして知られており、プラスチックが流れる下部セクション上でほとんどが単一ユニットとして移動します。 氷河が不規則な地形を移動すると、破砕帯にクレバスと呼ばれる亀裂が発生します。 クレバスは氷河の速度の違いによって形成されます。 氷河の 2 つの硬い部分が異なる速度または方向で移動すると、せん断力によってそれらが破壊され、クレバスが開きます。 クレバスの深さが 46 m (150 フィート) を超えることはめったにありませんが、場合によっては少なくとも 300 m (1,000 フィート) の深さになることがあります。 この点より下では、氷の可塑性により亀裂の形成が防止されます。 クレバスが交差すると、氷の中にセラックと呼ばれる孤立した峰ができることがあります。`,
+          },
+          {
+            content: `クレバスはいくつかの異なる方法で形成されます。 横クレバスは流れに対して横方向であり、急な斜面によって氷河が加速する場所に形成されます。 氷河が横に広がる場所では、縦方向のクレバスが流れと半平行に形成されます。 氷河の端近くには、谷壁の摩擦による速度の低下によって、境界クレバスが形成されます。 境界クレバスは主に流れを横切っています。 移動する氷河の氷が上に停滞している氷から分離し、ベルクシュルントを形成することがあります。 ベルグシュルントはクレバスに似ていますが、氷河の縁にある特異な地形です。 クレバスは、特に壊れやすいスノーブリッジで隠れている場合、氷河の上を移動するのを危険にさらします。`,
+          },
+          {
+            content: `平衡線より下では、氷河の融解水が流路に集中します。 溶けた水は、氷河の上にある氷河湖に溜まったり、ムーランを通って氷河の深さに下ったりすることがあります。 氷河の中または下の小川は、氷河または氷河下のトンネルを流れます。 これらのトンネルは時々氷河の表面に再び現れることがあります。`,
+          },
+          {
+            content: `氷河の移動速度は摩擦によって部分的に決まります。 摩擦により、氷河の底の氷は上部の氷よりもゆっくりと動きます。 高山の氷河では、谷の側壁でも摩擦が発生し、中央に比べて端の速度が遅くなります。`,
+          },
+          {
+            content: `氷河の平均速度は大きく異なりますが、通常は 1 日あたり約 1 m (3 フィート) です。 停滞した領域では動きがない可能性があります。 たとえば、アラスカの一部では、樹木が地表の堆積物の上に定着することがあります。 グリーンランドのヤコブスハウン・イスブラのように、氷河が 1 日に 20 ～ 30 m (70 ～ 100 フィート) もの速さで移動する場合もあります。 氷河の速度は、傾斜、氷の厚さ、降雪量、縦方向の閉じ込め、基礎温度、融解水の生成、層の硬さなどの要因に影響されます。`,
+          },
+          {
+            content: `いくつかの氷河には、サージと呼ばれる非常に急速な進歩の時期があります。 これらの氷河は、突然加速するまでは通常の動きを示し、その後、以前の動きの状態に戻ります。 これらのサージは、下にある岩盤の破壊、氷河の底に溜まった融解水[33]（おそらく氷上湖から供給されたもの）、または重大な「転換点」を超えた単純な質量の蓄積によって引き起こされる可能性があります。[34] ] 温度の上昇や上にかかる圧力によって底の氷が溶け、氷河の下に水が溜まると、一時的に 1 日あたり最大 90 m (300 フィート) の速度が発生しました。`,
+          },
+          {
+            content: `氷河が年間 1 km を超える速度で移動する氷河地域では、氷河地震が発生します。 これらはマグニチュード6.1にも達する大規模な地震である[35][36]。 グリーンランドの氷河地震の数は毎年7月、8月、9月にピークを迎え、1990年代と2000年代に急増した。 1993 年 1 月から 2005 年 10 月までのデータを使用した研究では、2002 年以降、毎年より多くのイベントが検出され、2005 年には他の年の 2 倍のイベントが記録されました。`,
+          },
+          {
+            content: `オジーブまたはフォーブス バンド[37]は、氷河の表面に濃い氷の帯と明るい氷の帯として現れる、交互に現れる波の山と谷です。 それらは氷河の季節的な動きと関係しています。 1 つの暗いバンドと 1 つの明るいバンドの幅は、通常、氷河の年間移動に等しい。 オジーブは、氷瀑の氷が激しく砕かれるときに形成され、夏の間に削られる表面積が増加します。 これにより、冬に雪が積もる湿地とスペースが形成され、尾根が形成されます [38] 。 時々、オジーブは波状のオジーブまたは色の帯だけで構成され、波オジーブまたはバンド オジーブと呼ばれます。`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content:
+              "氷河は、剥ぎ取りと摩耗という 2 つの主要なプロセスを通じて地形を侵食します。",
+          },
+          {
+            content: `氷河が岩盤の上を流れると、岩のブロックが柔らかくなり、氷の中に持ち上げられます。 プラッキングと呼ばれるこのプロセスは、岩盤の亀裂に浸透し、その後凍結して膨張する氷河下水によって引き起こされます。 この膨張により、氷が岩を持ち上げて緩めるレバーとして機能します。 したがって、あらゆるサイズの堆積物が氷河の負荷の一部になります。 後退する氷河に十分な破片が蓄積すると、ユタ州のティンパノゴス氷河のような岩氷河になる可能性があります。`,
+          },
+          {
+            content: `摩耗は、氷とそれに含まれる岩の破片が岩盤の上を滑るときに発生し[50]、サンドペーパーの役割を果たし、下の岩盤を滑らかにして磨きます。 このプロセスで生成される粉砕された岩石は岩石粉と呼ばれ、サイズが 0.002 ～ 0.00625 mm の岩石粒子で構成されています。 摩耗により、高山地帯の谷壁や山の斜面が急峻になり、雪崩や岩石滑りが発生し、氷河にさらに多くの物質が加えられる可能性があります。 氷河摩耗は一般に氷河の縞模様によって特徴付けられます。 氷河には、岩盤に長い傷を刻む大きな岩が含まれている場合に、これらが生成されます。 縞模様の方向をマッピングすることで、研究者は氷河の移動方向を決定できます。 縞模様と似ているのは、氷河の下にある岩にある三日月形の窪みの線であるチャター マークです。 これらは、氷河内の岩が岩盤に沿って引きずられる際に繰り返し掴まれたり放されたりする際の摩耗によって形成されます。`,
+          },
+          {
+            content: `氷河の侵食の速度はさまざまです。 侵食速度を制御する 6 つの要素:`,
+          },
+          {
+            content: "氷河の動きの速度",
+          },
+          {
+            content: "氷の厚さ",
+          },
+          {
+            content: "氷河の底の氷に含まれる岩石の破片の形状、量、硬さ",
+          },
+          {
+            content: "氷河の下の表面の浸食が比較的容易である",
+          },
+          {
+            content: "氷河底の温度条件",
+          },
+          {
+            content: "氷河底の透水性と水圧",
+          },
+          {
+            content:
+              "岩盤の表面に頻繁な亀裂がある場合、剥ぎ取りが表面に対する主な侵食力であるため、氷河侵食速度が増加する傾向があります。 しかし、岩盤に散発的な亀裂の間に広い隙間がある場合、摩耗が主な浸食形態となる傾向があり、氷河の浸食速度は遅くなります。 低緯度の氷河は高緯度の氷河よりも侵食が大きくなる傾向があります。これは、氷河の底部に到達する融解水が多く、同じ移動速度と氷の量でも堆積物の生成と輸送が促進されるためです。",
+          },
+          {
+            content:
+              "氷河に取り込まれた物質は、通常、堆積する前にアブレーションゾーンまで運ばれます。 氷河堆積物には 2 つの異なるタイプがあります。",
+          },
+          {
+            content:
+              "氷河堆積物: 氷河の氷から直接堆積した物質。 ティルには粘土サイズから岩石までの未分化物質の混合物が含まれており、これはモレーンの通常の組成です。",
+          },
+          {
+            content:
+              "河川堆積物およびアウトウォッシュ堆積物: 水によって堆積した堆積物。 これらの堆積物はサイズによって階層化されています。",
+          },
+          {
+            content: `耕作地に覆われたり、表面に堆積した大きな岩石の破片は「氷河の不安定物」と呼ばれます。 それらの大きさは小石から岩までさまざまですが、長距離を移動することが多いため、発見されたときの材質とは大幅に異なる場合があります。 氷河の不安定なパターンは、過去の氷河の動きを示唆しています。`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "",
+          children: [
+            {
+              name: "",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 11 Thung lung silicon
+  {
+    id: "51",
+    title: "シリコンバレー",
+    shortDesc: ["地域"],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Silicon_Valley%2C_facing_southward_towards_Downtown_San_Jose%2C_2014.jpg/413px-Silicon_Valley%2C_facing_southward_towards_Downtown_San_Jose%2C_2014.jpg",
+        title: `上からサンノゼ、シリコンバレー南部地域上空、スタンフォード大学`,
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "イントロ",
+      },
+      {
+        key: "2",
+        href: "#group",
+        title: "著名な企業",
+      },
+      {
+        key: "3",
+        href: "#university",
+        title: "大学",
+      },
+      {
+        key: "4",
+        href: "#city",
+        title: "シリコンバレー日系団体・組織",
+      },
+      {
+        key: "5",
+        href: "#more",
+        title: "その他の最先端工業地域",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `シリコンバレー（英語: Silicon Valley）は、アメリカ合衆国カリフォルニア州北部のサンフランシスコ・ベイエリアの南部に位置しているサンタクララバレーおよびその周辺地域の名称。特定の一箇所を公的に指す地名ではなく、ある程度広い地域一帯の通称として使用される。`,
+          },
+          {
+            content: `名称は、多数の半導体メーカー（半導体の主原料はケイ素、英: silicon）が集まっていたこと、および地形（渓谷、英: valley）に由来する。`,
+          },
+          {
+            content: `この地域ではApple、インテル、ナショナル セミコンダクター、Google（Alphabet）、Facebook（Meta）、アプライド・マテリアルズ、Yahoo!、アドビ、シスコシステムズなどに代表されるソフトウェアやインターネット関連企業が多数生まれ、IT企業の一大拠点となっている。`,
+          },
+          {
+            content: `具体的には、北はサンマテオ周辺からサンノゼまでの複数の市を指す。シリコンバレーの中心は、サンノゼ、マウンテンビュー、サニーベール、サンタクララ、クパティーノなどさまざまな都市である。`,
+          },
+          {
+            content: `元々メンローパークにあるスタンフォード大学出の技術者がヒューレット・パッカードなどのエレクトロニクス、コンピュータ企業を設立し、この大学の敷地をスタンフォード・インダストリアル・パークとしてこうした新技術の会社を誘致したのが始まりともいわれている[1]。また、トランジスタの発明者の一人であるウィリアム・ショックレーがこの地にショックレー半導体研究所を設立し、そこを辞めた8人（8人の反逆者）が設立したフェアチャイルドセミコンダクターや、更にそこからインテルをはじめとする多くの半導体企業が生まれたことにちなみシリコンバレーと呼ばれるようになった[2]。`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `多くの先端IT企業がシリコンバレー内に本拠を置いている。以下はFortune 1000にリストされている企業である：`,
+          },
+          {
+            content: `
+            アドビ （Adobe Inc.）,
+            アドバンスト・マイクロ・デバイセズ (AMD),
+            アジレント・テクノロジー (Agilent Technologies）,
+            Apple,
+            アプライド・マテリアルズ　(Applied Materials),
+            シスコシステムズ,
+            eBay（イーベイ）,
+            エレクトロニック・アーツ,
+            Google（グーグル）,
+            ケイデンス・デザイン・システムズ,
+            ヒューレット・パッカード (HP),
+            インテル,
+            インテュイット（英語版）,
+            ジュニパーネットワークス,
+            マックストア,
+            ナショナル セミコンダクター,
+            Facebook（フェイスブック）,
+            ネットアップ,
+            NVIDIA（エヌビディア）,
+            オラクル,
+            サン・マイクロシステムズ,
+            シマンテック,
+            ザイリンクス,
+            Yahoo!（ヤフー・インク）`,
+          },
+
+          {
+            content: `上記に加えてシリコンバレー内に本拠を置く著名な企業は（一部は現存しない）：`,
+          },
+          {
+            content: `テスラ,
+            スリーコム（HPが買収）,
+            アダプテック,
+            アムダール,
+            アタリ,
+            Atmel（アトメル）,
+            サイプレス・セミコンダクター,
+            ファウンドリーネットワークス,
+            Knight-Ridder（ナイトライダー。The McClatchy Company（マクラシー社）が取得）,
+            LSIコーポレーション (LSIC),
+            マカフィー（インテルが買収）,
+            ネットスケープ（AOLが取得）,
+            NeXT Computer, Inc.（ネクスト・コンピュータ。現Apple Inc.）,
+            パーム（HPが買収）,
+            ACCESS Systems（アクセスシステムズ）,
+            PayPal（ペイパル。eBayが取得）,
+            Powerset（パワーセット）,
+            ラムバス,
+            レッドバック・ネットワークス（英語版）,
+            サンディスク,
+            シリコングラフィックス,
+            ソレクトロン（英語版）,
+            ティーボ,
+            VA Software（VAソフトウェア。スラッシュドット）,
+            ベリサイン,
+            VERITAS（シマンテックが取得）,
+            VMware（ブイエムウェア。EMCが取得）`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content: `スタンフォード大学,
+              カーネギーメロン大学（西海岸キャンパス）,
+              サンノゼ州立大学,
+              サンタクララ大学`,
+          },
+          {
+            content:
+              "正確には以下の大学はシリコンバレーに位置していないが、近隣の研究機関としてこの地に貢献している：",
+          },
+          {
+            content: `カリフォルニア州立大学イーストベイ校,
+              カリフォルニア大学デービス校,
+              カリフォルニア大学バークレー校,
+              カリフォルニア大学サンタクルーズ校`,
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `ジェトロ Business Innovation Center (BIC)
+              Silicon Valley Japanese Entrepreneur Network (SVJEN)
+              Silicon Valley Multimedia Forum (SVMF)
+              Japan America Business Initiatives (JABI)
+              Japanese Technology Professional Association (JTPA)
+              Japan Bio Community
+              Keizai Society`,
+          },
+        ],
+      },
+      {
+        id: 5,
+        segment: [
+          {
+            content: `シリコンバレーの成功は、アメリカ全土に知れ渡り、経済が停滞していたアメリカにとって、IT産業の隆盛は経済復活の狼煙となった。そのため、必然的に他地方でも大手、ベンチャー企業や大学、政府などの働きかけによってIT産業が成熟する基盤が築き上げられ、そのうちの幾つかは着実に成果を上げ、成長を遂げた。それに従い、シリコンバレー各地で、大成功の象徴であるシリコンバレーに肖り、愛称や俗称が付けられているようになっている。ここに挙げているのは一部だが、英語版wikipediaを確認すると実に50箇所以上の地域が存在しており、中には基盤や育成土壌は未熟であるが、優秀なベンチャー誘致の手段として名乗っていた例も見られる。`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "国",
+          children: [
+            {
+              name: "アメリカ合衆国",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "州",
+          children: [
+            {
+              name: "カリフォルニア州",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "地域",
+          children: [
+            {
+              name: "サンフランシスコ・ベイエリア",
+              link: "#",
+            },
+          ],
+        },
+      ],
+    },
+  },
+
+  // 10 Chien tranh the gioi thu 2
+  {
+    id: "50",
+    title: "World War II",
+    shortDesc: [""],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/2-8_Field_Regt.jpg",
+        title: `Clockwise from top left:
+        German Stuka dive bombers on the Eastern Front, 1943British Matilda II tanks during the North African campaign, 1941Soviet troops at the Battle of Stalingrad, 1942–1943U.S. warships in Lingayen Gulf in the Philippines, 1945Soviet soldier raising a flag over the Reichstag after the Battle of Berlin, 1945U.S. atomic bombing of Nagasaki in Japan, 1945`,
+      },
+    ],
+    subtitle: [
+      {
+        key: "1",
+        href: "#name",
+        title: "Intro",
+      },
+      {
+        key: "2",
+        href: "#Sequence",
+        title: "Start and end dates",
+      },
+      {
+        key: "3",
+        href: "#History",
+        title: "History",
+      },
+      {
+        key: "4",
+        href: "#Aftermath",
+        title: "Aftermath",
+      },
+    ],
+    paragraph: [
+      {
+        id: 1,
+        segment: [
+          {
+            content: `World War II (WWII or WW2) or the Second World War was a global conflict that lasted from 1939 to 1945. The vast majority of the world's countries, including all the great powers, fought as part of two opposing military alliances: the Allies and the Axis. Many participants threw their economic, industrial, and scientific capabilities behind this total war, blurring the distinction between civilian and military resources. Aircraft played a major role, enabling the strategic bombing of population centres and delivery of the only two nuclear weapons ever used in war. It was by far the deadliest conflict in history, resulting in 70 to 85 million fatalities, mostly civilians. Millions died due to genocides, including the Holocaust, as well as starvation, massacres, and disease. In the wake of Axis defeat, Germany, Austria and Japan were occupied, and war crimes tribunals were conducted against German and Japanese leaders.`,
+          },
+          {
+            content: `The causes of the war are debated; contributing factors included the rise of fascism in Europe, the Spanish Civil War, the Second Sino-Japanese War, Soviet–Japanese border conflicts, and tensions in the aftermath of World War I. World War II is generally considered to have begun on 1 September 1939, when Nazi Germany, under Adolf Hitler, invaded Poland. The United Kingdom and France declared war on Germany on 3 September. Under the Molotov–Ribbentrop Pact of August 1939, Germany and the Soviet Union had partitioned Poland and marked out their "spheres of influence" across Finland, Estonia, Latvia, Lithuania and Romania. From late 1939 to early 1941, in a series of campaigns and treaties, Germany conquered or controlled much of continental Europe, in a military alliance, called the Axis, with Italy, Japan, and other countries. Following the onset of campaigns in North Africa and East Africa, and the fall of France in mid-1940, the war continued primarily between the European Axis powers and British Empire, with the war in the Balkans, the aerial Battle of Britain, the Blitz of the UK, and the Battle of the Atlantic. In June 1941, Germany led the European Axis powers in an invasion of the Soviet Union, opening the Eastern Front, the largest land theatre of war in history.`,
+          },
+          {
+            content: `Japan, which aimed to dominate Asia and the Pacific, was at war with the Republic of China by 1937. In December 1941, Japan attacked American and British territories with near-simultaneous offensives against Southeast Asia and the Central Pacific, including an attack on Pearl Harbor which resulted in the United States and the United Kingdom declaring war against Japan. The European Axis powers declared war on the US in solidarity. Japan soon conquered much of the western Pacific, but its advances were halted in 1942 after losing the critical Battle of Midway; Germany and Italy were defeated in North Africa and at Stalingrad in the Soviet Union. Key setbacks in 1943—including German defeats on the Eastern Front, the Allied invasions of Sicily and Italian mainland, and Allied offensives in the Pacific—cost the Axis powers their initiative and forced them into strategic retreat on all fronts. In 1944, the Western Allies invaded German-occupied France, while the Soviet Union regained its territorial losses and pushed Germany and its allies back. During 1944–45, Japan suffered reversals in mainland Asia, while the Allies crippled the Japanese Navy and captured key western Pacific islands. The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Western Allies and the Soviet Union, culminating in the Fall of Berlin to Soviet troops, Hitler's suicide, and the German unconditional surrender on 8 May 1945. Following the refusal of Japan to surrender on the terms of the Potsdam Declaration, the US dropped the first atomic bombs on Hiroshima on 6 August and Nagasaki on 9 August. Faced with imminent invasion of the Japanese archipelago, the possibility of more atomic bombings, and the Soviet Union's declared entry into the war against Japan on the eve of invading Manchuria, Japan announced on 10 August its intention to surrender, signing a surrender document on 2 September 1945.`,
+          },
+          {
+            content: `World War II changed the political alignment and social structure of the world, and set the foundation for the international order for the rest of the 20th century and into the present. The United Nations was established to foster international cooperation and prevent conflicts, with the victorious great powers—China, France, the Soviet Union, the UK, and the US—becoming the permanent members of its Security Council. The Soviet Union and the US emerged as rival superpowers, setting the stage for the nearly half-century-long Cold War. In the wake of European devastation, the influence of its great powers waned, triggering the decolonization of Africa and Asia. Most countries whose industries had been damaged moved towards economic recovery and expansion.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        segment: [
+          {
+            content: `It is generally considered that, in Europe, World War II started on 1 September 1939,[1][2] beginning with the German invasion of Poland and the United Kingdom and France's declaration of war on Germany two days later on 3 September 1939. Dates for the beginning of the Pacific War include the start of the Second Sino-Japanese War on 7 July 1937,[3][4] or the earlier Japanese invasion of Manchuria, on 19 September 1931.[5][6] Others follow the British historian A. J. P. Taylor, who held that the Sino-Japanese War and war in Europe and its colonies occurred simultaneously, and the two wars became World War II in 1941.[7] Other starting dates sometimes used for World War II include the Italian invasion of Abyssinia on 3 October 1935.[8] The British historian Antony Beevor views the beginning of World War II as the Battles of Khalkhin Gol fought between Japan and the forces of Mongolia and the Soviet Union from May to September 1939.[9] Others view the Spanish Civil War as the start or prelude to World War II.`,
+          },
+          {
+            content: `The exact date of the war's end is also not universally agreed upon. It was generally accepted at the time that the war ended with the armistice of 15 August 1945 (V-J Day), rather than with the formal surrender of Japan on 2 September 1945, which officially ended the war in Asia. A peace treaty between Japan and the Allies was signed in 1951.[12] A 1990 treaty regarding Germany's future allowed the reunification of East and West Germany to take place and resolved most post–World War II issues.[13] No formal peace treaty between Japan and the Soviet Union was ever signed,[14] although the state of war between the two countries was terminated by the Soviet–Japanese Joint Declaration of 1956, which also restored full diplomatic relations between them.`,
+          },
+        ],
+      },
+      {
+        id: 3,
+        segment: [
+          {
+            content:
+              "World War I had radically altered the political European map with the defeat of the Central Powers—including Austria-Hungary, Germany, Bulgaria, and the Ottoman Empire—and the 1917 Bolshevik seizure of power in Russia, which led to the founding of the Soviet Union. Meanwhile, the victorious Allies of World War I, such as France, Belgium, Italy, Romania, and Greece, gained territory, and new nation-states were created out of the collapse of Austria-Hungary and the Ottoman and Russian Empires.",
+          },
+          {
+            content:
+              "To prevent a future world war, the League of Nations was created during the 1919 Paris Peace Conference. The organisation's primary goals were to prevent armed conflict through collective security, military and naval disarmament, and settling international disputes through peaceful negotiations and arbitration.",
+          },
+          {
+            content:
+              "Despite strong pacifist sentiment after World War I,[17] irredentist and revanchist nationalism emerged in several European states in the same period. These sentiments were especially marked in Germany because of the significant territorial, colonial, and financial losses imposed by the Treaty of Versailles. Under the treaty, Germany lost around 13 percent of its home territory and all its overseas possessions, while German annexation of other states was prohibited, reparations were imposed, and limits were placed on the size and capability of the country's armed forces.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        segment: [
+          {
+            content: `The Allies established occupation administrations in Austria and Germany, both initially divided between western and eastern occupation zones controlled by the Western Allies and the Soviet Union, respectively. However, their paths soon diverged. In Germany, the western and eastern occupation zones controlled by the Western Allies and the Soviet Union officially ended in 1949, with the respective zones becoming separate countries, West Germany and East Germany.[313] In Austria, however, occupation continued until 1955, when a joint settlement between the Western Allies and the Soviet Union permitted the reunification of Austria as a neutral democratic state, officially non-aligned with any political bloc (although in practice having better relations with the Western Allies). A denazification program in Germany led to the prosecution of Nazi war criminals in the Nuremberg trials and the removal of ex-Nazis from power, although this policy moved towards amnesty and re-integration of ex-Nazis into West German society.`,
+          },
+          {
+            content: `Germany lost a quarter of its pre-war (1937) territory. Among the eastern territories, Silesia, Neumark and most of Pomerania were taken over by Poland,[315] and East Prussia was divided between Poland and the Soviet Union, followed by the expulsion to Germany of the nine million Germans from these provinces,[316][317] as well as three million Germans from the Sudetenland in Czechoslovakia. By the 1950s, one-fifth of West Germans were refugees from the east. The Soviet Union also took over the Polish provinces east of the Curzon line,[318] from which 2 million Poles were expelled;[317][319] north-east Romania,[320][321] parts of eastern Finland,[322] and the three Baltic states were annexed into the Soviet Union.[323][324] Italy lost its monarchy, colonial empire and some European territories.`,
+          },
+          {
+            content: `In an effort to maintain world peace,[326] the Allies formed the United Nations,[327] which officially came into existence on 24 October 1945,[328] and adopted the Universal Declaration of Human Rights in 1948 as a common standard for all member nations.[329] The great powers that were the victors of the war—France, China, the United Kingdom, the Soviet Union and the United States—became the permanent members of the UN's Security Council.[330] The five permanent members remain so to the present, although there have been two seat changes, between the Republic of China and the People's Republic of China in 1971, and between the Soviet Union and its successor state, the Russian Federation, following the dissolution of the USSR in 1991. The alliance between the Western Allies and the Soviet Union had begun to deteriorate even before the war was over.`,
+          },
+          {
+            content: `Besides Germany, the rest of Europe was also divided into Western and Soviet spheres of influence.[332] Most eastern and central European countries fell into the Soviet sphere, which led to establishment of Communist-led regimes, with full or partial support of the Soviet occupation authorities. As a result, East Germany,[333] Poland, Hungary, Romania, Bulgaria, Czechoslovakia, and Albania[334] became Soviet satellite states. Communist Yugoslavia conducted a fully independent policy, causing tension with the Soviet Union.[335] A Communist uprising in Greece was put down with Anglo-American support and the country remained aligned with the West.`,
+          },
+          {
+            content: `Post-war division of the world was formalised by two international military alliances, the United States-led NATO and the Soviet-led Warsaw Pact.[337] The long period of political tensions and military competition between them, the Cold War, would be accompanied by an unprecedented arms race and number of proxy wars throughout the world.`,
+          },
+          {
+            content: `In Asia, the United States led the occupation of Japan and administered Japan's former islands in the Western Pacific, while the Soviets annexed South Sakhalin and the Kuril Islands.[339] Korea, formerly under Japanese colonial rule, was divided and occupied by the Soviet Union in the North and the United States in the South between 1945 and 1948. Separate republics emerged on both sides of the 38th parallel in 1948, each claiming to be the legitimate government for all of Korea, which led ultimately to the Korean War.`,
+          },
+          {
+            content: `In China, nationalist and communist forces resumed the civil war in June 1946. Communist forces were victorious and established the People's Republic of China on the mainland, while nationalist forces retreated to Taiwan in 1949.[341] In the Middle East, the Arab rejection of the United Nations Partition Plan for Palestine and the creation of Israel marked the escalation of the Arab–Israeli conflict. While European powers attempted to retain some or all of their colonial empires, their losses of prestige and resources during the war rendered this unsuccessful, leading to decolonisation.`,
+          },
+          {
+            content: `The global economy suffered heavily from the war, although participating nations were affected differently. The United States emerged much richer than any other nation, leading to a baby boom, and by 1950 its gross domestic product per person was much higher than that of any of the other powers, and it dominated the world economy.[344] The Allied occupational authorities pursued a policy of industrial disarmament in Western Germany from 1945 to 1948.[345] Due to international trade interdependencies, this policy led to an economic stagnation in Europe and delayed European recovery from the war for several years.`,
+          },
+          {
+            content: `At the Bretton Woods Conference in July 1944, the Allied nations drew up an economic framework for the post-war world. The agreement created the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (IBRD), which later became part of the World Bank Group. The Bretton Woods system lasted until 1973.[348] Recovery began with the mid-1948 currency reform in Western Germany, and was sped up by the liberalisation of European economic policy that the U.S. Marshall Plan economic aid (1948–1951) both directly and indirectly caused.[349][350] The post-1948 West German recovery has been called the German economic miracle.[351] Italy also experienced an economic boom[352] and the French economy rebounded.[353] By contrast, the United Kingdom was in a state of economic ruin,[354] and although receiving a quarter of the total Marshall Plan assistance, more than any other European country,[355] it continued in relative economic decline for decades.[356] The Soviet Union, despite enormous human and material losses, also experienced rapid increase in production in the immediate post-war era,[357] having seized and transferred most of Germany's industrial plants and exacted war reparations from its satellite states.[b][358] Japan recovered much later.[359] China returned to its pre-war industrial production by 1952.`,
+          },
+        ],
+      },
+    ],
+    description: {
+      items: [
+        {
+          key: "1",
+          label: "Date",
+          children: [
+            {
+              name: "1 tháng 9 1939 – 2 tháng 9 1945 (6 năm và 1 ngày)",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "2",
+          label: "Location",
+          children: [
+            {
+              name: "Major theaters:Europe, Pacific, Atlantic, Indian Ocean, South-East Asia, China, Japan, Middle East, Mediterranean, North Africa, Horn of Africa, Central Africa, Australia, Caribbean, North and South America",
+              link: "#",
+            },
+          ],
+        },
+        {
+          key: "3",
+          label: "Result",
+          children: [
+            {
+              name: `	
+              Allied victory
+              Fall of Nazi Germany, Fascist Italy, and Imperial Japan
+              Allied military occupations of Germany, Japan, Austria, and Korea
+              Beginning of the Nuclear Age
+              Dissolution of the League of Nations and creation of the United Nations
+              Decolonisation of Asia and Africa and decline of European international influence
+              Emergence of the United States and the Soviet Union as rival superpowers and beginning of the Cold War (see Aftermath of World War II)`,
               link: "#",
             },
           ],
