@@ -5,15 +5,19 @@ import {
   Descriptions,
   Result,
   Button,
+  Spin,
 } from "antd";
+import { useState } from "react";
 // import Emblem from "../assets/img/Emblem_of_Hanoi.svg.png";
 const { Title, Paragraph } = Typography;
 import { Link, useParams } from "react-router-dom";
-import getAllPage from "../api/getAllPages";
+import getAllPage from "../hooks/useGetAllPages";
+import Loading from "./Loading";
 const PageDetail: React.FC = () => {
   const { id } = useParams();
   const pages = getAllPage();
   const data = pages.find((item) => item.id == id);
+  const [loading, setLoading] = useState(true);
   return (
     <div className="flex flex-row h-full">
       {data ? (
@@ -72,6 +76,8 @@ const PageDetail: React.FC = () => {
             </Descriptions>
           </div>
         </div>
+      ) : loading ? (
+        <Spin className="mx-auto top-96" />
       ) : (
         <Result
           className="mx-auto"

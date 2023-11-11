@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { PageTypes } from "../types/types";
 
-export default function getAllPage(delay = 1000) {
+export default function useGetAllPage(delay = 1000) {
   const [pages, setPages] = useState<PageTypes[]>([]);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -26,6 +26,6 @@ export default function getAllPage(delay = 1000) {
     return () => {
       clearTimeout(timer);
     };
-  }, [delay, pages]);
+  }, []);
   return pages;
 }

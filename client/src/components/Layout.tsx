@@ -35,7 +35,7 @@ const LayoutWeb: React.FC = () => {
     {
       key: "2",
       label: (
-        <Link to={"/"} onClick={logout}>
+        <Link to={"/"} onClick={() => logout()}>
           Đăng xuất
         </Link>
       ),
@@ -156,7 +156,7 @@ const LayoutWeb: React.FC = () => {
           style={{
             margin: "24px 16px",
             padding: 24,
-            minHeight: 768,
+            width: "100%",
             background: colorBgContainer,
             zIndex: 9,
           }}

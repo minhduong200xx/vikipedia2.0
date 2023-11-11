@@ -1,14 +1,27 @@
 import { LockOutlined, UserOutlined, MailOutlined } from "@ant-design/icons";
 import { Button, Form, Input } from "antd";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
+import { useAuth } from "../contexts/AuthContext";
 const Register = () => {
   const [human, setHuman] = useState(false);
-  const handleSubmit = (values: unknown) => {
-    console.log(values);
-    // xử lý logic đăng ký
+  const navigate = useNavigate();
+  const { register, user } = useAuth();
+  const handleSubmit = ({
+    username,
+    password,
+    email,
+  }: {
+    username: string;
+    password: string;
+    email: string;
+  }) => {
+    register(email, password, username);
   };
+  if (user) {
+    navigate("/");
+  }
   const checkToken = (token: string | null) => {
     token ? setHuman(true) : setHuman(false);
   };
@@ -21,12 +34,12 @@ const Register = () => {
         onFinish={handleSubmit}
       >
         <Form.Item
-          name="username"
+          name="email"
           rules={[{ required: true, message: "Please input your Username!" }]}
         >
           <Input
-            prefix={<UserOutlined className="site-form-item-icon" />}
-            placeholder="Tên đăng nhập"
+            prefix={<MailOutlined className="site-form-item-icon" />}
+            placeholder="Email"
           />
         </Form.Item>
         <Form.Item
@@ -68,12 +81,12 @@ const Register = () => {
           />
         </Form.Item>
         <Form.Item
-          name="email"
+          name="username"
           rules={[{ required: true, message: "Please input your Username!" }]}
         >
           <Input
-            prefix={<MailOutlined className="site-form-item-icon" />}
-            placeholder="Email"
+            prefix={<UserOutlined className="site-form-item-icon" />}
+            placeholder="Tên người dùng"
           />
         </Form.Item>
         <ReCAPTCHA

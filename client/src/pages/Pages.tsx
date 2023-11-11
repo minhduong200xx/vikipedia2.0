@@ -1,26 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { EditOutlined, ReadOutlined, SearchOutlined } from "@ant-design/icons";
-import { Button, Card, Result, Pagination } from "antd";
+import { Button, Card, Result, Pagination, Spin } from "antd";
 import Meta from "antd/es/card/Meta";
 import Paragraph from "antd/es/typography/Paragraph";
-
-// import axios from "axios";
 import { PageTypes } from "../types/types";
-
-import getAllPage from "../api/getAllPages";
 import Loading from "./Loading";
+import useGetAllPage from "../hooks/useGetAllPages";
 const Pages: React.FC = () => {
   const { key } = useParams();
-  const pages = getAllPage();
+  const pages = useGetAllPage();
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [searchText, setSearchText] = useState<string>("");
   const itemsPerPage = 4;
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    if (pages && searchText) setLoading(false);
-  }, [pages]);
+
   const filteredPages =
     key && key !== null && pages
       ? pages.filter((item) =>
@@ -134,15 +128,13 @@ const Pages: React.FC = () => {
             onChange={handlePageChange}
           />
         </div>
-      ) : loading ? (
-        <Loading />
       ) : (
         <Result
           className="mx-auto"
           status="404"
           title="404"
           subTitle={`Xin lỗi chúng tôi không tìm thấy dữ liệu với từ khoá "${
-            key ? key : searchText
+            key! ? key : searchText
           }"`}
           extra={<Button>Quay lại trang chủ</Button>}
         />

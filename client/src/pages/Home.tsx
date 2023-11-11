@@ -5,7 +5,6 @@ import FactCard from "../components/FactCard";
 import DayInThePast from "../components/DayInThePast";
 import GoodCard from "../components/GoodCard";
 import Categories from "../components/Categories";
-import { useAuth } from "../contexts/AuthContext";
 
 const Home: React.FC = () => {
   return (

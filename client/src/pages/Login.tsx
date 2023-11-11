@@ -9,6 +9,8 @@ const Login: React.FC = () => {
   const [human, setHuman] = useState(false);
   const { user, login } = useAuth();
   const navigate = useNavigate();
+
+  console.log(user);
   const handleSubmit = async ({
     email,
     password,
@@ -17,8 +19,10 @@ const Login: React.FC = () => {
     password: string;
   }) => {
     login(email, password);
-    if (!user) navigate("/");
   };
+  if (user) {
+    navigate("/");
+  }
   const checkHuman = (token: string | null) => {
     token ? setHuman(true) : setHuman(false);
   };

@@ -1,12 +1,13 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { lazy } from "react";
+import React, { ComponentType, lazy } from "react";
+
 const Login = lazy(() => delayForDemo(import("./pages/Login")));
 const Register = lazy(() => import("./pages/Register"));
 const Pages = lazy(() => delayForDemo(import("./pages/Pages")));
 const Home = lazy(() => import("./pages/Home"));
 const Admin = lazy(() => import("./pages/Admin"));
-const PageDetail = lazy(() => import("./pages/PageDetail"));
+const PageDetail = lazy(() => delayForDemo(import("./pages/PageDetail")));
 const Contents = lazy(() => import("./pages/Contents"));
 const Post = lazy(() => import("./components/Post"));
 const Image = lazy(() => import("./components/Image"));
@@ -45,7 +46,7 @@ function App() {
     </BrowserRouter>
   );
 }
-function delayForDemo(promise: Promise) {
+function delayForDemo(promise: Promise<{ default: ComponentType<any> }>) {
   return new Promise((resolve) => {
     setTimeout(resolve, 2000);
   }).then(() => promise);
