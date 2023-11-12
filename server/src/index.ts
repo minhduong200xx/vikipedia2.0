@@ -19,7 +19,7 @@ app.use(
 app.use(compression());
 app.use(cookieParser());
 app.use(bodyParser.json());
-app.use(cors());
+
 const server = http.createServer(app);
 
 server.listen(8080, () => {

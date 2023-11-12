@@ -37,3 +37,8 @@ export interface PageTypes {
     }[];
   };
 }
+export interface FactType {
+  id: string;
+  desc: string;
+  keyword: string;
+}

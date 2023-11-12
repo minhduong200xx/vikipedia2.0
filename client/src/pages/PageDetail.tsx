@@ -59,16 +59,21 @@ const PageDetail: React.FC = () => {
             </div>
             <Divider />
             <div></div>
-            <Descriptions title="" column={1}>
+            <Descriptions title="" column={1} layout={"vertical"}>
               {data.description.items.map((item) => (
                 <Descriptions.Item
                   key={item.key}
                   label={item.label}
-                  labelStyle={{ fontWeight: "bold", color: "black" }}
+                  labelStyle={{
+                    fontWeight: "bold",
+                    color: "black",
+                  }}
                 >
-                  <ul>
+                  <ul className="px-4 list-disc">
                     {item.children.map((i) => (
-                      <Link to={`pages/${i}`}>{i.name}</Link>
+                      <Link to={`/pages/${i.name}`}>
+                        <li>{i.name}</li>
+                      </Link>
                     ))}
                   </ul>
                 </Descriptions.Item>

@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Image, Empty, Input, List, Popover } from "antd";
 import useDebounce from "../hooks/useDebounce";
-import pages from "../utils/data";
+
 import { Link, useNavigate } from "react-router-dom";
+import useGetAllPage from "../hooks/useGetAllPages";
+import { PageTypes } from "../types/types";
+import useClickOutside from "../hooks/useClickOutSide";
+
 const { Search } = Input;
 const SearchBar: React.FC = () => {
   const [search, setSearch] = useState<string>();
   const navigate = useNavigate();
-  const [change, setChange] = useState(false);
-  const [data, setData] = useState<unknown>();
+
+  const { show, setShow, nodeRef } = useClickOutside();
+  const pages = useGetAllPage();
+  const [data, setData] = useState<PageTypes[]>();
   const onChange = (value: string) => {
     setSearch(value);
   };
@@ -19,7 +25,7 @@ const SearchBar: React.FC = () => {
         item.title.toLowerCase().includes(searchDebounce.toLowerCase())
       );
       console.log(searchDebounce);
-      setChange(!change);
+      setShow(true);
       setData(content);
     }
   }, [searchDebounce]);
@@ -34,7 +40,7 @@ const SearchBar: React.FC = () => {
         dataSource={data}
         size={"small"}
         style={{ width: 350 }}
-        renderItem={(item, index) => (
+        renderItem={(item) => (
           <Link to={`/page/${item.id}`}>
             <List.Item>
               <List.Item.Meta
@@ -69,8 +75,9 @@ const SearchBar: React.FC = () => {
       <div className="bg-gray-300 rounded-lg w-96 ">
         <Popover
           content={content}
-          open={change}
-          onOpenChange={() => setChange(!change)}
+          open={show}
+          ref={nodeRef}
+          onOpenChange={() => setShow(!show)}
           placement={"bottomLeft"}
         ></Popover>
       </div>

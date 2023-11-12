@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, { ComponentType, lazy } from "react";
-
+import AllPages from "./components/Admin/AllPages";
 const Login = lazy(() => delayForDemo(import("./pages/Login")));
 const Register = lazy(() => import("./pages/Register"));
-const Pages = lazy(() => delayForDemo(import("./pages/Pages")));
+const Pages = lazy(() => import("./pages/Pages"));
 const Home = lazy(() => import("./pages/Home"));
 const Admin = lazy(() => import("./pages/Admin"));
 const PageDetail = lazy(() => delayForDemo(import("./pages/PageDetail")));
@@ -14,7 +14,6 @@ const Image = lazy(() => import("./components/Image"));
 const LayoutWeb = lazy(() => import("./components/Layout"));
 const View = lazy(() => import("./components/Admin/view"));
 const Delete = lazy(() => import("./components/Admin/delete"));
-const Add = lazy(() => import("./components/Admin/add"));
 const Update = lazy(() => import("./components/Admin/update"));
 
 function App() {
@@ -35,8 +34,7 @@ function App() {
           <Route path="pages" element={<Pages />} />
         </Route>
         <Route path="admin" element={<Admin />}>
-          <Route index element={<Add />} />
-          <Route path="add" element={<Add />} />
+          <Route index element={<AllPages />} />
           <Route path="update" element={<Update />} />
           <Route path="delete" element={<Delete />}>
             <Route path="view" element={<View />} />

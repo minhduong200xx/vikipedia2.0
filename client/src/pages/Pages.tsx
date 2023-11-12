@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { EditOutlined, ReadOutlined, SearchOutlined } from "@ant-design/icons";
-import { Button, Card, Result, Pagination } from "antd";
+import { Button, Card, Result, Pagination, Spin } from "antd";
 import Meta from "antd/es/card/Meta";
 import Paragraph from "antd/es/typography/Paragraph";
 import { PageTypes } from "../types/types";
 import useGetAllPage from "../hooks/useGetAllPages";
+
 const Pages: React.FC = () => {
   const { key } = useParams();
   const pages = useGetAllPage();
@@ -13,7 +14,16 @@ const Pages: React.FC = () => {
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [searchText, setSearchText] = useState<string>("");
   const itemsPerPage = 4;
+  const [showResult, setShowResult] = useState(false);
 
+  useEffect(() => {
+    const delay = 1500;
+    const timer = setTimeout(() => {
+      setShowResult(true);
+    }, delay);
+
+    return () => clearTimeout(timer);
+  }, []);
   const filteredPages =
     key && key !== null && pages
       ? pages.filter((item) =>
@@ -42,7 +52,6 @@ const Pages: React.FC = () => {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentData = sortedPages.slice(indexOfFirstItem, indexOfLastItem);
-
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
   };
@@ -128,15 +137,21 @@ const Pages: React.FC = () => {
           />
         </div>
       ) : (
-        <Result
-          className="mx-auto"
-          status="404"
-          title="404"
-          subTitle={`Xin lỗi chúng tôi không tìm thấy dữ liệu với từ khoá "${
-            key! ? key : searchText
-          }"`}
-          extra={<Button>Quay lại trang chủ</Button>}
-        />
+        <div className="flex items-center">
+          {showResult ? (
+            <Result
+              className={"mx-auto"}
+              status="404"
+              title="404"
+              subTitle={`Xin lỗi chúng tôi không tìm thấy dữ liệu với từ khoá "${
+                key ? key : searchText
+              }"`}
+              extra={<Button>Quay lại trang chủ</Button>}
+            />
+          ) : (
+            <Spin className="mx-auto" />
+          )}
+        </div>
       )}
     </div>
   );
