@@ -97,7 +97,7 @@ export const addPage = async (req: express.Request, res: express.Response) => {
       return res.sendStatus(400);
     }
 
-    const existingPage = await getPageById(title);
+    const existingPage = await getPageByTitle(title);
 
     if (existingPage) {
       return res.sendStatus(400);
