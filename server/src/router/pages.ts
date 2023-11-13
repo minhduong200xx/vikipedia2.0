@@ -15,5 +15,5 @@ export default (router: express.Router) => {
   router.patch("/pages/:id", updatePage);
   router.post("/pages/add", addPage);
   router.get("/pages/search", searchPageByKey);
-  router.get("/pages/suggestion", getPageBySuggestion);
+  router.post("/pages/suggestion", getPageBySuggestion);
 };

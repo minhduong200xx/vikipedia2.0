@@ -12,7 +12,6 @@ import { useState } from "react";
 const { Title, Paragraph } = Typography;
 import { Link, useParams } from "react-router-dom";
 import getAllPage from "../hooks/useGetAllPages";
-import { useApi } from "../hooks/useApi.hook";
 const PageDetail: React.FC = () => {
   const { id } = useParams();
   const pages = getAllPage();

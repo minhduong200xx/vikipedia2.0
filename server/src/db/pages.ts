@@ -64,7 +64,7 @@ export const getPages = () => PageModel.find().exec();
 export const getPageByTitle = (title: string) => PageModel.find({ title });
 export const getPageById = (id: string) => PageModel.findOne({ id });
 export const getPageByCategory = (category: string) =>
-  PageModel.findOne({ category });
+  PageModel.find({ category });
 export const searchPages = async (search: string) => {
   const result = await PageModel.find({
     title: { $regex: new RegExp(search, "i") },

@@ -5,6 +5,7 @@ import FactCard from "../components/FactCard";
 import DayInThePast from "../components/DayInThePast";
 import GoodCard from "../components/GoodCard";
 import Categories from "../components/Categories";
+import Suggestions from "../components/Suggestions";
 
 const Home: React.FC = () => {
   return (
@@ -14,13 +15,14 @@ const Home: React.FC = () => {
         <Banner />
         <div className=" w-full grid grid-cols-2 gap-4 p-4">
           <div className="flex flex-col gap-4">
+            <Suggestions />
             <SelectedCard />
-            <GoodCard />
+            <Categories />
           </div>
           <div className="flex flex-col gap-4">
             <FactCard />
             <DayInThePast />
-            <Categories />
+            <GoodCard />
           </div>
         </div>
       </div>

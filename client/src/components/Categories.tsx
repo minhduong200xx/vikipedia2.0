@@ -12,17 +12,14 @@ const Categories: React.FC = () => {
         </h1>
         <span className="font-medium text-base">
           {categories.map((item) => (
-            <div className="p-4">
+            <div className="p-4" key={item.id}>
               <Link to={`#`}>
                 <b>{item.name}</b>
               </Link>
               <ul className="grid grid-cols-2 list-disc pl-8">
                 {item.children.map((i) => (
-                  <Link to={"#"}>
-                    <li
-                      className="hover:underline hover:text-black px-4 w-fit"
-                      key={i}
-                    >
+                  <Link to={"#"} key={i}>
+                    <li className="hover:underline hover:text-black px-4 w-fit">
                       {i}
                     </li>
                   </Link>

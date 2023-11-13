@@ -6,6 +6,7 @@ import Meta from "antd/es/card/Meta";
 import Paragraph from "antd/es/typography/Paragraph";
 import { PageTypes } from "../types/types";
 import useGetAllPage from "../hooks/useGetAllPages";
+import axios from "../api/axios";
 
 const Pages: React.FC = () => {
   const { key } = useParams();
@@ -15,7 +16,30 @@ const Pages: React.FC = () => {
   const [searchText, setSearchText] = useState<string>("");
   const itemsPerPage = 4;
   const [showResult, setShowResult] = useState(false);
+  useEffect(() => {
+    const data = JSON.stringify({
+      search: key,
+    });
 
+    const config = {
+      method: "get",
+      maxBodyLength: Infinity,
+      url: "http://localhost:8080/pages/search",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      data: data,
+    };
+
+    axios
+      .request(config)
+      .then((response) => {
+        console.log(JSON.stringify(response.data));
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
   useEffect(() => {
     const delay = 1500;
     const timer = setTimeout(() => {

@@ -18,14 +18,14 @@ export const getPageBySuggestion = async (
     const { id } = req.body;
     const { categories } = await getSuggestionByUserId(id);
     if (!categories) {
-      return res.sendStatus(404).send("Không có gợi ý cho bạn");
+      return res.sendStatus(400).send("Không có gợi ý cho bạn");
     }
     const pages = await getPages();
-    const results = categories.map((item: string) =>
-      pages.filter((i: any) => i.category == item)
+    const result = pages.filter((item: any) =>
+      categories.includes(item.category)
     );
-    if (results) return res.status(404).send("Không có gợi ý cho bạn");
-    return res.status(200).json(results);
+    if (!result) return res.status(400).send("Không có gợi ý cho bạn");
+    return res.status(200).json(result);
   } catch (error) {
     return res.sendStatus(400);
   }
@@ -91,13 +91,13 @@ export const searchPageByKey = async (
 };
 export const addPage = async (req: express.Request, res: express.Response) => {
   try {
-    const { id } = req.body;
+    const { title } = req.body;
 
-    if (!id) {
+    if (!title) {
       return res.sendStatus(400);
     }
 
-    const existingPage = await getPageById(id);
+    const existingPage = await getPageById(title);
 
     if (existingPage) {
       return res.sendStatus(400);
