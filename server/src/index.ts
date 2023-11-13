@@ -4,7 +4,8 @@ import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import compression from "compression";
 import cors from "cors";
-
+// import logger from "./utils/logger";
+import swaggerDocs from "./utils/swagger";
 import router from "./router";
 import mongoose from "mongoose";
 
@@ -23,7 +24,8 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 
 server.listen(8080, () => {
-  console.log("Server running on http://localhost:8080/");
+  console.log("Server running on http://localhost:8080/"); 
+  swaggerDocs(app, 8080);
 });
 
 const MONGO_URL =

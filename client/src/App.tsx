@@ -44,6 +44,7 @@ function App() {
     </BrowserRouter>
   );
 }
+
 function delayForDemo(promise: Promise<{ default: ComponentType<any> }>) {
   return new Promise((resolve) => {
     setTimeout(resolve, 2000);
