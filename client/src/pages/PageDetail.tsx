@@ -12,33 +12,39 @@ import { useState } from "react";
 const { Title, Paragraph } = Typography;
 import { Link, useParams } from "react-router-dom";
 import getAllPage from "../hooks/useGetAllPages";
+import { subtle } from "crypto";
 const PageDetail: React.FC = () => {
   const { id } = useParams();
   const pages = getAllPage();
   const data = pages.find((item) => item.id == id);
   const [loading, setLoading] = useState(true);
-  console.log(data);
-
-  console.log(pages);
+  const subtitle =
+    data?.paragraph &&
+    data?.paragraph.map((item, index: number) => ({
+      key: index,
+      href: `#${index}`,
+      title: item.title,
+    }));
+  console.log(subtitle);
 
   return (
     <div className="flex flex-row h-full">
       {data ? (
         <div className="flex flex-row h-full">
           <div className=" w-36 h-full flex flex-col font-bold gap-2">
-            <Anchor direction="vertical" items={data.subtitle}></Anchor>
+            <Anchor direction="vertical" items={subtitle}></Anchor>
           </div>
           <div className="w-[70%] h-full">
             <Title level={3} className="text-2xl font-bold border-b">
               {data.title}
             </Title>
-            {data.subtitle &&
-              data.subtitle.map((item, index) => (
+            {subtitle &&
+              subtitle.map((item, index) => (
                 <div key={index}>
                   <Title level={4} className="text-2xl font-bold border-b">
                     {item.title}
                   </Title>
-                  <div id={item.href.replace("#", "")}>
+                  <div id={subtitle && subtitle[index].href.replace("#", "")}>
                     {data.paragraph &&
                       data.paragraph[index].segment.map((i) => (
                         <Paragraph>{i.content}</Paragraph>
@@ -54,34 +60,38 @@ const PageDetail: React.FC = () => {
             <div className=" mx-auto w-fit flex flex-col items-center gap-2">
               {data.shortDesc &&
                 data.shortDesc.map((item) => <b key={item}>{item}</b>)}
-              <img
-                title={data.images && data.images[0]?.name}
-                src={data.images && data.images[0].thumbUrl}
-                className="w-24 h-24"
-              />
+              {data.images && (
+                <img
+                  title={data.images && data.images[0]?.name}
+                  src={data.images && data.images[0]?.thumbUrl}
+                  className="w-24 h-24"
+                />
+              )}
               <p>{data.imgName && data.imgName[0]}</p>
             </div>
             <Divider />
             <div></div>
             <Descriptions title="" column={1} layout={"vertical"}>
-              {data.description.items.map((item) => (
-                <Descriptions.Item
-                  key={item.key}
-                  label={item.label}
-                  labelStyle={{
-                    fontWeight: "bold",
-                    color: "black",
-                  }}
-                >
-                  <ul className="px-4 list-disc">
-                    {item.children.map((i) => (
-                      <Link to={`/pages/${i.name}`}>
-                        <li>{i.name}</li>
-                      </Link>
-                    ))}
-                  </ul>
-                </Descriptions.Item>
-              ))}
+              {data.items &&
+                data?.items.map((item) => (
+                  <Descriptions.Item
+                    key={item.label}
+                    label={item.label}
+                    labelStyle={{
+                      fontWeight: "bold",
+                      color: "black",
+                    }}
+                  >
+                    <ul className="px-4 list-disc">
+                      {item.children &&
+                        item.children.map((i) => (
+                          <Link to={`/pages/${i.value}`}>
+                            <li>{i.value}</li>
+                          </Link>
+                        ))}
+                    </ul>
+                  </Descriptions.Item>
+                ))}
             </Descriptions>
           </div>
         </div>

@@ -77,6 +77,7 @@ const PageSchema = new mongoose.Schema({
   paragraph: [
     {
       id: { type: String, required: false },
+      title: { type: String, required: false },
       segment: [
         {
           content: { type: String, required: true },

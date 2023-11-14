@@ -50,24 +50,29 @@ const Pages: React.FC = () => {
   }, []);
   const filteredPages =
     key && key !== null && pages
-      ? pages.filter((item) =>
-          item.title.toLowerCase().includes(key.toLowerCase())
+      ? pages.filter(
+          (item) =>
+            item.title && item.title.toLowerCase().includes(key.toLowerCase())
         )
       : pages;
 
   const sortPages = (order: "asc" | "desc", filteredPages: PageTypes[]) => {
-    return filteredPages.sort((a, b) => {
-      const titleA = a.title.toLowerCase();
-      const titleB = b.title.toLowerCase();
-      return order === "asc"
-        ? titleA.localeCompare(titleB)
-        : titleB.localeCompare(titleA);
+    return filteredPages.sort((a: PageTypes, b: PageTypes) => {
+      const titleA = a.title && a.title.toLowerCase();
+      const titleB = b.title && b.title.toLowerCase();
+      if (titleA && titleB) {
+        return order === "asc"
+          ? titleA.localeCompare(titleA)
+          : titleB.localeCompare(titleB);
+      }
     });
   };
 
   const applySearchFilter = (pagesToFilter: typeof filteredPages) => {
-    return pagesToFilter.filter((item) =>
-      item.title.toLowerCase().includes(searchText.toLowerCase())
+    return pagesToFilter.filter(
+      (item) =>
+        item.title &&
+        item.title.toLowerCase().includes(searchText.toLowerCase())
     );
   };
 
@@ -126,7 +131,10 @@ const Pages: React.FC = () => {
                   cover={
                     <img
                       alt="example"
-                      src={item.images[0].src}
+                      src={
+                        (item.images && item.images[0].thumbUrl) ||
+                        item?.images[0]?.src
+                      }
                       className="w-full h-60 p-3"
                     />
                   }
@@ -145,7 +153,9 @@ const Pages: React.FC = () => {
                     title={item.title}
                     description={
                       <Paragraph ellipsis={{ rows: 6 }}>
-                        {item.paragraph[0].segment[0].content}
+                        {item.paragraph &&
+                          item.paragraph[0].segment[0].content +
+                            item.paragraph[1].segment[0].content}
                       </Paragraph>
                     }
                   />

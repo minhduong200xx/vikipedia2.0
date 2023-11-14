@@ -21,8 +21,10 @@ const SearchBar: React.FC = () => {
   const searchDebounce = useDebounce(search, 1000);
   useEffect(() => {
     if (searchDebounce) {
-      const content = pages.filter((item) =>
-        item.title.toLowerCase().includes(searchDebounce.toLowerCase())
+      const content = pages.filter(
+        (item) =>
+          item.title &&
+          item.title.toLowerCase().includes(searchDebounce.toLowerCase())
       );
       console.log(searchDebounce);
       setShow(true);
@@ -49,11 +51,14 @@ const SearchBar: React.FC = () => {
                     height={60}
                     width={80}
                     preview={false}
-                    src={item.images[0].src}
+                    src={
+                      (item.images && item.images[0]?.thumbUrl) ||
+                      item?.images[0]?.src
+                    }
                   />
                 }
                 title={<b>{item.title}</b>}
-                description={item.shortDesc[0]}
+                description={item.shortDesc && item.shortDesc[0]}
               />
             </List.Item>
           </Link>
