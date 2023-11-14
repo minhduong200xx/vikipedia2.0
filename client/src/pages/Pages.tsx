@@ -122,7 +122,7 @@ const Pages: React.FC = () => {
             {currentData.map((item) => (
               <Link to={`/page/${item.id}`} key={item.id}>
                 <Card
-                  style={{ width: "100%", height: "fit-content" }}
+                  style={{ width: "100%", height: "100%" }}
                   cover={
                     <img
                       alt="example"

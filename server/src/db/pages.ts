@@ -1,3 +1,5 @@
+import { values } from "lodash";
+
 const mongoose = require("mongoose");
 
 const PageSchema = new mongoose.Schema({
@@ -7,7 +9,7 @@ const PageSchema = new mongoose.Schema({
   },
   lang: {
     type: String,
-    required: true,
+    required: false,
   },
   category: { type: String, required: true },
   title: {
@@ -22,20 +24,59 @@ const PageSchema = new mongoose.Schema({
   ],
   images: [
     {
-      src: { type: String, required: true },
-      title: { type: String, required: true },
+      uid: {
+        type: String,
+        required: false,
+      },
+      size: {
+        type: Number,
+        required: false,
+      },
+      name: {
+        type: String,
+        required: false,
+      },
+      fileName: {
+        type: String,
+        require: false,
+      },
+      lastModified: {
+        type: Number,
+        required: false,
+      },
+      lastModifiedDate: {
+        type: Date,
+        required: false,
+      },
+      url: {
+        type: Number,
+        required: false,
+      },
+
+      percent: {
+        type: Number,
+        required: false,
+      },
+      thumbUrl: {
+        type: String,
+        required: false,
+      },
+      crossOrigin: {
+        type: String,
+        required: false,
+      },
     },
   ],
   subtitle: [
     {
-      key: { type: String, required: true },
-      href: { type: String, required: true },
-      title: { type: String, required: true },
+      key: { type: String, required: false },
+      href: { type: String, required: false },
+      title: { type: String, required: false },
     },
   ],
   paragraph: [
     {
-      id: { type: String, required: true },
+      id: { type: String, required: false },
       segment: [
         {
           content: { type: String, required: true },
@@ -57,6 +98,28 @@ const PageSchema = new mongoose.Schema({
       },
     ],
   },
+  imgName: [
+    {
+      type: String,
+      required: false,
+    },
+  ],
+  items: [
+    {
+      label: {
+        type: String,
+        required: false,
+      },
+      children: [
+        {
+          value: {
+            type: String,
+            required: false,
+          },
+        },
+      ],
+    },
+  ],
 });
 
 export const PageModel = mongoose.model("Pages", PageSchema);

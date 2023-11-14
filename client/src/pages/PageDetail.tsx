@@ -17,6 +17,10 @@ const PageDetail: React.FC = () => {
   const pages = getAllPage();
   const data = pages.find((item) => item.id == id);
   const [loading, setLoading] = useState(true);
+  console.log(data);
+
+  console.log(pages);
+
   return (
     <div className="flex flex-row h-full">
       {data ? (
@@ -28,33 +32,34 @@ const PageDetail: React.FC = () => {
             <Title level={3} className="text-2xl font-bold border-b">
               {data.title}
             </Title>
-            {data.subtitle.map((item, index) => (
-              <div key={index}>
-                <Title level={4} className="text-2xl font-bold border-b">
-                  {item.title}
-                </Title>
-                <div id={item.href.replace("#", "")}>
-                  {data.paragraph[index].segment.map((i) => (
-                    <Paragraph>{i.content}</Paragraph>
-                  ))}
+            {data.subtitle &&
+              data.subtitle.map((item, index) => (
+                <div key={index}>
+                  <Title level={4} className="text-2xl font-bold border-b">
+                    {item.title}
+                  </Title>
+                  <div id={item.href.replace("#", "")}>
+                    {data.paragraph &&
+                      data.paragraph[index].segment.map((i) => (
+                        <Paragraph>{i.content}</Paragraph>
+                      ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
           <div className="w-96 h-full mx-4 mt-8 border p-2">
             <h1 className="bg-yellow-200 h-8 mx-auto text-center text-xl font-bold">
               {data.title}
             </h1>
-            <div className="desc mx-auto w-fit flex flex-col items-center gap-2">
-              {data.shortDesc.map((item) => (
-                <b key={item}>{item}</b>
-              ))}
+            <div className=" mx-auto w-fit flex flex-col items-center gap-2">
+              {data.shortDesc &&
+                data.shortDesc.map((item) => <b key={item}>{item}</b>)}
               <img
-                title={data.images[0].title}
-                src={data.images[0].src}
+                title={data.images && data.images[0]?.name}
+                src={data.images && data.images[0].thumbUrl}
                 className="w-24 h-24"
               />
-              <p>{data.images[0].title}</p>
+              <p>{data.imgName && data.imgName[0]}</p>
             </div>
             <Divider />
             <div></div>

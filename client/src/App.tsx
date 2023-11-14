@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, { ComponentType, lazy } from "react";
 import AllPages from "./components/Admin/AllPages";
+import Editor from "./components/Editor";
 const Login = lazy(() => delayForDemo(import("./pages/Login")));
 const Register = lazy(() => import("./pages/Register"));
 const Pages = lazy(() => import("./pages/Pages"));
@@ -32,6 +33,8 @@ function App() {
           <Route path="page/:id" element={<PageDetail />} />
           <Route path="pages/:key" element={<Pages />} />
           <Route path="pages" element={<Pages />} />
+          <Route path="add" element={<Editor />} />
+          <Route path="edit/:id" element={<Editor />} />
         </Route>
         <Route path="admin" element={<Admin />}>
           <Route index element={<AllPages />} />
@@ -45,7 +48,9 @@ function App() {
   );
 }
 
-function delayForDemo(promise: Promise<{ default: ComponentType<any> }>) {
+export function delayForDemo(
+  promise: Promise<{ default: ComponentType<any> }>
+) {
   return new Promise((resolve) => {
     setTimeout(resolve, 2000);
   }).then(() => promise);

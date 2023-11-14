@@ -1,11 +1,14 @@
-import { BookFilled } from "@ant-design/icons";
 import Banner from "../components/Banner";
-import SelectedCard from "../components/SelectedCard";
+import { lazy } from "react";
 import FactCard from "../components/FactCard";
 import DayInThePast from "../components/DayInThePast";
 import GoodCard from "../components/GoodCard";
 import Categories from "../components/Categories";
 import Suggestions from "../components/Suggestions";
+import { delayForDemo } from "../App";
+const SelectedCard = lazy(() =>
+  delayForDemo(import("../components/SelectedCard"))
+);
 
 const Home: React.FC = () => {
   return (
