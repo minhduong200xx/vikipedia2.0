@@ -1,102 +1,103 @@
-import React, { useState } from 'react';
-import { Space, Table, } from 'antd';
-import type { ColumnsType } from 'antd/es/table';
-import { Link}from 'react-router-dom'
-interface DataType {
-  key: string;
-  name: string;
-  content: string;
-  date: string;
-  reason: string;
-  vote: number
-}
+import React, { useState, useEffect } from "react";
+import { Button, Table, Modal } from "antd";
+import {  CheckOutlined, EyeFilled } from "@ant-design/icons";
+import { Link } from "react-router-dom";
+import useGetAllPage from "../../hooks/useGetAllPages";
+import { PageTypes } from "../../types/types";
+import axios from "axios"; 
 
-const Delete: React.FC = () => {
-  const [data, setData] = useState<DataType[]>([
-    {
-      key: '1',
-      name: 'John Brown',
-      content: 'New 1',
-      date: 'New York No. 1 Lake Park',
-      reason: 'Không thích',
-      vote: 1
-    },
-    {
-      key: '2',
-      name: 'Jim Green',
-      content: 'New 2',
-      date: 'London No. 1 Lake Park',
-      reason: 'Không thích',
-      vote: 1
-    },
-    {
-      key: '3',
-      name: 'Joe Black',
-      content: 'New 3',
-      date: 'Sydney No. 1 Lake Park',
-      reason: 'Không thích',
-      vote: 1
-    },
-    {
-      key: '4',
-      name: 'Joe Black1',
-      content: 'New 4',
-      date: 'Sydney No. 1 Lake Park',
-      reason: 'Không thích',
-      vote: 1
-    },
-  ]);
+import Column from "antd/es/table/Column";
 
+const DeletePages: React.FC = () => {
+  const data: PageTypes[] = useGetAllPage();
+  const [tableData, setTableData] = useState<
+    {
+      id: string;
+      title: string;
+      content: string;
+    }[]
+  >();
+  const [selectedPageId, setSelectedPageId] = useState<string | null>(null);
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
-  const handleDelete = (key: string) => {
-    const updatedData = data.filter(item => item.key !== key);
-    setData(updatedData);
+  useEffect(() => {
+    if (data) {
+      const newData = data.map((item) => ({
+        id: item.id,
+        title: item.title,
+        content: item.paragraph[0]?.segment[0]?.content || "",
+      }));
+
+      setTableData((prevTableData) => [...(prevTableData || []), ...newData]);
+    }
+  }, [data]);
+
+  const handleDeleteClick = (id: string) => {
+    setSelectedPageId(id);
+    showModal();
   };
 
-  const columns: ColumnsType<DataType> = [
-    {
-      title: 'STT',
-      dataIndex: 'key',
-      key: 'key',
-    },
-    {
-      title: 'Tên bài viết',
-      dataIndex: 'name',
-      key: 'name',
-      render: (text) => <a>{text}</a>,
-      ellipsis: true,
-    },
-    {
-      title: 'Ngày yêu cầu',
-      dataIndex: 'date',
-      key: 'date',
-      ellipsis: true,
-    },
-    {
-      title: 'Lý do xóa bài',
-      dataIndex: 'reason',
-      key: 'reason',
-      ellipsis: true,
-    },
-    {
-      title: 'Vote',
-      dataIndex: 'vote',
-      key:'vote'
-    },
-    {
-      title: '',
-      key: 'action',
-      render: (text, record) => (
-        <Space size="middle">
-          <a className='border px-2 py-1 bg-green-500 text-white rounded-lg' onClick={() => handleDelete(record.key)}>Yes</a>
-          <a className='border px-2 py-1 bg-black text-white rounded-lg'>No</a>
-          <a href=""><Link to="/admin/delete/view">View</Link></a>
-        </Space>
-      ),
-    },
-  ];
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
 
-  return <Table columns={columns} dataSource={data} />;
+  const handleConfirm = () => {
+    axios
+      .delete(`http://localhost:8080/pages/${selectedPageId}`)
+      .then((response) => {
+        console.log(JSON.stringify(response.data));
+
+        
+        const updatedTableData = tableData?.filter((item) => item.id !== selectedPageId);
+        setTableData(updatedTableData);
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+      .finally(() => {
+        setIsModalVisible(false);
+        setSelectedPageId(null);
+      });
+  };
+
+  const handleCancel = () => {
+ 
+    setIsModalVisible(false);
+    setSelectedPageId(null);
+  };
+
+  return (
+    <div className="h-full w-full">
+      <select name="" id="" className="border py-2 px-3 rounded-lg mb-3">
+        <option className="py-2 px-3" value="">Sắp xếp theo số lượng vote</option>
+      </select>
+      <Table dataSource={tableData} style={{ width: "100%" }} pagination={{ pageSize: 4 }}>
+      <Column title="STT" dataIndex="id" width={60} />
+        <Column title="Tên bài viết" dataIndex="title" width={120} />
+        <Column title="Nội dung" dataIndex="content" width={400} ellipsis />
+        <Column title="Lý do" width={30} />
+        <Column
+          title="Tuỳ chọn"
+          dataIndex="id"
+          width={80}
+          render={(id) => (
+            <div className="flex flex-row w-full gap-3">
+              <Button className="w-6 h-6 flex items-center pl-1" onClick={() => handleDeleteClick(id)}>
+                <CheckOutlined className="text-green-500 text-center" />
+              </Button>
+              <Link to={`/page/${id}`} className="w-6 h-6 flex items-center pl-1">
+                <EyeFilled className="text-blue-500 text-center" />
+              </Link>
+            </div>
+          )}
+        />
+      </Table>
+      {/* Modal xác nhận */}
+      <Modal title="Xác nhận Xóa" visible={isModalVisible} onOk={handleConfirm} onCancel={handleCancel}>
+        <p>Bạn có chắc chắn muốn xóa trang này không?</p>
+      </Modal>
+    </div>
+  );
 };
 
-export default Delete;
+export default DeletePages;
