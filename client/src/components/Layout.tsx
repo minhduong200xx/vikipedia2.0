@@ -79,15 +79,7 @@ const LayoutWeb: React.FC = () => {
               icon: <FileSearchOutlined />,
               label: t("random article"),
               onClick: () =>
-                navigate(
-                  `/page/${Math.floor(Math.random() * (pages.length + 1))}`
-                ),
-            },
-            {
-              key: "4",
-              icon: <FieldTimeOutlined />,
-              label: t("current events"),
-              onClick: () => navigate("/current-events"),
+                navigate(`/page/${Math.floor(Math.random() * pages.length)}`),
             },
           ]}
         />
@@ -166,55 +158,13 @@ const LayoutWeb: React.FC = () => {
         {/* </Watermark> */}
         <Footer
           className="mx-auto w-fit flex flex-col justify-center items-center"
-          style={{ padding: 0, background: colorBgContainer }}
+          style={{
+            padding: 0,
+            background: colorBgContainer,
+            textAlign: "center",
+          }}
         >
-          <p>
-            Văn bản được phát hành theo{" "}
-            <a className="text-sky-600" href="">
-              Giấy phép Creative Commons Ghi công–Chia sẻ tương tự;{" "}
-            </a>
-            có thể áp dụng điều khoản bổ sung. Với việc sử dụng trang web này,
-            bạn chấp nhận{" "}
-            <a className="text-sky-600" href="">
-              Điều khoản Sử dụng{" "}
-            </a>
-            và{" "}
-            <a className="text-sky-600" href="">
-              Quy định quyền riêng tư.{" "}
-            </a>{" "}
-            Vikipedia® là thương hiệu đã đăng ký của
-            <a className="text-sky-600" href="">
-              {" "}
-              Vikimedia Foundation, Inc.,
-            </a>
-            một tổ chức phi lợi nhuận.
-          </p>
-          <div className="mt-4">
-            <a href="" className="text-sky-600 mr-3">
-              Quy định quyền riêng tư
-            </a>
-            <a href="" className="text-sky-600 mr-3">
-              Giới thiệu về Wikipedia
-            </a>
-            <a href="" className="text-sky-600 mr-3">
-              Lời phủ nhận
-            </a>
-            <a href="" className="text-sky-600 mr-3">
-              Bộ Quy tắc Ứng xử chung
-            </a>
-            <a href="" className="text-sky-600 mr-3">
-              Lập trình viên
-            </a>
-            <a href="" className="text-sky-600 mr-3">
-              Thống kê
-            </a>
-            <a href="" className="text-sky-600 mr-3">
-              Tuyên bố về cookie
-            </a>
-            <a href="" className="text-sky-600">
-              Phiên bản di động
-            </a>
-          </div>
+          Vikipedia ©2023 Created by TDN
         </Footer>
       </Layout>
     </Layout>

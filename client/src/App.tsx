@@ -34,6 +34,7 @@ function App() {
           <Route path="pages/:key" element={<Pages />} />
           <Route path="pages" element={<Pages />} />
           <Route path="add" element={<Editor />} />
+          <Route path="edit" element={<Pages />} />
           <Route path="edit/:id" element={<Editor />} />
         </Route>
         <Route path="admin" element={<Admin />}>

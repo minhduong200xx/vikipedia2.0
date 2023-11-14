@@ -7,7 +7,7 @@ import {
   Button,
   Spin,
 } from "antd";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 // import Emblem from "../assets/img/Emblem_of_Hanoi.svg.png";
 const { Title, Paragraph } = Typography;
 import { Link, useParams } from "react-router-dom";
@@ -18,6 +18,7 @@ const PageDetail: React.FC = () => {
   const pages = getAllPage();
   const data = pages.find((item) => item.id == id);
   const [loading, setLoading] = useState(true);
+  const [showResult, setShowResult] = useState(false);
   const subtitle =
     data?.paragraph &&
     data?.paragraph.map((item, index: number) => ({
@@ -25,7 +26,14 @@ const PageDetail: React.FC = () => {
       href: `#${index}`,
       title: item.title,
     }));
-  console.log(subtitle);
+  useEffect(() => {
+    const delay = 1500;
+    const timer = setTimeout(() => {
+      setShowResult(true);
+      setLoading(false);
+    }, delay);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="flex flex-row h-full">
@@ -60,13 +68,14 @@ const PageDetail: React.FC = () => {
             <div className=" mx-auto w-fit flex flex-col items-center gap-2">
               {data.shortDesc &&
                 data.shortDesc.map((item) => <b key={item}>{item}</b>)}
-              {data.images && (
-                <img
-                  title={data.images && data.images[0]?.name}
-                  src={data.images && data.images[0]?.thumbUrl}
-                  className="w-24 h-24"
-                />
-              )}
+              {data.images &&
+                data.images.map((item) => {
+                  <img
+                    title={data.images && data.images[0]?.name}
+                    src={data.images && data.images[0]?.thumbUrl}
+                    className="w-24 h-24"
+                  />;
+                })}
               <p>{data.imgName && data.imgName[0]}</p>
             </div>
             <Divider />
@@ -98,17 +107,19 @@ const PageDetail: React.FC = () => {
       ) : loading ? (
         <Spin className="mx-auto top-96" />
       ) : (
-        <Result
-          className="mx-auto"
-          status="404"
-          title="404"
-          subTitle="Trang bạn tìm kiếm không tồn tại"
-          extra={
-            <Link to={"/"}>
-              <Button>Quay lại trang chủ</Button>
-            </Link>
-          }
-        />
+        showResult && (
+          <Result
+            className="mx-auto"
+            status="404"
+            title="404"
+            subTitle="Trang bạn tìm kiếm không tồn tại"
+            extra={
+              <Link to={"/"}>
+                <Button>Quay lại trang chủ</Button>
+              </Link>
+            }
+          />
+        )
       )}
     </div>
   );

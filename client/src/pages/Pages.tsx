@@ -132,7 +132,7 @@ const Pages: React.FC = () => {
                     <img
                       alt="example"
                       src={
-                        (item.images && item.images[0].thumbUrl) ||
+                        (item.images && item.images[0]?.thumbUrl) ||
                         item?.images[0]?.src
                       }
                       className="w-full h-60 p-3"
@@ -143,7 +143,7 @@ const Pages: React.FC = () => {
                       <ReadOutlined key="read" />
                       <h2>Đọc tiếp</h2>
                     </Link>,
-                    <Link to={`/page/replace/${item.id}`}>
+                    <Link to={`/edit/${item.id}`}>
                       <EditOutlined key="edit" />
                       <h2>Sửa</h2>
                     </Link>,
@@ -175,8 +175,8 @@ const Pages: React.FC = () => {
           {showResult ? (
             <Result
               className={"mx-auto"}
-              status="404"
-              title="404"
+              icon={<SearchOutlined />}
+              title="Không thể tìm thấy dữ liệu"
               subTitle={`Xin lỗi chúng tôi không tìm thấy dữ liệu với từ khoá "${
                 key ? key : searchText
               }"`}

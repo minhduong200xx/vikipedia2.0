@@ -54,7 +54,7 @@ const SelectedCard: React.FC = () => {
               <ReadOutlined key="read" />
               <h2>Đọc tiếp</h2>
             </Link>,
-            <Link to={`/page/${selected.id}`} className="text-base font-medium">
+            <Link to={`/edit/${selected.id}`} className="text-base font-medium">
               <EditOutlined key="edit" />
               <h2>Sửa</h2>
             </Link>,

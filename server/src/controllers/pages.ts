@@ -18,13 +18,13 @@ export const getPageBySuggestion = async (
     const { id } = req.body;
     const { categories } = await getSuggestionByUserId(id);
     if (!categories) {
-      return res.sendStatus(400).send("Không có gợi ý cho bạn");
+      return res.sendStatus(204).send("Không có gợi ý cho bạn");
     }
     const pages = await getPages();
     const result = pages.filter((item: any) =>
       categories.includes(item.category)
     );
-    if (!result) return res.status(400).send("Không có gợi ý cho bạn");
+    if (!result) return res.status(204).send("Không có gợi ý cho bạn");
     return res.status(200).json(result);
   } catch (error) {
     return res.sendStatus(400);

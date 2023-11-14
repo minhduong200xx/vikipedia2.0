@@ -24,10 +24,10 @@ const Banner: React.FC = () => {
             />
           </span>
           <span className="font-bold flex items-center justify-center gap-4 w-[1/2]">
-            <Link className="font-medium" to={"/"}>
+            <Link className="font-medium" to={"/add"}>
               Tạo bài
             </Link>
-            <Link className="font-medium" to={"/"}>
+            <Link className="font-medium" to={"/admin"}>
               Sửa bài
             </Link>
             <Link className="font-medium" to={"/"}>
