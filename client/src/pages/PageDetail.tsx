@@ -69,14 +69,16 @@ const PageDetail: React.FC = () => {
               {data.shortDesc &&
                 data.shortDesc.map((item) => <b key={item}>{item}</b>)}
               {data.images &&
-                data.images.map((item) => {
-                  <img
-                    title={data.images && data.images[0]?.name}
-                    src={data.images && data.images[0]?.thumbUrl}
-                    className="w-24 h-24"
-                  />;
-                })}
-              <p>{data.imgName && data.imgName[0]}</p>
+                data.images.map((item, index) => (
+                  <div>
+                    <img
+                      title={item && item.name}
+                      src={item && item?.thumbUrl}
+                      className="w-24 h-24"
+                    />
+                    <p>{data.imgName && data.imgName[index]}</p>
+                  </div>
+                ))}
             </div>
             <Divider />
             <div></div>

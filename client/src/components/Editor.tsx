@@ -159,7 +159,7 @@ const Editor: React.FC = () => {
             </Upload>
           </Form.Item>
           <Form.Item
-            name="imgsName"
+            name="imgName"
             valuePropName="value"
             label="Nhập tên cho các ảnh"
             getValueFromEvent={(e) => {
